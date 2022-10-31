@@ -1,0 +1,7 @@
+owner=BRB
+controller=BRB
+add_core=BRB
+add_core=NET
+trade_goods = iron
+life_rating = 35
+terrain = mining_district

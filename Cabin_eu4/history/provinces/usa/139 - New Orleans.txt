@@ -1,0 +1,16 @@
+owner=USA
+controller=USA
+add_core=CRK
+add_core=NTZ
+add_core=USA
+add_core=LOU
+trade_goods = grain
+life_rating = 35
+naval_base = 1
+fort = 1
+state_building=
+{
+	level=1
+	building = fabric_factory
+	upgrade = yes
+}

@@ -1,0 +1,4 @@
+owner=NOG
+controller=NOG
+trade_goods = timber
+life_rating = 10

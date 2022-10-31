@@ -1,0 +1,214 @@
+political_decisions = {
+    
+	
+	maintaining_our_lead = {
+	
+		picture = warsaw_vienna_railway
+		potential = {
+			tag = NET
+			NOT = { has_country_flag = enacted_our_lead }
+			NOT = {has_country_flag = ended_enacted_our_lead}
+			has_global_flag = fantasy_countries_enabled
+		}
+		
+		allow = {
+			OR = {
+				GER = {exists = yes}
+				NGF = {exists = yes}
+				SGF = {exists = yes}
+				DNB = {exists = yes}
+				FRA = { has_global_flag = pan_french_nationalism }
+				biologism = 1
+			}
+		
+		}
+		
+		effect = {
+			any_owned = {
+				limit = {
+					is_core = THIS
+				}
+				add_province_modifier = {
+					name = our_lead
+					duration = -1
+				}
+			}
+			set_country_flag = enacted_our_lead
+		}
+		ai_will_do = { 
+			factor = 0.001 
+			modifier = {
+                factor = 50
+                GER = {exists = yes}
+            }
+			modifier = {
+                factor = 50
+                FRA = { has_global_flag = pan_french_nationalism }
+            }
+			modifier = {
+                factor = 50
+                DNB = {exists = yes}
+            }
+			modifier = {
+                factor = 50
+                NOT= {is_greater_power = yes}
+            }
+			modifier = {
+                factor = 50
+                NOT= {is_secondary_power = yes}
+            }
+			modifier = {
+                factor = 100
+                year = 1870
+            }
+		}
+	}
+	
+	spread_the_program = {
+		picture = warsaw_vienna_railway
+		potential = {
+			tag = NET
+			has_country_flag = enacted_our_lead
+			NOT = {has_country_flag = ended_enacted_our_lead}
+			any_owned_province = {
+				AND = {
+					is_core = NET
+					OR = {
+						NOT = { has_province_modifier = our_lead }
+						#NOT = { has_province_modifier = our_lead_2 }
+						#NOT = { has_province_modifier = our_lead_3 }
+					}
+					is_colonial = no
+				}
+					
+			
+			}
+			
+		}
+		
+		allow = {
+			business_banks = 1
+		
+		}
+		
+		effect = {
+			any_owned = {
+				limit = {
+					AND = {
+						is_core = THIS
+						NOT = { has_province_modifier = our_lead }
+						is_colonial = no
+					}
+				}
+				add_province_modifier = {
+					name = our_lead
+					duration = -1
+				}
+			}
+			set_country_flag = enacted_our_lead
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	NET_SAF = {
+		picture = map_saf
+		potential = {
+			tag = NET
+			NOT = { has_country_flag = NET_SAF}
+			
+			
+		}
+		
+		allow = {
+			invention = manifest_destiny
+			is_greater_power = yes
+		
+		}
+		
+		effect = {
+			badboy = 15
+			
+			#any_country = {
+			#	limit = {
+			#		any_owned_province = {has_pop_culture = boer}
+			#	}
+			#	any_owned_province = {
+			#		limit = {
+			#			has_pop_culture = boer
+			#		}
+			#		add_core = THIS
+			#	}
+			#}
+			
+			
+			
+			ENG_2087 = {add_core = THIS }
+			ENG_2096 = {add_core = THIS }
+			ENG_2092 = {add_core = THIS }
+			ORA_2103 = {add_core = THIS }
+			ZUL_2113 = {add_core = THIS }
+			TRN_2108 = {add_core = THIS }
+			
+			
+			
+			set_country_flag = NET_SAF
+		}
+		ai_will_do = { 
+			factor = 1 
+			modifier = { factor = 0 badboy = 0.2 }
+		}
+	}
+	
+	NET_Flanders = {
+		picture = become_belgium
+		potential = {
+            tag = NET
+			
+			
+			
+			NOT = {has_country_flag = NET_Flanders}
+			exists = FLA
+			NOT = {
+				is_core = 387
+			}
+        }
+		
+		allow = {
+			war = no
+			invention = manifest_destiny
+			OR = {
+				is_secondary_power = yes
+				is_greater_power = yes
+			}
+		}
+	
+		effect = {
+		badboy = 4
+			
+			
+			BEL_387 = {
+				add_core = NET
+			}
+			
+			any_country = {
+				limit = {
+					tag = FLA
+					OR = {
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+				annex_to = NET
+			}
+			set_country_flag = NET_Flanders
+		}
+		ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 0
+                badboy = 0.5
+            }
+        }
+	
+	}
+}

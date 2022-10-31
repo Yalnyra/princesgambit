@@ -1,0 +1,883 @@
+#Sphere of Influence
+
+AAC = {
+	value = 0
+	level = 2
+}
+ADE = {
+	value = 2
+	level = 2
+}
+AIN = {
+	value = 0
+	level = 2
+}
+AJU = {
+	value = 0
+	level = 2
+}
+AKH = {
+	value = 0
+	level = 2
+}
+ALO = {
+	value = 0
+	level = 2
+}
+ALS = {
+	value = 0
+	level = 2
+}
+ANH = {
+	value = 0
+	level = 2
+}
+ARN = {
+	value = 0
+	level = 2
+}
+ARW = {
+	value = 0
+	level = 2
+}
+AUS = {
+	value = 0
+	level = 2
+}
+AVR = {
+	value = 0
+	level = 2
+}
+BAD = {
+	value = 0
+	level = 2
+}
+BEG = {
+	value = 0
+	level = 2
+}
+BLA = {
+	value = 0
+	level = 2
+}
+BMN = {
+	value = 22
+	level = 2
+}
+BNG = {
+	value = 0
+	level = 2
+}
+BNY = {
+	value = 0
+	level = 2
+}
+BOL = {
+	value = 0
+	level = 2
+}
+BRA = {
+	value = 0
+	level = 2
+}
+BRB = {
+	value = 0
+	level = 2
+}
+BRD = {
+	value = 0
+	level = 2
+}
+BRE = {
+	value = 0
+	level = 2
+}
+BRG = {
+	value = 0
+	level = 2
+}
+BRN = {
+	value = 0
+	level = 2
+}
+BRU = {
+	value = 0
+	level = 2
+}
+BRZ = {
+	value = 0
+	level = 2
+}
+BUL = {
+	value = 0
+	level = 2
+}
+CAL = {
+	value = 0
+	level = 2
+}
+CEB = {
+	value = 0
+	level = 2
+}
+CHA = {
+	value = 0
+	level = 2
+}
+CHV = {
+	value = 0
+	level = 2
+}
+CKW = {
+	value = 0
+	level = 2
+}
+CLB = {
+	value = 0
+	level = 2
+}
+CLM = {
+	value = 0
+	level = 2
+}
+COF = {
+	value = 0
+	level = 2
+}
+CRK = {
+	value = 0
+	level = 2
+}
+CST = {
+	value = 0
+	level = 2
+}
+CUB = {
+	value = 0
+	level = 2
+}
+DAH = {
+	value = 0
+	level = 2
+}
+DAI = {
+	value = 0
+	level = 2
+}
+DAW = {
+	value = 0
+	level = 2
+}
+DGB = {
+	value = 0
+	level = 2
+}
+DLH = {
+	value = 0
+	level = 2
+}
+DLM = {
+	value = 0
+	level = 2
+}
+ECU = {
+	value = 0
+	level = 2
+}
+EFR = {
+	value = 0
+	level = 2
+}
+EGY = {
+	value = 0
+	level = 2
+}
+ENG = {
+	value = 0
+	level = 2
+}
+ETH = {
+	value = 0
+	level = 2
+}
+FLA = {
+	value = 0
+	level = 2
+}
+FRI = {
+	value = 0
+	level = 2
+}
+FRM = {
+	value = 0
+	level = 2
+}
+GLR = {
+	value = 0
+	level = 2
+}
+GNV = {
+	value = 0
+	level = 2
+}
+GOS = {
+	value = 0
+	level = 2
+}
+GRA = {
+	value = 0
+	level = 2
+}
+GRJ = {
+	value = 0
+	level = 2
+}
+GRK = {
+	value = 0
+	level = 2
+}
+GUJ = {
+	value = 0
+	level = 2
+}
+GZK = {
+	value = 0
+	level = 2
+}
+HAM = {
+	value = 0
+	level = 2
+}
+HAT = {
+	value = 0
+	level = 2
+}
+HAU = {
+	value = 0
+	level = 2
+}
+HAW = {
+	value = 0
+	level = 2
+}
+HES = {
+	value = 0
+	level = 2
+}
+HLL = {
+	value = 0
+	level = 2
+}
+ISR = {
+	value = -12
+	level = 2
+}
+IST = {
+	value = 0
+	level = 2
+}
+ITA = {
+	value = 0
+	level = 2
+}
+JAP = {
+	value = 0
+	level = 2
+}
+JNP = {
+	value = 0
+	level = 2
+}
+KAZ = {
+	value = 0
+	level = 2
+}
+KBO = {
+	value = 0
+	level = 2
+}
+KIK = {
+	value = 0
+	level = 2
+}
+KLE = {
+	value = 0
+	level = 2
+}
+KLK = {
+	value = 0
+	level = 2
+}
+KOL = {
+	value = 0
+	level = 2
+}
+KON = {
+	value = 0
+	level = 2
+}
+KRW = {
+	value = 0
+	level = 2
+}
+KSJ = {
+	value = 0
+	level = 2
+}
+KSK = {
+	value = 0
+	level = 2
+}
+KUB = {
+	value = 0
+	level = 2
+}
+LAU = {
+	value = 0
+	level = 2
+}
+LBA = {
+	value = 0
+	level = 2
+}
+LIG = {
+	value = 0
+	level = 2
+}
+LIT = {
+	value = 0
+	level = 2
+}
+LNB = {
+	value = 0
+	level = 2
+}
+LNG = {
+	value = 0
+	level = 2
+}
+LOR = {
+	value = 0
+	level = 2
+}
+LOU = {
+	value = 0
+	level = 2
+}
+LSK = {
+	value = 0
+	level = 2
+}
+LUB = {
+	value = 0
+	level = 2
+}
+LUN = {
+	value = 0
+	level = 2
+}
+LUX = {
+	value = 0
+	level = 2
+}
+MAG = {
+	value = 25
+	level = 2
+}
+MAI = {
+	value = 0
+	level = 2
+}
+MAW = {
+	value = 0
+	level = 2
+}
+MDO = {
+	value = 0
+	level = 2
+}
+MEX = {
+	value = 0
+	level = 2
+}
+MFL = {
+	value = 0
+	level = 2
+}
+MHR = {
+	value = 0
+	level = 2
+}
+ML1 = {
+	value = 0
+	level = 2
+}
+MLH = {
+	value = 0
+	level = 2
+}
+MLI = {
+	value = -5
+	level = 2
+}
+MLY = {
+	value = 0
+	military_access = yes
+	level = 2
+}
+MNI = {
+	value = 0
+	level = 2
+}
+MOL = {
+	value = 0
+	level = 2
+}
+MOR = {
+	value = 0
+	level = 2
+}
+MUN = {
+	value = 0
+	level = 2
+}
+MUS = {
+	value = 0
+	level = 2
+}
+NAK = {
+	value = 0
+	level = 2
+}
+NAV = {
+	value = 0
+	level = 2
+}
+NEV = {
+	value = 0
+	level = 2
+}
+NKO = {
+	value = 0
+	level = 2
+}
+NNG = {
+	value = 0
+	level = 2
+}
+NOG = {
+	value = 0
+	level = 2
+}
+NOR = {
+	value = 0
+	level = 2
+}
+NSS = {
+	value = 0
+	level = 2
+}
+NZL = {
+	value = 0
+	level = 2
+}
+OEO = {
+	value = 0
+	level = 2
+}
+OJI = {
+	value = 0
+	level = 2
+}
+OLD = {
+	value = 0
+	level = 2
+}
+OMA = {
+	value = -3
+	level = 2
+}
+OSA = {
+	value = 0
+	level = 2
+}
+OTM = {
+	value = 0
+	level = 2
+}
+PAD = {
+	value = 0
+	level = 2
+}
+PAL = {
+	value = 0
+	level = 2
+}
+PAP = {
+	value = 0
+	level = 2
+}
+PEG = {
+	value = 0
+	level = 2
+}
+PER = {
+	value = 0
+	level = 2
+}
+POM = {
+	value = 0
+	level = 2
+}
+POR = {
+	value = 0
+	level = 2
+}
+PRM = {
+	value = 0
+	level = 2
+}
+PRO = {
+	value = 0
+	level = 2
+}
+QNG = {
+	value = 0
+	level = 2
+}
+RVA = {
+	value = 0
+	level = 2
+}
+RWA = {
+	value = 0
+	level = 2
+}
+RYA = {
+	value = 0
+	level = 2
+}
+SAX = {
+	value = 0
+	level = 2
+}
+SBA = {
+	value = 0
+	level = 2
+}
+SGH = {
+	value = 0
+	level = 2
+}
+SIN = {
+	value = 0
+	level = 2
+}
+SVY = {
+	value = 0
+	level = 2
+}
+SWA = {
+	value = 0
+	level = 2
+}
+SWE = {
+	value = -13
+	level = 2
+}
+SWI = {
+	value = 0
+	level = 2
+}
+SYC = {
+	value = 0
+	level = 2
+}
+TID = {
+	value = 0
+	level = 2
+}
+TIM = {
+	value = 0
+	level = 2
+}
+TLA = {
+	value = 0
+	level = 2
+}
+TLC = {
+	value = 0
+	level = 2
+}
+TTL = {
+	value = 0
+	level = 2
+}
+TUN = {
+	value = 0
+	level = 2
+}
+TUR = {
+	value = 0
+	level = 2
+}
+UBH = {
+	value = 0
+	level = 2
+}
+USA = {
+	value = 0
+	level = 2
+}
+VER = {
+	value = 25
+	level = 2
+}
+VIJ = {
+	value = 0
+	level = 2
+}
+VNZ = {
+	value = -1
+	level = 2
+}
+WAD = {
+	value = 0
+	level = 2
+}
+WCY = {
+	value = 0
+	level = 2
+}
+WSI = {
+	value = 0
+	level = 2
+}
+X00 = {
+	value = 0
+	level = 2
+}
+X07 = {
+	value = 0
+	level = 2
+}
+X08 = {
+	value = 0
+	level = 2
+}
+X09 = {
+	value = 0
+	level = 2
+}
+X11 = {
+	value = 0
+	level = 2
+}
+X12 = {
+	value = 0
+	level = 2
+}
+YEM = {
+	value = 0
+	level = 2
+}
+
+#Leaders
+leader = {
+	name="Muzaffar Shâh Roem"
+	date="1711.10.3"
+	type=sea
+	personality="soldierly"
+	background="war_college"
+}
+
+leader = {
+	name="'Abd al-Mubin Kyai"
+	date="1719.10.17"
+	type=land
+	personality="resolute"
+	background="generals_aide"
+}
+
+leader = {
+	name="Inayat Azmi"
+	date="1732.10.10"
+	type=land
+	personality="earnest"
+	background="armchair_general"
+}
+
+leader = {
+	name="Inayat Mukhtar"
+	date="1732.10.13"
+	type=land
+	personality="stalwart"
+	background="bootlicker"
+}
+
+leader = {
+	name="Alâ' ad-Dîn Ahmad"
+	date="1736.3.9"
+	type=land
+	personality="balanced_p"
+	background="generals_aide"
+}
+
+
+#Armies
+army = {
+	name="1st Army"
+	location=2487
+	regiment = {
+		name="1st Toowoomba Irregulars"
+		type=irregular
+		home=2486
+	}
+	regiment = {
+		name="2nd Toowoomba Irregulars"
+		type=irregular
+		home=2486
+	}
+	regiment = {
+		name="1st Toowoomba Artillery"
+		type=artillery
+		home=2486
+	}
+	regiment = {
+		name="1st Port Macquarie Irregulars"
+		type=irregular
+		home=2470
+	}
+	regiment = {
+		name="1st Warrnambool Artillery"
+		type=artillery
+		home=2477
+	}
+}
+
+army = {
+	name="3rd Army"
+	location=2499
+	regiment = {
+		name="1st Port Essington Irregulars"
+		type=irregular
+		home=2505
+	}
+	regiment = {
+		name="1st Tennant Creek Irregulars"
+		type=irregular
+		home=2506
+	}
+	regiment = {
+		name="1st Port Macquarie Artillery"
+		type=artillery
+		home=2470
+	}
+	regiment = {
+		name="1st Brisbane Irregulars"
+		type=irregular
+		home=2483
+	}
+	regiment = {
+		name="1st Brisbane Artillery"
+		type=artillery
+		home=2483
+	}
+}
+
+navy = {
+	name="8th Fleet"
+	location=3191
+	ship = {
+		name="1st Broome Frigate"
+		type=frigate
+	}
+	ship = {
+		name="1st Tennant Creek Frigate"
+		type=frigate
+	}
+}
+
+navy = {
+	name="9th Fleet"
+	location=2484
+	ship = {
+		name="1st Gladstone Man'o'war"
+		type=manowar
+	}
+}
+
+navy = {
+	name="5th Fleet"
+	location=2874
+	ship = {
+		name="1st Port Essington Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="1st Broome Man'o'war"
+		type=manowar
+	}
+}
+
+navy = {
+	name="6th Fleet"
+	location=2874
+	ship = {
+		name="1st Cooktown Frigate"
+		type=frigate
+	}
+	ship = {
+		name="1st Cooktown Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st Tennant Creek Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st Roebourne Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="2nd Tennant Creek Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st Port Macquarie Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="2nd Port Macquarie Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st Dampier Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st Gladstone Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="2nd Cooktown Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="3rd Tennant Creek Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="2nd Cooktown Frigate"
+		type=frigate
+	}
+	ship = {
+		name="1st Port Essington Frigate"
+		type=frigate
+	}
+	ship = {
+		name="4th Tennant Creek Clipper Transport"
+		type=clipper_transport
+	}
+}
+

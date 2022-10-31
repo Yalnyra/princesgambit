@@ -1,0 +1,9 @@
+owner=PER
+controller=PER
+add_core=KHO
+add_core=PER
+add_core=TKS
+trade_goods = coal
+life_rating = 35
+terrain = dryhills
+fort = 1

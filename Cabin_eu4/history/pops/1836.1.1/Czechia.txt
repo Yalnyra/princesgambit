@@ -1,0 +1,1476 @@
+625 = {
+	soldiers=
+	{
+		culture = czech
+		religion = hussite
+		size= 3160
+	}
+
+	artisans=
+	{
+		culture = czech
+		religion = hussite
+		size= 10582
+	}
+
+	clergymen=
+	{
+		culture = czech
+		religion = hussite
+		size= 1180
+	}
+
+	bureaucrats=
+	{
+		culture = czech
+		religion = hussite
+		size= 112
+	}
+
+	officers=
+	{
+		culture = czech
+		religion = hussite
+		size= 42
+	}
+
+	aristocrats=
+	{
+		culture = czech
+		religion = hussite
+		size= 763
+	}
+
+	farmers=
+	{
+		culture = czech
+		religion = hussite
+		size= 143027
+	}
+
+	soldiers=
+	{
+		culture = czech
+		religion = catholic
+		size= 3815
+	}
+
+	artisans=
+	{
+		culture = czech
+		religion = catholic
+		size= 36133
+	}
+
+	clergymen=
+	{
+		culture = czech
+		religion = catholic
+		size= 4026
+	}
+
+	bureaucrats=
+	{
+		culture = czech
+		religion = catholic
+		size= 383
+	}
+
+	officers=
+	{
+		culture = czech
+		religion = catholic
+		size= 142
+	}
+
+	aristocrats=
+	{
+		culture = czech
+		religion = catholic
+		size= 2604
+	}
+
+	farmers=
+	{
+		culture = czech
+		religion = catholic
+		size= 143261
+	}
+
+}
+626 = {
+	soldiers=
+	{
+		culture = czech
+		religion = hussite
+		size= 5443
+	}
+
+	artisans=
+	{
+		culture = czech
+		religion = hussite
+		size= 452
+	}
+
+	clergymen=
+	{
+		culture = czech
+		religion = hussite
+		size= 81
+	}
+
+	bureaucrats=
+	{
+		culture = czech
+		religion = hussite
+		size= 6
+	}
+
+	officers=
+	{
+		culture = czech
+		religion = hussite
+		size= 13
+	}
+
+	aristocrats=
+	{
+		culture = czech
+		religion = hussite
+		size= 48
+	}
+
+	farmers=
+	{
+		culture = czech
+		religion = hussite
+		size= 53179
+	}
+
+	soldiers=
+	{
+		culture = czech
+		religion = catholic
+		size= 1527
+	}
+
+	artisans=
+	{
+		culture = czech
+		religion = catholic
+		size= 707
+	}
+
+	clergymen=
+	{
+		culture = czech
+		religion = catholic
+		size= 128
+	}
+
+	bureaucrats=
+	{
+		culture = czech
+		religion = catholic
+		size= 9
+	}
+
+	officers=
+	{
+		culture = czech
+		religion = catholic
+		size= 22
+	}
+
+	aristocrats=
+	{
+		culture = czech
+		religion = catholic
+		size= 75
+	}
+
+	farmers=
+	{
+		culture = czech
+		religion = catholic
+		size= 14064
+	}
+
+	soldiers=
+	{
+		culture = czech
+		religion = jewish
+		size= 4347
+	}
+
+	artisans=
+	{
+		culture = czech
+		religion = jewish
+		size= 7412
+	}
+
+	clergymen=
+	{
+		culture = czech
+		religion = jewish
+		size= 1332
+	}
+
+	bureaucrats=
+	{
+		culture = czech
+		religion = jewish
+		size= 94
+	}
+
+	officers=
+	{
+		culture = czech
+		religion = jewish
+		size= 224
+	}
+
+	aristocrats=
+	{
+		culture = czech
+		religion = jewish
+		size= 785
+	}
+
+	soldiers=
+	{
+		culture = czech
+		religion = protestant
+		size= 595
+	}
+
+	artisans=
+	{
+		culture = czech
+		religion = protestant
+		size= 1779
+	}
+
+	clergymen=
+	{
+		culture = czech
+		religion = protestant
+		size= 319
+	}
+
+	bureaucrats=
+	{
+		culture = czech
+		religion = protestant
+		size= 23
+	}
+
+	officers=
+	{
+		culture = czech
+		religion = protestant
+		size= 54
+	}
+
+	aristocrats=
+	{
+		culture = czech
+		religion = protestant
+		size= 189
+	}
+
+	farmers=
+	{
+		culture = czech
+		religion = protestant
+		size= 3721
+	}
+
+	farmers=
+	{
+		culture = czech
+		religion = jewish
+		size= 32357
+	}
+
+}
+627 = {
+	soldiers=
+	{
+		culture = czech
+		religion = catholic
+		size= 4013
+	}
+
+	artisans=
+	{
+		culture = czech
+		religion = catholic
+		size= 436
+	}
+
+	clergymen=
+	{
+		culture = czech
+		religion = catholic
+		size= 259
+	}
+
+	bureaucrats=
+	{
+		culture = czech
+		religion = catholic
+		size= 25
+	}
+
+	officers=
+	{
+		culture = czech
+		religion = catholic
+		size= 15
+	}
+
+	aristocrats=
+	{
+		culture = czech
+		religion = catholic
+		size= 139
+	}
+
+	farmers=
+	{
+		culture = czech
+		religion = catholic
+		size= 66914
+	}
+
+	soldiers=
+	{
+		culture = czech
+		religion = protestant
+		size= 44
+	}
+
+	artisans=
+	{
+		culture = czech
+		religion = protestant
+		size= 445
+	}
+
+	clergymen=
+	{
+		culture = czech
+		religion = protestant
+		size= 265
+	}
+
+	bureaucrats=
+	{
+		culture = czech
+		religion = protestant
+		size= 26
+	}
+
+	officers=
+	{
+		culture = czech
+		religion = protestant
+		size= 15
+	}
+
+	aristocrats=
+	{
+		culture = czech
+		religion = protestant
+		size= 142
+	}
+
+	soldiers=
+	{
+		culture = czech
+		religion = jewish
+		size= 2822
+	}
+
+	artisans=
+	{
+		culture = czech
+		religion = jewish
+		size= 2105
+	}
+
+	clergymen=
+	{
+		culture = czech
+		religion = jewish
+		size= 1248
+	}
+
+	bureaucrats=
+	{
+		culture = czech
+		religion = jewish
+		size= 123
+	}
+
+	officers=
+	{
+		culture = czech
+		religion = jewish
+		size= 71
+	}
+
+	aristocrats=
+	{
+		culture = czech
+		religion = jewish
+		size= 668
+	}
+
+	farmers=
+	{
+		culture = czech
+		religion = jewish
+		size= 42108
+	}
+
+}
+628 = {
+	soldiers=
+	{
+		culture = czech
+		religion = catholic
+		size= 3528
+	}
+
+	artisans=
+	{
+		culture = czech
+		religion = catholic
+		size= 2213
+	}
+
+	clergymen=
+	{
+		culture = czech
+		religion = catholic
+		size= 226
+	}
+
+	bureaucrats=
+	{
+		culture = czech
+		religion = catholic
+		size= 22
+	}
+
+	officers=
+	{
+		culture = czech
+		religion = catholic
+		size= 26
+	}
+
+	aristocrats=
+	{
+		culture = czech
+		religion = catholic
+		size= 134
+	}
+
+	farmers=
+	{
+		culture = czech
+		religion = catholic
+		size= 57713
+	}
+
+	soldiers=
+	{
+		culture = czech
+		religion = protestant
+		size= 49
+	}
+
+	artisans=
+	{
+		culture = czech
+		religion = protestant
+		size= 2274
+	}
+
+	clergymen=
+	{
+		culture = czech
+		religion = protestant
+		size= 233
+	}
+
+	bureaucrats=
+	{
+		culture = czech
+		religion = protestant
+		size= 23
+	}
+
+	officers=
+	{
+		culture = czech
+		religion = protestant
+		size= 26
+	}
+
+	aristocrats=
+	{
+		culture = czech
+		religion = protestant
+		size= 138
+	}
+
+	soldiers=
+	{
+		culture = czech
+		religion = jewish
+		size= 2562
+	}
+
+	artisans=
+	{
+		culture = czech
+		religion = jewish
+		size= 10909
+	}
+
+	clergymen=
+	{
+		culture = czech
+		religion = jewish
+		size= 1114
+	}
+
+	bureaucrats=
+	{
+		culture = czech
+		religion = jewish
+		size= 111
+	}
+
+	officers=
+	{
+		culture = czech
+		religion = jewish
+		size= 126
+	}
+
+	aristocrats=
+	{
+		culture = czech
+		religion = jewish
+		size= 663
+	}
+
+	farmers=
+	{
+		culture = czech
+		religion = jewish
+		size= 30707
+	}
+
+}
+629 = {
+	soldiers=
+	{
+		culture = czech
+		religion = catholic
+		size= 1282
+	}
+
+	artisans=
+	{
+		culture = czech
+		religion = catholic
+		size= 2142
+	}
+
+	clergymen=
+	{
+		culture = czech
+		religion = catholic
+		size= 474
+	}
+
+	bureaucrats=
+	{
+		culture = czech
+		religion = catholic
+		size= 60
+	}
+
+	officers=
+	{
+		culture = czech
+		religion = catholic
+		size= 27
+	}
+
+	aristocrats=
+	{
+		culture = czech
+		religion = catholic
+		size= 328
+	}
+
+	farmers=
+	{
+		culture = czech
+		religion = catholic
+		size= 60596
+	}
+
+	soldiers=
+	{
+		culture = czech
+		religion = jewish
+		size= 920
+	}
+
+	artisans=
+	{
+		culture = czech
+		religion = jewish
+		size= 5216
+	}
+
+	clergymen=
+	{
+		culture = czech
+		religion = jewish
+		size= 1154
+	}
+
+	bureaucrats=
+	{
+		culture = czech
+		religion = jewish
+		size= 147
+	}
+
+	officers=
+	{
+		culture = czech
+		religion = jewish
+		size= 65
+	}
+
+	aristocrats=
+	{
+		culture = czech
+		religion = jewish
+		size= 799
+	}
+
+	farmers=
+	{
+		culture = czech
+		religion = jewish
+		size= 36845
+	}
+
+}
+630 = {
+	soldiers=
+	{
+		culture = czech
+		religion = catholic
+		size= 1080
+	}
+
+	artisans=
+	{
+		culture = czech
+		religion = catholic
+		size= 985
+	}
+
+	clergymen=
+	{
+		culture = czech
+		religion = catholic
+		size= 200
+	}
+
+	bureaucrats=
+	{
+		culture = czech
+		religion = catholic
+		size= 26
+	}
+
+	officers=
+	{
+		culture = czech
+		religion = catholic
+		size= 11
+	}
+
+	aristocrats=
+	{
+		culture = czech
+		religion = catholic
+		size= 140
+	}
+
+	farmers=
+	{
+		culture = czech
+		religion = catholic
+		size= 53271
+	}
+
+	soldiers=
+	{
+		culture = czech
+		religion = protestant
+		size= 49
+	}
+
+	artisans=
+	{
+		culture = czech
+		religion = protestant
+		size= 1073
+	}
+
+	clergymen=
+	{
+		culture = czech
+		religion = protestant
+		size= 217
+	}
+
+	bureaucrats=
+	{
+		culture = czech
+		religion = protestant
+		size= 28
+	}
+
+	officers=
+	{
+		culture = czech
+		religion = protestant
+		size= 12
+	}
+
+	aristocrats=
+	{
+		culture = czech
+		religion = protestant
+		size= 152
+	}
+
+	farmers=
+	{
+		culture = czech
+		religion = protestant
+		size= 675
+	}
+
+	soldiers=
+	{
+		culture = czech
+		religion = jewish
+		size= 692
+	}
+
+	artisans=
+	{
+		culture = czech
+		religion = jewish
+		size= 4583
+	}
+
+	clergymen=
+	{
+		culture = czech
+		religion = jewish
+		size= 926
+	}
+
+	bureaucrats=
+	{
+		culture = czech
+		religion = jewish
+		size= 119
+	}
+
+	officers=
+	{
+		culture = czech
+		religion = jewish
+		size= 53
+	}
+
+	aristocrats=
+	{
+		culture = czech
+		religion = jewish
+		size= 649
+	}
+
+	farmers=
+	{
+		culture = czech
+		religion = jewish
+		size= 27547
+	}
+
+}
+631 = {
+	soldiers=
+	{
+		culture = czech
+		religion = hussite
+		size= 9544
+	}
+
+	artisans=
+	{
+		culture = czech
+		religion = hussite
+		size= 1089
+	}
+
+	clergymen=
+	{
+		culture = czech
+		religion = hussite
+		size= 191
+	}
+
+	bureaucrats=
+	{
+		culture = czech
+		religion = hussite
+		size= 18
+	}
+
+	officers=
+	{
+		culture = czech
+		religion = hussite
+		size= 31
+	}
+
+	aristocrats=
+	{
+		culture = czech
+		religion = hussite
+		size= 109
+	}
+
+	farmers=
+	{
+		culture = czech
+		religion = hussite
+		size= 92469
+	}
+
+	soldiers=
+	{
+		culture = czech
+		religion = catholic
+		size= 6675
+	}
+
+	artisans=
+	{
+		culture = czech
+		religion = catholic
+		size= 2613
+	}
+
+	clergymen=
+	{
+		culture = czech
+		religion = catholic
+		size= 459
+	}
+
+	bureaucrats=
+	{
+		culture = czech
+		religion = catholic
+		size= 44
+	}
+
+	officers=
+	{
+		culture = czech
+		religion = catholic
+		size= 75
+	}
+
+	aristocrats=
+	{
+		culture = czech
+		religion = catholic
+		size= 262
+	}
+
+	farmers=
+	{
+		culture = czech
+		religion = catholic
+		size= 62099
+	}
+
+	soldiers=
+	{
+		culture = czech
+		religion = protestant
+		size= 3192
+	}
+
+	artisans=
+	{
+		culture = czech
+		religion = protestant
+		size= 5158
+	}
+
+	clergymen=
+	{
+		culture = czech
+		religion = protestant
+		size= 905
+	}
+
+	bureaucrats=
+	{
+		culture = czech
+		religion = protestant
+		size= 87
+	}
+
+	officers=
+	{
+		culture = czech
+		religion = protestant
+		size= 148
+	}
+
+	aristocrats=
+	{
+		culture = czech
+		religion = protestant
+		size= 518
+	}
+
+	farmers=
+	{
+		culture = czech
+		religion = protestant
+		size= 24527
+	}
+
+	soldiers=
+	{
+		culture = czech
+		religion = jewish
+		size= 8124
+	}
+
+	artisans=
+	{
+		culture = czech
+		religion = jewish
+		size= 16274
+	}
+
+	clergymen=
+	{
+		culture = czech
+		religion = jewish
+		size= 2853
+	}
+
+	bureaucrats=
+	{
+		culture = czech
+		religion = jewish
+		size= 273
+	}
+
+	officers=
+	{
+		culture = czech
+		religion = jewish
+		size= 466
+	}
+
+	aristocrats=
+	{
+		culture = czech
+		religion = jewish
+		size= 1634
+	}
+
+	farmers=
+	{
+		culture = czech
+		religion = jewish
+		size= 57338
+	}
+
+}
+632 = {
+	soldiers=
+	{
+		culture = czech
+		religion = hussite
+		size= 621
+	}
+
+	artisans=
+	{
+		culture = czech
+		religion = hussite
+		size= 466
+	}
+
+	clergymen=
+	{
+		culture = czech
+		religion = hussite
+		size= 51
+	}
+
+	bureaucrats=
+	{
+		culture = czech
+		religion = hussite
+		size= 12
+	}
+
+	officers=
+	{
+		culture = czech
+		religion = hussite
+		size= 7
+	}
+
+	aristocrats=
+	{
+		culture = czech
+		religion = hussite
+		size= 70
+	}
+
+	farmers=
+	{
+		culture = czech
+		religion = hussite
+		size= 31140
+	}
+
+	soldiers=
+	{
+		culture = czech
+		religion = catholic
+		size= 167
+	}
+
+	artisans=
+	{
+		culture = czech
+		religion = catholic
+		size= 716
+	}
+
+	clergymen=
+	{
+		culture = czech
+		religion = catholic
+		size= 79
+	}
+
+	bureaucrats=
+	{
+		culture = czech
+		religion = catholic
+		size= 18
+	}
+
+	officers=
+	{
+		culture = czech
+		religion = catholic
+		size= 10
+	}
+
+	aristocrats=
+	{
+		culture = czech
+		religion = catholic
+		size= 108
+	}
+
+	farmers=
+	{
+		culture = czech
+		religion = catholic
+		size= 7267
+	}
+
+	soldiers=
+	{
+		culture = czech
+		religion = jewish
+		size= 575
+	}
+
+	artisans=
+	{
+		culture = czech
+		religion = jewish
+		size= 2902
+	}
+
+	clergymen=
+	{
+		culture = czech
+		religion = jewish
+		size= 319
+	}
+
+	bureaucrats=
+	{
+		culture = czech
+		religion = jewish
+		size= 73
+	}
+
+	officers=
+	{
+		culture = czech
+		religion = jewish
+		size= 42
+	}
+
+	aristocrats=
+	{
+		culture = czech
+		religion = jewish
+		size= 437
+	}
+
+	farmers=
+	{
+		culture = czech
+		religion = jewish
+		size= 24138
+	}
+
+}
+688 = {
+	soldiers=
+	{
+		culture = czech
+		religion = hussite
+		size= 340
+	}
+
+	artisans=
+	{
+		culture = czech
+		religion = hussite
+		size= 382
+	}
+
+	clergymen=
+	{
+		culture = czech
+		religion = hussite
+		size= 32
+	}
+
+	bureaucrats=
+	{
+		culture = czech
+		religion = hussite
+		size= 6
+	}
+
+	officers=
+	{
+		culture = czech
+		religion = hussite
+		size= 3
+	}
+
+	aristocrats=
+	{
+		culture = czech
+		religion = hussite
+		size= 36
+	}
+
+	farmers=
+	{
+		culture = czech
+		religion = hussite
+		size= 16182
+	}
+
+	soldiers=
+	{
+		culture = czech
+		religion = catholic
+		size= 91
+	}
+
+	artisans=
+	{
+		culture = czech
+		religion = catholic
+		size= 588
+	}
+
+	clergymen=
+	{
+		culture = czech
+		religion = catholic
+		size= 49
+	}
+
+	bureaucrats=
+	{
+		culture = czech
+		religion = catholic
+		size= 9
+	}
+
+	officers=
+	{
+		culture = czech
+		religion = catholic
+		size= 5
+	}
+
+	aristocrats=
+	{
+		culture = czech
+		religion = catholic
+		size= 55
+	}
+
+	farmers=
+	{
+		culture = czech
+		religion = catholic
+		size= 3777
+	}
+
+	soldiers=
+	{
+		culture = czech
+		religion = jewish
+		size= 314
+	}
+
+	artisans=
+	{
+		culture = czech
+		religion = jewish
+		size= 2385
+	}
+
+	clergymen=
+	{
+		culture = czech
+		religion = jewish
+		size= 199
+	}
+
+	bureaucrats=
+	{
+		culture = czech
+		religion = jewish
+		size= 37
+	}
+
+	officers=
+	{
+		culture = czech
+		religion = jewish
+		size= 21
+	}
+
+	aristocrats=
+	{
+		culture = czech
+		religion = jewish
+		size= 223
+	}
+
+	farmers=
+	{
+		culture = czech
+		religion = jewish
+		size= 12544
+	}
+
+}
+689 = {
+	soldiers=
+	{
+		culture = czech
+		religion = catholic
+		size= 1443
+	}
+
+	artisans=
+	{
+		culture = czech
+		religion = catholic
+		size= 258
+	}
+
+	clergymen=
+	{
+		culture = czech
+		religion = catholic
+		size= 48
+	}
+
+	bureaucrats=
+	{
+		culture = czech
+		religion = catholic
+		size= 9
+	}
+
+	officers=
+	{
+		culture = czech
+		religion = catholic
+		size= 10
+	}
+
+	aristocrats=
+	{
+		culture = czech
+		religion = catholic
+		size= 54
+	}
+
+	farmers=
+	{
+		culture = czech
+		religion = catholic
+		size= 23944
+	}
+
+	soldiers=
+	{
+		culture = czech
+		religion = protestant
+		size= 155
+	}
+
+	artisans=
+	{
+		culture = czech
+		religion = protestant
+		size= 313
+	}
+
+	clergymen=
+	{
+		culture = czech
+		religion = protestant
+		size= 59
+	}
+
+	bureaucrats=
+	{
+		culture = czech
+		religion = protestant
+		size= 11
+	}
+
+	officers=
+	{
+		culture = czech
+		religion = protestant
+		size= 13
+	}
+
+	aristocrats=
+	{
+		culture = czech
+		religion = protestant
+		size= 66
+	}
+
+	farmers=
+	{
+		culture = czech
+		religion = protestant
+		size= 2158
+	}
+
+	soldiers=
+	{
+		culture = czech
+		religion = jewish
+		size= 839
+	}
+
+	artisans=
+	{
+		culture = czech
+		religion = jewish
+		size= 1170
+	}
+
+	clergymen=
+	{
+		culture = czech
+		religion = jewish
+		size= 219
+	}
+
+	bureaucrats=
+	{
+		culture = czech
+		religion = jewish
+		size= 41
+	}
+
+	officers=
+	{
+		culture = czech
+		religion = jewish
+		size= 47
+	}
+
+	aristocrats=
+	{
+		culture = czech
+		religion = jewish
+		size= 246
+	}
+
+	farmers=
+	{
+		culture = czech
+		religion = jewish
+		size= 12412
+	}
+
+}

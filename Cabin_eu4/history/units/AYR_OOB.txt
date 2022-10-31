@@ -1,0 +1,58 @@
+#Sphere of Influence
+
+ALO = {
+	value = 0
+	level = 2
+}
+AYR = {
+	value = 0
+	level = 2
+}
+BKF = {
+	value = 0
+	level = 2
+}
+CLM = {
+	value = 0
+	level = 2
+}
+DLM = {
+	value = 0
+	level = 2
+}
+ENG = {
+	value = 0
+	level = 2
+}
+HAU = {
+	value = 0
+	level = 2
+}
+HAW = {
+	value = 0
+	level = 2
+}
+KBO = {
+	value = 0
+	level = 2
+}
+MLI = {
+	value = 0
+	level = 2
+}
+SGH = {
+	value = 0
+	level = 2
+}
+WAD = {
+	value = 0
+	level = 2
+}
+WSI = {
+	value = 0
+	level = 2
+}
+
+#Leaders
+
+#Armies

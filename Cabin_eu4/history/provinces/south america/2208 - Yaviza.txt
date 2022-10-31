@@ -1,0 +1,5 @@
+owner=USA
+controller=USA
+add_core=CLM
+trade_goods = fruit
+life_rating = 33

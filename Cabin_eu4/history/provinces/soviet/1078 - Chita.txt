@@ -1,0 +1,6 @@
+owner=CHV
+controller=CHV
+add_core=CHV
+add_core=YAK
+trade_goods = timber
+life_rating = 35

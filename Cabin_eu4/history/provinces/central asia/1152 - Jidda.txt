@@ -1,0 +1,8 @@
+owner=EGY
+controller=ITA
+add_core=ARA
+add_core=HDJ
+add_core=EGY
+trade_goods = grain
+life_rating = 35
+naval_base = 1

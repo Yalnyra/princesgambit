@@ -1,0 +1,13 @@
+owner=NOR
+controller=NOR
+add_core=SCA
+add_core=SWE
+trade_goods = coal
+life_rating = 40
+naval_base = 1
+state_building=
+{
+	level=1
+	building = steamer_shipyard
+	upgrade = yes
+}

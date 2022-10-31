@@ -1,0 +1,1986 @@
+political_decisions = {
+
+	encourage_turkish_nationalism = {
+		picture = muslim_league
+		potential = {
+            tag = TUR
+            has_country_flag = fate_of_egypt
+			NOT = {has_country_flag = Turkish_nationalism_encouraged}
+			NOT = {
+				1745 = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+						owner = {
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+        }
+		
+		allow = {
+			war = no
+		}
+	
+		effect = {
+			TUR_860 = { add_core = TKY}
+			TUR_863 = { add_core = TKY}
+			TUR_869 = { add_core = TKY}
+			TUR_873 = { add_core = TKY}
+			TUR_876 = { add_core = TKY}
+			TUR_880 = { add_core = TKY}
+			TUR_882 = { add_core = TKY}
+			TUR_885 = { add_core = TKY}
+			TUR_890 = { add_core = TKY}
+			TUR_893 = { add_core = TKY}
+			TUR_894 = { add_core = TKY}
+			any_pop = {
+				limit = {
+					has_pop_culture = turkish
+				}
+				militancy = 1
+				consciousness = 3
+				
+			}
+			set_country_flag = Turkish_nationalism_encouraged
+		}
+		ai_will_do = {
+            factor = 1
+        }
+	
+	}
+	
+	Turkish_Independance = {
+		picture = msturkey
+		potential = {
+			NOT = {exists = TKY }
+            tag = TUR
+            has_country_flag = Turkish_nationalism_encouraged
+			NOT = {has_country_flag = Turkish_nationalism_independace}
+
+        }
+		
+		allow = {
+			war = no
+		}
+	
+		effect = {
+			set_country_flag = Turkish_nationalism_independace
+			release = TKY
+			any_owned = {
+				limit = {
+					is_core = TKY
+				}
+				secede_province = TKY
+			}
+			any_pop = {
+				limit = {
+					has_pop_culture = turkish
+				}
+				militancy = 2
+				consciousness = 4
+				
+			}
+			war = {
+				target = TKY
+				attacker_goal = {
+					casus_belli = acquire_all_cores
+					country = TUR
+				}
+				defender_goal = { casus_belli = status_quo }
+			}
+			change_tag_no_core_switch = TKY
+			
+			
+			set_country_flag = Turkish_nationalism_independace
+		}
+		ai_will_do = {
+            factor = 0.1
+			modifier = {
+                factor = 0
+                NOT = {year = 1900 }
+            }
+			modifier = {
+                factor = 0.01
+                is_secondary_power = yes
+            }
+			modifier = {
+                factor = 0
+                is_greater_power = yes
+				
+            }
+			modifier = {
+                factor = 2
+                NOT = { prestige = 200 }
+				
+            }
+			modifier = {
+                factor = 10
+                NOT = { prestige = 100 }
+				
+            }
+			modifier = {
+                factor = 10
+                NOT = { military_score = 100 }
+				
+            }
+			modifier = {
+                factor = 2
+                NOT = { military_score = 200 }
+				
+            }
+        }
+	
+	}
+	
+	Turkish_state = {
+		picture = attaturk
+		potential = {
+            tag = TKY
+            TKY = {is_vassal = no}
+			NOT = {has_country_flag = Turkish_state}
+
+        }
+		
+		allow = {
+			war = no
+		}
+	
+		effect = {
+			prestige = 20
+			set_country_flag = secularized_muslim_society
+			add_country_modifier = {
+				name = total_reform
+				duration = 1825
+			}
+			any_pop = {
+				limit = {
+					has_pop_culture = turkish
+				}
+				militancy = -2
+				consciousness = -4
+				ideology = { value = liberal factor = 0.15 }
+				
+			}
+			set_country_flag = Turkish_state
+			remove_country_modifier = jizya
+            clr_country_flag = umar_pact
+		}
+		ai_will_do = {
+            factor = 1
+        }
+	
+	}
+	
+	Turkish_Diaspora = {
+		picture = turkification
+		potential = {
+            tag = TKY
+            TKY = {is_vassal = no}
+			NOT = {has_country_flag = Turkish_Diaspora}
+			has_country_flag = Turkish_state
+
+        }
+		
+		allow = {
+			war = no
+			OR = {
+				war_policy = jingoism
+				war_policy = pro_military
+				AND = {
+					has_country_flag = Turkish_Identity
+					NOT = {has_country_flag = Turkish_peace_at_home}
+				}
+			}
+			state_&_government = 1
+		}
+	
+		effect = {
+			set_country_flag = Turkish_Diaspora
+			badboy = 5
+			TUR_855 = { add_core = TKY}
+			TUR_823 = { add_core = TKY}
+			TUR_809 = { add_core = TKY}
+			TUR_810 = { add_core = TKY}
+			EGY_843 = { add_core = TKY}
+			TUR_674 = { add_core = TKY}
+			TUR_805 = { add_core = TKY}
+			TUR_803 = { add_core = TKY}
+			832 = { add_core = TKY}
+			833 = { add_core = TKY}
+			831 = { add_core = TKY}
+			825 = { add_core = TKY}
+			824 = { add_core = TKY}
+			923 = { add_core = TKY}
+			924 = { add_core = TKY}
+			925 = { add_core = TKY}
+			1813 = { add_core = TKY}
+			TUR_806 = { add_core = TKY}
+		}
+		ai_will_do = {
+            factor = 1
+        }
+	
+	}
+	
+	
+	Turkish_Militarism = {
+		picture = Anavatan_1927
+		potential = {
+            tag = TKY
+            TKY = {is_vassal = no}
+			NOT = {has_country_flag = Turkish_Militarism}
+			has_country_flag = Turkish_Diaspora
+			has_country_flag = Turkish_Identity
+			NOT = {has_country_flag = Turkish_peace_at_home}
+			
+
+        }
+		
+		allow = {
+			war = no
+			owns = 923
+			owns = 809
+			owns = 823
+			
+		}
+	
+		effect = {
+			set_country_flag = Turkish_Militarism
+			any_pop = {
+            dominant_issue = {
+                factor = 0.20
+                value = jingoism
+            }
+        }
+			
+		}
+		ai_will_do = {
+            factor = 1
+        }
+	
+	}
+	
+	
+	
+	Turkish_Identity = {
+		picture = identity
+		potential = {
+            tag = TKY
+            TKY = {is_vassal = no}
+			NOT = {has_country_flag = Turkish_Identity}
+			has_country_flag = Turkish_state
+
+        }
+		
+		allow = {
+			OR = {
+				nationalism_n_imperialism = 1
+				romanticism = 1
+			}
+			idealism = 1
+			
+			
+		}
+	
+		effect = {
+			set_country_flag = Turkish_Identity
+			prestige = 30
+			country_event = 69420
+			
+			
+		}
+		ai_will_do = {
+            factor = 1
+        }
+	
+	}
+	Turkish_Education = {
+		picture = Elementary_education_of_Bosnian_women_in_1948
+		potential = {
+            tag = TKY
+			school_reforms = no_schools 
+			has_country_flag = Turkish_state
+
+        }
+		
+		allow = {
+			functionalism = 1
+			
+		}
+	
+		effect = {
+			set_country_flag = Turkish_Education
+			social_reform = acceptable_schools
+			social_reform = child_labor_illegal
+		}
+		ai_will_do = {
+            factor = 1
+        }
+	
+	}
+	
+	
+	
+	Turkish_anatolian_project = {
+		picture = anatoliadds
+		potential = {
+            tag = TKY
+			NOT = {has_country_flag = Turkish_anatolian_project}
+			has_country_flag = Turkish_state
+
+        }
+		
+		allow = {
+			business_banks = 1
+			market_regulations = 1
+			steam_turbine = 1
+			empiricism = 1
+			owns = 860 
+			owns = 863
+			owns = 869
+			owns = 873 
+			owns = 876 
+			owns = 880
+			owns = 882 
+			owns = 885
+			owns = 890 
+			owns = 893 
+			owns = 894 
+			money = 5000000
+			war = no
+			
+		}
+	
+		effect = {
+			set_country_flag = Turkish_anatolian_project
+			TUR_860 = {life_rating = 3}
+			TUR_863= {life_rating = 3}
+			TUR_869= {life_rating = 3}
+			TUR_873 = {life_rating =3}
+			TUR_876 = {life_rating = 3}
+			TUR_880= {life_rating = 3}
+			TUR_882 = {life_rating = 3}
+			TUR_885= {life_rating = 3}
+			TUR_890 = {life_rating = 3}
+			TUR_893 = {life_rating = 3}
+			TUR_894 = {life_rating = 3}
+		
+		
+			#random_owned = 
+			#	limit = {
+			#		owner = {
+			#			NOT = { treasury = 5000000 }
+			#			check_variable = { which = owed_cash_money value = 12 }
+			#		}
+			#	}
+			TKY = { change_variable = { which = owed_cash_money value = 5000 } }
+
+			#random_owned = {
+			#	limit = {
+			#		owner = {
+			#			NOT = { treasury = 5000000 }
+			#			NOT = { check_variable = { which = owed_cash_money value = 1 } }
+			#		}
+			#	}
+			#	owner = { set_variable = { which = owed_cash_money value = 5000 } }
+			#}
+		}
+
+
+        
+
+		
+		
+		ai_will_do = {
+            factor = 1
+		}
+	}
+	
+	Turkish_Ottoman_idea = {
+		picture = Sultan
+		potential = {
+            tag = TKY
+            TKY = {is_vassal = no}
+			NOT = {has_country_flag = Turkish_Ottoman_idea}
+			NOT = {has_country_flag = Turkish_Ottoman_finish}
+			has_country_flag = Turkish_Ottoman_heir
+			exists = TUR
+		
+			TUR = {
+				OR = {
+					government = hms_government
+					government = prussian_constitutionalism
+					government = absolute_monarchy
+				}
+			}
+			
+
+        }
+		
+		allow = {
+			
+			nationalism_n_imperialism = 1
+			war = no
+			TUR = {
+				war = no
+				NOT = {is_greater_power = yes}
+			}
+			owns = 923
+			owns = 809
+			owns = 823
+			
+		}
+	
+		effect = {
+			set_country_flag = Turkish_Ottoman_idea
+			badboy = 3
+			country_event = 69421
+		}
+		ai_will_do = {
+            factor = 1
+		}
+	}
+	
+	Turkish_Ottoman_finish = {
+		picture = Sultan
+		potential = {
+            tag = TKY
+            TKY = {is_vassal = no}
+			NOT = {has_country_flag = Turkish_Ottoman_idea}
+			NOT = {has_country_flag = Turkish_Ottoman_finish}
+			has_country_flag = Turkish_Ottoman_heir
+			exists = TUR
+
+			
+
+        }
+		
+		allow = {
+			
+			nationalism_n_imperialism = 1
+			war = no
+			owns = 923
+			owns = 809
+			owns = 823
+			
+		}
+	
+		effect = {
+			set_country_flag = Turkish_Ottoman_finish
+			badboy = 7
+			TUR = {
+			
+				all_core = {
+					add_core = TKY
+				}
+			}
+			war = {
+				target = TUR
+				attacker_goal = { casus_belli = unification_annex_casus_belli }
+			}
+		}
+		ai_will_do = {
+            factor = 0.8
+		}
+	}
+	
+	Turkish_Ottoman_Egypt = {
+		picture = Alexandrie_et_phare
+		potential = {
+            tag = TKY
+			OR = {
+				has_country_flag = Turkish_Ottoman_finish
+				has_country_flag = Turkish_Ottoman_idea
+			}
+			NOT = {has_country_flag = Turkish_Ottoman_Egypt}
+			NOT = {
+				1745 = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+        }
+		
+		allow = {
+			war = no
+			invention = manifest_destiny
+			owns = 902
+			
+			NOT = {truce_with = EGY}
+			
+		}
+	
+		effect = {
+			badboy = 8
+			EGY = {
+			
+				all_core = {
+					add_core = TKY
+				}
+				
+				
+			}
+			
+			war = {
+					target = EGY
+					attacker_goal = {
+						casus_belli = unification_annex_casus_belli
+						country = TKY
+					}
+				}
+			
+			
+			set_country_flag = Turkish_Ottoman_Egypt
+		}
+		ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 0
+                badboy = 0.5
+            }
+        }
+	
+	}
+	Turkish_Ottoman_Tunisia = {
+		picture = The_Ottoman_fleet_attacking_Tunis_at_La_Goulette_Braun_and_Hogenberg_1574
+		potential = {
+            tag = TKY
+			OR = {
+				has_country_flag = Turkish_Ottoman_lybia
+				1731 = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+			NOT = {has_country_flag = Turkish_Ottoman_Tunisia}
+			NOT = {
+				1729 = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+        }
+		
+		allow = {
+			war = no
+			invention = manifest_destiny
+		}
+	
+		effect = {
+		badboy = 4
+			TUN = {
+			
+				all_core = {
+					add_core = TKY
+				}
+			}
+			any_country = {
+				limit = {
+					tag = TUN
+					OR = {
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+				annex_to = TKY
+			}
+			set_country_flag = Turkish_Ottoman_Tunisia
+		}
+		ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 0
+                badboy = 0.5
+            }
+        }
+	
+	}
+	Turkish_Ottoman_Algeria = {
+		picture = Barbarie_1829
+		potential = {
+            tag = TKY
+			OR = {
+				has_country_flag = Turkish_Ottoman_Tunisia
+				1729 = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+			NOT = {has_country_flag = Turkish_Ottoman_Algeria}
+			NOT = {
+				1700 = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+        }
+		
+		allow = {
+			war = no
+			invention = manifest_destiny
+		}
+	
+		effect = {
+			badboy = 6
+			ALD = {
+			
+				all_core = {
+					add_core = TKY
+				}
+			}
+			any_country = {
+				limit = {
+					tag = ALD
+					OR = {
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+				annex_to = TKY
+			}
+			set_country_flag = Turkish_Ottoman_Algeria
+		}
+		ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 0
+                badboy = 0.5
+            }
+        }
+	
+	}
+	Turkish_Ottoman_Wallachia = {
+		picture = map_wallachia
+		potential = {
+            tag = TKY
+			OR = {
+				has_country_flag = Turkish_Ottoman_finish
+				has_country_flag = Turkish_Ottoman_idea
+			}
+			NOT = {has_country_flag = Turkish_Ottoman_Wallachia}
+			NOT = {
+				664 = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+        }
+		
+		allow = {
+			war = no
+			invention = manifest_destiny
+		}
+	
+		effect = {
+			badboy = 5
+			
+			
+			WAL_665 = {
+				add_core = TKY
+			}
+			
+			any_country = {
+				limit = {
+					OR = {
+						tag = WAL
+						tag = ROM
+					}
+					OR = {
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+				annex_to = TKY
+			}
+			set_country_flag = Turkish_Ottoman_Wallachia
+		}
+		ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 0
+                badboy = 0.5
+            }
+        }
+	
+	}
+	Turkish_Ottoman_moldovia = {
+		picture = map_moldavia
+		potential = {
+            tag = TKY
+			OR = {
+				has_country_flag = Turkish_Ottoman_Wallachia
+				664 = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+			NOT = {has_country_flag = Turkish_Ottoman_Moldovia}
+			NOT = {
+				670 = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+        }
+		
+		allow = {
+			war = no
+			invention = manifest_destiny
+		}
+	
+		effect = {
+			badboy = 7
+			
+			
+			MOL_673 = {
+				add_core = TKY
+			}
+			
+			any_country = {
+				limit = {
+					OR = {
+						tag = WAL
+						tag = ROM
+					}
+					OR = {
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+				annex_to = TKY
+			}
+			set_country_flag = Turkish_Ottoman_moldovia
+		}
+		ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 0
+                badboy = 0.5
+            }
+        }
+	
+	}
+	Turkish_Ottoman_Serb = {
+		picture = belgrade
+		potential = {
+            tag = TKY
+			OR = {
+				has_country_flag = Turkish_Ottoman_finish
+				has_country_flag = Turkish_Ottoman_idea
+			}
+			NOT = {has_country_flag = Turkish_Ottoman_Serb}
+			NOT = {
+				796 = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+        }
+		
+		allow = {
+			war = no
+			invention = manifest_destiny
+		}
+	
+		effect = {
+			badboy = 5
+			
+			SER_794 = {
+				add_core = TKY
+			}
+			any_country = {
+				limit = {
+					tag = SER
+					OR = {
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+				annex_to = TKY
+			}
+			set_country_flag = Turkish_Ottoman_Serb
+		}
+		ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 0
+                badboy = 0.5
+            }
+        }
+	
+	}
+	Turkish_Ottoman_Montenegro = {
+		picture = montenegro
+		potential = {
+            tag = TKY
+			OR = {
+				has_country_flag = Turkish_Ottoman_finish
+				has_country_flag = Turkish_Ottoman_idea
+			}
+			NOT = {has_country_flag = Turkish_Ottoman_mon}
+			NOT = {
+				2583 = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+        }
+		
+		allow = {
+			war = no
+			invention = manifest_destiny
+		}
+	
+		effect = {
+			badboy = 3
+			MON = {
+			
+				all_core = {
+					add_core = TKY
+				}
+			}
+			any_country = {
+				limit = {
+					tag = MON
+					OR = {
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+				annex_to = THIS
+			}
+			set_country_flag = Turkish_Ottoman_mon
+		}
+		ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 0
+                badboy = 0.5
+            }
+        }
+	
+	}
+	Turkish_Ottoman_Greece = {
+		picture = ottomangreece
+		potential = {
+            tag = TKY
+			OR = {
+				has_country_flag = Turkish_Ottoman_finish
+				has_country_flag = Turkish_Ottoman_idea
+			}
+			NOT = {has_country_flag = Turkish_Ottoman_Greece}
+			NOT = {
+				834 = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+        }
+		
+		allow = {
+			war = no
+			invention = manifest_destiny
+		}
+	
+		effect = {
+			badboy = 8
+			GRE = {
+			
+				all_core = {
+					add_core = TKY
+				}
+			}
+			set_country_flag = Turkish_Ottoman_Greece
+		}
+		ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 0
+                badboy = 0.5
+            }
+        }
+	
+	}
+	Turkish_Ottoman_Arabia = {
+		picture = southernArabia
+		potential = {
+            tag = TKY
+			OR = {
+				has_country_flag = Turkish_Ottoman_finish
+				has_country_flag = Turkish_Ottoman_idea
+			}
+			NOT = {has_country_flag = Turkish_Ottoman_Arabia}
+			OR = {
+				NOT = {
+					1151 = {
+						OR = {
+							owned_by = THIS
+							owner = {
+								vassal_of = THIS
+							}
+						}
+					}
+				}
+				NOT = {
+					1157 = {
+						OR = {
+							owned_by = THIS
+							owner = {
+								vassal_of = THIS
+							}
+						}
+					}
+				}
+			}
+        }
+		
+		allow = {
+			war = no
+			invention = manifest_destiny
+		}
+	
+		effect = {
+			badboy = 3
+			NEJ_1156 = { add_core = TKY}
+			HDJ_1151= { add_core = TKY}
+			NEJ_1157 = { add_core = TKY}
+			935 = { add_core = TKY} 
+			set_country_flag = Turkish_Ottoman_Arabia
+			any_country = {
+				limit = {
+					OR = {
+						tag = NEJ
+						tag = HDJ
+						tag = HAL
+						tag = KWT
+					}
+					OR = {
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+				annex_to = TKY
+			}
+		}
+		ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 0
+                badboy = 0.5
+            }
+        }
+	
+	}
+	Turkish_Ottoman_Yemen = {
+		picture = yemen
+		potential = {
+            tag = TKY
+			
+			OR = {
+				has_country_flag = Turkish_Ottoman_Arabia
+				1151 = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+			NOT = {has_country_flag = Turkish_Ottoman_Yemen}
+			NOT = {
+				1412 = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+        }
+		
+		allow = {
+			war = no
+			invention = manifest_destiny
+		}
+	
+		effect = {
+			badboy = 3
+			YEM_1412 = { add_core = TKY}
+			YEM_1178 = { add_core = TKY}
+			any_country = {
+				limit = {
+					OR = {
+						tag = LHJ
+						tag = FDL
+						tag = KTH
+						tag = MHR
+						tag = NYE
+					}
+					OR = {
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+				annex_to = THIS
+			}
+			set_country_flag = Turkish_Ottoman_Yemen
+		}
+		ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 0
+                badboy = 0.5
+            }
+        }
+	
+	}
+	Turkish_Ottoman_Oman = {
+		picture = Seydi_Ali-Ambush
+		potential = {
+            tag = TKY
+			OR = {
+				has_country_flag = Turkish_Ottoman_Arabia
+				1151 = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+			NOT = {has_country_flag = Turkish_Ottoman_Oman}
+			NOT = {
+				1166 = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+        }
+		
+		allow = {
+			war = no
+			invention = manifest_destiny
+		}
+	
+		effect = {
+			badboy = 3
+			
+			OMA_1166 = {
+				add_core = TKY
+			}
+			any_country = {
+				limit = {
+					tag = OMA
+					OR = {
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+				OMA_1166 = { secede_province = THIS }
+			}
+			set_country_flag = Turkish_Ottoman_Oman
+		}
+		ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 0
+                badboy = 0.5
+            }
+        }
+	
+	}
+	Turkish_Ottoman_trucial = {
+		picture = persianGulf
+		potential = {
+            tag = TKY
+			OR = {
+				has_country_flag = Turkish_Ottoman_Arabia
+				1151 = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+			NOT = {has_country_flag = Turkish_Ottoman_trucial}
+			NOT = {
+				1167 = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+        }
+		
+		allow = {
+			war = no
+			invention = manifest_destiny
+		}
+	
+		effect = {
+			badboy = 4
+			ABU_1162 = { add_core = TKY}
+			any_country = {
+				limit = {
+					OR ={
+						tag = ABU
+						tag = QAT
+						tag = BHR
+					}
+					OR = {
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+				annex_to = TKY
+			}
+			set_country_flag = Turkish_Ottoman_trucial
+		}
+		ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 0
+                badboy = 0.5
+            }
+        }
+	
+	}
+	
+	Turkish_Ottoman_lybia = {
+		picture = tripoli
+		potential = {
+            tag = TKY
+			
+			OR = {
+				has_country_flag = Turkish_Ottoman_Egypt
+				1745 = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							vassal_of = THIS
+						}
+					}
+				}
+				
+			}
+			
+			NOT = {has_country_flag = Turkish_Ottoman_lybia}
+			
+        }
+		
+		allow = {
+			war = no
+			invention = manifest_destiny
+		}
+	
+		effect = {
+			badboy = 3
+			TRI_1731 = { add_core = TKY}
+			TRI_1735 = { add_core = TKY}
+			any_country = {
+				limit = {
+					tag = TRI
+					OR = {
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+				annex_to = TKY
+			}
+			set_country_flag = Turkish_Ottoman_lybia
+		}
+		ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 0
+                badboy = 0.5
+            }
+        }
+	
+	}
+	
+	Turkish_Ottoman_Hungary = {
+		picture = ottomanhungary
+		potential = {
+            tag = TKY
+			OR = {
+				794 = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							vassal_of = THIS
+						}
+					}
+				}
+				672 = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+			NOT = {has_country_flag = Turkish_Ottoman_hungary}
+			
+        }
+		
+		allow = {
+			war = no
+			invention = manifest_destiny
+		}
+	
+		effect = {
+		badboy = 15
+			HUN = {
+			
+				all_core = {
+					add_core = TKY
+				}
+			}
+			
+			set_country_flag = Turkish_Ottoman_hungary
+		}
+		ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 0
+                badboy = 0.5
+            }
+        }
+	
+	}
+	
+	#OTTOMAN CULTURE
+	
+	Turkish_Ottoman_Organise = {
+		picture = the_grunderzeit2
+		potential = {
+            tag = TKY
+			
+			has_country_flag = Turkish_Ottoman_heir
+			
+			NOT = {has_country_flag = Turkish_Ottoman_Organise}
+        }
+		
+		allow = {
+			war = no
+			revolution_n_counterrevolution = 1
+			iron_railroad = 1
+			central_bank_money_bill_printing = 1
+			vote_franschise = universal_voting
+			citizens_rights = all_voting_pops
+			money =500000
+
+			OR = {
+				owns = 1151
+
+
+				owns = 1725
+
+				owns = 834
+			}
+		}
+	
+		effect = {
+			prestige = 10
+			set_country_flag = Turkish_Ottoman_Organise
+			treasury = -500000
+			
+		}
+		ai_will_do = {
+            factor = 1
+            
+        }
+	
+	}
+	
+	Turkish_Ottoman_Arab = {
+		picture = bedouin
+		potential = {
+            tag = TKY
+			
+			has_country_flag = Turkish_Ottoman_Organise
+			OR = {
+				NOT = {accepted_culture = mashriqi}
+				NOT = {accepted_culture = bedouin}
+			}
+        }
+		
+		allow = {
+			owns = 1151
+			experimental_psychology = 1
+		}
+	
+		effect = {
+			prestige = -20
+			add_accepted_culture = mashriqi
+			add_accepted_culture = bedouin
+		}
+		ai_will_do = {
+            factor = 1
+            
+        }
+	
+	}
+	
+	Turkish_Ottoman_ashkenazi = {
+		picture = hasidic-jan-web-large-1548259681
+		potential = {
+            tag = TKY
+			
+			has_country_flag = Turkish_state
+			OR = {
+				NOT = { accepted_culture = ashkenazi}
+				NOT = { accepted_culture = sephardic}
+			}
+        }
+		
+		allow = {
+			phenomenalism = 1
+		}
+	
+		effect = {
+			prestige = -10
+			add_accepted_culture = ashkenazi
+			add_accepted_culture = sephardic
+		}
+		ai_will_do = {
+            factor = 1
+            
+        }
+	
+	}
+	
+	Turkish_Ottoman_easternanatolian = {
+		picture = kurds-ii-22
+		potential = {
+            tag = TKY
+			
+			has_country_flag = Turkish_Ottoman_Organise
+			OR = {
+				NOT = {accepted_culture = kurdish}
+				NOT = {accepted_culture = armenian}
+			}
+        }
+		
+		allow = {
+			experimental_psychology = 1
+			owns = 890
+			owns = 891
+		}
+	
+		effect = {
+			prestige = -20
+			add_accepted_culture = armenian
+			add_accepted_culture = kurdish
+		}
+		ai_will_do = {
+            factor = 1
+            
+        }
+	
+	}
+	
+	Turkish_Ottoman_Egyptian = {
+		picture = misri
+		potential = {
+            tag = TKY
+			
+			has_country_flag = Turkish_Ottoman_Organise
+			OR = {
+				NOT = {accepted_culture = misri}
+			}
+        }
+		
+		allow = {
+			psychoanalysis = 1
+			owns = 1745
+		}
+	
+		effect = {
+			prestige = -20
+			add_accepted_culture = misri
+		}
+		ai_will_do = {
+            factor = 1
+            
+        }
+	
+	}
+	
+	Turkish_Ottoman_Greek = {
+		picture = map-of-western-turkey-itmb-3_1200x630
+		potential = {
+            tag = TKY
+			
+			has_country_flag = Turkish_Ottoman_Organise
+			OR = {
+				NOT = {accepted_culture = greek}
+			}
+        }
+		
+		allow = {
+			psychoanalysis = 1
+			owns = 834
+		}
+	
+		effect = {
+			prestige = -20
+			add_accepted_culture = greek
+			TUR_860 = { add_core = GRE}
+			TUR_863 = { add_core = GRE}
+			TUR_869 = { add_core = GRE}
+		}
+		ai_will_do = {
+            factor = 1
+            
+        }
+	
+	}
+	
+	Turkish_Ottoman_balkanminors = {
+		picture = Amadeo_Preziosi_Albanians_Mercenaries_in_the_Ottoman_Army
+		potential = {
+            tag = TKY
+			
+			has_country_flag = Turkish_Ottoman_Organise
+			OR = {
+				NOT = {accepted_culture = bosniak}
+				NOT = {accepted_culture = albanian}
+			}
+        }
+		
+		allow = {
+			experimental_psychology = 1
+			owns = 1745
+		}
+	
+		effect = {
+			prestige = -20
+			add_accepted_culture = bosniak
+			add_accepted_culture = albanian
+		}
+		ai_will_do = {
+            factor = 1
+            
+        }
+	}
+	
+	
+	#TURANSIM
+	
+	Turkish_Turan_Caucus = {
+		picture = Caucasus-ussrtravel-1930
+		potential = {
+            tag = TKY
+			has_country_flag = Turkish_Turan_heir
+			NOT = {has_country_flag = Turkish_Turan_Caucus}
+			885 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						vassal_of = THIS
+					}
+				}
+			}
+        }
+			
+			
+        
+		
+		allow = {
+			war = no
+			invention = manifest_destiny
+			
+		}
+	
+		effect = {
+			badboy = 8
+			RUS_1090 = {add_core = TKY}
+			RUS_1098 = {add_core = TKY}
+			RUS_1102 = {add_core = TKY}
+			RUS_1048 = {add_core = TKY}
+			RUS_1052 = {add_core = TKY}
+			set_country_flag = Turkish_Turan_Caucus
+		}
+		ai_will_do = {
+            factor = 1
+            
+        }
+	}
+	
+	Turkish_Turan_NorthernCaspian = {
+		picture = 12212_2019_5088_Fig1_HTML
+		potential = {
+            tag = TKY
+			has_country_flag = Turkish_Turan_heir
+			NOT = {has_country_flag = Turkish_Turan_NorthernCaspian}
+			1050 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						vassal_of = THIS
+					}
+				}
+			}
+        }
+			
+			
+        
+		
+		allow = {
+			war = no
+			invention = manifest_destiny
+			
+		}
+	
+		effect = {
+			badboy = 8
+			RUS_979 = {add_core = TKY}
+			RUS_1041 = {add_core = TKY}
+			RUS_1182 = {add_core = TKY}
+			set_country_flag = Turkish_Turan_NorthernCaspian
+		}
+		ai_will_do = {
+            factor = 1
+            
+        }
+	}
+	
+	Turkish_Turan_ThroughPersia = {
+		picture = 36dd2b06146791cc5cc5ce847a889349
+		potential = {
+            tag = TKY
+			has_country_flag = Turkish_Turan_heir
+			NOT = {has_country_flag = Turkish_Turan_throughpersia}
+			890 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						vassal_of = THIS
+					}
+				}
+			}
+        }
+			
+			
+        
+		
+		allow = {
+			war = no
+			invention = manifest_destiny
+			
+		}
+	
+		effect = {
+			badboy = 8
+			PER_1112 = {add_core = TKY}
+			PER_1122 = {add_core = TKY}
+			PER_1132 = {add_core = TKY}
+			PER_1121 = {add_core = TKY}
+			PER_1116 = {add_core = TKY}
+			PER_1148 = {add_core = TKY}
+			set_country_flag = Turkish_Turan_throughpersia
+		}
+		ai_will_do = {
+            factor = 1
+            
+        }
+	}
+	
+	Turkish_Turan_centralAsia = {
+		picture = tumblr_ovrckxaOdF1svtp5bo1_1280
+		potential = {
+            tag = TKY
+			has_country_flag = Turkish_Turan_heir
+			NOT = {has_country_flag = Turkish_Turan_centralAsia}
+			OR = {
+				1150 = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							vassal_of = THIS
+						}
+					}
+				}
+				2702 = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+        }
+			
+			
+        
+		
+		allow = {
+			war = no
+			invention = manifest_destiny
+			
+		}
+	
+		effect = {
+			badboy = 7
+			RUS_1196 = {add_core = TKY}
+			KHI_1191 = {add_core = TKY}
+			RUS_1185 = {add_core = TKY}
+			RUS_1184 = {add_core = TKY}
+			KOK_1190 = {add_core = TKY}
+			set_country_flag = Turkish_Turan_centralAsia
+		}
+		ai_will_do = {
+            factor = 1
+            
+        }
+	}
+	Turkish_Turan_XinJiang = {
+		picture = China_Xinjiang_relief_location_map
+		potential = {
+            tag = TKY
+			has_country_flag = Turkish_Turan_heir
+			NOT = {has_country_flag = Turkish_Turan_XinJiang}
+			OR = {
+				1188 = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							vassal_of = THIS
+						}
+					}
+				}
+				1190 = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+        }
+			
+			
+        
+		
+		allow = {
+			war = no
+			invention = manifest_destiny
+			
+		}
+	
+		effect = {
+			badboy = 4
+			CHI_1594 = {add_core = TKY}
+			CHI_1600 = {add_core = TKY}
+			
+			set_country_flag = Turkish_Turan_XinJiang
+		}
+		ai_will_do = {
+            factor = 1
+            
+        }
+	}
+	
+	Turkish_Turan_Siberia = {
+		picture = 1003892_doc1_1942E0AF-6513-4B59-85F2-2B2F7DA4A4A6
+		potential = {
+            tag = TKY
+			has_country_flag = Turkish_Turan_heir
+			NOT = {has_country_flag = Turkish_Turan_Siberia}
+			OR = {
+				1188 = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							vassal_of = THIS
+						}
+					}
+				}
+				1184 = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+        }
+			
+			
+        
+		
+		allow = {
+			war = no
+			invention = manifest_destiny
+			
+		}
+	
+		effect = {
+			badboy = 8
+			RUS_2685 = {add_core = TKY}
+			RUS_1064 = {add_core = TKY}
+			RUS_2653 = {add_core = TKY}
+			RUS_1469 = {add_core = TKY}
+			RUS_1070 = {add_core = TKY}
+			RUS_2615 = {add_core = TKY}
+			RUS_1075 = {add_core = TKY}
+			RUS_1079 = {add_core = TKY}
+			RUS_1065= {add_core = TKY}
+			RUS_1069 = {add_core = TKY}
+			set_country_flag = Turkish_Turan_Siberia
+		}
+		ai_will_do = {
+            factor = 1
+            
+        }
+	}
+	
+	Turkish_Turan_Crimea = {
+		picture = crimea
+		potential = {
+            tag = TKY
+			OR = {
+				has_country_flag = Turkish_Ottoman_finish
+				has_country_flag = Turkish_Ottoman_idea
+				has_country_flag = Turkish_Turan_heir
+			}
+			NOT = {has_country_flag = Turkish_Turan_Crimea}
+			
+        }
+			
+			
+        
+		
+		allow = {
+			war = no
+			invention = manifest_destiny
+			
+		}
+	
+		effect = {
+			badboy = 3
+			RUS_964 = {add_core = TKY}
+			
+			set_country_flag = Turkish_Turan_Crimea
+		}
+		ai_will_do = {
+            factor = 1
+            
+        }
+	}
+	
+	Turkish_Turan_Coast = {
+		picture = coastsiberia
+		potential = {
+            tag = TKY
+			has_country_flag = Turkish_Turan_heir
+			NOT = {has_country_flag = Turkish_Turan_coast}
+			OR = {
+				1079 = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							vassal_of = THIS
+						}
+					}
+				}
+				1069 = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+        }
+			
+			
+        
+		
+		allow = {
+			war = no
+			invention = manifest_destiny
+			
+		}
+	
+		effect = {
+			badboy = 4
+			RUS_1072 = {add_core = TKY}
+			RUS_1071 = {add_core = TKY}
+			RUS_2618 = {add_core = TKY}
+			RUS_2668 = {add_core = TKY}
+			RUS_2590 = {add_core = TKY}
+			RUS_1074 = {add_core = TKY}
+			any_country = {
+				limit = {
+					tag = RUS
+					owns = CHI_1082
+				}
+				CHI_1082= {add_core = TKY}
+			}
+			any_country = {
+				limit = {
+					tag = RUS
+					owns = 1086
+				}
+				1086 = {add_core = TKY}
+			}
+			set_country_flag = Turkish_Turan_coast
+		}
+		ai_will_do = {
+            factor = 1
+            
+        }
+	}
+	
+	#Turan Culture
+	
+	Turkish_Turan_Organise = {
+		picture = turan
+		potential = {
+            tag = TKY
+			
+			has_country_flag = Turkish_Turan_heir
+			
+			NOT = {has_country_flag = Turkish_Turan_Organise}
+        }
+		
+		allow = {
+			war = no
+			revolution_n_counterrevolution = 1
+			steel_railroad = 1
+			central_bank_money_bill_printing = 1
+			vote_franschise = universal_voting
+			citizens_rights = all_voting_pops
+			money =500000
+
+			AND = {
+				owns = 1102
+
+
+				owns = 1191
+
+				owns = 1188
+			}
+		}
+	
+		effect = {
+			prestige = 10
+			set_country_flag = Turkish_Turan_Organise
+			treasury = -500000
+			add_accepted_culture = azerbaijani
+			add_accepted_culture = tatar
+			add_accepted_culture = turkmen
+			add_accepted_culture = uzbek
+			add_accepted_culture = kazak
+			add_accepted_culture = kirgiz
+            add_accepted_culture = tajik
+            add_accepted_culture = uighur
+			add_accepted_culture = siberian
+			
+			
+		}
+		ai_will_do = {
+            factor = 1
+            
+        }
+	
+	}
+	
+	Turkish_Turan_Hungary = {
+		picture = etnofeszt33
+		potential = {
+            tag = TKY
+			
+			has_country_flag = Turkish_Turan_Organise
+			OR = {
+				NOT = {accepted_culture = hungarian}
+			}
+			owns = 641
+        }
+		
+		allow = {
+			psychoanalysis = 1
+			
+		}
+	
+		effect = {
+			prestige = -20
+			add_accepted_culture = hungarian
+			
+		}
+		ai_will_do = {
+            factor = 1
+            
+        }
+	
+	}
+
+}

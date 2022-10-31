@@ -1,0 +1,23 @@
+name = "Ottoman Restoration of Tripoli"
+
+1735.10.2 = {
+	add_attacker = ITA
+	add_defender = TUN
+	
+	# actor
+	# receiver
+	# casus_belli - cb type
+	# country - 3rd party
+	# state_province_id - target state capital
+	war_goal = {
+		casus_belli = conquest
+		actor = ITA
+		receiver = TUN
+	}
+
+}
+
+1736.6.6 = {
+	rem_attacker = ITA
+	rem_defender = TUN
+}

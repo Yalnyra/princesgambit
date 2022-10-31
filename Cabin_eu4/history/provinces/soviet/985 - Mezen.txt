@@ -1,0 +1,9 @@
+owner=SWE
+controller=SWE
+add_core=LIT
+add_core=SWE
+add_core=RUS
+add_core=NVG
+trade_goods = cotton
+life_rating = 10
+terrain = boreal

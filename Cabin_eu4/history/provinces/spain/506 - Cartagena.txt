@@ -1,0 +1,7 @@
+owner=ITA
+controller=ITA
+add_core=SPA
+add_core=ARN
+add_core=CAT
+trade_goods = fish
+life_rating = 35

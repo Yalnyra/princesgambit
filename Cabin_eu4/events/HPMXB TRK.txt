@@ -1,0 +1,256 @@
+country_event = {
+	id = 69420 #lmao it's the sex & weed number
+	title = "EVTNAME69420" # Turkish Identity
+    desc = "EVTDESC69420"
+    picture = "graspar_francia"
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+        name = "EVT69420OPTA"
+        prestige = 10
+		any_pop = {
+			limit = { has_pop_culture = turkish }
+			militancy = -2
+			consciousness = -3
+		}
+		add_country_modifier = {
+                name = neutrality_modifier
+                duration = -1
+            } 
+		set_country_flag = Turkish_peace_at_home
+    }
+	
+	option = {
+        name = "EVT69420OPTB"
+        prestige = -5
+		any_pop = {
+			limit = { has_pop_culture = turkish }
+			militancy = 1
+			consciousness = 2
+		}
+		set_country_flag = Turkish_Ottoman_heir
+    }
+	
+	option = {
+        name = "EVT69420OPTC"
+        prestige = -10
+		any_pop = {
+			limit = { has_pop_culture = turkish }
+			militancy = 2
+			consciousness = 3
+		}
+		set_country_flag = Turkish_Turan_heir
+    }
+	
+	# Greedy Bastard
+	option = { 
+        name = "EVT69420OPTD"
+        prestige = -20
+		any_pop = {
+			limit = { has_pop_culture = turkish }
+			militancy = 4
+			consciousness = 6
+		}
+		set_country_flag = Turkish_Ottoman_heir
+		set_country_flag = Turkish_Turan_heir
+    }
+}
+
+country_event = { 
+	id = 69421  #Ottoman Idea
+	title = "EVTNAME69421"
+    desc = "EVTDESC69421"
+    picture = "treaty"
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+        name = "EVT69421OPTA" # no, we are a republic
+        prestige = 10
+		any_pop = {
+			limit = { has_pop_culture = turkish }
+			militancy = -2
+			consciousness = -3
+		}
+		
+		ai_chance = {
+            factor = 10
+        }
+		
+    }
+	
+	option = {
+        name = "EVT69421OPTB" # ask them
+        prestige = -5
+		any_pop = {
+			limit = { has_pop_culture = turkish }
+			militancy = 1
+			consciousness = 2
+		}
+		TUR = { country_event = 69422}
+		
+    }
+	
+	
+}
+
+country_event = {
+	id = 69422 #ottoman choice
+	title = "EVTNAME69422"
+    desc = "EVTDESC69422"
+    picture = "treaty"
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+        name = "EVT69422OPTA" # accept
+        TKY = { country_event = 69424}
+		
+		ai_chance = {
+            factor = 2
+        }
+    }
+	
+	option = {
+        name = "EVT69422OPTB" # deny
+        prestige = 15
+		any_pop = {
+            dominant_issue = {
+                factor = 0.10
+                value = jingoism
+            }
+		}
+		TKY = {country_event = 69423}
+		
+		ai_chance = {
+            factor = 2
+            modifier = {
+                factor = 2
+                is_secondary_power = yes
+            }
+            modifier = {
+                factor = 2
+                NOT = { in_sphere = TKY }
+                part_of_sphere = yes
+            }
+            modifier = {
+                factor = 0.5
+                TKY = { brigades_compare = 2 }
+            }
+            modifier = {
+                factor = 2
+                NOT = {
+                    TKY = { brigades_compare = 1 }
+                }
+            }
+            modifier = {
+                factor = 2
+                war_policy = jingoism
+            }
+			modifier = {
+                factor = 0.5
+                relation = { who = TKY value = 0 }
+            }
+			modifier = {
+                factor = 0
+                relation = { who = TKY value = 100 }
+            }
+			modifier = {
+                factor = 0
+                in_sphere = TKY
+            }
+        }
+    }
+	
+}
+
+country_event = {
+	id = 69423 #bad response
+	title = "EVTNAME69423"
+    desc = "EVTDESC69423"
+    picture = "treaty"
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+        name = "EVT69423OPTA" # war
+		badboy = 5
+		TUR = {
+			
+			all_core = {
+				add_core = TKY
+			}
+        }
+		war = {
+			target = TUR
+			attacker_goal = { casus_belli = unification_annex_casus_belli }
+		}
+		
+		ai_chance = {
+            factor = 8
+            modifier = {
+                factor = 0.5
+                TUR = { brigades_compare = 2 }
+            }
+            modifier = {
+                factor = 2
+                NOT = {
+                    TUR = { brigades_compare = 1 }
+                }
+            }
+            modifier = {
+                factor = 2
+                war_policy = jingoism
+            }
+			modifier = {
+                factor = 0.5
+				TUR = {
+					NOT = { in_sphere = TKY }
+					part_of_sphere = yes
+				}
+            }
+        }
+    }
+	
+	option = {
+        name = "EVT69423OPTB" # oh well
+        prestige = -20
+		TUR = {
+			
+			all_core = {
+				add_core = TKY
+			}
+        }
+    }
+	
+}
+
+country_event = {
+	id = 69424 #good response
+	title = "EVTNAME69424"
+    desc = "EVTDESC69424"
+    picture = "treaty"
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+        name = "EVT69424OPTA" # yay
+		TUR = {
+			
+			all_core = {
+				remove_core = TUR
+				add_core = TKY
+			}
+			annex_to = TKY
+        }
+		TKY = {
+			government = hms_government
+			prestige = 10
+		}
+    }
+	
+
+	
+}
+

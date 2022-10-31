@@ -1,0 +1,228 @@
+2534 = {
+	soldiers=
+	{
+		culture = melanesian
+		religion = animist
+		size= 128
+	}
+
+	farmers=
+	{
+		culture = melanesian
+		religion = animist
+		size= 6265
+	}
+
+	soldiers=
+	{
+		culture = dakshin
+		religion = hindu
+		size= 182
+	}
+
+	farmers=
+	{
+		culture = dakshin
+		religion = hindu
+		size= 8503
+	}
+
+	artisans=
+	{
+		culture = dakshin
+		religion = hindu
+		size= 311
+	}
+
+	clergymen=
+	{
+		culture = dakshin
+		religion = hindu
+		size= 116
+	}
+
+	aristocrats=
+	{
+		culture = dakshin
+		religion = hindu
+		size= 65
+	}
+
+	officers=
+	{
+		culture = dakshin
+		religion = hindu
+		size= 10
+	}
+
+	bureaucrats=
+	{
+		culture = dakshin
+		religion = hindu
+		size= 3
+	}
+
+	soldiers=
+	{
+		culture = dakshin
+		religion = sunni
+		size= 38
+	}
+
+	artisans=
+	{
+		culture = dakshin
+		religion = sunni
+		size= 388
+	}
+
+	clergymen=
+	{
+		culture = dakshin
+		religion = sunni
+		size= 145
+	}
+
+	bureaucrats=
+	{
+		culture = dakshin
+		religion = sunni
+		size= 5
+	}
+
+	officers=
+	{
+		culture = dakshin
+		religion = sunni
+		size= 13
+	}
+
+	aristocrats=
+	{
+		culture = dakshin
+		religion = sunni
+		size= 81
+	}
+
+	farmers=
+	{
+		culture = dakshin
+		religion = sunni
+		size= 1246
+	}
+
+}
+2536 = {
+	soldiers=
+	{
+		culture = melanesian
+		religion = animist
+		size= 46
+	}
+
+	farmers=
+	{
+		culture = melanesian
+		religion = animist
+		size= 2274
+	}
+
+	farmers=
+	{
+		culture = janubii
+		religion = sunni
+		size= 792
+	}
+
+	artisans=
+	{
+		culture = janubii
+		religion = sunni
+		size= 146
+	}
+
+	aristocrats=
+	{
+		culture = janubii
+		religion = sunni
+		size= 14
+	}
+
+	clergymen=
+	{
+		culture = janubii
+		religion = sunni
+		size= 10
+	}
+
+	soldiers=
+	{
+		culture = janubii
+		religion = sunni
+		size= 17
+	}
+
+	bureaucrats=
+	{
+		culture = janubii
+		religion = sunni
+		size= 1
+	}
+
+	officers=
+	{
+		culture = janubii
+		religion = sunni
+		size= 1
+	}
+
+	soldiers=
+	{
+		culture = janubii
+		religion = catholic
+		size= 61
+	}
+
+	artisans=
+	{
+		culture = janubii
+		religion = catholic
+		size= 421
+	}
+
+	clergymen=
+	{
+		culture = janubii
+		religion = catholic
+		size= 30
+	}
+
+	bureaucrats=
+	{
+		culture = janubii
+		religion = catholic
+		size= 5
+	}
+
+	officers=
+	{
+		culture = janubii
+		religion = catholic
+		size= 6
+	}
+
+	aristocrats=
+	{
+		culture = janubii
+		religion = catholic
+		size= 39
+	}
+
+	farmers=
+	{
+		culture = janubii
+		religion = catholic
+		size= 2492
+	}
+
+}

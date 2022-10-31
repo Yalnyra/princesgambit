@@ -1,0 +1,6 @@
+owner=ISR
+controller=ISR
+add_core=LIT
+add_core=UBD
+trade_goods = fish
+life_rating = 40

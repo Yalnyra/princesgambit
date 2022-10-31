@@ -1,0 +1,1049 @@
+#Sphere of Influence
+
+AAC = {
+	value = 35
+	level = 2
+}
+ADE = {
+	value = 35
+	level = 2
+}
+AIN = {
+	value = 0
+	level = 2
+}
+AJU = {
+	value = 0
+	level = 2
+}
+AKH = {
+	value = 102
+	influence_value = 13
+	level = 2
+}
+ALO = {
+	value = 66
+	influence_value = 4
+	level = 2
+}
+ALS = {
+	value = 0
+	level = 2
+}
+ANH = {
+	value = 117
+	influence_value = 16
+	level = 2
+}
+ARN = {
+	value = 35
+	level = 2
+}
+ARW = {
+	value = 0
+	level = 2
+}
+AUS = {
+	value = 45
+	level = 2
+}
+AVR = {
+	value = 0
+	level = 2
+}
+BAD = {
+	value = 35
+	level = 2
+}
+BEG = {
+	value = 35
+	level = 2
+}
+BLA = {
+	value = 0
+	level = 2
+}
+BMN = {
+	value = 35
+	level = 2
+}
+BNG = {
+	value = 35
+	level = 2
+}
+BNY = {
+	value = 0
+	level = 2
+}
+BOL = {
+	value = 35
+	level = 2
+}
+BRA = {
+	value = 132
+	influence_value = 20
+	level = 2
+}
+BRB = {
+	value = 35
+	level = 2
+}
+BRD = {
+	value = 0
+	level = 2
+}
+BRE = {
+	value = 131
+	influence_value = 20
+	level = 2
+}
+BRG = {
+	value = 35
+	level = 2
+}
+BRN = {
+	value = 60
+	influence_value = 2
+	level = 2
+}
+BRU = {
+	value = 35
+	level = 2
+}
+BRZ = {
+	value = 35
+	level = 2
+}
+BUL = {
+	value = 0
+	level = 2
+}
+CAL = {
+	value = 35
+	level = 2
+}
+CEB = {
+	value = 0
+	level = 2
+}
+CHA = {
+	value = 0
+	level = 2
+}
+CHV = {
+	value = 0
+	level = 2
+}
+CKW = {
+	value = 0
+	level = 2
+}
+CLB = {
+	value = 114
+	influence_value = 16
+	level = 2
+}
+CLM = {
+	value = 0
+	level = 2
+}
+COF = {
+	value = 0
+	level = 2
+}
+CRK = {
+	value = 0
+	level = 2
+}
+CRO = {
+	value = 0
+	level = 2
+}
+CST = {
+	value = 35
+	level = 2
+}
+CUB = {
+	value = 35
+	level = 2
+}
+DAH = {
+	value = 0
+	level = 2
+}
+DAI = {
+	value = 35
+	level = 2
+}
+DAW = {
+	value = 35
+	level = 2
+}
+DGB = {
+	value = 0
+	level = 2
+}
+DLH = {
+	value = 35
+	level = 2
+}
+DLM = {
+	value = 158
+	influence_value = 27
+	level = 3
+}
+ECU = {
+	value = 35
+	level = 2
+}
+EFR = {
+	value = 72
+	influence_value = 5
+	level = 2
+}
+EGY = {
+	value = 35
+	level = 2
+}
+ENG = {
+	value = 85
+	influence_value = 8
+	level = 3
+}
+ETH = {
+	value = 129
+	influence_value = 19
+	level = 2
+}
+FLA = {
+	value = 35
+	level = 2
+}
+FRI = {
+	value = 75
+	influence_value = 6
+	level = 2
+}
+FRM = {
+	value = 35
+	level = 2
+}
+GLR = {
+	value = 35
+	level = 2
+}
+GNV = {
+	value = 35
+	level = 2
+}
+GOS = {
+	value = 102
+	influence_value = 13
+	level = 2
+}
+GRA = {
+	value = 35
+	level = 2
+}
+GRJ = {
+	value = 0
+	level = 2
+}
+GRK = {
+	value = 0
+	level = 2
+}
+GUJ = {
+	value = 35
+	level = 2
+}
+GZK = {
+	value = 0
+	level = 2
+}
+HAM = {
+	value = 129
+	influence_value = 19
+	level = 2
+}
+HAT = {
+	value = 35
+	level = 2
+}
+HAU = {
+	value = 35
+	level = 2
+}
+HAW = {
+	value = 0
+	level = 2
+}
+HES = {
+	value = 129
+	influence_value = 19
+	level = 2
+}
+HLL = {
+	value = 35
+	level = 2
+}
+ISR = {
+	value = 0
+	level = 2
+}
+IST = {
+	value = 0
+	level = 2
+}
+ITA = {
+	value = 75
+	influence_value = 6
+	level = 2
+}
+JAP = {
+	value = 0
+	level = 2
+}
+JNP = {
+	value = 35
+	level = 2
+}
+KAZ = {
+	value = 0
+	level = 2
+}
+KBO = {
+	value = 35
+	level = 2
+}
+KIK = {
+	value = 0
+	level = 2
+}
+KLE = {
+	value = 35
+	level = 2
+}
+KLK = {
+	value = 0
+	level = 2
+}
+KOL = {
+	value = 0
+	level = 2
+}
+KON = {
+	value = 35
+	level = 2
+}
+KRW = {
+	value = 0
+	level = 2
+}
+KSK = {
+	value = 0
+	level = 2
+}
+KUB = {
+	value = 0
+	level = 2
+}
+LAU = {
+	value = 114
+	influence_value = 16
+	level = 2
+}
+LBA = {
+	value = 0
+	level = 2
+}
+LIG = {
+	value = 35
+	level = 2
+}
+LIT = {
+	value = -4
+	level = 2
+}
+LNB = {
+	value = 126
+	influence_value = 19
+	level = 2
+}
+LNG = {
+	value = 0
+	level = 2
+}
+LOR = {
+	value = 35
+	level = 2
+}
+LOU = {
+	value = 35
+	level = 2
+}
+LSK = {
+	value = 0
+	level = 2
+}
+LUB = {
+	value = 123
+	influence_value = 18
+	level = 2
+}
+LUN = {
+	value = 0
+	level = 2
+}
+LUX = {
+	value = 35
+	level = 2
+}
+MAG = {
+	value = 110
+	influence_value = 15
+	level = 2
+}
+MAI = {
+	value = 129
+	influence_value = 19
+	level = 2
+}
+MAW = {
+	value = 35
+	level = 2
+}
+MDO = {
+	value = 0
+	level = 2
+}
+MEX = {
+	value = 35
+	level = 2
+}
+MFL = {
+	value = 35
+	level = 2
+}
+MHC = {
+	value = 0
+	level = 2
+}
+MHR = {
+	value = 35
+	level = 2
+}
+ML1 = {
+	value = 35
+	level = 2
+}
+MLH = {
+	value = 35
+	level = 2
+}
+MLI = {
+	value = 35
+	level = 2
+}
+MLY = {
+	value = 110
+	influence_value = 15
+	level = 3
+}
+MNI = {
+	value = 0
+	level = 2
+}
+MOL = {
+	value = 0
+	level = 2
+}
+MOR = {
+	value = 35
+	level = 2
+}
+MUN = {
+	value = 0
+	level = 2
+}
+MUS = {
+	value = 0
+	level = 2
+}
+NAK = {
+	value = 0
+	level = 2
+}
+NAV = {
+	value = 35
+	level = 2
+}
+NEV = {
+	value = 0
+	level = 2
+}
+NKO = {
+	value = 0
+	level = 2
+}
+NNG = {
+	value = 0
+	level = 2
+}
+NOG = {
+	value = 35
+	level = 2
+}
+NOR = {
+	value = 126
+	influence_value = 19
+	level = 2
+}
+NSS = {
+	value = 35
+	level = 2
+}
+NZL = {
+	value = 35
+	level = 2
+}
+OEO = {
+	value = 0
+	level = 2
+}
+OJI = {
+	value = 0
+	level = 2
+}
+OLD = {
+	value = 35
+	level = 2
+}
+OMA = {
+	value = 35
+	level = 2
+}
+OSA = {
+	value = 0
+	level = 2
+}
+OTM = {
+	value = 0
+	level = 2
+}
+PAD = {
+	value = 35
+	level = 2
+}
+PAL = {
+	value = -12
+	level = 2
+}
+PAP = {
+	value = 0
+	level = 2
+}
+PEG = {
+	value = 0
+	level = 2
+}
+PER = {
+	value = 63
+	influence_value = 3
+	level = 3
+}
+POM = {
+	value = 171
+	influence_value = 30
+	level = 3
+}
+POR = {
+	value = 35
+	level = 2
+}
+PRM = {
+	value = 0
+	level = 2
+}
+PRO = {
+	value = 26
+	level = 2
+}
+QNG = {
+	value = 0
+	level = 2
+}
+RVA = {
+	value = 35
+	level = 2
+}
+RWA = {
+	value = 0
+	level = 2
+}
+RYA = {
+	value = 101
+	influence_value = 12
+	level = 2
+}
+SAX = {
+	value = 61
+	influence_value = 2
+	level = 2
+}
+SBA = {
+	value = 35
+	level = 2
+}
+SGH = {
+	value = 35
+	level = 2
+}
+SIN = {
+	value = 0
+	level = 2
+}
+SVY = {
+	value = 35
+	level = 2
+}
+SWA = {
+	value = 35
+	level = 2
+}
+SWE = {
+	value = 38
+	level = 2
+}
+SWI = {
+	value = 126
+	influence_value = 19
+	level = 2
+}
+SYC = {
+	value = 0
+	level = 2
+}
+TID = {
+	value = 35
+	level = 2
+}
+TIM = {
+	value = 35
+	level = 2
+}
+TLA = {
+	value = 0
+	level = 2
+}
+TLC = {
+	value = 0
+	level = 2
+}
+TTL = {
+	value = 0
+	level = 2
+}
+TUN = {
+	value = -45
+	level = 2
+}
+TUR = {
+	value = 0
+	level = 2
+}
+UBH = {
+	value = 0
+	level = 2
+}
+USA = {
+	value = 35
+	level = 2
+}
+VER = {
+	value = 47
+	level = 2
+}
+VIJ = {
+	value = 0
+	level = 2
+}
+VNZ = {
+	value = 35
+	level = 2
+}
+WAD = {
+	value = 35
+	level = 2
+}
+WAL = {
+	value = 0
+	level = 2
+}
+WCY = {
+	value = 0
+	level = 2
+}
+X00 = {
+	value = 51
+	level = 2
+}
+X07 = {
+	value = 132
+	influence_value = 20
+	level = 2
+}
+X08 = {
+	value = 99
+	influence_value = 12
+	level = 2
+}
+X09 = {
+	value = 35
+	level = 2
+}
+X11 = {
+	value = 35
+	level = 2
+}
+X12 = {
+	value = 35
+	level = 2
+}
+YEM = {
+	value = 35
+	level = 2
+}
+
+#Leaders
+leader = {
+	name="Pekah Sheshna"
+	date="1710.4.15"
+	type=land
+	personality="resolute"
+	background="cartographer"
+}
+
+leader = {
+	name="Chayim Chananel"
+	date="1728.7.3"
+	type=land
+	personality="defiant"
+	background="school_of_defense"
+}
+
+leader = {
+	name="Solomon Achunai"
+	date="1734.5.1"
+	type=land
+	personality="audacious"
+	background="school_of_the_bayonet"
+}
+
+leader = {
+	name="Baasha Dudai"
+	date="1735.1.27"
+	type=land
+	personality="audacious"
+	background="cartographer"
+}
+
+leader = {
+	name="Shallum Natronai"
+	date="1736.6.1"
+	type=land
+	personality="hellbent"
+	background="cartographer"
+}
+
+
+#Armies
+navy = {
+	name="Blue Squadron"
+	location=690
+	ship = {
+		name="1st Danzig Man'o'war"
+		type=manowar
+	}
+}
+
+army = {
+	name="ZeleznÃ½"
+	location=618
+	regiment = {
+		name="1st Przemysl Infantry"
+		type=infantry
+		home=705
+	}
+	regiment = {
+		name="1st Košice Infantry"
+		type=infantry
+		home=637
+	}
+	regiment = {
+		name="1st Kovel Infantry"
+		type=infantry
+		home=957
+	}
+	regiment = {
+		name="1st Skierniewice Infantry"
+		type=infantry
+		home=710
+	}
+	regiment = {
+		name="1st Rovne Infantry"
+		type=infantry
+		home=956
+	}
+	regiment = {
+		name="1st Trencín Infantry"
+		type=infantry
+		home=634
+	}
+	regiment = {
+		name="1st Proskorov Artillery"
+		type=artillery
+		home=955
+	}
+	regiment = {
+		name="1st Bratislava Artillery"
+		type=artillery
+		home=633
+	}
+	regiment = {
+		name="1st Pinsk Artillery"
+		type=artillery
+		home=940
+	}
+	regiment = {
+		name="5th Allenstein Infantry"
+		type=infantry
+		home=696
+	}
+}
+
+army = {
+	name="Capek"
+	location=618
+	regiment = {
+		name="1st Kielce Infantry"
+		type=infantry
+		home=716
+	}
+	regiment = {
+		name="1st Breslau Infantry"
+		type=infantry
+		home=682
+	}
+	regiment = {
+		name="2nd Skierniewice Infantry"
+		type=infantry
+		home=710
+	}
+	regiment = {
+		name="2nd Kovel Infantry"
+		type=infantry
+		home=957
+	}
+	regiment = {
+		name="1st Krakow Infantry"
+		type=infantry
+		home=703
+	}
+	regiment = {
+		name="3rd Skierniewice Infantry"
+		type=infantry
+		home=710
+	}
+	regiment = {
+		name="1st Hradec Králové Artillery"
+		type=artillery
+		home=626
+	}
+	regiment = {
+		name="1st Elbing Artillery"
+		type=artillery
+		home=693
+	}
+	regiment = {
+		name="2nd Pinsk Artillery"
+		type=artillery
+		home=940
+	}
+	regiment = {
+		name="1st Lodz Infantry"
+		type=infantry
+		home=712
+	}
+	regiment = {
+		name="1st Baranovichi Artillery"
+		type=artillery
+		home=939
+	}
+}
+
+army = {
+	name="Army of Brest"
+	location=618
+	regiment = {
+		name="1st Kattowitz Infantry"
+		type=infantry
+		home=685
+	}
+	regiment = {
+		name="3rd Kovel Infantry"
+		type=infantry
+		home=957
+	}
+	regiment = {
+		name="2nd Rovne Infantry"
+		type=infantry
+		home=956
+	}
+	regiment = {
+		name="1st Mozyr Infantry"
+		type=infantry
+		home=942
+	}
+	regiment = {
+		name="1st Allenstein Infantry"
+		type=infantry
+		home=696
+	}
+	regiment = {
+		name="1st Proskorov Infantry"
+		type=infantry
+		home=955
+	}
+	regiment = {
+		name="1st Korosten Artillery"
+		type=artillery
+		home=959
+	}
+	regiment = {
+		name="1st Cherkassy Artillery"
+		type=artillery
+		home=961
+	}
+	regiment = {
+		name="1st Trencín Artillery"
+		type=artillery
+		home=634
+	}
+	regiment = {
+		name="2nd Korosten Artillery"
+		type=artillery
+		home=959
+	}
+}
+
+army = {
+	name="Army of Grodno"
+	location=618
+	regiment = {
+		name="2nd Allenstein Infantry"
+		type=infantry
+		home=696
+	}
+	regiment = {
+		name="3rd Allenstein Infantry"
+		type=infantry
+		home=696
+	}
+	regiment = {
+		name="1st Danzig Infantry"
+		type=infantry
+		home=690
+	}
+	regiment = {
+		name="4th Allenstein Infantry"
+		type=infantry
+		home=696
+	}
+	regiment = {
+		name="1st Tarnopol Infantry"
+		type=infantry
+		home=952
+	}
+	regiment = {
+		name="1st Siedlce Infantry"
+		type=infantry
+		home=711
+	}
+	regiment = {
+		name="2nd Bratislava Artillery"
+		type=artillery
+		home=633
+	}
+	regiment = {
+		name="1st Tuchel Artillery"
+		type=artillery
+		home=691
+	}
+	regiment = {
+		name="1st Kattowitz Artillery"
+		type=artillery
+		home=685
+	}
+	regiment = {
+		name="1st Banská Bystrica Artillery"
+		type=artillery
+		home=636
+	}
+}
+
+army = {
+	name="Army of Praha"
+	location=618
+	regiment = {
+		name="1st Hradec Králové Infantry"
+		type=infantry
+		home=626
+	}
+	regiment = {
+		name="1st Posen Infantry"
+		type=infantry
+		home=699
+	}
+	regiment = {
+		name="1st Brno Infantry"
+		type=infantry
+		home=631
+	}
+	regiment = {
+		name="1st Görlitz Infantry"
+		type=infantry
+		home=687
+	}
+	regiment = {
+		name="1st Prague Infantry"
+		type=infantry
+		home=625
+	}
+	regiment = {
+		name="2nd Hradec Králové Infantry"
+		type=infantry
+		home=626
+	}
+	regiment = {
+		name="1st Plock Artillery"
+		type=artillery
+		home=708
+	}
+	regiment = {
+		name="1st Brest-Litovsk Artillery"
+		type=artillery
+		home=937
+	}
+	regiment = {
+		name="1st Allenstein Artillery"
+		type=artillery
+		home=696
+	}
+	regiment = {
+		name="1st Warsaw Artillery"
+		type=artillery
+		home=706
+	}
+}
+

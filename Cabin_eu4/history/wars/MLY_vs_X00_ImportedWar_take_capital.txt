@@ -1,0 +1,30 @@
+name = "Malayan-Bavaria-Austrian War"
+
+1736.12.4 = {
+	add_attacker = MLY
+	add_attacker = NOR
+	add_attacker = PEG
+	add_attacker = X09
+	add_attacker = MEX
+	add_attacker = X12
+	add_defender = X00
+	add_defender = PAL
+	add_defender = SAX
+	add_defender = BRB
+	add_defender = MUN
+	add_defender = FRM
+	add_defender = FRI
+	add_defender = HLL
+	add_defender = USA
+	add_defender = ITA
+	add_defender = PAP
+	add_defender = NZL
+	add_defender = WSI
+
+	war_goal = {
+		casus_belli = add_to_sphere
+		actor = MLY
+		receiver = X00
+		country = X00
+	}
+}

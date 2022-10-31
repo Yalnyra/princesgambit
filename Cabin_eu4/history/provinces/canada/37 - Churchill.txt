@@ -1,0 +1,9 @@
+owner=USA
+controller=USA
+add_core=USA
+add_core=WCR
+add_core=X11
+trade_goods = fish
+life_rating = 10
+terrain = new_world_boreal
+colonial=2

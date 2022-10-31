@@ -1,0 +1,7 @@
+owner=ENG
+controller=MEX
+add_core=COC
+add_core=ITZ
+trade_goods = timber
+life_rating = 33
+colonial=2

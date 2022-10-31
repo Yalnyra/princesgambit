@@ -1,0 +1,44 @@
+2127 = {
+	aristocrats=
+	{
+		culture = french
+		religion = catholic
+		size= 20
+	}
+
+	aristocrats=
+	{
+		culture = americano
+		religion = catholic
+		size= 30
+	}
+
+	soldiers=
+	{
+		culture = americano
+		religion = catholic
+		size= 30
+	}
+
+	clergymen=
+	{
+		culture = americano
+		religion = catholic
+		size= 30
+	}
+
+	artisans=
+	{
+		culture = americano
+		religion = catholic
+		size= 75
+	}
+
+	farmers=
+	{
+		culture = americano
+		religion = catholic
+		size= 1175
+	}
+
+}

@@ -1,0 +1,8 @@
+owner=ITA
+controller=ITA
+add_core=TLC
+add_core=TUN
+trade_goods = wool
+life_rating = 31
+terrain = semidesert
+colonial=2

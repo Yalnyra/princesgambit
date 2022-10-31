@@ -1,0 +1,11 @@
+owner=ITA
+controller=ITA
+add_core=ADA
+add_core=AJU
+add_core=MRE
+add_core=SOM
+add_core=ETH
+trade_goods = fish
+life_rating = 10
+terrain = dryhills
+colonial=2

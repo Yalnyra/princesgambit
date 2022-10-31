@@ -1,0 +1,138 @@
+political_decisions = {
+
+	
+	
+	MCD_claim_greece = {
+    picture = hellenic_army
+        potential = {
+            tag = MCD
+            NOT = { has_country_flag = MCD_claim_greece }
+			owns = 805
+        }
+
+        allow = {
+            war = no
+            is_vassal = no
+            is_disarmed = no
+            war_policy = jingoism
+            #government = fascist_dictatorship
+            OR = {
+                is_secondary_power = yes
+                is_greater_power = yes
+				invention = manifest_destiny
+            }
+        }
+
+        effect = {
+            set_country_flag = MCD_claim_greece
+            prestige = 5
+			any_country = {
+				limit = {
+					
+					tag = GRE
+						
+					
+					OR = {
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+				annex_to = MCD
+			}
+            GRE = {
+				all_core = {
+					add_core = MCD
+				}
+			}
+			add_accepted_culture = greek
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+    }
+	
+	MCD_alexanders_empire = {
+    picture = hellenic_army
+        potential = {
+            tag = MCD
+			has_global_flag = fantasy_countries_enabled
+            NOT = { has_country_flag = MCD_alexanders_empire }
+        }
+
+        allow = {
+            #war = no
+            #is_vassal = no
+            #is_disarmed = no
+            #war_policy = jingoism
+            #government = fascist_dictatorship
+            OR = {
+                is_secondary_power = yes
+                is_greater_power = yes
+				#invention = manifest_destiny
+            }
+			owns = 834
+			owns = 1751
+			owns = 1745
+			owns = 900
+			owns = 869
+			owns = 926
+			owns = 1142
+			owns = 1209
+        }
+
+        effect = {
+            set_country_flag = MCD_alexanders_empire
+            prestige = 50
+			government = top_down_revolution
+			TUR_863 = {add_core = MCD}
+			TUR_869= {add_core = MCD}
+			TUR_873= {add_core = MCD}
+			TUR_876= {add_core = MCD}
+			TUR_880= {add_core = MCD}
+			TUR_882= {add_core = MCD}
+			TUR_885= {add_core = MCD}
+			TUR_890= {add_core = MCD}
+			TUR_893= {add_core = MCD}
+			TUR_894= {add_core = MCD}
+			EGY_897= {add_core = MCD}
+			EGY_903= {add_core = MCD}
+			EGY_910= {add_core = MCD}
+			EGY_915= {add_core = MCD}
+			EGY_921= {add_core = MCD}
+			TUR_931= {add_core = MCD}
+			TUR_935= {add_core = MCD}
+			PER_1112= {add_core = MCD}
+			PER_1116= {add_core = MCD}
+			PER_1121= {add_core = MCD}
+			PER_1127= {add_core = MCD}
+			PER_1122= {add_core = MCD}
+			PER_1132= {add_core = MCD}
+			PER_1136= {add_core = MCD}
+			PER_1140= {add_core = MCD}
+			PER_1148= {add_core = MCD}
+			KAL_1221= {add_core = MCD}
+			SIN_1288= {add_core = MCD}
+			PAN_1227= {add_core = MCD}
+			AFG_1214= {add_core = MCD}
+			AFG_1209= {add_core = MCD}
+			RUS_1196= {add_core = MCD}
+			KHI_1191= {add_core = MCD}
+			KOK_1190= {add_core = MCD}
+			EGY_1758= {add_core = MCD}
+			EGY_1745= {add_core = MCD}
+			EGY_1755= {add_core = MCD}
+			EGY_1771= {add_core = MCD}
+			EGY_1762= {add_core = MCD}
+			TUR_809= {add_core = MCD}
+			TUR_810= {add_core = MCD}
+			TUR_860= {add_core = MCD}
+			TUR_674= {add_core = MCD}
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+}

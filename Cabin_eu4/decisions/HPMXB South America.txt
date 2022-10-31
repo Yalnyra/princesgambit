@@ -1,0 +1,573 @@
+political_decisions = {
+
+
+	#ARG Argentina
+    Argentine_export_boom = {
+		picture = Buenos_Aires_1915
+        potential = {
+            capital_scope = {
+				continent = south_america
+			}
+			any_core = {
+				province_id = 2348
+			}
+            NOT = { has_country_modifier = Argentine_boom }
+            
+        }
+
+        allow = {
+            OR = {
+                AND = {
+					iron_railroad = 1
+					investment_banks = 1
+					market_regulations = 1
+				}
+				 year= 1870
+            }
+        }
+
+        effect = {
+
+            add_country_modifier = {  name = Argentine_boom duration = -1 }
+			any_pop = {
+				dominant_issue = {
+					factor = 0.10
+					value = free_trade
+				}
+			}
+		}
+    }
+	
+	
+	#BRA Brazil
+	
+	Brazil_Coal = {
+		picture = normandie_mine
+        potential = {
+			owns = 2459
+			owns = 2461
+            
+            NOT = { has_global_flag = BRZ_Coal}
+            
+        }
+
+        allow = {
+            treasury = 50000
+            drilling_and_blasting = 1
+            
+        }
+
+        effect = {
+			treasury = -50000
+            set_global_flag = BRZ_Coal
+			BRZ_2461 = {life_rating = 3}
+			2461 = { trade_goods = coal 
+				add_province_modifier = { name = colonial_recruitment duration = 3650 }
+				add_province_modifier = { name = mining_boom duration = -1 }
+			}
+			2459 = { 
+				trade_goods = coal 
+				add_province_modifier = { name = colonial_recruitment duration = 3650 }
+				 add_province_modifier = { name = mining_boom duration = -1 }
+			}
+		}
+    }
+	
+	
+	#BOL Bolivia
+	
+	Bolivian_Coal = {
+		picture = normandie_mine
+        potential = {
+			owns = 2318
+			owns = 2316
+            
+            NOT = { has_global_flag = BOL_Coal}
+            
+        }
+
+        allow = {
+            treasury = 50000
+            drilling_and_blasting = 1
+            
+        }
+
+        effect = {
+			treasury = -50000
+            set_global_flag = BOL_Coal
+			BOL_2317 = {life_rating = 3}
+			2316 = { trade_goods = coal 
+				add_province_modifier = { name = colonial_recruitment duration = 3650 }
+				add_province_modifier = { name = mining_boom duration = -1 }
+			}
+			2318 = { 
+				trade_goods = coal 
+				add_province_modifier = { name = colonial_recruitment duration = 3650 }
+				 add_province_modifier = { name = mining_boom duration = -1 }
+			}
+		}
+    }
+	
+	#USS United States of South America
+	
+	USSA_Reform = {
+		picture = restore_washington_capital
+        potential = {
+			tag = USS
+            NOT = {has_country_flag = USS_reform}
+			
+        }
+		
+
+        allow = {
+            treasury = 500000
+            biologism = 1
+			empiricism = 1
+            
+        }
+
+        effect = {
+			treasury = -500000
+            set_country_flag = USS_reform
+			add_country_modifier = {
+				name = total_reform
+				duration = 3650
+			}
+			government = top_down_revolution
+			
+		}
+    }
+	
+	#USSA_break_foregin_influences = {
+	#	picture = switch_to_fraternity
+    #   potential = {
+	#		has_country_flag = USSA_called
+	#		NOT = {has_country_flag = USS_influence}
+			
+    #    }
+		
+
+    #    allow = {
+    #       market_regulations = 1
+	#		revolution_n_counterrevolution = 1
+	#		treasury = 100000
+			
+    #        
+    #    }
+
+    #    effect = {
+	#		treasury = -100000
+	#		set_country_flag = USS_influence
+			#any_greater_power = {
+			#	limit = {
+			#		NOT = {has_country_flag = USS_influence}
+			#		is_sphere_leader_of = {
+			#			any_country = {
+			#				
+			#				capital_scope = {
+			#					continent = south_america
+			#				}
+			#			}
+			#		}
+			#		#NOT = { tag = FROM }
+			#		
+			#	}
+			#	diplomatic_influence = {
+			#		who = THIS
+			#		value = -100
+			#	}
+			#}
+			#any_country = {
+			#	limit = {
+			#		capital_scope = {
+			#			continent = south_america
+			#		}
+			#	}
+			#	
+			#	FROM = {
+			#		relation = {
+			#			who = THIS
+			#			value = 100
+			#		}
+			#		diplomatic_influence = {
+			#			who = THIS
+			#			value = 200
+			#		}
+			#	}
+			#}
+			
+			#FROM = {
+			#	relation = {
+			#		who = THIS
+			#		value = 100
+			#	}
+			##	diplomatic_influence = {
+			#		who = THIS
+			#		value = 200
+			#	}
+			#}
+			
+            #set_country_flag = USS_influence
+			
+			
+	#	}
+    #}
+	
+	
+	#CHL Chile
+	
+	Chilien_Iron = {
+		picture = normandie_mine
+        potential = {
+			2323 = { 
+				owned_by = THIS 
+				trade_goods = iron 
+				NOT = {has_province_modifier = mining_boom }
+			}
+			
+        }
+		
+
+        allow = {
+            treasury = 50000
+            drilling_and_blasting = 1
+            
+        }
+
+        effect = {
+			treasury = -50000
+			2323 = {
+				
+				add_province_modifier = { name = colonial_recruitment duration = 3650 }
+				add_province_modifier = { name = mining_boom duration = -1 }
+				life_rating = 3
+			}
+			2330 = {
+				
+				add_province_modifier = { name = colonial_recruitment duration = 3650 }
+				add_province_modifier = { name = mining_boom duration = -1 }
+				life_rating = 3
+			}
+			2331 = {
+				
+				add_province_modifier = { name = colonial_recruitment duration = 3650 }
+				add_province_modifier = { name = mining_boom duration = -1 }
+				life_rating = 3
+			}
+            set_country_flag = USS_reform
+			
+			
+		}
+    }
+	
+	#organise USS puppets help
+	
+	USS_reconquest_vng = {
+		picture = unite_gran_colombia
+		potential = {
+			capital_scope = {
+				continent = south_america
+			}
+			NOT = {
+				OR = {
+					tag = CLM
+					tag = VNZ
+					tag = ECU
+				}
+			}
+			is_greater_power = yes
+			
+			
+			NOT = { tag = USS }
+			has_country_flag = USSA_called
+			GCO = { exists = no }
+			NOT = { has_country_flag = reconquest_vng }
+		}
+
+		allow = {
+			war = no
+			CLM = {
+				OR = {
+					vassal_of = THIS
+					in_sphere = THIS
+					all_core = {
+						owned_by = THIS
+					}
+				}
+			}
+			VNZ = {
+				OR = {
+					vassal_of = THIS
+					in_sphere = THIS
+					all_core = {
+						owned_by = THIS
+					}
+				}
+			}
+			ECU = {
+				OR = {
+					vassal_of = THIS
+					in_sphere = THIS
+					all_core = {
+						owned_by = THIS
+					}
+				}
+			}
+		}
+
+		effect = {
+			prestige = 5
+			inherit = CLM
+			CLM = {
+				government = democracy
+				all_core = {
+					add_core = GCO
+				}
+			}
+			VNZ = {
+				government = democracy
+				all_core = {
+					add_core = GCO
+				}
+			}
+			ECU = {
+				government = democracy
+				all_core = {
+					add_core = GCO
+				}
+			}
+			
+			inherit = VNZ
+			inherit = ECU
+			
+			release_vassal = GCO
+			relation = {
+				who = GCO
+				value = 400
+			}
+			diplomatic_influence = {
+				who = GCO
+				value = 200
+			}	
+			
+			create_alliance = GCO
+			create_vassal = GCO
+			add_country_modifier = {
+				name = total_reform
+				duration = 365
+			}
+			set_country_flag = reconquest_vng
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	USS_reconquest_vop = {
+		picture = peru_bolivia
+		potential = {
+			capital_scope = {
+				continent = south_america
+			}
+			is_greater_power = yes
+			
+			NOT = {
+				OR = {
+					#tag = CLM
+					tag = BOL
+					tag = PEU
+				}
+			}
+			NOT = { tag = USS }
+			has_country_flag = USSA_called
+			PBC = { exists = no }
+			NOT = { has_country_flag = reconquest_vop }
+		}
+
+		allow = {
+			war = no
+			PEU = {
+				OR = {
+					vassal_of = THIS
+					in_sphere = THIS
+					all_core = {
+						owned_by = THIS
+					}
+				}
+			}
+			BOL = {
+				OR = {
+					vassal_of = THIS
+					in_sphere = THIS
+					all_core = {
+						owned_by = THIS
+					}
+				}
+			}
+		}
+
+		effect = {
+			prestige = 5
+			PEU = {
+				government = democracy
+				all_core = {
+					add_core = PBC
+				}
+			}
+			BOL = {
+				government = democracy
+				all_core = {
+					add_core = PBC
+				}
+			}
+			inherit = BOL
+			inherit = PEU
+			
+			release_vassal = PBC
+			relation = {
+				who = PBC
+				value = 400
+			}
+			diplomatic_influence = {
+				who = PBC
+				value = 200
+			}	
+			
+			create_alliance = PBC
+			create_vassal = PBC
+			add_country_modifier = {
+				name = total_reform
+				duration = 365
+			}
+			set_country_flag = reconquest_vop
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	
+	
+	USS_reconquest_vlp = {
+		picture = unite_la_plata
+		potential = {
+			capital_scope = {
+				continent = south_america
+			}
+			is_greater_power = yes
+			NOT = {
+				OR = {
+					tag = ARG
+					tag = ARC
+					tag = URU
+					tag = PRG
+					
+				}
+			}
+			NOT = { exists = LPL }
+			NOT = { tag = USS }
+			has_country_flag = USSA_called
+			NOT = { has_country_flag = reconquest_vlp }
+		}
+
+		allow = {
+			war = no
+			OR = {  
+				ARG = {
+					OR = {
+						vassal_of = THIS
+						in_sphere = THIS
+						all_core = {
+							owned_by = THIS
+						}
+					}
+				}
+				ARC = {
+					OR = {
+						vassal_of = THIS
+						in_sphere = THIS
+						all_core = {
+							owned_by = THIS
+						}
+					}
+				}
+			}
+			URU = {
+				OR = {
+					vassal_of = THIS
+					in_sphere = THIS
+					all_core = {
+						owned_by = THIS
+					}
+				}
+			}
+			PRG = {
+				OR = {
+					vassal_of = THIS
+					in_sphere = THIS
+					all_core = {
+						owned_by = THIS
+					}
+				}
+			}
+		}
+
+		effect = {
+			prestige = 5
+			ARG = {
+				government = democracy
+				all_core = {
+					add_core = LPL
+				}
+			}
+			ARC = {
+				government = democracy
+				all_core = {
+					add_core = LPL
+				}
+			}
+			URU = {
+				government = democracy
+				all_core = {
+					add_core = LPL
+				}
+			}
+			PRG = {
+				government = democracy
+				all_core = {
+					add_core = LPL
+				}
+			}
+			inherit = PRG
+			inherit = ARG
+			inherit = URU
+			inherit = ARC
+			release_vassal = LPL
+			relation = {
+				who = LPL
+				value = 400
+			}
+			diplomatic_influence = {
+				who = LPL
+				value = 200
+			}	
+			add_country_modifier = {
+				name = total_reform
+				duration = 365
+			}
+			create_alliance = LPL
+			create_vassal = LPL
+			
+			set_country_flag = reconquest_vlp
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	
+	
+}

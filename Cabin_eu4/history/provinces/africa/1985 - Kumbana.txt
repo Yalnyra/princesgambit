@@ -1,0 +1,8 @@
+owner=KON
+controller=KON
+add_core=KON
+add_core=KUB
+add_core=YKA
+trade_goods = grain
+life_rating = 10
+fort = 1

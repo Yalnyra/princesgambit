@@ -1,0 +1,8 @@
+owner=MLY
+controller=MLY
+add_core=CHA
+add_core=DAI
+add_core=IDO
+add_core=MLY
+trade_goods = fruit
+life_rating = 32

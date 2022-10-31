@@ -1,0 +1,9 @@
+owner=ISR
+controller=ISR
+add_core=BOH
+add_core=LUZ
+add_core=RUT
+add_core=ISR
+trade_goods = coal
+life_rating = 40
+fort = 1

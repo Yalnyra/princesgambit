@@ -1,0 +1,9 @@
+owner=DLM
+controller=DLM
+add_core=ADU
+add_core=GRA
+add_core=SPA
+trade_goods = cattle
+life_rating = 35
+terrain = urban
+fort = 1

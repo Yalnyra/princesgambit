@@ -1,0 +1,9 @@
+owner=MLY
+controller=BNG
+add_core=BUR
+add_core=IDO
+add_core=MLY
+add_core=MNI
+add_core=SHA
+trade_goods = opium
+life_rating = 32

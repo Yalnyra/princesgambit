@@ -1,0 +1,8 @@
+owner=PER
+controller=PER
+add_core=HND
+add_core=PER
+add_core=PNJ
+trade_goods = wool
+life_rating = 32
+fort = 1

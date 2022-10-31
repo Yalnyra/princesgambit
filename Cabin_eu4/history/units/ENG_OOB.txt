@@ -1,0 +1,1080 @@
+#Sphere of Influence
+
+AAC = {
+	value = 34
+	level = 2
+}
+ADE = {
+	value = 0
+	level = 2
+}
+AJU = {
+	value = 0
+	level = 2
+}
+AKH = {
+	value = 0
+	level = 2
+}
+ALO = {
+	value = 0
+	level = 2
+}
+ALS = {
+	value = 0
+	level = 2
+}
+AND = {
+	value = 0
+	level = 2
+}
+ANH = {
+	value = -7
+	level = 2
+}
+ARN = {
+	value = -15
+	level = 2
+}
+ARW = {
+	value = 0
+	level = 2
+}
+AUS = {
+	value = 0
+	level = 2
+}
+BAD = {
+	value = 0
+	level = 2
+}
+BEG = {
+	value = 0
+	level = 2
+}
+BLA = {
+	value = 0
+	level = 2
+}
+BMN = {
+	value = 0
+	level = 2
+}
+BNG = {
+	value = 0
+	level = 2
+}
+BNY = {
+	value = 0
+	level = 2
+}
+BOL = {
+	value = -2
+	level = 2
+}
+BRA = {
+	value = 0
+	level = 2
+}
+BRB = {
+	value = 0
+	level = 2
+}
+BRD = {
+	value = 0
+	level = 2
+}
+BRE = {
+	value = 0
+	level = 2
+}
+BRG = {
+	value = 16
+	level = 2
+}
+BRN = {
+	value = 0
+	level = 2
+}
+BRU = {
+	value = 0
+	level = 2
+}
+BRZ = {
+	value = -7
+	level = 2
+}
+BUL = {
+	value = 0
+	level = 2
+}
+CAL = {
+	value = 0
+	level = 2
+}
+CHV = {
+	value = 0
+	level = 2
+}
+CKW = {
+	value = 0
+	level = 2
+}
+CLB = {
+	value = 0
+	level = 2
+}
+CLM = {
+	value = 75
+	military_access = yes
+	influence_value = 56
+	level = 5
+}
+COF = {
+	value = 0
+	level = 2
+}
+CRK = {
+	value = 0
+	level = 2
+}
+CRO = {
+	value = 0
+	level = 2
+}
+CSH = {
+	value = 0
+	level = 2
+}
+CST = {
+	value = -14
+	level = 2
+}
+CUB = {
+	value = 0
+	level = 2
+}
+DAI = {
+	value = 0
+	level = 2
+}
+DAW = {
+	value = 0
+	level = 2
+}
+DLH = {
+	value = 0
+	level = 2
+}
+DLM = {
+	value = 117
+	influence_value = 16
+	level = 3
+}
+ECU = {
+	value = -11
+	level = 2
+}
+EFR = {
+	value = 0
+	level = 2
+}
+EGY = {
+	value = 0
+	level = 2
+}
+ENG = {
+	value = 0
+	level = 2
+}
+ETH = {
+	value = 0
+	level = 2
+}
+FLA = {
+	value = 0
+	level = 2
+}
+FRA = {
+	value = 0
+	level = 2
+}
+FRI = {
+	value = 0
+	level = 2
+}
+FRM = {
+	value = 0
+	level = 2
+}
+GLR = {
+	value = 0
+	level = 2
+}
+GNV = {
+	value = -13
+	level = 2
+}
+GOS = {
+	value = 0
+	level = 2
+}
+GRA = {
+	value = 0
+	level = 2
+}
+GRK = {
+	value = 0
+	level = 2
+}
+GUJ = {
+	value = 0
+	level = 2
+}
+HAM = {
+	value = 0
+	level = 2
+}
+HAT = {
+	value = 1
+	level = 2
+}
+HAU = {
+	value = 29
+	level = 2
+}
+HAW = {
+	value = 0
+	level = 2
+}
+HES = {
+	value = 0
+	level = 2
+}
+HLL = {
+	value = 0
+	level = 2
+}
+ISR = {
+	value = 85
+	influence_value = 8
+	level = 3
+}
+IST = {
+	value = 0
+	level = 2
+}
+ITA = {
+	value = 11
+	level = 2
+}
+JAP = {
+	value = 0
+	level = 2
+}
+JNP = {
+	value = 0
+	level = 2
+}
+KBO = {
+	value = 76
+	influence_value = 6
+	level = 2
+}
+KIK = {
+	value = 0
+	level = 2
+}
+KLE = {
+	value = 0
+	level = 2
+}
+KOL = {
+	value = 0
+	level = 2
+}
+KON = {
+	value = 0
+	level = 2
+}
+KRW = {
+	value = 0
+	level = 2
+}
+KSK = {
+	value = 0
+	level = 2
+}
+KUB = {
+	value = 0
+	level = 2
+}
+LAU = {
+	value = 0
+	level = 2
+}
+LBA = {
+	value = 0
+	level = 2
+}
+LIG = {
+	value = 10
+	level = 2
+}
+LIT = {
+	value = 0
+	level = 2
+}
+LNB = {
+	value = 0
+	level = 2
+}
+LOR = {
+	value = 0
+	level = 2
+}
+LOU = {
+	value = -9
+	level = 2
+}
+LSK = {
+	value = 0
+	level = 2
+}
+LUB = {
+	value = -92
+	level = 2
+}
+LUN = {
+	value = 50
+	level = 2
+}
+LUX = {
+	value = 0
+	level = 2
+}
+MAG = {
+	value = 25
+	level = 2
+}
+MAI = {
+	value = 0
+	level = 2
+}
+MAW = {
+	value = 0
+	level = 2
+}
+MEX = {
+	value = 0
+	level = 2
+}
+MFL = {
+	value = 0
+	level = 2
+}
+MHR = {
+	value = 0
+	level = 2
+}
+ML1 = {
+	value = 0
+	level = 2
+}
+MLH = {
+	value = 0
+	level = 2
+}
+MLI = {
+	value = 82
+	influence_value = 8
+	level = 2
+}
+MLY = {
+	value = 10
+	level = 2
+}
+MOL = {
+	value = 0
+	level = 2
+}
+MOR = {
+	value = 0
+	level = 2
+}
+MUN = {
+	value = -6
+	level = 2
+}
+NAK = {
+	value = 0
+	level = 2
+}
+NAV = {
+	value = 193
+	military_access = yes
+	influence_value = 85
+	level = 5
+}
+NKO = {
+	value = 0
+	level = 2
+}
+NNG = {
+	value = 0
+	level = 2
+}
+NOG = {
+	value = 0
+	level = 2
+}
+NOR = {
+	value = 0
+	level = 2
+}
+NSS = {
+	value = 0
+	level = 2
+}
+NZL = {
+	value = 0
+	level = 2
+}
+OEO = {
+	value = 0
+	level = 2
+}
+OJI = {
+	value = 0
+	level = 2
+}
+OLD = {
+	value = 0
+	level = 2
+}
+OMA = {
+	value = 0
+	level = 2
+}
+OSA = {
+	value = 0
+	level = 2
+}
+PAD = {
+	value = 0
+	level = 2
+}
+PAL = {
+	value = 0
+	level = 2
+}
+PAP = {
+	value = 0
+	level = 2
+}
+PEG = {
+	value = 0
+	level = 2
+}
+PER = {
+	value = 0
+	level = 2
+}
+POM = {
+	value = -17
+	level = 2
+}
+POR = {
+	value = 13
+	level = 2
+}
+PRO = {
+	value = 0
+	level = 2
+}
+QNG = {
+	value = 0
+	level = 2
+}
+RVA = {
+	value = 0
+	level = 2
+}
+RWA = {
+	value = 0
+	level = 2
+}
+RYA = {
+	value = 0
+	level = 2
+}
+SAX = {
+	value = 0
+	level = 2
+}
+SBA = {
+	value = -10
+	level = 2
+}
+SGH = {
+	value = -13
+	level = 2
+}
+SVY = {
+	value = 0
+	level = 2
+}
+SWA = {
+	value = 0
+	level = 2
+}
+SWE = {
+	value = -29
+	level = 2
+}
+SWI = {
+	value = 0
+	level = 2
+}
+TID = {
+	value = 0
+	level = 2
+}
+TIM = {
+	value = 0
+	level = 2
+}
+TTL = {
+	value = 0
+	level = 2
+}
+TUN = {
+	value = 91
+	influence_value = 10
+	level = 2
+}
+UBH = {
+	value = 0
+	level = 2
+}
+USA = {
+	value = 222
+	influence_value = 43
+	level = 2
+}
+VER = {
+	value = 25
+	level = 2
+}
+VIJ = {
+	value = 0
+	level = 2
+}
+VNZ = {
+	value = 58
+	military_access = yes
+	influence_value = 52
+	level = 5
+}
+WAD = {
+	value = 0
+	level = 2
+}
+WAL = {
+	value = 0
+	level = 2
+}
+WCY = {
+	value = 0
+	level = 2
+}
+X00 = {
+	value = 0
+	level = 2
+}
+X07 = {
+	value = 0
+	level = 2
+}
+X08 = {
+	value = 0
+	level = 2
+}
+X09 = {
+	value = 0
+	level = 2
+}
+X11 = {
+	value = -8
+	level = 2
+}
+X12 = {
+	value = 88
+	influence_value = 9
+	level = 2
+}
+YEM = {
+	value = 0
+	level = 2
+}
+
+#Leaders
+leader = {
+	name="Frederick Augustus Uxbridge"
+	date="1700.3.22"
+	type=sea
+	personality="coolminded"
+	background="natural_born_leader"
+}
+
+leader = {
+	name="George Abernethy"
+	date="1729.9.26"
+	type=land
+	personality="audacious"
+	background="cavalry_school"
+}
+
+leader = {
+	name="James Carleton"
+	date="1723.4.5"
+	type=land
+	personality="stalwart"
+	background="natural_born_leader"
+}
+
+leader = {
+	name="Anthony Gloucester"
+	date="1723.4.8"
+	type=land
+	personality="coolminded"
+	background="school_of_defense"
+}
+
+leader = {
+	name="Charles Blake"
+	date="1724.1.10"
+	type=land
+	personality="audacious"
+	background="cavalry_school"
+}
+
+leader = {
+	name="Adam Hawke"
+	date="1732.5.26"
+	type=land
+	personality="audacious"
+	background="school_of_defense"
+}
+
+
+#Armies
+navy = {
+	name="Blue Squadron"
+	location=2737
+	ship = {
+		name="Cyclops"
+		type=frigate
+	}
+	ship = {
+		name="Vulture"
+		type=frigate
+	}
+	ship = {
+		name="Firebrand"
+		type=frigate
+	}
+	ship = {
+		name="Gladiator"
+		type=frigate
+	}
+	ship = {
+		name="Sampson"
+		type=frigate
+	}
+	ship = {
+		name="Centaur"
+		type=frigate
+	}
+}
+
+navy = {
+	name="White Squadron"
+	location=2920
+	ship = {
+		name="Dragon"
+		type=frigate
+	}
+	ship = {
+		name="Penelope"
+		type=frigate
+	}
+	ship = {
+		name="Avenger"
+		type=frigate
+	}
+}
+
+army = {
+	name="Royal Army"
+	location=732
+	regiment = {
+		name="1st Sheffield Infantry"
+		type=infantry
+		home=283
+	}
+	regiment = {
+		name="1st Dumfries Infantry"
+		type=infantry
+		home=272
+	}
+	regiment = {
+		name="1st Dundee Artillery"
+		type=artillery
+		home=268
+	}
+	regiment = {
+		name="1st Shrewsbury Infantry"
+		type=infantry
+		home=286
+	}
+	regiment = {
+		name="2nd Sheffield Infantry"
+		type=infantry
+		home=283
+	}
+	regiment = {
+		name="1st Paris Artillery"
+		type=artillery
+		home=425
+	}
+	regiment = {
+		name="1st Glasgow Artillery"
+		type=artillery
+		home=271
+	}
+}
+
+navy = {
+	name="Royal Navy"
+	location=2723
+	ship = {
+		name="Royal Albert"
+		type=manowar
+	}
+	ship = {
+		name="Windsor Castle"
+		type=manowar
+	}
+	ship = {
+		name="Marlborough"
+		type=manowar
+	}
+	ship = {
+		name="Royal Sovereign"
+		type=manowar
+	}
+	ship = {
+		name="Prince of Wales"
+		type=manowar
+	}
+	ship = {
+		name="Queen"
+		type=manowar
+	}
+	ship = {
+		name="Victoria"
+		type=manowar
+	}
+	ship = {
+		name="Frederick William"
+		type=manowar
+	}
+	ship = {
+		name="Algiers"
+		type=manowar
+	}
+	ship = {
+		name="Albion"
+		type=manowar
+	}
+	ship = {
+		name="Aboukir"
+		type=manowar
+	}
+	ship = {
+		name="Exmouth"
+		type=manowar
+	}
+	ship = {
+		name="Saint Jean D'Acre"
+		type=manowar
+	}
+	ship = {
+		name="Hannibal"
+		type=manowar
+	}
+	ship = {
+		name="Princess Royal"
+		type=manowar
+	}
+	ship = {
+		name="Retribution"
+		type=frigate
+	}
+	ship = {
+		name="Caesar"
+		type=manowar
+	}
+	ship = {
+		name="Birkenhead"
+		type=frigate
+	}
+}
+
+army = {
+	name="Army of Ireland"
+	location=415
+	regiment = {
+		name="1st Birmingham Infantry"
+		type=infantry
+		home=284
+	}
+	regiment = {
+		name="1st Holyhead Infantry"
+		type=infantry
+		home=276
+	}
+	regiment = {
+		name="1st Dumfries Artillery"
+		type=artillery
+		home=272
+	}
+	regiment = {
+		name="2nd Holyhead Infantry"
+		type=infantry
+		home=276
+	}
+	regiment = {
+		name="2nd Dumfries Artillery"
+		type=artillery
+		home=272
+	}
+}
+
+army = {
+	name="2nd Army"
+	location=8
+	regiment = {
+		name="1st Glasgow Infantry"
+		type=infantry
+		home=271
+	}
+	regiment = {
+		name="1st Aberdeen Infantry"
+		type=infantry
+		home=266
+	}
+	regiment = {
+		name="1st Leeds Artillery"
+		type=artillery
+		home=282
+	}
+	regiment = {
+		name="3rd Holyhead Infantry"
+		type=infantry
+		home=276
+	}
+	regiment = {
+		name="1st Hull Artillery"
+		type=artillery
+		home=281
+	}
+}
+
+army = {
+	name="1st Army"
+	location=769
+	regiment = {
+		name="1st Coventry Infantry"
+		type=infantry
+		home=287
+	}
+	regiment = {
+		name="2nd Dumfries Infantry"
+		type=infantry
+		home=272
+	}
+	regiment = {
+		name="1st Holyhead Artillery"
+		type=artillery
+		home=276
+	}
+	regiment = {
+		name="1st Leicester Infantry"
+		type=infantry
+		home=289
+	}
+	regiment = {
+		name="1st Coventry Artillery"
+		type=artillery
+		home=287
+	}
+}
+
+army = {
+	name="4th Army"
+	location=733
+	regiment = {
+		name="1st Paris Infantry"
+		type=infantry
+		home=425
+	}
+	regiment = {
+		name="1st Canterbury Infantry"
+		type=infantry
+		home=301
+	}
+	regiment = {
+		name="1st Sheffield Artillery"
+		type=artillery
+		home=283
+	}
+	regiment = {
+		name="4th Holyhead Infantry"
+		type=infantry
+		home=276
+	}
+	regiment = {
+		name="3rd Dumfries Artillery"
+		type=artillery
+		home=272
+	}
+}
+
+navy = {
+	name="Red Squadron"
+	location=415
+	ship = {
+		name="1st British Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st Mérida Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st Cardigan Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st Inverness Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st Helsinki Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st Carlisle Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="2nd Helsinki Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st Heligoland Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st Kotka Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st Cardiff Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st Southampton Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st Santander Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st Dunkirk Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st Stirling Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st Plymouth Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st Newcastle-upon-Tyne Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st Edinburgh Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st Malmö Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st Curiapo Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st Glasgow Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="2nd British Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="2nd Cardiff Clipper Transport"
+		type=clipper_transport
+	}
+}
+
+navy = {
+	name="4th Fleet"
+	location=2972
+	ship = {
+		name="Terrible"
+		type=frigate
+	}
+	ship = {
+		name="Odin"
+		type=frigate
+	}
+}
+
+army = {
+	name="Armée du Nord"
+	location=2271
+	regiment = {
+		name="2nd Paris Infantry"
+		type=infantry
+		home=425
+	}
+	regiment = {
+		name="1st London Infantry"
+		type=infantry
+		home=300
+	}
+	regiment = {
+		name="2nd London Infantry"
+		type=infantry
+		home=300
+	}
+}
+

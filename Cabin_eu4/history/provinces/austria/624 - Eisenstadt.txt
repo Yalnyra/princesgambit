@@ -1,0 +1,8 @@
+owner=X00
+controller=DLM
+add_core=AUS
+add_core=GER
+add_core=X00
+trade_goods = grain
+life_rating = 35
+fort = 1

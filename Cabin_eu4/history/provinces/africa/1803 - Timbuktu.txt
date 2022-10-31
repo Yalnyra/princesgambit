@@ -1,0 +1,8 @@
+owner=SGH
+controller=MLI
+add_core=SGH
+add_core=TMB
+trade_goods = coal
+life_rating = 35
+terrain = semidesert
+fort = 1

@@ -1,0 +1,7 @@
+owner=ISR
+controller=ISR
+add_core=BYE
+add_core=LIT
+trade_goods = cattle
+life_rating = 15
+fort = 1

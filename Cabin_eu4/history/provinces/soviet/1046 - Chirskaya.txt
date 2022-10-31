@@ -1,0 +1,7 @@
+owner=LIT
+controller=AKH
+add_core=AKH
+add_core=GRH
+add_core=LIT
+trade_goods = coal
+life_rating = 35

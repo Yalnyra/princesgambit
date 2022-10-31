@@ -1,0 +1,424 @@
+#Sphere of Influence
+
+ALM = {
+	value = -136
+	level = 2
+}
+ARP = {
+	value = -44
+	level = 2
+}
+BLA = {
+	value = 82
+	influence_value = 8
+	level = 2
+}
+BOL = {
+	value = 0
+	level = 2
+}
+BRZ = {
+	value = 0
+	level = 2
+}
+CAD = {
+	value = -200
+	level = 2
+}
+CAL = {
+	value = 0
+	level = 2
+}
+CAQ = {
+	value = -372
+	level = 2
+}
+CCW = {
+	value = -276
+	level = 2
+}
+CHE = {
+	value = -136
+	level = 2
+}
+CHN = {
+	value = -200
+	level = 2
+}
+CIA = {
+	value = -136
+	level = 2
+}
+CLM = {
+	value = 0
+	level = 2
+}
+COF = {
+	value = 214
+	influence_value = 41
+	level = 3
+}
+CRK = {
+	value = 0
+	level = 2
+}
+CUB = {
+	value = 0
+	level = 2
+}
+DLM = {
+	value = 0
+	level = 2
+}
+ECU = {
+	value = -7
+	level = 2
+}
+EGY = {
+	value = 0
+	level = 2
+}
+ENG = {
+	value = 0
+	level = 2
+}
+GRA = {
+	value = 0
+	level = 2
+}
+IST = {
+	value = 0
+	level = 2
+}
+JAP = {
+	value = 6
+	level = 2
+}
+KSK = {
+	value = 191
+	influence_value = 35
+	level = 3
+}
+LOU = {
+	value = -8
+	level = 2
+}
+LSK = {
+	value = 0
+	level = 2
+}
+MAG = {
+	value = 25
+	level = 2
+}
+MEX = {
+	value = 0
+	level = 2
+}
+MHC = {
+	value = 0
+	level = 2
+}
+MLY = {
+	value = 0
+	level = 2
+}
+MOL = {
+	value = 0
+	level = 2
+}
+NAK = {
+	value = 121
+	influence_value = 17
+	level = 2
+}
+NOR = {
+	value = 0
+	level = 2
+}
+NSS = {
+	value = -75
+	level = 2
+}
+NTZ = {
+	value = -200
+	level = 2
+}
+OEO = {
+	value = 25
+	level = 2
+}
+OJI = {
+	value = 82
+	influence_value = 8
+	level = 2
+}
+OSA = {
+	value = -313
+	level = 2
+}
+PAW = {
+	value = -344
+	level = 2
+}
+PEO = {
+	value = -206
+	level = 2
+}
+POM = {
+	value = 0
+	level = 2
+}
+POR = {
+	value = -30
+	level = 2
+}
+SBA = {
+	value = -3
+	level = 2
+}
+SWE = {
+	value = 0
+	level = 2
+}
+TSC = {
+	value = -304
+	level = 2
+}
+USA = {
+	value = -221
+	level = 2
+}
+VER = {
+	value = 25
+	level = 2
+}
+VNZ = {
+	value = -1
+	level = 2
+}
+WCY = {
+	value = 83
+	influence_value = 8
+	level = 2
+}
+WIC = {
+	value = -396
+	level = 2
+}
+X09 = {
+	value = 0
+	level = 2
+}
+X11 = {
+	value = 0
+	level = 2
+}
+X12 = {
+	value = 0
+	level = 2
+}
+
+#Leaders
+leader = {
+	name="Muthtee Chebona"
+	date="1701.12.4"
+	type=land
+	personality="persistant"
+	background="war_college"
+}
+
+leader = {
+	name="Tuskenaah Yaholo"
+	date="1723.2.13"
+	type=land
+	personality="stalwart"
+	background="brownnoser"
+}
+
+
+#Armies
+army = {
+	name="12th Army"
+	location=1256
+	regiment = {
+		name="1st Bardwan Irregulars"
+		type=irregular
+		home=1253
+	}
+	regiment = {
+		name="1st Chittagong Irregulars"
+		type=irregular
+		home=1257
+	}
+	regiment = {
+		name="1st Chittagong Artillery"
+		type=artillery
+		home=1257
+	}
+	regiment = {
+		name="2nd Chittagong Artillery"
+		type=artillery
+		home=1257
+	}
+	regiment = {
+		name="1st Dacca Artillery"
+		type=artillery
+		home=1254
+	}
+}
+
+army = {
+	name="10th Army"
+	location=1340
+	regiment = {
+		name="2nd Bardwan Irregulars"
+		type=irregular
+		home=1253
+	}
+	regiment = {
+		name="1st Dacca Irregulars"
+		type=irregular
+		home=1254
+	}
+	regiment = {
+		name="2nd Chittagong Irregulars"
+		type=irregular
+		home=1257
+	}
+	regiment = {
+		name="1st Agartala Artillery"
+		type=artillery
+		home=2566
+	}
+	regiment = {
+		name="1st Darjeeling Artillery"
+		type=artillery
+		home=1252
+	}
+}
+
+army = {
+	name="19th Army"
+	location=1252
+	regiment = {
+		name="3rd Bardwan Irregulars"
+		type=irregular
+		home=1253
+	}
+	regiment = {
+		name="1st Bardwan Artillery"
+		type=artillery
+		home=1253
+	}
+	regiment = {
+		name="2nd Bardwan Artillery"
+		type=artillery
+		home=1253
+	}
+	regiment = {
+		name="3rd Bardwan Artillery"
+		type=artillery
+		home=1253
+	}
+	regiment = {
+		name="7th Bardwan Irregulars"
+		type=irregular
+		home=1253
+	}
+	regiment = {
+		name="2nd Jessore Artillery"
+		type=artillery
+		home=1256
+	}
+}
+
+army = {
+	name="Lakota band"
+	location=41
+	regiment = {
+		name="4th Irregulars"
+		type=infantry
+		home=150
+	}
+	regiment = {
+		name="1st Irregulars"
+		type=infantry
+		home=151
+	}
+	regiment = {
+		name="2nd Dacca Artillery"
+		type=artillery
+		home=152
+	}
+	regiment = {
+		name="2nd Artillery"
+		type=artillery
+		home=166
+	}
+	regiment = {
+		name="3rd Artillery"
+		type=artillery
+		home=146
+	}
+	regiment = {
+		name="1st Gauhati Artillery"
+		type=artillery
+		home=126
+	}
+}
+
+army = {
+	name="28th Army"
+	location=130
+	regiment = {
+		name="2nd Irregulars"
+		type=infantry
+		home=126
+	}
+	regiment = {
+		name="4th Artillery"
+		type=infantry
+		home=130
+	}
+	regiment = {
+		name="1st Artillery"
+		type=infantry
+		home=126
+	}
+	regiment = {
+		name="2nd Artillery"
+		type=artillery
+		home=130
+	}
+	regiment = {
+		name="3rd Irregulars"
+		type=irregular
+		home=126
+	}
+	regiment = {
+		name="3rd Artillery"
+		type=artillery
+		home=134
+	}
+}
+
+army = {
+	name="7th Army"
+	location=126
+	regiment = {
+		name="5th Irregulars"
+		type=infantry
+		home=134
+	}
+	regiment = {
+		name="6th Bardwan Artillery"
+		type=artillery
+		home=130
+	}
+	regiment = {
+		name="6th Bardwan Irregulars"
+		type=irregular
+		home=126
+	}
+}

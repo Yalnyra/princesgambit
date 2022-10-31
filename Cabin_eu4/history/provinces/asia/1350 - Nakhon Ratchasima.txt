@@ -1,0 +1,7 @@
+owner=MLY
+controller=MLY
+add_core=CAM
+add_core=IDO
+add_core=MLY
+trade_goods = cattle
+life_rating = 35

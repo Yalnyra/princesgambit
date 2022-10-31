@@ -1,0 +1,1097 @@
+#Sphere of Influence
+
+AAC = {
+	value = 0
+	level = 2
+}
+ADE = {
+	value = 70
+	influence_value = 5
+	level = 2
+}
+AJU = {
+	value = 19
+	level = 2
+}
+AKH = {
+	value = 0
+	level = 2
+}
+ALO = {
+	value = 73
+	influence_value = 5
+	level = 2
+}
+ALS = {
+	value = 55
+	influence_value = 1
+	level = 2
+}
+AND = {
+	value = 0
+	level = 2
+}
+ANH = {
+	value = 0
+	level = 2
+}
+ARN = {
+	value = 85
+	influence_value = 8
+	level = 2
+}
+ARW = {
+	value = 0
+	level = 2
+}
+AUS = {
+	value = 0
+	level = 2
+}
+BAD = {
+	value = 37
+	level = 2
+}
+BEG = {
+	value = 0
+	level = 2
+}
+BLA = {
+	value = 0
+	level = 2
+}
+BMN = {
+	value = 91
+	influence_value = 10
+	level = 2
+}
+BNG = {
+	value = 0
+	level = 2
+}
+BNY = {
+	value = 0
+	level = 2
+}
+BOL = {
+	value = 29
+	level = 2
+}
+BRA = {
+	value = 0
+	level = 2
+}
+BRB = {
+	value = 43
+	level = 2
+}
+BRD = {
+	value = 0
+	level = 2
+}
+BRE = {
+	value = 0
+	level = 2
+}
+BRG = {
+	value = 52
+	level = 2
+}
+BRN = {
+	value = 0
+	level = 2
+}
+BRU = {
+	value = 0
+	level = 2
+}
+BRZ = {
+	value = 70
+	influence_value = 5
+	level = 2
+}
+CAL = {
+	value = 0
+	level = 2
+}
+CHV = {
+	value = 0
+	level = 2
+}
+CKW = {
+	value = 1
+	level = 2
+}
+CLB = {
+	value = 0
+	level = 2
+}
+CLM = {
+	value = 0
+	level = 2
+}
+COF = {
+	value = 0
+	level = 2
+}
+CRK = {
+	value = 0
+	level = 2
+}
+CST = {
+	value = 91
+	influence_value = 10
+	level = 2
+}
+CUB = {
+	value = 271
+	military_access = yes
+	influence_value = 105
+	level = 5
+}
+DAI = {
+	value = 0
+	level = 2
+}
+DAW = {
+	value = 67
+	influence_value = 4
+	level = 2
+}
+DLH = {
+	value = 52
+	level = 2
+}
+DLM = {
+	value = 0
+	level = 2
+}
+ECU = {
+	value = 46
+	level = 2
+}
+EFR = {
+	value = 0
+	level = 2
+}
+EGY = {
+	value = 31
+	level = 2
+}
+ENG = {
+	value = 53
+	level = 3
+}
+ETH = {
+	value = 37
+	level = 2
+}
+FLA = {
+	value = 40
+	level = 2
+}
+FRI = {
+	value = 0
+	level = 2
+}
+FRM = {
+	value = 37
+	level = 2
+}
+GLR = {
+	value = 55
+	influence_value = 1
+	level = 2
+}
+GNV = {
+	value = 10
+	level = 2
+}
+GOS = {
+	value = 0
+	level = 2
+}
+GRA = {
+	value = 0
+	level = 2
+}
+GRK = {
+	value = 0
+	level = 2
+}
+GUJ = {
+	value = 16
+	level = 2
+}
+HAM = {
+	value = 0
+	level = 2
+}
+HAT = {
+	value = 46
+	level = 2
+}
+HAU = {
+	value = 43
+	level = 2
+}
+HAW = {
+	value = 0
+	level = 2
+}
+HES = {
+	value = 16
+	level = 2
+}
+HLL = {
+	value = 0
+	level = 2
+}
+ISR = {
+	value = 205
+	influence_value = 38
+	level = 3
+}
+IST = {
+	value = 0
+	level = 2
+}
+ITA = {
+	value = -31
+	level = 2
+}
+JAP = {
+	value = 0
+	level = 2
+}
+JNP = {
+	value = 91
+	influence_value = 10
+	level = 2
+}
+KBO = {
+	value = 52
+	level = 2
+}
+KIK = {
+	value = 34
+	level = 2
+}
+KLE = {
+	value = 0
+	level = 2
+}
+KOL = {
+	value = 37
+	level = 2
+}
+KON = {
+	value = 109
+	influence_value = 14
+	level = 2
+}
+KRW = {
+	value = 0
+	level = 2
+}
+KSJ = {
+	value = 97
+	influence_value = 11
+	level = 2
+}
+KSK = {
+	value = 0
+	level = 2
+}
+KUB = {
+	value = 85
+	influence_value = 8
+	level = 2
+}
+LAU = {
+	value = 0
+	level = 2
+}
+LBA = {
+	value = 0
+	level = 2
+}
+LIG = {
+	value = 0
+	level = 2
+}
+LIT = {
+	value = 0
+	level = 2
+}
+LNB = {
+	value = 0
+	level = 2
+}
+LOR = {
+	value = 0
+	level = 2
+}
+LOU = {
+	value = 73
+	influence_value = 5
+	level = 2
+}
+LSK = {
+	value = 0
+	level = 2
+}
+LUB = {
+	value = 0
+	level = 2
+}
+LUN = {
+	value = 105
+	influence_value = 13
+	level = 2
+}
+LUX = {
+	value = 0
+	level = 2
+}
+MAG = {
+	value = 21
+	level = 2
+}
+MAI = {
+	value = 40
+	level = 2
+}
+MAW = {
+	value = 94
+	influence_value = 11
+	level = 2
+}
+MEX = {
+	value = -6
+	level = 2
+}
+MFL = {
+	value = 40
+	level = 2
+}
+MHR = {
+	value = 7
+	level = 2
+}
+ML1 = {
+	value = 91
+	influence_value = 10
+	level = 2
+}
+MLH = {
+	value = 0
+	level = 2
+}
+MLI = {
+	value = 0
+	level = 2
+}
+MLY = {
+	value = 20
+	level = 2
+}
+MOR = {
+	value = 0
+	level = 2
+}
+MUN = {
+	value = -4
+	level = 2
+}
+NAK = {
+	value = 0
+	level = 2
+}
+NAV = {
+	value = 18
+	level = 2
+}
+NKO = {
+	value = 0
+	level = 2
+}
+NNG = {
+	value = 0
+	level = 2
+}
+NOG = {
+	value = 0
+	level = 2
+}
+NOR = {
+	value = 0
+	level = 2
+}
+NSS = {
+	value = 91
+	influence_value = 10
+	level = 2
+}
+NZL = {
+	value = 30
+	level = 2
+}
+OEO = {
+	value = 0
+	level = 2
+}
+OJI = {
+	value = 0
+	level = 2
+}
+OLD = {
+	value = 0
+	level = 2
+}
+OMA = {
+	value = 37
+	level = 2
+}
+OSA = {
+	value = 0
+	level = 2
+}
+PAD = {
+	value = 0
+	level = 2
+}
+PAL = {
+	value = 0
+	level = 2
+}
+PAP = {
+	value = -22
+	level = 2
+}
+PEG = {
+	value = 0
+	level = 2
+}
+PER = {
+	value = 25
+	level = 2
+}
+POM = {
+	value = -16
+	level = 2
+}
+POR = {
+	value = 0
+	level = 2
+}
+PRO = {
+	value = 43
+	level = 2
+}
+QNG = {
+	value = 0
+	level = 2
+}
+RVA = {
+	value = 0
+	level = 2
+}
+RWA = {
+	value = 0
+	level = 2
+}
+RYA = {
+	value = 0
+	level = 2
+}
+SAX = {
+	value = -3
+	level = 2
+}
+SBA = {
+	value = 91
+	influence_value = 10
+	level = 2
+}
+SGH = {
+	value = 46
+	level = 2
+}
+SVY = {
+	value = 16
+	level = 2
+}
+SWA = {
+	value = 61
+	influence_value = 2
+	level = 2
+}
+SWE = {
+	value = 3
+	level = 2
+}
+SWI = {
+	value = 55
+	influence_value = 1
+	level = 2
+}
+TID = {
+	value = 0
+	level = 2
+}
+TIM = {
+	value = 25
+	level = 2
+}
+TTL = {
+	value = 67
+	influence_value = 4
+	level = 2
+}
+TUN = {
+	value = -80
+	level = 2
+}
+UBH = {
+	value = 0
+	level = 2
+}
+USA = {
+	value = -1
+	level = 2
+}
+VER = {
+	value = 25
+	level = 2
+}
+VIJ = {
+	value = 91
+	influence_value = 10
+	level = 2
+}
+VNZ = {
+	value = 63
+	influence_value = 3
+	level = 2
+}
+WAD = {
+	value = 0
+	level = 2
+}
+WCY = {
+	value = 0
+	level = 2
+}
+X00 = {
+	value = 18
+	level = 2
+}
+X07 = {
+	value = 0
+	level = 2
+}
+X08 = {
+	value = 0
+	level = 2
+}
+X09 = {
+	value = 0
+	level = 2
+}
+X11 = {
+	value = 0
+	level = 2
+}
+X12 = {
+	value = 0
+	level = 2
+}
+YEM = {
+	value = 16
+	level = 2
+}
+
+#Leaders
+leader = {
+	name="Bruno Lando"
+	date="1700.3.10"
+	type=land
+	personality="unflinching"
+	background="cavalry_school"
+}
+
+leader = {
+	name="Ludovik Loredan"
+	date="1722.5.5"
+	type=land
+	personality="audacious"
+	background="school_of_the_bayonet"
+}
+
+leader = {
+	name="Trpimir Pisani"
+	date="1722.5.6"
+	type=land
+	personality="hellbent"
+	background="cartographer"
+}
+
+leader = {
+	name="Pasquale Garda"
+	date="1722.9.29"
+	type=land
+	personality="coolminded"
+	background="natural_born_leader"
+}
+
+leader = {
+	name="Mutimir Bardolino"
+	date="1731.4.17"
+	type=land
+	personality="coolminded"
+	background="school_of_defense"
+}
+
+
+#Armies
+navy = {
+	name="2nd Fleet"
+	location=782
+	ship = {
+		name="Sava"
+		type=manowar
+	}
+	ship = {
+		name="Drava"
+		type=manowar
+	}
+	ship = {
+		name="Kupa"
+		type=manowar
+	}
+	ship = {
+		name="Korana"
+		type=manowar
+	}
+	ship = {
+		name="Cesma"
+		type=manowar
+	}
+	ship = {
+		name="2nd Assab Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="Dinara"
+		type=frigate
+	}
+	ship = {
+		name="Kamešnica"
+		type=frigate
+	}
+	ship = {
+		name="Biokovo"
+		type=frigate
+	}
+	ship = {
+		name="1st Dubrovnik Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st Aruba Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st Cattaro Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st Zadar Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st Grenada Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st Trieste Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st Tangier Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st Vlore Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="2nd Tangier Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st Durres Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="2nd Cattaro Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st Huelva Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="2nd Dubrovnik Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="3rd Dubrovnik Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st Curacao Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="2nd Huelva Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st Shkoder Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="2nd Durres Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="3rd Paraíba Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st Volos Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="Plješevica"
+		type=frigate
+	}
+	ship = {
+		name="2nd Aruba Clipper Transport"
+		type=clipper_transport
+	}
+}
+
+army = {
+	name="1st Army"
+	location=733
+	regiment = {
+		name="1st Senj Infantry"
+		type=infantry
+		home=774
+	}
+	regiment = {
+		name="1st Bor Infantry"
+		type=infantry
+		home=795
+	}
+	regiment = {
+		name="1st Tuzla Infantry"
+		type=infantry
+		home=786
+	}
+	regiment = {
+		name="2nd Tuzla Infantry"
+		type=infantry
+		home=786
+	}
+	regiment = {
+		name="2nd Bor Infantry"
+		type=infantry
+		home=795
+	}
+	regiment = {
+		name="1st Temesvar Infantry"
+		type=infantry
+		home=652
+	}
+	regiment = {
+		name="1st Pest Artillery"
+		type=artillery
+		home=641
+	}
+	regiment = {
+		name="1st Mostar Artillery"
+		type=artillery
+		home=788
+	}
+	regiment = {
+		name="1st Oradea Artillery"
+		type=artillery
+		home=647
+	}
+	regiment = {
+		name="1st Pancevo Artillery"
+		type=artillery
+		home=792
+	}
+	regiment = {
+		name="1st Salonika Artillery"
+		type=artillery
+		home=805
+	}
+	regiment = {
+		name="2nd Mostar Artillery"
+		type=artillery
+		home=788
+	}
+	regiment = {
+		name="1st Požega Infantry"
+		type=infantry
+		home=777
+	}
+	regiment = {
+		name="1st Shumen Artillery"
+		type=artillery
+		home=813
+	}
+}
+
+army = {
+	name="Vojska Bacs"
+	location=618
+	regiment = {
+		name="1st Szeged Infantry"
+		type=infantry
+		home=649
+	}
+	regiment = {
+		name="1st Banja Luka Infantry"
+		type=infantry
+		home=785
+	}
+	regiment = {
+		name="1st Pleven Infantry"
+		type=infantry
+		home=812
+	}
+	regiment = {
+		name="1st Pancevo Infantry"
+		type=infantry
+		home=792
+	}
+	regiment = {
+		name="2nd Senj Infantry"
+		type=infantry
+		home=774
+	}
+	regiment = {
+		name="3rd Tuzla Infantry"
+		type=infantry
+		home=786
+	}
+	regiment = {
+		name="1st Zadar Artillery"
+		type=artillery
+		home=781
+	}
+	regiment = {
+		name="1st Varaždin Artillery"
+		type=artillery
+		home=775
+	}
+	regiment = {
+		name="1st Patras Artillery"
+		type=artillery
+		home=842
+	}
+	regiment = {
+		name="1st Sofia Artillery"
+		type=artillery
+		home=809
+	}
+	regiment = {
+		name="1st Janina Artillery"
+		type=artillery
+		home=824
+	}
+	regiment = {
+		name="1st Athens Artillery"
+		type=artillery
+		home=834
+	}
+}
+
+army = {
+	name="3rd Army"
+	location=618
+	regiment = {
+		name="1st Debrecen Infantry"
+		type=infantry
+		home=648
+	}
+	regiment = {
+		name="1st Tirgoviste Infantry"
+		type=infantry
+		home=667
+	}
+	regiment = {
+		name="1st Cetinje Infantry"
+		type=infantry
+		home=2583
+	}
+	regiment = {
+		name="1st Durres Infantry"
+		type=infantry
+		home=851
+	}
+	regiment = {
+		name="1st Dubrovnik Infantry"
+		type=infantry
+		home=782
+	}
+	regiment = {
+		name="2nd Debrecen Infantry"
+		type=infantry
+		home=648
+	}
+	regiment = {
+		name="1st Debrecen Artillery"
+		type=artillery
+		home=648
+	}
+	regiment = {
+		name="1st Niksic Artillery"
+		type=artillery
+		home=2569
+	}
+	regiment = {
+		name="1st Sarajevo Artillery"
+		type=artillery
+		home=783
+	}
+	regiment = {
+		name="1st Ziguinchor Artillery"
+		type=artillery
+		home=1792
+	}
+	regiment = {
+		name="1st Grevena Artillery"
+		type=artillery
+		home=820
+	}
+	regiment = {
+		name="1st Florina Artillery"
+		type=artillery
+		home=819
+	}
+}
+
+army = {
+	name="2nd Army"
+	location=769
+	regiment = {
+		name="2nd Dubrovnik Infantry"
+		type=infantry
+		home=782
+	}
+	regiment = {
+		name="1st Sofia Infantry"
+		type=infantry
+		home=809
+	}
+	regiment = {
+		name="1st Zadar Infantry"
+		type=infantry
+		home=781
+	}
+	regiment = {
+		name="1st Shkoder Infantry"
+		type=infantry
+		home=850
+	}
+	regiment = {
+		name="1st Mostar Infantry"
+		type=infantry
+		home=788
+	}
+	regiment = {
+		name="4th Tuzla Infantry"
+		type=infantry
+		home=786
+	}
+	regiment = {
+		name="1st Split Artillery"
+		type=artillery
+		home=780
+	}
+	regiment = {
+		name="1st Kragujevac Artillery"
+		type=artillery
+		home=796
+	}
+	regiment = {
+		name="1st Senj Artillery"
+		type=artillery
+		home=774
+	}
+	regiment = {
+		name="1st Dubrovnik Artillery"
+		type=artillery
+		home=782
+	}
+	regiment = {
+		name="1st Foca Artillery"
+		type=artillery
+		home=787
+	}
+	regiment = {
+		name="2nd Varaždin Artillery"
+		type=artillery
+		home=775
+	}
+}
+
+navy = {
+	name="1st Fleet"
+	location=842
+	ship = {
+		name="1st Athens Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="2nd Athens Clipper Transport"
+		type=clipper_transport
+	}
+}
+
+navy = {
+	name="2nd Fleet"
+	location=1306
+	ship = {
+		name="1st Masulipatnam Clipper Transport"
+		type=clipper_transport
+	}
+}
+
+army = {
+	name="2nd Army"
+	location=1307
+	regiment = {
+		name="1st Venice Infantry"
+		type=infantry
+		home=729
+	}
+}
+
+navy = {
+	name="4th Fleet"
+	location=2793
+	ship = {
+		name="Velebit"
+		type=frigate
+	}
+}
+

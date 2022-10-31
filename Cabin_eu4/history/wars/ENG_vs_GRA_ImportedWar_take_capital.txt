@@ -1,0 +1,14 @@
+name = "2nd British-French Imperialist War"
+
+1735.4.9 = {
+	add_attacker = ENG
+	add_attacker = NAV
+	add_attacker = CLM
+	add_defender = GRA
+
+	war_goal = {
+		casus_belli = acquire_state
+		actor = ENG
+		receiver = GRA
+	}
+}

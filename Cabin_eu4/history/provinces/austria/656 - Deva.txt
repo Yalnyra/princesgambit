@@ -1,0 +1,7 @@
+owner=DLM
+controller=DLM
+add_core=DLM
+add_core=ROM
+add_core=SIE
+trade_goods = grain
+life_rating = 35

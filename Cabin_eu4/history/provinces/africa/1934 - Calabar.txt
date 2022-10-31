@@ -1,0 +1,6 @@
+owner=DLM
+controller=DLM
+add_core=KON
+trade_goods = fish
+life_rating = 35
+colonial=2

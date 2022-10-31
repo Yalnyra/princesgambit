@@ -1,0 +1,980 @@
+1531 = {
+	soldiers=
+	{
+		culture = melanesian
+		religion = animist
+		size= 278
+	}
+
+	farmers=
+	{
+		culture = melanesian
+		religion = animist
+		size= 13606
+	}
+
+	farmers=
+	{
+		culture = sureno
+		religion = catholic
+		size= 19179
+	}
+
+	soldiers=
+	{
+		culture = sureno
+		religion = catholic
+		size= 428
+	}
+
+	artisans=
+	{
+		culture = sureno
+		religion = catholic
+		size= 1413
+	}
+
+	clergymen=
+	{
+		culture = sureno
+		religion = catholic
+		size= 265
+	}
+
+	aristocrats=
+	{
+		culture = sureno
+		religion = catholic
+		size= 296
+	}
+
+	bureaucrats=
+	{
+		culture = sureno
+		religion = catholic
+		size= 70
+	}
+
+	officers=
+	{
+		culture = sureno
+		religion = catholic
+		size= 27
+	}
+
+}
+2528 = {
+	soldiers=
+	{
+		culture = melanesian
+		religion = animist
+		size= 273
+	}
+
+	farmers=
+	{
+		culture = melanesian
+		religion = animist
+		size= 27054
+	}
+
+	farmers=
+	{
+		culture = spanish
+		religion = catholic
+		size= 2463
+	}
+
+	soldiers=
+	{
+		culture = spanish
+		religion = catholic
+		size= 29
+	}
+
+	farmers=
+	{
+		culture = andalucian
+		religion = sunni
+		size= 5199
+	}
+
+	artisans=
+	{
+		culture = spanish
+		religion = catholic
+		size= 683
+	}
+
+	clergymen=
+	{
+		culture = spanish
+		religion = catholic
+		size= 49
+	}
+
+	aristocrats=
+	{
+		culture = spanish
+		religion = catholic
+		size= 64
+	}
+
+	bureaucrats=
+	{
+		culture = spanish
+		religion = catholic
+		size= 11
+	}
+
+	officers=
+	{
+		culture = spanish
+		religion = catholic
+		size= 9
+	}
+
+	soldiers=
+	{
+		culture = spanish
+		religion = shinto
+		size= 2
+	}
+
+	artisans=
+	{
+		culture = spanish
+		religion = shinto
+		size= 693
+	}
+
+	clergymen=
+	{
+		culture = spanish
+		religion = shinto
+		size= 50
+	}
+
+	bureaucrats=
+	{
+		culture = spanish
+		religion = shinto
+		size= 12
+	}
+
+	officers=
+	{
+		culture = spanish
+		religion = shinto
+		size= 10
+	}
+
+	aristocrats=
+	{
+		culture = spanish
+		religion = shinto
+		size= 65
+	}
+
+	soldiers=
+	{
+		culture = andalucian
+		religion = sunni
+		size= 77
+	}
+
+	artisans=
+	{
+		culture = andalucian
+		religion = sunni
+		size= 2074
+	}
+
+	clergymen=
+	{
+		culture = andalucian
+		religion = sunni
+		size= 150
+	}
+
+	bureaucrats=
+	{
+		culture = andalucian
+		religion = sunni
+		size= 35
+	}
+
+	officers=
+	{
+		culture = andalucian
+		religion = sunni
+		size= 30
+	}
+
+	aristocrats=
+	{
+		culture = andalucian
+		religion = sunni
+		size= 194
+	}
+
+}
+2529 = {
+	soldiers=
+	{
+		culture = melanesian
+		religion = animist
+		size= 245
+	}
+
+	farmers=
+	{
+		culture = melanesian
+		religion = animist
+		size= 24268
+	}
+
+	farmers=
+	{
+		culture = spanish
+		religion = catholic
+		size= 4525
+	}
+
+	artisans=
+	{
+		culture = spanish
+		religion = catholic
+		size= 1992
+	}
+
+	clergymen=
+	{
+		culture = spanish
+		religion = catholic
+		size= 144
+	}
+
+	aristocrats=
+	{
+		culture = spanish
+		religion = catholic
+		size= 184
+	}
+
+	bureaucrats=
+	{
+		culture = spanish
+		religion = catholic
+		size= 32
+	}
+
+	officers=
+	{
+		culture = spanish
+		religion = catholic
+		size= 28
+	}
+
+	soldiers=
+	{
+		culture = spanish
+		religion = catholic
+		size= 57
+	}
+
+	farmers=
+	{
+		culture = andalucian
+		religion = sunni
+		size= 2551
+	}
+
+	artisans=
+	{
+		culture = spanish
+		religion = shinto
+		size= 150
+	}
+
+	clergymen=
+	{
+		culture = spanish
+		religion = shinto
+		size= 11
+	}
+
+	bureaucrats=
+	{
+		culture = spanish
+		religion = shinto
+		size= 3
+	}
+
+	officers=
+	{
+		culture = spanish
+		religion = shinto
+		size= 2
+	}
+
+	aristocrats=
+	{
+		culture = spanish
+		religion = shinto
+		size= 14
+	}
+
+	soldiers=
+	{
+		culture = andalucian
+		religion = sunni
+		size= 37
+	}
+
+	artisans=
+	{
+		culture = andalucian
+		religion = sunni
+		size= 937
+	}
+
+	clergymen=
+	{
+		culture = andalucian
+		religion = sunni
+		size= 68
+	}
+
+	bureaucrats=
+	{
+		culture = andalucian
+		religion = sunni
+		size= 16
+	}
+
+	officers=
+	{
+		culture = andalucian
+		religion = sunni
+		size= 14
+	}
+
+	aristocrats=
+	{
+		culture = andalucian
+		religion = sunni
+		size= 87
+	}
+
+}
+2530 = {
+	soldiers=
+	{
+		culture = melanesian
+		religion = animist
+		size= 308
+	}
+
+	farmers=
+	{
+		culture = melanesian
+		religion = animist
+		size= 30539
+	}
+
+	farmers=
+	{
+		culture = spanish
+		religion = catholic
+		size= 4488
+	}
+
+	artisans=
+	{
+		culture = spanish
+		religion = catholic
+		size= 177
+	}
+
+	artisans=
+	{
+		culture = andalucian
+		religion = sunni
+		size= 1
+	}
+
+	farmers=
+	{
+		culture = andalucian
+		religion = sunni
+		size= 10
+	}
+
+	aristocrats=
+	{
+		culture = spanish
+		religion = catholic
+		size= 37
+	}
+
+	soldiers=
+	{
+		culture = spanish
+		religion = catholic
+		size= 46
+	}
+
+	clergymen=
+	{
+		culture = spanish
+		religion = catholic
+		size= 28
+	}
+
+	bureaucrats=
+	{
+		culture = spanish
+		religion = catholic
+		size= 6
+	}
+
+	officers=
+	{
+		culture = spanish
+		religion = catholic
+		size= 5
+	}
+
+	soldiers=
+	{
+		culture = spanish
+		religion = shinto
+		size= 24
+	}
+
+	artisans=
+	{
+		culture = spanish
+		religion = shinto
+		size= 202
+	}
+
+	clergymen=
+	{
+		culture = spanish
+		religion = shinto
+		size= 33
+	}
+
+	bureaucrats=
+	{
+		culture = spanish
+		religion = shinto
+		size= 8
+	}
+
+	officers=
+	{
+		culture = spanish
+		religion = shinto
+		size= 7
+	}
+
+	aristocrats=
+	{
+		culture = spanish
+		religion = shinto
+		size= 42
+	}
+
+	farmers=
+	{
+		culture = spanish
+		religion = shinto
+		size= 2108
+	}
+
+	soldiers=
+	{
+		culture = japanese
+		religion = shinto
+		size= 12
+	}
+
+	artisans=
+	{
+		culture = japanese
+		religion = shinto
+		size= 404
+	}
+
+	clergymen=
+	{
+		culture = japanese
+		religion = shinto
+		size= 66
+	}
+
+	bureaucrats=
+	{
+		culture = japanese
+		religion = shinto
+		size= 15
+	}
+
+	officers=
+	{
+		culture = japanese
+		religion = shinto
+		size= 13
+	}
+
+	aristocrats=
+	{
+		culture = japanese
+		religion = shinto
+		size= 85
+	}
+
+	farmers=
+	{
+		culture = japanese
+		religion = shinto
+		size= 571
+	}
+
+	soldiers=
+	{
+		culture = japanese
+		religion = sunni
+		size= 44
+	}
+
+	artisans=
+	{
+		culture = japanese
+		religion = sunni
+		size= 961
+	}
+
+	clergymen=
+	{
+		culture = japanese
+		religion = sunni
+		size= 156
+	}
+
+	bureaucrats=
+	{
+		culture = japanese
+		religion = sunni
+		size= 36
+	}
+
+	officers=
+	{
+		culture = japanese
+		religion = sunni
+		size= 31
+	}
+
+	aristocrats=
+	{
+		culture = japanese
+		religion = sunni
+		size= 202
+	}
+
+	farmers=
+	{
+		culture = japanese
+		religion = sunni
+		size= 2993
+	}
+
+}
+2531 = {
+	soldiers=
+	{
+		culture = melanesian
+		religion = animist
+		size= 345
+	}
+
+	farmers=
+	{
+		culture = melanesian
+		religion = animist
+		size= 34111
+	}
+
+	farmers=
+	{
+		culture = spanish
+		religion = catholic
+		size= 8720
+	}
+
+	soldiers=
+	{
+		culture = spanish
+		religion = catholic
+		size= 89
+	}
+
+	artisans=
+	{
+		culture = spanish
+		religion = catholic
+		size= 218
+	}
+
+	aristocrats=
+	{
+		culture = spanish
+		religion = catholic
+		size= 45
+	}
+
+	clergymen=
+	{
+		culture = spanish
+		religion = catholic
+		size= 35
+	}
+
+	bureaucrats=
+	{
+		culture = spanish
+		religion = catholic
+		size= 8
+	}
+
+	officers=
+	{
+		culture = spanish
+		religion = catholic
+		size= 6
+	}
+
+	soldiers=
+	{
+		culture = spanish
+		religion = shinto
+		size= 4
+	}
+
+	artisans=
+	{
+		culture = spanish
+		religion = shinto
+		size= 222
+	}
+
+	clergymen=
+	{
+		culture = spanish
+		religion = shinto
+		size= 36
+	}
+
+	bureaucrats=
+	{
+		culture = spanish
+		religion = shinto
+		size= 8
+	}
+
+	officers=
+	{
+		culture = spanish
+		religion = shinto
+		size= 7
+	}
+
+	aristocrats=
+	{
+		culture = spanish
+		religion = shinto
+		size= 47
+	}
+
+	farmers=
+	{
+		culture = spanish
+		religion = shinto
+		size= 104
+	}
+
+	soldiers=
+	{
+		culture = andalucian
+		religion = sunni
+		size= 3
+	}
+
+	artisans=
+	{
+		culture = andalucian
+		religion = sunni
+		size= 445
+	}
+
+	clergymen=
+	{
+		culture = andalucian
+		religion = sunni
+		size= 72
+	}
+
+	bureaucrats=
+	{
+		culture = andalucian
+		religion = sunni
+		size= 17
+	}
+
+	officers=
+	{
+		culture = andalucian
+		religion = sunni
+		size= 14
+	}
+
+	aristocrats=
+	{
+		culture = andalucian
+		religion = sunni
+		size= 93
+	}
+
+	soldiers=
+	{
+		culture = japanese
+		religion = sunni
+		size= 44
+	}
+
+	artisans=
+	{
+		culture = japanese
+		religion = sunni
+		size= 1060
+	}
+
+	clergymen=
+	{
+		culture = japanese
+		religion = sunni
+		size= 172
+	}
+
+	bureaucrats=
+	{
+		culture = japanese
+		religion = sunni
+		size= 40
+	}
+
+	officers=
+	{
+		culture = japanese
+		religion = sunni
+		size= 34
+	}
+
+	aristocrats=
+	{
+		culture = japanese
+		religion = sunni
+		size= 223
+	}
+
+	farmers=
+	{
+		culture = japanese
+		religion = sunni
+		size= 2831
+	}
+
+}
+2537 = {
+	soldiers=
+	{
+		culture = melanesian
+		religion = animist
+		size= 321
+	}
+
+	farmers=
+	{
+		culture = melanesian
+		religion = animist
+		size= 15724
+	}
+
+	farmers=
+	{
+		culture = sureno
+		religion = catholic
+		size= 22162
+	}
+
+	soldiers=
+	{
+		culture = sureno
+		religion = catholic
+		size= 495
+	}
+
+	artisans=
+	{
+		culture = sureno
+		religion = catholic
+		size= 1633
+	}
+
+	aristocrats=
+	{
+		culture = sureno
+		religion = catholic
+		size= 343
+	}
+
+	clergymen=
+	{
+		culture = sureno
+		religion = catholic
+		size= 306
+	}
+
+	bureaucrats=
+	{
+		culture = sureno
+		religion = catholic
+		size= 81
+	}
+
+	officers=
+	{
+		culture = sureno
+		religion = catholic
+		size= 32
+	}
+
+}
+2539 = {
+	soldiers=
+	{
+		culture = melanesian
+		religion = animist
+		size= 136
+	}
+
+	farmers=
+	{
+		culture = melanesian
+		religion = animist
+		size= 6659
+	}
+
+	soldiers=
+	{
+		culture = dakshin
+		religion = hindu
+		size= 194
+	}
+
+	farmers=
+	{
+		culture = dakshin
+		religion = hindu
+		size= 9040
+	}
+
+	artisans=
+	{
+		culture = dakshin
+		religion = hindu
+		size= 330
+	}
+
+	clergymen=
+	{
+		culture = dakshin
+		religion = hindu
+		size= 124
+	}
+
+	aristocrats=
+	{
+		culture = dakshin
+		religion = hindu
+		size= 69
+	}
+
+	officers=
+	{
+		culture = dakshin
+		religion = hindu
+		size= 10
+	}
+
+	bureaucrats=
+	{
+		culture = dakshin
+		religion = hindu
+		size= 3
+	}
+
+	soldiers=
+	{
+		culture = dakshin
+		religion = sunni
+		size= 41
+	}
+
+	artisans=
+	{
+		culture = dakshin
+		religion = sunni
+		size= 412
+	}
+
+	clergymen=
+	{
+		culture = dakshin
+		religion = sunni
+		size= 155
+	}
+
+	bureaucrats=
+	{
+		culture = dakshin
+		religion = sunni
+		size= 5
+	}
+
+	officers=
+	{
+		culture = dakshin
+		religion = sunni
+		size= 13
+	}
+
+	aristocrats=
+	{
+		culture = dakshin
+		religion = sunni
+		size= 87
+	}
+
+	farmers=
+	{
+		culture = dakshin
+		religion = sunni
+		size= 1324
+	}
+
+}

@@ -1,0 +1,6 @@
+owner=ALO
+controller=ALO
+add_core=ALO
+trade_goods = wool
+life_rating = 10
+fort = 1

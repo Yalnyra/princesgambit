@@ -1,0 +1,437 @@
+political_decisions = {
+	
+	
+	#Startup
+	
+	option_releasables_open = {
+		picture = starting_options
+		alert = yes
+		potential = {
+			has_country_flag = country_looking_through_options
+			has_global_flag = looking_through_options
+			NOT = {has_global_flag = option_releasables}
+		}
+		allow = {
+		}
+		
+		effect = {
+			set_global_flag = option_releasables
+			set_country_flag = option_releasables
+		}
+	}
+	
+	option_releasables_close = {
+		picture = starting_options
+		alert = yes
+		potential = {
+			has_country_flag = option_releasables
+			has_global_flag = option_releasables
+			
+		}
+		allow = {
+		}
+		
+		effect = {
+			clr_global_flag = option_releasables
+			clr_country_flag = option_releasables
+		}
+	}
+	
+	option_fix_crisis = {
+		picture = starting_options
+		alert = yes
+		potential = {
+			has_country_flag = country_looking_through_options
+			has_global_flag = looking_through_options
+			NOT = {has_global_flag = fix_crisis}
+		}
+		allow = {
+		}
+		
+		effect = {
+			set_global_flag = fix_crisis
+		}
+	}
+	
+	option_disable_colonial_railroading = {
+		picture = starting_options
+		alert = no
+		potential = {
+			has_country_flag = country_looking_through_options
+			ai = no
+			has_global_flag = looking_through_options
+			NOT = { year = 1837 }
+			NOT = { has_global_flag = colonial_railroading_disabled }
+		}
+		allow = {}
+		effect = {
+			set_global_flag = colonial_railroading_disabled
+		}
+	}
+	
+	option_release_CAN = {
+		picture = starting_options
+		alert = yes
+		potential = {
+			has_country_flag = option_releasables
+			has_global_flag = option_releasables
+			NOT = {has_global_flag = release_CAN}
+		}
+		allow = {
+		}
+		
+		effect = {
+			set_global_flag = release_CAN
+			ENG = {
+				
+				any_owned = {
+					limit = {
+						OR = {
+							is_core = CAN
+							is_core = COL
+							is_core = MRU
+							is_core = RPL
+							is_core = QUE
+						}
+						
+					}
+					#secede_province = CAN
+					add_core = CAN
+				}
+				release = CAN
+			}
+		}
+	}
+	option_release_NZ = {
+		picture = starting_options
+		alert = yes
+		potential = {
+			has_country_flag = option_releasables
+			has_global_flag = option_releasables
+			NOT = {has_global_flag = release_NZ}
+		}
+		allow = {
+		}
+		
+		effect = {
+			set_global_flag = release_NZ
+			ENG_2509 = { add_core = NZL}
+			ENG_2513 = { add_core = NZL}
+			ITA = {
+				release = NZL
+				any_owned = {
+					limit = {
+						is_core = NZL
+					}
+					secede_province = NZL
+				}
+			}
+		}
+	}
+	option_release_AST = {
+		picture = starting_options
+		alert = yes
+		potential = {
+			has_country_flag = option_releasables
+			has_global_flag = option_releasables
+			NOT = {has_global_flag = release_AST}
+		}
+		allow = {
+		}
+		
+		effect = {
+			set_global_flag = release_AST
+			ENG = {
+				release = AST
+				any_owned = {
+					limit = {
+						is_core = AST
+					}
+					secede_province = AST
+				}
+			}
+		}
+	}
+	option_release_TKY = {
+		picture = starting_options
+		alert = yes
+		potential = {
+			has_country_flag = option_releasables
+			has_global_flag = option_releasables
+			NOT = {has_global_flag = release_TKY}
+		}
+		allow = {
+		}
+		
+		effect = {
+			set_global_flag = release_TKY
+			
+			TUR_863 = { add_core = TKY}
+			TUR_869 = { add_core = TKY}
+			TUR_873 = { add_core = TKY}
+			TUR_876 = { add_core = TKY}
+			TUR_880 = { add_core = TKY}
+			TUR_882 = { add_core = TKY}
+			TUR_885 = { add_core = TKY}
+			TUR_890 = { add_core = TKY}
+			TUR_893 = { add_core = TKY}
+			TUR_894 = { add_core = TKY}
+			TUR = {
+				release = TKY
+				#any_owned = {
+				#	limit = {
+				#		is_core = TKY
+				#	}
+				#	secede_province = TKY
+				#}
+			}
+			TUR_860 = { add_core = TKY}
+			#TKY = { TUR_860 = {secede_province = TUR }}
+		}
+	}
+	option_add_TKY = {
+		picture = starting_options
+		alert = yes
+		potential = {
+			has_country_flag = option_releasables
+			has_global_flag = option_releasables
+			NOT = {has_global_flag = add_TKY}
+		}
+		allow = {
+		}
+		
+		effect = {
+			set_global_flag = add_TKY
+			TUR_860 = { add_core = TKY}
+			TUR_863 = { add_core = TKY}
+			TUR_869 = { add_core = TKY}
+			TUR_873 = { add_core = TKY}
+			TUR_876 = { add_core = TKY}
+			TUR_880 = { add_core = TKY}
+			TUR_882 = { add_core = TKY}
+			TUR_885 = { add_core = TKY}
+			TUR_890 = { add_core = TKY}
+			TUR_893 = { add_core = TKY}
+			TUR_894 = { add_core = TKY}
+		}
+	}
+	
+	#Everythign else
+	
+	accept_donations = {
+		picture = monte_carlo_casino
+		potential = {
+			
+			government = top_down_revolution 
+			NOT = {has_country_modifier = oligarcic_donations}
+		}
+		allow = {
+			central_bank_money_bill_printing = 1
+		}
+		
+		effect = {
+			add_tax_relative_income = 200
+			add_country_modifier = {
+				name = oligarcic_donations
+				duration = 3650
+			}
+		}
+	}
+	
+	female_education = {
+		picture = Elementary_education_of_Bosnian_women_in_1948
+		alert = yes
+		potential = {
+			OR = {
+				AND = {
+					tag = TKY
+					has_country_flag = Turkish_Education
+				
+				}
+				AND = {
+					has_country_modifier = female_suffrage
+					
+				}
+				government = top_down_revolution
+			}
+			NOT = {has_country_modifier = female_education}
+		}
+		allow = {
+			NOT = {school_reforms = no_schools}
+            OR = {
+                upper_house = {
+                    ideology = socialist
+                    value = 0.3
+                }
+                upper_house = {
+                    ideology = liberal
+                    value = 0.3
+                }
+                AND = {
+                    upper_house = {
+                        ideology = socialist
+                        value = 0.15
+                    }
+                    upper_house = {
+                        ideology = liberal
+                        value = 0.15
+                    }
+                }
+            }
+            OR = {
+                social_reform_want = 0.15
+                school_reforms = good_schools
+            }
+            average_consciousness = 4
+        }
+		
+		effect = {
+			THIS = {
+				add_country_modifier = {
+					name = female_education
+					duration = -1
+				}
+			}
+		}
+	}
+	
+	unknown_soldier = {
+		picture = Tomb_of_the_Unknown_Warrior
+		alert = yes
+		potential = {
+			NOT = {has_country_modifier = unkown_soldier}
+			OR = {
+				has_country_flag = in_great_war
+                has_country_modifier = no_more_war
+			}
+		}
+		allow = {
+			war_exhaustion = 30
+			expressionism = 1
+			
+        }
+		
+		effect = {
+			treasury = -200000
+			THIS = {
+				add_country_modifier = {
+					name = unkown_soldier
+					duration = -1
+				}
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	Propse_league_of_nations = {
+		picture = LoN
+		alert = yes
+		potential = {
+			NOT = { has_global_flag = league_proposed }
+			great_wars_enabled = yes
+            has_country_modifier  = no_more_war
+			is_greater_power = yes
+			#any_country = {
+			#	limit = {
+			#		ai = no
+			#		is_greater_power = yes
+            #    }
+            #}
+			
+		}  
+		allow = {
+			war = no
+			
+        }
+		
+		effect = {
+			set_global_flag = league_proposed
+			set_country_flag = proposed_leage
+			country_event = 69600
+			ENG = {set_variable = { 
+				which = league_1
+				value = 0
+			}
+			}
+			any_country = {
+				limit = {
+					is_greater_power = yes
+				}
+				
+				country_event = 69600
+            }
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	All_in_on_SWI = {
+		picture = declare_neutrality
+		alert = yes
+		potential = {
+			SWI = {
+				exists = no
+			}
+			OR = {
+				
+				tag = FRA
+				tag = KUK
+				tag = SGF
+				tag = GER
+				tag = X00
+				tag = DNB
+				tag = ITA
+			}
+			NOT = { 
+				owns = 603 
+				owns = 611
+				owns = 2568
+				owns = 606
+			}
+			OR = {
+				owns = 721
+				
+				owns = 722
+				owns = 726
+				owns = 2669
+				owns = 735
+				owns = 612
+				owns = 614
+				owns = 588
+				owns = 587
+				owns = 410
+				owns = 414
+				owns = 432
+				owns = 451
+				owns = 433
+				owns = 465
+			}
+			NOT = { has_country_flag = SWI_claim }
+			
+		}  
+		allow = {
+			war = no
+			is_greater_power = yes
+			invention = manifest_destiny
+        }
+		
+		effect = {
+			badboy = 10
+			
+			set_country_flag = SWI_claim
+			SWI_603 = { add_core = THIS }
+			
+			
+		}
+		ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 0
+                badboy = 0.5
+            }
+        }
+	}
+	
+	
+	
+	
+}

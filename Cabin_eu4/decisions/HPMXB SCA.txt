@@ -1,0 +1,491 @@
+political_decisions = {
+
+    SCA_HOL = {
+        picture = SchleswigHolstien
+        potential = {
+            tag = SCA
+            has_country_flag = nordism_embraced
+			NOT = {has_country_flag = Holstein}
+        }
+
+        allow = {
+            invention = manifest_destiny
+			owns = 372
+            war = no
+			
+        }
+
+        effect = {
+			set_country_flag = Holstein
+			badboy = 5
+			371 = {add_core = SCA}
+            370= {add_core = SCA}
+			369= {add_core = SCA}
+			529= {add_core = SCA}
+			530 = {add_core = SCA}
+			
+			any_country = {
+				limit = {
+					OR = {
+						tag = HOL
+						tag = SWH
+						tag = SCH
+						
+					}
+					OR = {
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+				annex_to = SCA
+			}
+            
+        }
+
+        ai_will_do = { 
+			factor = 1 
+			modifier = {
+                factor = 0
+                badboy = 0.5
+            }
+		}
+    }
+	
+	SCA_POM = {
+        picture = Swedish_Pomerania
+        potential = {
+            tag = SCA
+            has_country_flag = nordism_embraced
+			NOT = {has_country_flag = SCA_POM}
+        }
+
+        allow = {
+            invention = manifest_destiny
+			owns = 372
+            war = no
+			
+        }
+
+        effect = {
+			set_country_flag = SCA_POM
+			badboy = 5
+			PRU_544 = {add_core = SCA}
+            546= {add_core = SCA}
+			
+			
+			any_country = {
+				limit = {
+					OR = {
+						tag = MEC
+						
+						
+					}
+					OR = {
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+				annex_to = SCA
+			}
+            
+        }
+
+        ai_will_do = { 
+			factor = 1 
+			modifier = {
+                factor = 0
+                badboy = 0.5
+            }
+		}
+    }
+	
+	SCA_EST = {
+        picture = estonia
+        potential = {
+            tag = SCA
+            has_country_flag = nordism_embraced
+			NOT = {has_country_flag = estonia}
+			owns = 342
+        }
+
+        allow = {
+            
+			experimental_psychology = 1
+            prestige = 50
+			war = no
+            
+			
+        }
+
+        effect = {
+			prestige = -25
+			set_country_flag = estonia
+			badboy = 5
+			EST = {
+                all_core = {
+					add_core = SCA
+				}
+			}
+			
+			any_country = {
+				limit = {
+					OR = {
+						tag = EST
+						tag = UBD
+						
+						
+					}
+					OR = {
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+				annex_to = SCA
+			}
+			any_pop = {
+                limit = {
+                    OR = {
+                        is_primary_culture = yes
+                        is_accepted_culture = yes
+                    }
+                }
+                consciousness = 1
+            }
+
+            any_pop = {
+                limit = {
+                    is_primary_culture = no
+                    is_accepted_culture = no
+                }
+                consciousness = 2
+            }
+            
+        }
+
+        ai_will_do = { 
+			factor = 1 
+			modifier = {
+                factor = 0
+                badboy = 0.5
+            }
+		}
+    }
+	
+	SCA_baltic = {
+        picture = form_baltic_states
+        potential = {
+            tag = SCA
+            has_country_flag = estonia
+			NOT = {has_country_flag = baltic}
+			owns = 354
+        }
+
+        allow = {
+            war = no
+            invention = manifest_destiny
+			
+        }
+
+        effect = {
+			set_country_flag = baltic
+			badboy = 7
+			LIT = {
+                all_core = {
+					add_core = SCA
+				}
+			}
+			LAT = {
+                all_core = {
+					add_core = SCA
+				}
+			}
+			
+			any_country = {
+				limit = {
+					OR = {
+						tag = LAT
+						tag = LIT
+						tag = UBD
+						
+					}
+					OR = {
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+				annex_to = SCA
+			}
+			
+            
+        }
+
+        ai_will_do = { 
+			factor = 1 
+			modifier = {
+                factor = 0
+                badboy = 0.5
+            }
+		}
+    }
+	
+	SCA_Karelia = {
+        picture = Karelia
+        potential = {
+			OR = {
+				AND = {
+					OR = {
+						tag = SCA
+						tag = BTC
+					}
+					has_country_flag = nordism_embraced
+				}
+				tag = FIN
+				
+				
+			}
+			is_vassal = no
+            
+			NOT = {has_global_flag = Karelia}
+			owns = 343
+        }
+
+        allow = {
+            invention = manifest_destiny
+			war = no
+        }
+
+        effect = {
+			set_global_flag = Karelia
+			set_country_flag = Karelia
+			badboy = 4
+			KRL = {
+                all_core = {
+					add_core = THIS
+					add_core = FIN
+				}
+			}
+			
+			
+			
+			
+			any_country = {
+				limit = {
+					OR = {
+						tag = KRL
+						
+					}
+					OR = {
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+				annex_to = THIS
+			}
+			
+            
+        }
+
+        ai_will_do = { 
+			factor = 1 
+			modifier = {
+                factor = 0
+                badboy = 0.5
+            }
+		}
+    }
+	
+	SCA_Karelia_2 = {
+        picture = Karelia
+        potential = {
+			OR = {
+				AND = {
+					OR = {
+						tag = SCA
+						tag = BTC
+					}
+					has_country_flag = nordism_embraced
+				}
+				#tag = FIN
+				
+				
+			}
+			is_vassal = no
+            has_global_flag = Karelia
+			NOT = {has_country_flag = Karelia}
+			#owns = 343
+        }
+
+        allow = {
+            invention = manifest_destiny
+			war = no
+        }
+
+        effect = {
+			#set_global_flag = Karelia
+			set_country_flag = Karelia
+			badboy = 4
+			KRL = {
+                all_core = {
+					add_core = THIS
+					#add_core = FIN
+				}
+			}
+			
+			
+			
+			
+			any_country = {
+				limit = {
+					OR = {
+						tag = KRL
+						
+					}
+					OR = {
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+				annex_to = THIS
+			}
+			
+            
+        }
+
+        ai_will_do = { 
+			factor = 1 
+			modifier = {
+                factor = 0
+                badboy = 0.5
+            }
+		}
+    }
+	
+	SCA_Norway_project = {
+		picture = mid_scandanavia
+		potential = {
+			OR = {
+				tag = SCA
+				tag = BTC
+			}
+				
+			
+			NOT = {has_country_flag = SCA_Norway_project}
+			
+
+        }
+		
+		allow = {
+			business_banks = 1
+			market_regulations = 1
+			steam_turbine = 1
+			empiricism = 1
+			owns = 309 
+			owns = 313
+			owns = 308
+			owns = 318 
+			owns = 322 
+			owns = 329
+			owns = 334 
+			money = 3000000
+			war = no
+			
+		}
+	
+		effect = {
+			set_country_flag = SCA_Norway_project
+			SWE_309 = {life_rating = 5}
+			SWE_313= {life_rating = 5}
+			SWE_308= {life_rating = 5}
+			SWE_318 = {life_rating =5}
+			SWE_322 = {life_rating = 5}
+			SWE_329= {life_rating = 5}
+			SWE_334 = {life_rating = 5}
+			
+			SCA = { change_variable = { which = owed_cash_money value = 3000 } }
+		
+			
+		}
+
+
+        
+
+		
+		
+		ai_will_do = {
+            factor = 1
+		}
+	}
+	
+	SCA_Geothermal_iceland = {
+		picture = fort_selkirk
+		potential = {
+			
+			owns = 252
+			252 = {NOT = { life_rating = 38 }}
+			
+			NOT = {has_country_flag = SCA_Geothermal_iceland}
+			
+			year = 1895
+        }
+		
+		allow = {
+			electrical_power_generation = 1
+			
+			money = 300000
+			war = no
+			
+		}
+	
+		effect = {
+			set_country_flag = SCA_Geothermal_iceland
+			252 = {life_rating = 10}
+			
+			
+			THIS = { change_variable = { which = owed_cash_money value = 300 } }
+		
+			
+		}
+
+
+        
+
+		
+		
+		ai_will_do = {
+            factor = 1
+		}
+	}
+	SCA_Purchase_finland = {
+        picture = old_finnish_map
+        potential = {
+			OR = {
+				tag = SCA
+				tag = BTC
+			}
+            has_country_flag = nordism_embraced
+			NOT = {has_country_flag = Offer_purchase_finland}
+			FIN = {
+				exists = yes
+				is_vassal = yes
+                NOT = {vassal_of = THIS}
+			}
+			
+        }
+
+        allow = {
+            war = no
+			money = 500000
+        }
+
+        effect = {
+			set_country_flag = Offer_purchase_finland
+			FIN = { overlord = {country_event = 69800 } }
+			
+			
+            
+        }
+
+        ai_will_do = { factor = 1     }
+    }
+	
+}

@@ -1,0 +1,8 @@
+owner=ISR
+controller=ISR
+add_core=LIT
+add_core=UKR
+add_core=ZAZ
+trade_goods = timber
+life_rating = 35
+terrain = mining_district

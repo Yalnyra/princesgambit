@@ -1,0 +1,9 @@
+owner=MLY
+controller=MLY
+add_core=CHA
+add_core=DAI
+add_core=IDO
+add_core=MLY
+trade_goods = fish
+life_rating = 35
+naval_base = 2

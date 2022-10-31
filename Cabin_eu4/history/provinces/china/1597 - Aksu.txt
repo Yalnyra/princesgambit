@@ -1,0 +1,7 @@
+owner=TIM
+controller=TIM
+add_core=TIM
+add_core=XIN
+add_core=YRK
+trade_goods = sulphur
+life_rating = 32

@@ -1,0 +1,8 @@
+owner=PER
+controller=PER
+add_core=ALH
+add_core=ARA
+add_core=DAW
+trade_goods = fruit
+life_rating = 35
+terrain = semidesert

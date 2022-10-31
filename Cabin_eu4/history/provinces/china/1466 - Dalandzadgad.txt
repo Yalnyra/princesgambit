@@ -1,0 +1,9 @@
+owner=CHV
+controller=CHV
+add_core=CHV
+add_core=KHA
+add_core=KLK
+add_core=MGL
+add_core=NNG
+trade_goods = timber
+life_rating = 32

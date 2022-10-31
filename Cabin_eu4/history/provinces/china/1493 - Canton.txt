@@ -1,0 +1,7 @@
+owner=MLY
+controller=MLY
+add_core=MLY
+add_core=X06
+trade_goods = precious_goods
+life_rating = 32
+naval_base = 1

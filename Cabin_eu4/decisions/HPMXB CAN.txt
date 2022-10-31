@@ -1,0 +1,407 @@
+political_decisions = {
+	CAN_claim_Alaska = {
+		picture = map_alaska
+		alert = yes
+		potential = {
+			tag = X11
+			
+			owns = 17 
+			owns = 2629
+			NOT = {has_country_flag = CAN_claim_Alaska}
+		}
+		allow = {
+			OR = {
+				is_secondary_power = yes
+				is_greater_power = yes
+			}
+			nationalism_n_imperialism = 1
+		}
+		
+		effect = {
+			set_country_flag = CAN_claim_Alaska
+			USA_1 = { add_core = X12}
+			badboy = 3
+			prestige = 10
+		}
+	}
+	CAN_consolidate_Quebec = {
+		picture = vive_le_quebec
+		alert = yes
+		potential = {
+			tag = USA
+			59 = { empty = yes }
+			9 = { empty = yes }
+			2626 = { empty = yes }
+			NOT = { owns = 2516 }
+			NOT = {has_country_flag = CAN_consolidate_Quebec}
+		}
+		allow = {
+			medicine = 1
+		}
+		
+		effect = {
+			set_country_flag = CAN_consolidate_Quebec
+			2626 = {  secede_province = USA }
+			9 = {  secede_province = USA }
+			59 = {  secede_province = USA }
+			prestige = 10
+		}
+	}
+
+	CAN_claiming_north = {
+		picture = northern_lights
+		alert = yes
+        potential = {
+            tag = X11
+            NOT = { has_country_flag = CAN_claiming_north }
+            year = 1870
+			is_core = 47
+			
+        }
+
+        allow = {
+            war = no
+			
+			
+            
+            nationalism_n_imperialism = 1
+            
+			
+		}
+        
+
+        effect = {
+            
+            set_country_flag = CAN_claiming_north
+			prestige = 10
+			
+			ENG_68 = { 
+				limit = {
+					empty = yes
+				}
+				add_core = X11
+				secede_province = X11
+			}
+			ENG_9 = { 
+				limit = {
+					empty = yes
+				}
+				add_core = X11
+				secede_province = X11
+			}
+			CAN_13 = { 
+				limit = {
+					empty = yes
+				}
+				add_core = X11
+				secede_province = X11
+			}
+			ENG_22 = { 
+				limit = {
+					empty = yes
+				}
+				add_core = X11
+				secede_province = X11
+			}
+			ENG_30 = { 
+				limit = {
+					empty = yes
+				}
+				add_core = X11
+				secede_province = X11
+			}
+			ENG_36 = { 
+				limit = {
+					empty = yes
+				}
+				add_core = X11
+				secede_province = X11
+			}
+			CAN_46 = { 
+				limit = {
+					empty = yes
+				}
+				add_core = X11
+				secede_province = X11
+			}
+			CAN_50 = { 
+				limit = {
+					empty = yes
+				}
+				add_core = X11
+				secede_province = X11
+			}
+			CAN_58 = { 
+				limit = {
+					empty = yes
+				}
+				add_core = X11
+				secede_province = X11
+			}
+			CAN_60 = { 
+				limit = {
+					empty = yes
+				}
+				add_core = X11
+				secede_province = X11
+			}
+			
+			
+			
+            
+        }
+        ai_will_do = {
+            factor = 1
+            
+        }
+    }
+
+    CAN_intervine_civil_war = {
+		picture = apply_for_USA_statehood
+		alert = yes
+        potential = {
+            tag = X11
+            
+            has_global_flag = american_civil_war_has_happened
+            NOT = { has_country_flag = CAN_intervine_civil_war }
+			CSA = { exists = yes }
+			USA = { exists = yes }
+			CSA = { war = yes }
+			USA = { war = yes }
+        }
+
+        allow = {
+            war = no
+			is_vassal = no
+            
+            invention = national_fraternity
+            
+            
+            
+        }
+
+        effect = {
+            
+            set_country_flag = CAN_intervine_civil_war
+			country_event = 800001066
+            
+        }
+        ai_will_do = {
+            factor = 1
+            
+        }
+    }
+	
+	CAN_guarentee_constitution = {
+		picture = us_constitution
+		alert = yes
+        potential = {
+            tag = X11
+            NOT = { has_country_flag = CAN_guarentee_constitution }
+            has_country_flag = CAN_North_America_2
+            USA = {have_core_in = X11 }
+			NOT = {exists = USA}
+			NOT = {exists = CSA}
+        }
+
+        allow = {
+            #war = no
+			is_vassal = no
+            phenomenalism = 1
+            #nationalism_n_imperialism = 1
+            
+            
+            
+        }
+
+        effect = {
+            
+            set_country_flag = CAN_guarentee_constitution
+			prestige = 10
+			
+			
+			upper_house_composition = state_equal_weight
+			vote_franschise = universal_voting
+			public_meetings = yes_meeting
+			press_rights = free_press
+			trade_unions = all_trade_unions
+			
+			political_parties = secret_ballots
+			debt_law = bankruptcy
+			
+			
+			citizens_rights = all_voting_pops
+			border_policy = open_borders
+			
+			any_pop = {
+				limit = { has_pop_culture = texan }
+				militancy = -2
+				consciousness = 1
+			}
+			any_pop = {
+				limit = { has_pop_culture = yankee }
+				militancy = -2
+				consciousness = 1
+			}
+			any_pop = {
+				limit = { has_pop_culture = dixie }
+				militancy = -2
+				consciousness = 1
+			}
+            
+        }
+        ai_will_do = {
+            factor = 1
+            
+        }
+    }
+	CAN_promote_Pan-Anglo_Ideas = {
+		picture = US_revolutionary_jack
+		alert = yes
+        potential = {
+            tag = CAN
+            NOT = { has_country_flag = CAN_promote_Pan-Anglo_Ideas }
+            has_country_flag = CAN_guarentee_constitution
+            USA = {have_core_in = CAN }
+			NOT = {exists = USA}
+			NOT = {exists = CSA}
+        }
+
+        allow = {
+            #war = no
+			is_vassal = no
+			revolution_n_counterrevolution = 1
+            experimental_psychology = 1
+            #nationalism_n_imperialism = 1
+            
+            
+            
+        }
+
+        effect = {
+            
+            set_country_flag = CAN_promote_Pan-Anglo_Ideas
+			prestige = 10
+			any_pop = {
+				limit = { 
+					 
+					OR = {
+						has_pop_culture = australian 
+						has_pop_culture = british
+						has_pop_culture = anglo_canadian
+						has_pop_culture = dixie
+						has_pop_culture = yankee
+						has_pop_culture = texan
+					}
+					
+				}
+				militancy = -2
+				consciousness = -1
+			}
+			any_pop = {
+				limit = { 
+					NOT = { 
+						OR = {
+							has_pop_culture = australian 
+							has_pop_culture = british
+							has_pop_culture = anglo_canadian
+							has_pop_culture = dixie
+							has_pop_culture = yankee
+							has_pop_culture = texan
+						}
+					}
+				}
+				militancy = 2
+				consciousness = 1
+			}
+			
+            
+        }
+        ai_will_do = {
+            factor = 1
+            
+        }
+    }
+	CAN_Anglo-American_unity = {
+		picture = n_american_union
+		alert = yes
+        potential = {
+            tag = CAN
+            NOT = { has_country_flag = CAN_Anglo-American_unity }
+            has_country_flag = CAN_North_America_2
+			has_country_flag = CAN_promote_Pan-Anglo_Ideas 
+            USA = {have_core_in = CAN }
+			NOT = {exists = USA}
+			NOT = {exists = CSA}
+        }
+
+        allow = {
+            #war = no
+			is_vassal = no
+			revolution_n_counterrevolution = 1
+            experimental_psychology = 1
+            #nationalism_n_imperialism = 1
+            
+            
+            NOT = {
+				2146 = {
+					
+					has_province_modifier = nationalist_agitation
+
+				}
+			}
+			
+		}
+        
+
+        effect = {
+            
+            set_country_flag = CAN_Anglo-American_unity
+			prestige = 10
+			add_accepted_culture = yankee
+			add_accepted_culture = texan
+			add_accepted_culture = dixie
+			USA = {
+				all_core = { add_core = CAN }
+			}
+			any_pop = {
+				limit = { 
+					 
+					OR = {
+						has_pop_culture = australian 
+						has_pop_culture = british
+						has_pop_culture = anglo_canadian
+						has_pop_culture = dixie
+						has_pop_culture = yankee
+						has_pop_culture = texan
+					}
+					
+				}
+				militancy = -2
+				consciousness = -1
+			}
+			any_pop = {
+				limit = { 
+					NOT = { 
+						OR = {
+							has_pop_culture = australian 
+							has_pop_culture = british
+							has_pop_culture = anglo_canadian
+							has_pop_culture = dixie
+							has_pop_culture = yankee
+							has_pop_culture = texan
+						}
+					}
+				}
+				militancy = 2
+				consciousness = 1
+			}
+			
+            
+        }
+        ai_will_do = {
+            factor = 1
+            
+        }
+    }
+}

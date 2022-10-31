@@ -1,0 +1,158 @@
+#Sphere of Influence
+
+AKH = {
+	value = 0
+	level = 2
+}
+ALO = {
+	value = 0
+	level = 2
+}
+BEG = {
+	value = 0
+	level = 2
+}
+BRZ = {
+	value = 0
+	level = 2
+}
+CLM = {
+	value = 0
+	level = 2
+}
+DLM = {
+	value = 0
+	level = 2
+}
+ENG = {
+	value = 0
+	level = 2
+}
+FRM = {
+	value = 0
+	level = 2
+}
+GOS = {
+	value = 0
+	level = 2
+}
+HAU = {
+	value = 0
+	level = 2
+}
+HAW = {
+	value = 0
+	level = 2
+}
+HLL = {
+	value = 0
+	level = 2
+}
+ISR = {
+	value = 0
+	level = 2
+}
+KBO = {
+	value = 0
+	level = 2
+}
+LBA = {
+	value = 0
+	level = 2
+}
+LOU = {
+	value = 0
+	level = 2
+}
+LUB = {
+	value = 0
+	level = 2
+}
+MFL = {
+	value = 0
+	level = 2
+}
+ML1 = {
+	value = 0
+	level = 2
+}
+MLH = {
+	value = 0
+	level = 2
+}
+MLI = {
+	value = 0
+	level = 2
+}
+NNG = {
+	value = 0
+	level = 2
+}
+NSS = {
+	value = 0
+	level = 2
+}
+NZL = {
+	value = 0
+	level = 2
+}
+OMA = {
+	value = 0
+	level = 2
+}
+PAL = {
+	value = 0
+	level = 2
+}
+QNG = {
+	value = 0
+	level = 2
+}
+RYA = {
+	value = 0
+	level = 2
+}
+SAX = {
+	value = 0
+	level = 2
+}
+SGH = {
+	value = 0
+	level = 2
+}
+TTL = {
+	value = 0
+	level = 2
+}
+WAD = {
+	value = 0
+	level = 2
+}
+WSI = {
+	value = 0
+	level = 2
+}
+X00 = {
+	value = 0
+	level = 2
+}
+X09 = {
+	value = 0
+	level = 2
+}
+X11 = {
+	value = 0
+	level = 2
+}
+X12 = {
+	value = 0
+	level = 2
+}
+YAO = {
+	value = 0
+	level = 2
+}
+
+#Leaders
+
+#Armies

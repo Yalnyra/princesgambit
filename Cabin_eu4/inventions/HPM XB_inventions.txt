@@ -1,0 +1,499 @@
+#popgrowth industry medicine
+
+
+Antitoxins = {
+	limit = {
+		medicine = 1
+		has_country_flag = existing_country
+	}
+	news = no
+	chance = {
+		base = 2
+		modifier = {
+			factor = -7
+			NOT = { year = 1890 }
+		}
+		modifier = {
+			factor = 6
+			synthetic_polymers = 1
+		}
+		modifier = {
+			factor = 5.5
+			organic_chemistry = 1
+		}
+	}
+	effect = {
+		pop_growth = 0.0001
+		shared_prestige = 5
+	}
+}
+
+BloodTyping = {
+	limit = {
+		synthetic_polymers = 1
+		has_country_flag = existing_country
+	}
+	news = no
+	chance = {
+		base = 2
+		modifier = {
+			factor = 4
+			invention = darwinism
+		}
+	}
+	effect = {
+		pop_growth = 0.0001
+		shared_prestige = 5
+	}
+}
+
+
+#diplo psychology
+
+
+diplo1 = {
+	limit = {
+		introspectionism = 1
+		has_country_flag = existing_country
+	}
+	news = no
+	chance = {
+		base = 2
+		
+	}
+	effect = {
+		
+		diplomatic_points = 0.10
+	}
+}
+diplo2 = {
+	limit = {
+		associationism = 1
+		has_country_flag = existing_country
+	}
+	news = no
+	chance = {
+		base = 2
+		
+	}
+	effect = {
+		
+		diplomatic_points = 0.20
+	}
+}
+diplo3 = {
+	limit = {
+		phenomenalism = 1
+		has_country_flag = existing_country
+	}
+	news = no
+	chance = {
+		base = 2
+		
+	}
+	effect = {
+		
+		diplomatic_points = 0.20
+	}
+}
+diplo4 = {
+	limit = {
+		experimental_psychology = 1
+		has_country_flag = existing_country
+	}
+	news = no
+	chance = {
+		base = 2
+		
+	}
+	effect = {
+		
+		diplomatic_points = 0.25
+	}
+}
+diplo5 = {
+	limit = {
+		psychoanalysis = 1
+		has_country_flag = existing_country
+	}
+	news = no
+	chance = {
+		base = 2
+		
+	}
+	effect = {
+		
+		diplomatic_points = 0.20
+	}
+}
+diplo6 = {
+	limit = {
+		behaviorism = 1
+		has_country_flag = existing_country
+	}
+	news = no
+	chance = {
+		base = 2
+		
+	}
+	effect = {
+		
+		diplomatic_points = 0.30
+	}
+}
+
+#Art minus badboy/infamy
+
+classicist_diplomacy = {
+	limit = {
+		classicism_n_early_romanticism = 1
+		has_country_flag = existing_country
+	}
+	news = no
+	chance = {
+		base = 0
+		modifier = {
+			factor = 2
+			invention = diplo1
+		}
+	}
+	effect = {
+		
+		cb_creation_speed = 0.01
+	}
+}
+classicist_mannerisms = {
+	limit = {
+		classicism_n_early_romanticism = 1
+		has_country_flag = existing_country
+	}
+	news = no
+	chance = {
+		base = 0
+		modifier = {
+			factor = 2
+			invention = diplo1
+		}
+	}
+	effect = {
+		
+		cb_creation_speed = 0.01
+	}
+}
+classicist_formalities = {
+	limit = {
+		classicism_n_early_romanticism = 1
+		has_country_flag = existing_country
+	}
+	news = no
+	chance = {
+		base = 0
+		modifier = {
+			factor = 2
+			invention = diplo1
+		}
+	}
+	effect = {
+		
+		cb_creation_speed = 0.01
+	}
+}
+romanticist_diplomacy = {
+	limit = {
+		romanticism = 1
+		has_country_flag = existing_country
+	}
+	news = no
+	chance = {
+		base = 0
+		modifier = {
+			factor = 2
+			invention = diplo2
+		}
+	}
+	effect = {
+		
+		cb_creation_speed = 0.01
+	}
+}
+romanticist_mannerisms = {
+	limit = {
+		romanticism = 1
+		has_country_flag = existing_country
+	}
+	news = no
+	chance = {
+		base = 0
+		modifier = {
+			factor = 2
+			invention = diplo2
+		}
+	}
+	effect = {
+		
+		cb_creation_speed = 0.01
+	}
+}
+romanticist_formalities = {
+	limit = {
+		romanticism = 1
+		has_country_flag = existing_country
+	}
+	news = no
+	chance = {
+		base = 0
+		modifier = {
+			factor = 2
+			invention = diplo2
+		}
+	}
+	effect = {
+		
+		cb_creation_speed = 0.01
+	}
+}
+
+
+realist_diplomacy = {
+	limit = {
+		realism = 1
+		has_country_flag = existing_country
+	}
+	news = no
+	chance = {
+		base = 0
+		modifier = {
+			factor = 2
+			invention = diplo3
+		}
+	}
+	effect = {
+		
+		cb_creation_speed = 0.01
+	}
+}
+realist_mannerisms = {
+	limit = {
+		realism = 1
+		has_country_flag = existing_country
+	}
+	news = no
+	chance = {
+		base = 0
+		modifier = {
+			factor = 2
+			invention = diplo3
+		}
+	}
+	effect = {
+		
+		cb_creation_speed = 0.01
+	}
+}
+realist_formalities = {
+	limit = {
+		realism = 1
+		has_country_flag = existing_country
+	}
+	news = no
+	chance = {
+		base = 0
+		modifier = {
+			factor = 2
+			invention = diplo3
+		}
+	}
+	effect = {
+		
+		cb_creation_speed = 0.01
+	}
+}
+
+impressionist_diplomacy = {
+	limit = {
+		impressionism = 1
+		has_country_flag = existing_country
+	}
+	news = no
+	chance = {
+		base = 0
+		modifier = {
+			factor = 2
+			invention = diplo4
+		}
+	}
+	effect = {
+		
+		cb_creation_speed = 0.01
+	}
+}
+impressionist_mannerisms = {
+	limit = {
+		impressionism = 1
+		has_country_flag = existing_country
+	}
+	news = no
+	chance = {
+		base = 0
+		modifier = {
+			factor = 2
+			invention = diplo4
+		}
+	}
+	effect = {
+		
+		cb_creation_speed = 0.01
+	}
+}
+impressionist_formalities = {
+	limit = {
+		impressionism = 1
+		has_country_flag = existing_country
+	}
+	news = no
+	chance = {
+		base = 0
+		modifier = {
+			factor = 2
+			invention = diplo4
+		}
+	}
+	effect = {
+		
+		cb_creation_speed = 0.01
+	}
+}
+
+expressionist_diplomacy = {
+	limit = {
+		expressionism = 1
+		has_country_flag = existing_country
+	}
+	news = no
+	chance = {
+		base = 0
+		modifier = {
+			factor = 2
+			invention = diplo5
+		}
+	}
+	effect = {
+		
+		cb_creation_speed = 0.01
+	}
+}
+expressionist_mannerisms = {
+	limit = {
+		expressionism = 1
+		has_country_flag = existing_country
+	}
+	news = no
+	chance = {
+		base = 0
+		modifier = {
+			factor = 2
+			invention = diplo5
+		}
+	}
+	effect = {
+		
+		cb_creation_speed = 0.01
+	}
+}
+expressionist_formalities = {
+	limit = {
+		expressionism = 1
+		has_country_flag = existing_country
+	}
+	news = no
+	chance = {
+		base = 0
+		modifier = {
+			factor = 2
+			invention = diplo5
+		}
+	}
+	effect = {
+		
+		cb_creation_speed = 0.01
+	}
+}
+
+mass_diplomacy = {
+	limit = {
+		mass_culture_n_the_avant_garde = 1
+		has_country_flag = existing_country
+	}
+	news = no
+	chance = {
+		base = 0
+		modifier = {
+			factor = 2
+			invention = diplo6
+		}
+	}
+	effect = {
+		
+		cb_creation_speed = 0.01
+	}
+}
+mass_mannerisms = {
+	limit = {
+		mass_culture_n_the_avant_garde = 1
+		has_country_flag = existing_country
+	}
+	news = no
+	chance = {
+		base = 0
+		modifier = {
+			factor = 2
+			invention = diplo6
+		}
+	}
+	effect = {
+		
+		cb_creation_speed = 0.01
+	}
+}
+mass_formalities = {
+	limit = {
+		mass_culture_n_the_avant_garde = 1
+		has_country_flag = existing_country
+	}
+	news = no
+	chance = {
+		base = 0
+		modifier = {
+			factor = 2
+			invention = diplo6
+		}
+	}
+	effect = {
+		
+		cb_creation_speed = 0.01
+	}
+}
+
+##
+## Service Industry
+##
+
+#service_industry = {
+#	limit = {
+#		market_determined_exchange_rates = 1
+#		has_country_flag = existing_country
+#	}
+#	news = no
+#	chance = {
+#		base = 2
+#		
+#		modifier = {
+#			factor = 2
+#			invention = diplo4
+#		}
+#	}
+#	effect = {
+#		
+#		activate_building = service_factory
+#	}
+#}

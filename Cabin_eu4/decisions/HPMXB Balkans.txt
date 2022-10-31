@@ -1,0 +1,374 @@
+political_decisions = {
+    YUG_integrate_greece = {
+        picture = map_balkans
+        potential = {
+            tag = YUG
+            OR = {
+                GRE = { vassal_of = THIS }
+                GRE = { in_sphere = THIS }
+				GRE = {
+                    any_core = {
+                        OR = {
+                            owned_by = THIS
+                            owner = {
+                                in_sphere = THIS
+                                war = no
+                            }
+							
+                        }
+                    }
+                }
+				any_owned_province = {
+                    culture = greek
+                    #average_militancy = 2
+                }
+            }
+            NOT = { has_global_flag = YUG_integrate_greece }
+        }
+        allow = {
+            war = no
+            OR = {
+                GRE = { vassal_of = THIS }
+                GRE = {
+                    all_core = {
+                        OR = {
+                            owned_by = THIS
+                            owner = {
+                                in_sphere = THIS
+                                war = no
+                            }
+							
+                        }
+                    }
+                }
+				AND = {
+					owns = 832
+					owns = 805
+				}
+            }
+        }
+        effect = {
+            set_global_flag = YUG_integrate_greece
+            prestige = 5
+            GRE = { all_core = { add_core = YUG } }
+            #YUG = { inherit = GRE }
+            any_country = {
+                limit = {
+                    in_sphere = THIS
+                    war = no
+                    any_owned_province = { is_core = GRE }
+                }
+                any_owned = {
+                    limit = { is_core = GRE }
+                    secede_province = THIS
+                }
+            }
+            THIS = {
+                any_owned = {
+                    limit = { is_core = GRE }
+                    secede_province = YUG
+                }
+            }
+        }
+    }
+	
+	invite_greece_to_YUG = {
+        picture = form_yugoslavia
+        potential = {
+			has_global_flag = YUG_integrate_greece
+            tag = YUG
+            GRE = {
+                exists = yes
+                NOT = { has_country_flag = not_join_yugoslavia }
+            }
+            NOT = { has_country_flag = invite_greece_to_YUG }
+        }
+
+        allow = {
+            war = no
+            GRE = {
+                war = no
+                neighbour = YUG
+                NOT = { truce_with = THIS }
+                OR = {
+                    is_vassal = no
+                    vassal_of = THIS
+                }
+                OR = {
+                    AND = {
+                        part_of_sphere = no
+                        relation = { who = THIS value = 150 }
+                    }
+                    in_sphere = THIS
+                    sphere_owner = { is_sphere_leader_of = THIS }
+					sphere_owner = { alliance_with = THIS }
+                }
+            }
+        }
+
+        effect = {
+            set_country_flag = invite_greece_to_YUG
+            GRE = { country_event = 11120 }
+        }
+
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 0
+                GRE = {
+                    NOT = {
+                        OR = {
+                            AND = {
+                                part_of_sphere = no
+                                OR = {
+                                    has_country_flag = newly_released_nation
+                                    relation = { who = THIS value = 100 }
+                                }
+                            }
+                            in_sphere = THIS
+                            sphere_owner = { is_sphere_leader_of = THIS }
+                            vassal_of = THIS
+                        }
+                    }
+                }
+            }
+        }
+    }
+	embrace_Greeks_YUG = {
+        picture = embrace_minority
+        potential = {
+            tag = YUG
+            any_owned_province = { culture = greek }
+            NOT = {
+                primary_culture = greek
+                accepted_culture = greek
+            }
+        }
+
+        allow = {
+            NOT = { government = theocracy }
+			OR == {
+				citizenship_policy = full_citizenship
+				citizens_rights = all_voting_pops
+			}
+            prestige = 50
+			OR = {
+				revolution_n_counterrevolution = 1
+				phenomenalism = 1
+			}
+            NOT = {
+                any_owned_province = {
+                    culture = greek
+                    average_militancy = 2
+                }
+            }
+        }
+
+        effect = {
+            add_accepted_culture = greek
+            prestige = -25
+            any_pop = {
+                limit = { has_pop_culture = greek }
+                consciousness = -4
+                militancy = -4
+            }
+            any_pop = {
+                limit = {
+                    is_primary_culture = no
+                    is_accepted_culture = no
+                }
+                consciousness = 8
+                militancy = 6
+            }
+        }
+    }
+	
+	YUG_integrate_ROM = {
+        picture = map_balkans
+        potential = {
+            tag = YUG
+            OR = {
+				any_owned_province = {
+                    culture = romanian
+                    #average_militancy = 2
+                }
+                ROM = { vassal_of = THIS }
+                ROM = { in_sphere = THIS }
+				ROM = {
+                    any_core = {
+                        OR = {
+                            owned_by = THIS
+                            owner = {
+                                in_sphere = THIS
+                                war = no
+                            }
+							
+                        }
+                    }
+                }
+            }
+            NOT = { has_global_flag = YUG_integrate_ROM }
+        }
+        allow = {
+            war = no
+            OR = {
+                ROM = { vassal_of = THIS }
+                ROM = {
+                    all_core = {
+                        OR = {
+                            owned_by = THIS
+                            owner = {
+                                in_sphere = THIS
+                                war = no
+                            }
+							
+                        }
+                    }
+                }
+				
+				AND = {
+					owns = 675
+					owns = 670
+				}
+				AND = {
+					owns = 653
+					owns = 647
+				}
+            }
+        }
+        effect = {
+            set_global_flag = YUG_integrate_ROM
+            prestige = 5
+            ROM = { all_core = { add_core = YUG } }
+            #YUG = { inherit = ROM }
+            any_country = {
+                limit = {
+                    in_sphere = THIS
+                    war = no
+                    any_owned_province = { is_core = ROM }
+                }
+                any_owned = {
+                    limit = { is_core = ROM }
+                    secede_province = THIS
+                }
+            }
+            THIS = {
+                any_owned = {
+                    limit = { is_core = ROM }
+                    secede_province = YUG
+                }
+            }
+        }
+    }
+	
+	invite_Romania_to_YUG = {
+        picture = form_yugoslavia
+        potential = {
+			has_global_flag = YUG_integrate_ROM
+            tag = YUG
+            ROM = {
+                exists = yes
+                NOT = { has_country_flag = not_join_yugoslavia }
+            }
+            NOT = { has_country_flag = invite_Romania_to_YUG }
+        }
+
+        allow = {
+            war = no
+            ROM = {
+                war = no
+                neighbour = YUG
+                NOT = { truce_with = THIS }
+                OR = {
+                    is_vassal = no
+                    vassal_of = THIS
+                }
+                OR = {
+                    AND = {
+                        part_of_sphere = no
+                        relation = { who = THIS value = 150 }
+                    }
+                    in_sphere = THIS
+                    sphere_owner = { is_sphere_leader_of = THIS }
+					sphere_owner = { alliance_with = THIS }
+                }
+            }
+        }
+
+        effect = {
+            set_country_flag = invite_Romania_to_YUG
+            ROM = { country_event = 11120 }
+        }
+
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 0
+                ROM = {
+                    NOT = {
+                        OR = {
+                            AND = {
+                                part_of_sphere = no
+                                OR = {
+                                    has_country_flag = newly_released_nation
+                                    relation = { who = THIS value = 100 }
+                                }
+                            }
+                            in_sphere = THIS
+                            sphere_owner = { is_sphere_leader_of = THIS }
+                            vassal_of = THIS
+                        }
+                    }
+                }
+            }
+        }
+    }
+	embrace_Romanians_YUG = {
+        picture = embrace_minority
+        potential = {
+            tag = YUG
+            any_owned_province = { culture = romanian }
+            NOT = {
+                primary_culture = romanian
+                accepted_culture = romanian
+            }
+        }
+
+        allow = {
+            NOT = { government = theocracy }
+			OR == {
+				citizenship_policy = full_citizenship
+				citizens_rights = all_voting_pops
+			}
+            prestige = 50
+			OR = {
+				revolution_n_counterrevolution = 1
+				phenomenalism = 1
+			}
+            NOT = {
+                any_owned_province = {
+                    culture = romanian
+                    average_militancy = 2
+                }
+            }
+        }
+
+        effect = {
+            add_accepted_culture = romanian
+            prestige = -25
+            any_pop = {
+                limit = { has_pop_culture = romanian }
+                consciousness = -4
+                militancy = -4
+            }
+            any_pop = {
+                limit = {
+                    is_primary_culture = no
+                    is_accepted_culture = no
+                }
+                consciousness = 8
+                militancy = 6
+            }
+        }
+    }
+}

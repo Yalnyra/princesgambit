@@ -1,0 +1,382 @@
+2123 = {
+	slaves=
+	{
+		culture = malagasy
+		religion = sunni
+		size= 100
+	}
+
+	soldiers=
+	{
+		culture = kilombero
+		religion = sunni
+		size= 100
+	}
+
+	farmers=
+	{
+		culture = kilombero
+		religion = sunni
+		size= 4824
+	}
+
+	farmers=
+	{
+		culture = ifriqi
+		religion = sunni
+		size= 3416
+	}
+
+	slaves=
+	{
+		culture = african_minor
+		religion = sunni
+		size= 71
+	}
+
+	soldiers=
+	{
+		culture = ifriqi
+		religion = sunni
+		size= 71
+	}
+
+	artisans=
+	{
+		culture = ifriqi
+		religion = sunni
+		size= 86
+	}
+
+	clergymen=
+	{
+		culture = ifriqi
+		religion = sunni
+		size= 14
+	}
+
+	aristocrats=
+	{
+		culture = ifriqi
+		religion = sunni
+		size= 18
+	}
+
+	bureaucrats=
+	{
+		culture = ifriqi
+		religion = sunni
+		size= 4
+	}
+
+	officers=
+	{
+		culture = ifriqi
+		religion = sunni
+		size= 2
+	}
+
+	slaves=
+	{
+		culture = african_minor
+		religion = catholic
+		size= 29
+	}
+
+	soldiers=
+	{
+		culture = ifriqi
+		religion = catholic
+		size= 29
+	}
+
+	artisans=
+	{
+		culture = ifriqi
+		religion = catholic
+		size= 116
+	}
+
+	clergymen=
+	{
+		culture = ifriqi
+		religion = catholic
+		size= 19
+	}
+
+	bureaucrats=
+	{
+		culture = ifriqi
+		religion = catholic
+		size= 6
+	}
+
+	officers=
+	{
+		culture = ifriqi
+		religion = catholic
+		size= 4
+	}
+
+	aristocrats=
+	{
+		culture = ifriqi
+		religion = catholic
+		size= 24
+	}
+
+	farmers=
+	{
+		culture = ifriqi
+		religion = catholic
+		size= 1214
+	}
+
+	slaves=
+	{
+		culture = afro_brazilian
+		religion = catholic
+		size= 43
+	}
+
+	soldiers=
+	{
+		culture = morado
+		religion = catholic
+		size= 43
+	}
+
+	artisans=
+	{
+		culture = morado
+		religion = catholic
+		size= 289
+	}
+
+	clergymen=
+	{
+		culture = morado
+		religion = catholic
+		size= 47
+	}
+
+	bureaucrats=
+	{
+		culture = morado
+		religion = catholic
+		size= 14
+	}
+
+	officers=
+	{
+		culture = morado
+		religion = catholic
+		size= 9
+	}
+
+	aristocrats=
+	{
+		culture = morado
+		religion = catholic
+		size= 61
+	}
+
+	farmers=
+	{
+		culture = morado
+		religion = catholic
+		size= 1657
+	}
+
+}
+2124 = {
+	slaves=
+	{
+		culture = malagasy
+		religion = sunni
+		size= 605
+	}
+
+	soldiers=
+	{
+		culture = kilombero
+		religion = sunni
+		size= 41
+	}
+
+	farmers=
+	{
+		culture = kilombero
+		religion = sunni
+		size= 1412
+	}
+
+	farmers=
+	{
+		culture = ifriqi
+		religion = sunni
+		size= 994
+	}
+
+	slaves=
+	{
+		culture = african_minor
+		religion = sunni
+		size= 443
+	}
+
+	artisans=
+	{
+		culture = ifriqi
+		religion = sunni
+		size= 35
+	}
+
+	aristocrats=
+	{
+		culture = ifriqi
+		religion = sunni
+		size= 7
+	}
+
+	clergymen=
+	{
+		culture = ifriqi
+		religion = sunni
+		size= 5
+	}
+
+	soldiers=
+	{
+		culture = ifriqi
+		religion = sunni
+		size= 29
+	}
+
+	bureaucrats=
+	{
+		culture = ifriqi
+		religion = sunni
+		size= 1
+	}
+
+	officers=
+	{
+		culture = ifriqi
+		religion = sunni
+		size= 1
+	}
+
+	slaves=
+	{
+		culture = african_minor
+		religion = catholic
+		size= 174
+	}
+
+	soldiers=
+	{
+		culture = ifriqi
+		religion = catholic
+		size= 12
+	}
+
+	artisans=
+	{
+		culture = ifriqi
+		religion = catholic
+		size= 47
+	}
+
+	clergymen=
+	{
+		culture = ifriqi
+		religion = catholic
+		size= 8
+	}
+
+	bureaucrats=
+	{
+		culture = ifriqi
+		religion = catholic
+		size= 2
+	}
+
+	officers=
+	{
+		culture = ifriqi
+		religion = catholic
+		size= 2
+	}
+
+	aristocrats=
+	{
+		culture = ifriqi
+		religion = catholic
+		size= 10
+	}
+
+	farmers=
+	{
+		culture = ifriqi
+		religion = catholic
+		size= 335
+	}
+
+	slaves=
+	{
+		culture = afro_brazilian
+		religion = catholic
+		size= 261
+	}
+
+	soldiers=
+	{
+		culture = morado
+		religion = catholic
+		size= 18
+	}
+
+	artisans=
+	{
+		culture = morado
+		religion = catholic
+		size= 118
+	}
+
+	clergymen=
+	{
+		culture = morado
+		religion = catholic
+		size= 19
+	}
+
+	bureaucrats=
+	{
+		culture = morado
+		religion = catholic
+		size= 6
+	}
+
+	officers=
+	{
+		culture = morado
+		religion = catholic
+		size= 4
+	}
+
+	aristocrats=
+	{
+		culture = morado
+		religion = catholic
+		size= 25
+	}
+
+	farmers=
+	{
+		culture = morado
+		religion = catholic
+		size= 435
+	}
+
+}

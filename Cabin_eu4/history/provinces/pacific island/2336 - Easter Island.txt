@@ -1,0 +1,5 @@
+owner=DLM
+controller=DLM
+trade_goods = cattle
+life_rating = 10
+terrain = new_world_plains

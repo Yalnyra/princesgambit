@@ -1,0 +1,9 @@
+owner=MAW
+controller=JNP
+add_core=BUN
+add_core=HND
+add_core=JNP
+add_core=MAW
+trade_goods = dye
+life_rating = 32
+fort = 1

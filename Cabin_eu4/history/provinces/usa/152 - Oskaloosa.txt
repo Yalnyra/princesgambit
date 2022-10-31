@@ -1,0 +1,7 @@
+owner=CRK
+controller=CRK
+add_core=CRK
+add_core=USA
+add_core=LOU
+trade_goods = grain
+life_rating = 35

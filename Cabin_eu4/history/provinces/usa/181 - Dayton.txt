@@ -1,0 +1,6 @@
+owner=KSK
+controller=KSK
+add_core=KSK
+add_core=USA
+trade_goods = grain
+life_rating = 35

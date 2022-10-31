@@ -1,0 +1,50 @@
+
+
+country_event = { 
+	id = 69999
+	title = "EVTNAME69999"
+	desc = "EVTDESC69999"
+	picture = "ccastro"
+	
+	trigger = {
+		has_country_flag = enacted_our_lead
+		NOT = {has_country_flag = ended_enacted_our_lead}
+		tag = NET
+		any_owned_province = {
+			
+				
+			has_province_modifier = our_lead
+				
+				
+		
+		}
+		
+		year = 1890
+		
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+
+	
+	option = { #nice
+		name = "EVTOPTA669802"
+		any_owned = {
+			limit = {
+				has_province_modifier = our_lead
+			}
+			remove_province_modifier = our_lead
+			
+			add_province_modifier = {
+				name = our_lead_2
+				duration = -1
+			}
+		}
+		set_country_flag = ended_enacted_our_lead
+		
+	}
+	
+	
+}

@@ -1,0 +1,9 @@
+owner=MLY
+controller=MLY
+add_core=CHI
+add_core=CWU
+add_core=MLY
+add_core=QNG
+trade_goods = tea
+life_rating = 32
+colonial=2
