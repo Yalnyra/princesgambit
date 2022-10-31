@@ -1,0 +1,70 @@
+#Sphere of Influence
+
+BRG = {
+	value = 0
+	level = 2
+}
+BRZ = {
+	value = 0
+	level = 2
+}
+ENG = {
+	value = 0
+	level = 2
+}
+FLA = {
+	value = 0
+	level = 2
+}
+FRA = {
+	value = 0
+	level = 2
+}
+HAT = {
+	value = 0
+	level = 2
+}
+ITA = {
+	value = 0
+	level = 2
+}
+LIG = {
+	value = 0
+	level = 2
+}
+LOR = {
+	value = 0
+	level = 2
+}
+LUX = {
+	value = 0
+	level = 2
+}
+PAP = {
+	value = 0
+	level = 2
+}
+POR = {
+	value = 0
+	level = 2
+}
+PRO = {
+	value = 0
+	level = 2
+}
+USA = {
+	value = 0
+	level = 2
+}
+VNZ = {
+	value = 0
+	level = 2
+}
+X11 = {
+	value = 0
+	level = 2
+}
+
+#Leaders
+
+#Armies

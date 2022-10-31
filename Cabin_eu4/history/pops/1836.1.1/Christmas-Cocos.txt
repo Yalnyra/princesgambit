@@ -1,0 +1,100 @@
+2244 = {
+	soldiers=
+	{
+		culture = kannada
+		religion = hindu
+		size= 889
+	}
+
+	farmers=
+	{
+		culture = kannada
+		religion = hindu
+		size= 41154
+	}
+
+	artisans=
+	{
+		culture = kannada
+		religion = hindu
+		size= 3140
+	}
+
+	clergymen=
+	{
+		culture = kannada
+		religion = hindu
+		size= 336
+	}
+
+	aristocrats=
+	{
+		culture = kannada
+		religion = hindu
+		size= 377
+	}
+
+	bureaucrats=
+	{
+		culture = kannada
+		religion = hindu
+		size= 28
+	}
+
+	officers=
+	{
+		culture = kannada
+		religion = hindu
+		size= 28
+	}
+
+	soldiers=
+	{
+		culture = kannada
+		religion = sunni
+		size= 156
+	}
+
+	artisans=
+	{
+		culture = kannada
+		religion = sunni
+		size= 4233
+	}
+
+	clergymen=
+	{
+		culture = kannada
+		religion = sunni
+		size= 453
+	}
+
+	bureaucrats=
+	{
+		culture = kannada
+		religion = sunni
+		size= 39
+	}
+
+	officers=
+	{
+		culture = kannada
+		religion = sunni
+		size= 39
+	}
+
+	aristocrats=
+	{
+		culture = kannada
+		religion = sunni
+		size= 508
+	}
+
+	farmers=
+	{
+		culture = kannada
+		religion = sunni
+		size= 2406
+	}
+
+}

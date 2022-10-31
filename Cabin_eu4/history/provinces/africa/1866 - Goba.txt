@@ -1,0 +1,8 @@
+owner=ITA
+controller=ITA
+add_core=ETH
+add_core=ADA
+trade_goods = cattle
+life_rating = 10
+terrain = dryhills
+colonial=2

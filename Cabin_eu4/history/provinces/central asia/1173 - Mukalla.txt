@@ -1,0 +1,8 @@
+owner=ITA
+controller=ITA
+add_core=ARA
+add_core=HDR
+trade_goods = cattle
+life_rating = 32
+terrain = semidesert
+colonial=2

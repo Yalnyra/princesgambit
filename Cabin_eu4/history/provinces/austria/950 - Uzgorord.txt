@@ -1,0 +1,9 @@
+owner=DLM
+controller=DLM
+add_core=DLM
+add_core=KIE
+add_core=LIT
+add_core=UKR
+trade_goods = coal
+life_rating = 35
+fort = 1

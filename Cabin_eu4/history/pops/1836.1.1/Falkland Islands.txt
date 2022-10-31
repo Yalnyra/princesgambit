@@ -1,0 +1,100 @@
+2131 = {
+	soldiers=
+	{
+		culture = platinean
+		religion = catholic
+		size= 3534
+	}
+
+	farmers=
+	{
+		culture = platinean
+		religion = catholic
+		size= 29366
+	}
+
+	artisans=
+	{
+		culture = platinean
+		religion = catholic
+		size= 5379
+	}
+
+	aristocrats=
+	{
+		culture = platinean
+		religion = catholic
+		size= 323
+	}
+
+	clergymen=
+	{
+		culture = platinean
+		religion = catholic
+		size= 249
+	}
+
+	bureaucrats=
+	{
+		culture = platinean
+		religion = catholic
+		size= 76
+	}
+
+	officers=
+	{
+		culture = platinean
+		religion = catholic
+		size= 111
+	}
+
+	soldiers=
+	{
+		culture = deagostinian
+		religion = catholic
+		size= 1850
+	}
+
+	farmers=
+	{
+		culture = deagostinian
+		religion = catholic
+		size= 15508
+	}
+
+	artisans=
+	{
+		culture = deagostinian
+		religion = catholic
+		size= 2817
+	}
+
+	clergymen=
+	{
+		culture = deagostinian
+		religion = catholic
+		size= 131
+	}
+
+	aristocrats=
+	{
+		culture = deagostinian
+		religion = catholic
+		size= 168
+	}
+
+	officers=
+	{
+		culture = deagostinian
+		religion = catholic
+		size= 58
+	}
+
+	bureaucrats=
+	{
+		culture = deagostinian
+		religion = catholic
+		size= 40
+	}
+
+}

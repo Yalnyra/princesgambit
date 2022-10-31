@@ -1,0 +1,8 @@
+owner=PER
+controller=PER
+add_core=ARA
+add_core=PER
+#add_core=ISR
+trade_goods = wool
+life_rating = 20
+terrain = semidesert

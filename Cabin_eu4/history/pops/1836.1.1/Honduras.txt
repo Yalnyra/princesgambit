@@ -1,0 +1,596 @@
+2193 = {
+	soldiers=
+	{
+		culture = chibchan
+		religion = animist
+		size= 155
+	}
+
+	farmers=
+	{
+		culture = chibchan
+		religion = animist
+		size= 15314
+	}
+
+	farmers=
+	{
+		culture = hjartnaaeter
+		religion = catholic
+		size= 89
+	}
+
+	farmers=
+	{
+		culture = hjartnaaeter
+		religion = protestant
+		size= 23079
+	}
+
+	soldiers=
+	{
+		culture = hjartnaaeter
+		religion = protestant
+		size= 253
+	}
+
+	artisans=
+	{
+		culture = hjartnaaeter
+		religion = protestant
+		size= 1838
+	}
+
+	aristocrats=
+	{
+		culture = hjartnaaeter
+		religion = protestant
+		size= 171
+	}
+
+	clergymen=
+	{
+		culture = hjartnaaeter
+		religion = protestant
+		size= 132
+	}
+
+	bureaucrats=
+	{
+		culture = hjartnaaeter
+		religion = protestant
+		size= 38
+	}
+
+	officers=
+	{
+		culture = hjartnaaeter
+		religion = protestant
+		size= 26
+	}
+
+	soldiers=
+	{
+		culture = hjartnaaeter
+		religion = sunni
+		size= 27
+	}
+
+	artisans=
+	{
+		culture = hjartnaaeter
+		religion = sunni
+		size= 2085
+	}
+
+	clergymen=
+	{
+		culture = hjartnaaeter
+		religion = sunni
+		size= 151
+	}
+
+	bureaucrats=
+	{
+		culture = hjartnaaeter
+		religion = sunni
+		size= 44
+	}
+
+	officers=
+	{
+		culture = hjartnaaeter
+		religion = sunni
+		size= 30
+	}
+
+	aristocrats=
+	{
+		culture = hjartnaaeter
+		religion = sunni
+		size= 195
+	}
+
+	farmers=
+	{
+		culture = hjartnaaeter
+		religion = sunni
+		size= 217
+	}
+
+}
+2194 = {
+	soldiers=
+	{
+		culture = mayan
+		religion = mayan
+		size= 134
+	}
+
+	artisans=
+	{
+		culture = mayan
+		religion = mayan
+		size= 604
+	}
+
+	clergymen=
+	{
+		culture = mayan
+		religion = mayan
+		size= 44
+	}
+
+	bureaucrats=
+	{
+		culture = mayan
+		religion = mayan
+		size= 3
+	}
+
+	officers=
+	{
+		culture = mayan
+		religion = mayan
+		size= 9
+	}
+
+	aristocrats=
+	{
+		culture = mayan
+		religion = mayan
+		size= 56
+	}
+
+	farmers=
+	{
+		culture = mayan
+		religion = mayan
+		size= 12571
+	}
+
+	soldiers=
+	{
+		culture = mayan
+		religion = sunni
+		size= 212
+	}
+
+	artisans=
+	{
+		culture = mayan
+		religion = sunni
+		size= 2509
+	}
+
+	clergymen=
+	{
+		culture = mayan
+		religion = sunni
+		size= 181
+	}
+
+	bureaucrats=
+	{
+		culture = mayan
+		religion = sunni
+		size= 14
+	}
+
+	officers=
+	{
+		culture = mayan
+		religion = sunni
+		size= 36
+	}
+
+	aristocrats=
+	{
+		culture = mayan
+		religion = sunni
+		size= 234
+	}
+
+	farmers=
+	{
+		culture = mayan
+		religion = sunni
+		size= 17982
+	}
+
+}
+2195 = {
+	soldiers=
+	{
+		culture = chibchan
+		religion = animist
+		size= 133
+	}
+
+	farmers=
+	{
+		culture = chibchan
+		religion = animist
+		size= 13104
+	}
+
+	farmers=
+	{
+		culture = hjartnaaeter
+		religion = catholic
+		size= 1868
+	}
+
+	farmers=
+	{
+		culture = meashighcaw
+		religion = protestant
+		size= 9692
+	}
+
+	artisans=
+	{
+		culture = meashighcaw
+		religion = protestant
+		size= 1690
+	}
+
+	aristocrats=
+	{
+		culture = meashighcaw
+		religion = protestant
+		size= 315
+	}
+
+	clergymen=
+	{
+		culture = meashighcaw
+		religion = protestant
+		size= 121
+	}
+
+	bureaucrats=
+	{
+		culture = meashighcaw
+		religion = protestant
+		size= 28
+	}
+
+	officers=
+	{
+		culture = meashighcaw
+		religion = protestant
+		size= 24
+	}
+
+	soldiers=
+	{
+		culture = meashighcaw
+		religion = protestant
+		size= 114
+	}
+
+	soldiers=
+	{
+		culture = hjartnaaeter
+		religion = catholic
+		size= 14
+	}
+
+	artisans=
+	{
+		culture = hjartnaaeter
+		religion = catholic
+		size= 182
+	}
+
+	aristocrats=
+	{
+		culture = hjartnaaeter
+		religion = catholic
+		size= 34
+	}
+
+	clergymen=
+	{
+		culture = hjartnaaeter
+		religion = catholic
+		size= 13
+	}
+
+	bureaucrats=
+	{
+		culture = hjartnaaeter
+		religion = catholic
+		size= 3
+	}
+
+	officers=
+	{
+		culture = hjartnaaeter
+		religion = catholic
+		size= 3
+	}
+
+	soldiers=
+	{
+		culture = hjartnaaeter
+		religion = protestant
+		size= 110
+	}
+
+	artisans=
+	{
+		culture = hjartnaaeter
+		religion = protestant
+		size= 679
+	}
+
+	clergymen=
+	{
+		culture = hjartnaaeter
+		religion = protestant
+		size= 49
+	}
+
+	bureaucrats=
+	{
+		culture = hjartnaaeter
+		religion = protestant
+		size= 11
+	}
+
+	officers=
+	{
+		culture = hjartnaaeter
+		religion = protestant
+		size= 10
+	}
+
+	aristocrats=
+	{
+		culture = hjartnaaeter
+		religion = protestant
+		size= 127
+	}
+
+	farmers=
+	{
+		culture = hjartnaaeter
+		religion = protestant
+		size= 10048
+	}
+
+	soldiers=
+	{
+		culture = hjartnaaeter
+		religion = sunni
+		size= 43
+	}
+
+	artisans=
+	{
+		culture = hjartnaaeter
+		religion = sunni
+		size= 1251
+	}
+
+	clergymen=
+	{
+		culture = hjartnaaeter
+		religion = sunni
+		size= 90
+	}
+
+	bureaucrats=
+	{
+		culture = hjartnaaeter
+		religion = sunni
+		size= 21
+	}
+
+	officers=
+	{
+		culture = hjartnaaeter
+		religion = sunni
+		size= 18
+	}
+
+	aristocrats=
+	{
+		culture = hjartnaaeter
+		religion = sunni
+		size= 234
+	}
+
+	farmers=
+	{
+		culture = hjartnaaeter
+		religion = sunni
+		size= 2675
+	}
+
+}
+2196 = {
+	soldiers=
+	{
+		culture = chibchan
+		religion = animist
+		size= 59
+	}
+
+	farmers=
+	{
+		culture = chibchan
+		religion = animist
+		size= 5882
+	}
+
+	farmers=
+	{
+		culture = hjartnaaeter
+		religion = catholic
+		size= 1977
+	}
+
+	soldiers=
+	{
+		culture = hjartnaaeter
+		religion = catholic
+		size= 20
+	}
+
+	artisans=
+	{
+		culture = hjartnaaeter
+		religion = catholic
+		size= 182
+	}
+
+	clergymen=
+	{
+		culture = hjartnaaeter
+		religion = catholic
+		size= 13
+	}
+
+	aristocrats=
+	{
+		culture = hjartnaaeter
+		religion = catholic
+		size= 16
+	}
+
+	bureaucrats=
+	{
+		culture = hjartnaaeter
+		religion = catholic
+		size= 3
+	}
+
+	officers=
+	{
+		culture = hjartnaaeter
+		religion = catholic
+		size= 3
+	}
+
+	soldiers=
+	{
+		culture = hjartnaaeter
+		religion = protestant
+		size= 117
+	}
+
+	artisans=
+	{
+		culture = hjartnaaeter
+		religion = protestant
+		size= 710
+	}
+
+	clergymen=
+	{
+		culture = hjartnaaeter
+		religion = protestant
+		size= 51
+	}
+
+	bureaucrats=
+	{
+		culture = hjartnaaeter
+		religion = protestant
+		size= 15
+	}
+
+	officers=
+	{
+		culture = hjartnaaeter
+		religion = protestant
+		size= 10
+	}
+
+	aristocrats=
+	{
+		culture = hjartnaaeter
+		religion = protestant
+		size= 66
+	}
+
+	farmers=
+	{
+		culture = hjartnaaeter
+		religion = protestant
+		size= 10755
+	}
+
+	soldiers=
+	{
+		culture = hjartnaaeter
+		religion = sunni
+		size= 38
+	}
+
+	artisans=
+	{
+		culture = hjartnaaeter
+		religion = sunni
+		size= 1230
+	}
+
+	clergymen=
+	{
+		culture = hjartnaaeter
+		religion = sunni
+		size= 89
+	}
+
+	bureaucrats=
+	{
+		culture = hjartnaaeter
+		religion = sunni
+		size= 26
+	}
+
+	officers=
+	{
+		culture = hjartnaaeter
+		religion = sunni
+		size= 18
+	}
+
+	aristocrats=
+	{
+		culture = hjartnaaeter
+		religion = sunni
+		size= 115
+	}
+
+	farmers=
+	{
+		culture = hjartnaaeter
+		religion = sunni
+		size= 2235
+	}
+
+}

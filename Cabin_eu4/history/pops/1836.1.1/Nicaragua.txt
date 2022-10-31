@@ -1,0 +1,533 @@
+2197 = {
+	soldiers=
+	{
+		culture = chibchan
+		religion = animist
+		size= 114
+	}
+
+	farmers=
+	{
+		culture = chibchan
+		religion = animist
+		size= 11414
+	}
+
+	farmers=
+	{
+		culture = central_american
+		religion = catholic
+		size= 499
+	}
+
+	soldiers=
+	{
+		culture = central_american
+		religion = catholic
+		size= 10
+	}
+
+	artisans=
+	{
+		culture = central_american
+		religion = catholic
+		size= 887
+	}
+
+	aristocrats=
+	{
+		culture = central_american
+		religion = catholic
+		size= 106
+	}
+
+	clergymen=
+	{
+		culture = central_american
+		religion = catholic
+		size= 41
+	}
+
+	bureaucrats=
+	{
+		culture = central_american
+		religion = catholic
+		size= 9
+	}
+
+	officers=
+	{
+		culture = central_american
+		religion = catholic
+		size= 7
+	}
+
+	soldiers=
+	{
+		culture = mexican
+		religion = catholic
+		size= 207
+	}
+
+	artisans=
+	{
+		culture = mexican
+		religion = catholic
+		size= 3781
+	}
+
+	clergymen=
+	{
+		culture = mexican
+		religion = catholic
+		size= 176
+	}
+
+	bureaucrats=
+	{
+		culture = mexican
+		religion = catholic
+		size= 41
+	}
+
+	officers=
+	{
+		culture = mexican
+		religion = catholic
+		size= 35
+	}
+
+	aristocrats=
+	{
+		culture = mexican
+		religion = catholic
+		size= 454
+	}
+
+	farmers=
+	{
+		culture = mexican
+		religion = catholic
+		size= 15967
+	}
+
+}
+2198 = {
+	soldiers=
+	{
+		culture = chibchan
+		religion = animist
+		size= 41
+	}
+
+	farmers=
+	{
+		culture = chibchan
+		religion = animist
+		size= 4072
+	}
+
+	farmers=
+	{
+		culture = central_american
+		religion = catholic
+		size= 180
+	}
+
+	artisans=
+	{
+		culture = central_american
+		religion = catholic
+		size= 316
+	}
+
+	aristocrats=
+	{
+		culture = central_american
+		religion = catholic
+		size= 37
+	}
+
+	clergymen=
+	{
+		culture = central_american
+		religion = catholic
+		size= 14
+	}
+
+	bureaucrats=
+	{
+		culture = central_american
+		religion = catholic
+		size= 3
+	}
+
+	officers=
+	{
+		culture = central_american
+		religion = catholic
+		size= 3
+	}
+
+	soldiers=
+	{
+		culture = central_american
+		religion = catholic
+		size= 3
+	}
+
+	soldiers=
+	{
+		culture = mexican
+		religion = catholic
+		size= 74
+	}
+
+	artisans=
+	{
+		culture = mexican
+		religion = catholic
+		size= 1349
+	}
+
+	clergymen=
+	{
+		culture = mexican
+		religion = catholic
+		size= 63
+	}
+
+	bureaucrats=
+	{
+		culture = mexican
+		religion = catholic
+		size= 14
+	}
+
+	officers=
+	{
+		culture = mexican
+		religion = catholic
+		size= 13
+	}
+
+	aristocrats=
+	{
+		culture = mexican
+		religion = catholic
+		size= 162
+	}
+
+	farmers=
+	{
+		culture = mexican
+		religion = catholic
+		size= 5697
+	}
+
+}
+2199 = {
+	soldiers=
+	{
+		culture = chibchan
+		religion = animist
+		size= 62
+	}
+
+	farmers=
+	{
+		culture = chibchan
+		religion = animist
+		size= 6195
+	}
+
+	farmers=
+	{
+		culture = thegioimoi
+		religion = sunni
+		size= 2650
+	}
+
+	artisans=
+	{
+		culture = thegioimoi
+		religion = sunni
+		size= 1473
+	}
+
+	soldiers=
+	{
+		culture = thegioimoi
+		religion = sunni
+		size= 7233
+	}
+
+	aristocrats=
+	{
+		culture = thegioimoi
+		religion = sunni
+		size= 274
+	}
+
+	clergymen=
+	{
+		culture = thegioimoi
+		religion = sunni
+		size= 106
+	}
+
+	bureaucrats=
+	{
+		culture = thegioimoi
+		religion = sunni
+		size= 24
+	}
+
+	officers=
+	{
+		culture = thegioimoi
+		religion = sunni
+		size= 21
+	}
+
+	soldiers=
+	{
+		culture = thegioimoi
+		religion = theravada
+		size= 1
+	}
+
+	artisans=
+	{
+		culture = thegioimoi
+		religion = theravada
+		size= 158
+	}
+
+	clergymen=
+	{
+		culture = thegioimoi
+		religion = theravada
+		size= 11
+	}
+
+	bureaucrats=
+	{
+		culture = thegioimoi
+		religion = theravada
+		size= 3
+	}
+
+	officers=
+	{
+		culture = thegioimoi
+		religion = theravada
+		size= 2
+	}
+
+	aristocrats=
+	{
+		culture = thegioimoi
+		religion = theravada
+		size= 29
+	}
+
+}
+2200 = {
+	slaves=
+	{
+		culture = chibchan
+		religion = animist
+		size= 3621
+	}
+
+	soldiers=
+	{
+		culture = chibchan
+		religion = animist
+		size= 191
+	}
+
+	farmers=
+	{
+		culture = chibchan
+		religion = animist
+		size= 14193
+	}
+
+	slaves=
+	{
+		culture = afro_caribbean
+		religion = protestant
+		size= 4625
+	}
+
+	farmers=
+	{
+		culture = meashighcaw
+		religion = protestant
+		size= 14347
+	}
+
+	artisans=
+	{
+		culture = meashighcaw
+		religion = protestant
+		size= 3744
+	}
+
+	aristocrats=
+	{
+		culture = meashighcaw
+		religion = protestant
+		size= 449
+	}
+
+	clergymen=
+	{
+		culture = meashighcaw
+		religion = protestant
+		size= 173
+	}
+
+	bureaucrats=
+	{
+		culture = meashighcaw
+		religion = protestant
+		size= 52
+	}
+
+	officers=
+	{
+		culture = meashighcaw
+		religion = protestant
+		size= 34
+	}
+
+	soldiers=
+	{
+		culture = meashighcaw
+		religion = protestant
+		size= 222
+	}
+
+	soldiers=
+	{
+		culture = yankee
+		religion = protestant
+		size= 16
+	}
+
+	artisans=
+	{
+		culture = yankee
+		religion = protestant
+		size= 1573
+	}
+
+	clergymen=
+	{
+		culture = yankee
+		religion = protestant
+		size= 73
+	}
+
+	bureaucrats=
+	{
+		culture = yankee
+		religion = protestant
+		size= 22
+	}
+
+	officers=
+	{
+		culture = yankee
+		religion = protestant
+		size= 15
+	}
+
+	aristocrats=
+	{
+		culture = yankee
+		religion = protestant
+		size= 189
+	}
+
+	slaves=
+	{
+		culture = afro_norse
+		religion = catholic
+		size= 41
+	}
+
+	farmers=
+	{
+		culture = hjartnaaeter
+		religion = catholic
+		size= 172
+	}
+
+	soldiers=
+	{
+		culture = hjartnaaeter
+		religion = catholic
+		size= 2
+	}
+
+	slaves=
+	{
+		culture = afro_norse
+		religion = protestant
+		size= 62
+	}
+
+	farmers=
+	{
+		culture = hjartnaaeter
+		religion = protestant
+		size= 260
+	}
+
+	soldiers=
+	{
+		culture = hjartnaaeter
+		religion = protestant
+		size= 3
+	}
+
+	artisans=
+	{
+		culture = chibchan
+		religion = animist
+		size= 798
+	}
+
+	aristocrats=
+	{
+		culture = chibchan
+		religion = animist
+		size= 97
+	}
+
+	clergymen=
+	{
+		culture = chibchan
+		religion = animist
+		size= 36
+	}
+
+	bureaucrats=
+	{
+		culture = chibchan
+		religion = animist
+		size= 10
+	}
+
+	officers=
+	{
+		culture = chibchan
+		religion = animist
+		size= 7
+	}
+
+}

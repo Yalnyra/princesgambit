@@ -1,0 +1,7 @@
+owner=USA
+controller=MEX
+add_core=CAD
+add_core=CRK
+add_core=USA
+trade_goods = cotton
+life_rating = 35

@@ -1,0 +1,200 @@
+2191 = {
+	soldiers=
+	{
+		culture = mayan
+		religion = mayan
+		size= 233
+	}
+
+	artisans=
+	{
+		culture = mayan
+		religion = mayan
+		size= 467
+	}
+
+	clergymen=
+	{
+		culture = mayan
+		religion = mayan
+		size= 76
+	}
+
+	bureaucrats=
+	{
+		culture = mayan
+		religion = mayan
+		size= 10
+	}
+
+	officers=
+	{
+		culture = mayan
+		religion = mayan
+		size= 15
+	}
+
+	aristocrats=
+	{
+		culture = mayan
+		religion = mayan
+		size= 196
+	}
+
+	farmers=
+	{
+		culture = mayan
+		religion = mayan
+		size= 22336
+	}
+
+	soldiers=
+	{
+		culture = mayan
+		religion = sunni
+		size= 170
+	}
+
+	artisans=
+	{
+		culture = mayan
+		religion = sunni
+		size= 1147
+	}
+
+	clergymen=
+	{
+		culture = mayan
+		religion = sunni
+		size= 186
+	}
+
+	bureaucrats=
+	{
+		culture = mayan
+		religion = sunni
+		size= 26
+	}
+
+	officers=
+	{
+		culture = mayan
+		religion = sunni
+		size= 37
+	}
+
+	aristocrats=
+	{
+		culture = mayan
+		religion = sunni
+		size= 482
+	}
+
+	farmers=
+	{
+		culture = mayan
+		religion = sunni
+		size= 14968
+	}
+
+}
+2192 = {
+	soldiers=
+	{
+		culture = mayan
+		religion = mayan
+		size= 166
+	}
+
+	artisans=
+	{
+		culture = mayan
+		religion = mayan
+		size= 333
+	}
+
+	clergymen=
+	{
+		culture = mayan
+		religion = mayan
+		size= 54
+	}
+
+	bureaucrats=
+	{
+		culture = mayan
+		religion = mayan
+		size= 7
+	}
+
+	officers=
+	{
+		culture = mayan
+		religion = mayan
+		size= 11
+	}
+
+	aristocrats=
+	{
+		culture = mayan
+		religion = mayan
+		size= 140
+	}
+
+	farmers=
+	{
+		culture = mayan
+		religion = mayan
+		size= 15927
+	}
+
+	soldiers=
+	{
+		culture = mayan
+		religion = sunni
+		size= 121
+	}
+
+	artisans=
+	{
+		culture = mayan
+		religion = sunni
+		size= 818
+	}
+
+	clergymen=
+	{
+		culture = mayan
+		religion = sunni
+		size= 133
+	}
+
+	bureaucrats=
+	{
+		culture = mayan
+		religion = sunni
+		size= 18
+	}
+
+	officers=
+	{
+		culture = mayan
+		religion = sunni
+		size= 27
+	}
+
+	aristocrats=
+	{
+		culture = mayan
+		religion = sunni
+		size= 344
+	}
+
+	farmers=
+	{
+		culture = mayan
+		religion = sunni
+		size= 10672
+	}
+
+}

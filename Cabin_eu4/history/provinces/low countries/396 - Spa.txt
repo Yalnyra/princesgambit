@@ -1,0 +1,8 @@
+owner=GLR
+controller=GLR
+add_core=BEL
+add_core=GLR
+add_core=WLL
+add_core=BRG
+trade_goods = coal
+life_rating = 35

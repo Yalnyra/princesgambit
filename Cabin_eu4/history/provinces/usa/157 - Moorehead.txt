@@ -1,0 +1,7 @@
+owner=OJI
+controller=OJI
+add_core=OJI
+add_core=USA
+add_core=LOU
+trade_goods = timber
+life_rating = 35

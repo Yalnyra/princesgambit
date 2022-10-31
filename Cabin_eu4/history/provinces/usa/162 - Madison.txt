@@ -1,0 +1,6 @@
+owner=OSA
+controller=OSA
+add_core=OSA
+add_core=USA
+trade_goods = coal
+life_rating = 35

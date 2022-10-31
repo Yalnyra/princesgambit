@@ -1,0 +1,6 @@
+owner=CRK
+controller=CRK
+add_core=CRK
+add_core=MEX
+trade_goods = sulphur
+life_rating = 35

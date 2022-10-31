@@ -1,0 +1,5 @@
+Key;English;French;German;Polish;Spanish;Italian;Swedish;Czech;Hungarian;Dutch;Portuguese;Russian;Finnish;
+tax_refund_no_title;Disable Tax Refunds;;;;;;;;;;;;;;;;;;;;;;;;;;
+tax_refund_no_desc;Click this if you don't want to give back money over 6,000,000 to your pops to help their liquidity.;;;;;;;;;;;;;;;;;;;;;;;;;;
+tax_refund_yes_title;Enable Tax Refunds;;;;;;;;;;;;;;;;;;;;;;;;;;
+tax_refund_yes_desc;Click this if you want to give back money over 6,000,000 to your pops to help their liquidity.;;;;;;;;;;;;;;;;;;;;;;;;;;

@@ -1,0 +1,26 @@
+name = "2nd Dalmatian-Bavaria-Austrian Imperialist War"
+
+1735.9.20 = {
+	add_attacker = DLM
+	add_attacker = CUB
+	add_attacker = ENG
+	add_attacker = NAV
+	add_attacker = ISR
+	add_attacker = CLM
+	add_defender = X00
+	add_defender = PAL
+	add_defender = SAX
+	add_defender = BRB
+	add_defender = MUN
+	add_defender = FRM
+	add_defender = FRI
+	add_defender = HLL
+	add_defender = USA
+
+	war_goal = {
+		casus_belli = acquire_state
+		actor = DLM
+		receiver = X00
+		country = X00
+	}
+}

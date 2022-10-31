@@ -1,0 +1,9 @@
+owner=ISR
+controller=ISR
+add_core=BOH
+add_core=ISR
+add_core=POL
+add_core=UKR
+add_core=LIT
+trade_goods = grain
+life_rating = 35

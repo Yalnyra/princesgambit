@@ -1,0 +1,67 @@
+country_event = {
+	id = 698700
+	title = "EVTNAME698700"
+	desc = "EVTDESC698700"
+	picture = "Unite"
+	
+	fire_only_once = yes
+	trigger = {
+		OR = {
+			tag = CPL
+			tag = POL
+		}
+		is_greater_power = no
+		exists = DNB
+		DNB = {
+			accepted_culture = polish
+			has_country_flag = polish_uprising_voted
+		}
+		#in_sphere = DNB
+		
+    }
+
+    mean_time_to_happen = {
+        months = 6
+    }
+	
+
+	
+	option = {
+		name = "EVTOPTA698700"
+		DNB = {country_event = 698701 }
+	}
+	
+	option = {
+		name = "EVTOPTB698700"
+		prestige = 20
+		ai_chance = {
+            factor = 0
+        }
+	}
+}
+
+country_event = {
+	id = 698701
+	title = "EVTNAME698701"
+	desc = "EVTDESC698701"
+	picture = "Unite"
+	
+	is_triggered_only = yes
+	
+
+	
+	option = {
+		name = "EVTOPTA698701"
+		inherit = FROM
+		FROM = {
+			all_core = {
+				add_core = DNB
+			}
+		}
+	}
+	
+	
+}
+
+
+

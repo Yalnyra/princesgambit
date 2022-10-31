@@ -1,0 +1,7 @@
+owner=ALO
+controller=ALO
+add_core=ALO
+add_core=WAD
+trade_goods = fish
+life_rating = 5
+terrain = semidesert

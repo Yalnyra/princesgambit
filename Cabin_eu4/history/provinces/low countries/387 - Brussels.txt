@@ -1,0 +1,14 @@
+owner=BRB
+controller=BRB
+add_core=BEL
+add_core=BRB
+add_core=FLA
+trade_goods = iron
+life_rating = 35
+terrain = mining_district
+state_building=
+{
+	level=1
+	building = steel_factory
+	upgrade = yes
+}

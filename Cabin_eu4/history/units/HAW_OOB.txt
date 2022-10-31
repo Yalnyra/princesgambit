@@ -1,0 +1,437 @@
+#Sphere of Influence
+
+ADE = {
+	value = 0
+	level = 2
+}
+AJU = {
+	value = 0
+	level = 2
+}
+AKH = {
+	value = 0
+	level = 2
+}
+ALO = {
+	value = 0
+	level = 2
+}
+ARW = {
+	value = 0
+	level = 2
+}
+AVR = {
+	value = 0
+	level = 2
+}
+BMN = {
+	value = 0
+	level = 2
+}
+BNG = {
+	value = 0
+	level = 2
+}
+BOL = {
+	value = 0
+	level = 2
+}
+BRN = {
+	value = 0
+	level = 2
+}
+BRU = {
+	value = 0
+	level = 2
+}
+BRZ = {
+	value = 0
+	level = 2
+}
+CEB = {
+	value = 0
+	level = 2
+}
+CHA = {
+	value = 0
+	level = 2
+}
+CHV = {
+	value = 0
+	level = 2
+}
+CST = {
+	value = 0
+	level = 2
+}
+DAI = {
+	value = 0
+	level = 2
+}
+DAW = {
+	value = 0
+	level = 2
+}
+DLH = {
+	value = 0
+	level = 2
+}
+DLM = {
+	value = 0
+	level = 2
+}
+ECU = {
+	value = 0
+	level = 2
+}
+EGY = {
+	value = 0
+	level = 2
+}
+ENG = {
+	value = 0
+	level = 2
+}
+ETH = {
+	value = 0
+	level = 2
+}
+GRA = {
+	value = 0
+	level = 2
+}
+GRJ = {
+	value = 0
+	level = 2
+}
+GRK = {
+	value = 0
+	level = 2
+}
+GUJ = {
+	value = 0
+	level = 2
+}
+GZK = {
+	value = 0
+	level = 2
+}
+HAW = {
+	value = 0
+	level = 2
+}
+ISR = {
+	value = 0
+	level = 2
+}
+ITA = {
+	value = 0
+	level = 2
+}
+JAP = {
+	value = 0
+	level = 2
+}
+JNP = {
+	value = 0
+	level = 2
+}
+KAZ = {
+	value = 0
+	level = 2
+}
+KLK = {
+	value = 0
+	level = 2
+}
+LIT = {
+	value = 0
+	level = 2
+}
+LNG = {
+	value = 0
+	level = 2
+}
+LUX = {
+	value = 0
+	level = 2
+}
+MAG = {
+	value = 25
+	level = 2
+}
+MAW = {
+	value = 0
+	level = 2
+}
+MDO = {
+	value = 0
+	level = 2
+}
+MEX = {
+	value = 0
+	level = 2
+}
+MFL = {
+	value = 0
+	level = 2
+}
+MHR = {
+	value = 0
+	level = 2
+}
+ML1 = {
+	value = 0
+	level = 2
+}
+MLY = {
+	value = 0
+	level = 2
+}
+MNI = {
+	value = 0
+	level = 2
+}
+MOL = {
+	value = 0
+	level = 2
+}
+MUS = {
+	value = 0
+	level = 2
+}
+NAK = {
+	value = 0
+	level = 2
+}
+NAV = {
+	value = 0
+	level = 2
+}
+NNG = {
+	value = 0
+	level = 2
+}
+NOG = {
+	value = 0
+	level = 2
+}
+NOR = {
+	value = 0
+	level = 2
+}
+NZL = {
+	value = 0
+	level = 2
+}
+OEO = {
+	value = 0
+	level = 2
+}
+OMA = {
+	value = 0
+	level = 2
+}
+OTM = {
+	value = 0
+	level = 2
+}
+PAP = {
+	value = 0
+	level = 2
+}
+PEG = {
+	value = 0
+	level = 2
+}
+PER = {
+	value = 0
+	level = 2
+}
+POR = {
+	value = 0
+	level = 2
+}
+PRM = {
+	value = 0
+	level = 2
+}
+PRO = {
+	value = 0
+	level = 2
+}
+QNG = {
+	value = 0
+	level = 2
+}
+RYA = {
+	value = 0
+	level = 2
+}
+SAX = {
+	value = 0
+	level = 2
+}
+SBA = {
+	value = 0
+	level = 2
+}
+SIN = {
+	value = 0
+	level = 2
+}
+SWA = {
+	value = 0
+	level = 2
+}
+SWE = {
+	value = 0
+	level = 2
+}
+TID = {
+	value = 0
+	level = 2
+}
+TIM = {
+	value = 0
+	level = 2
+}
+TLA = {
+	value = 0
+	level = 2
+}
+TUN = {
+	value = 0
+	level = 2
+}
+TUR = {
+	value = 0
+	level = 2
+}
+USA = {
+	value = 0
+	level = 2
+}
+VER = {
+	value = 25
+	level = 2
+}
+VIJ = {
+	value = 0
+	level = 2
+}
+VNZ = {
+	value = 0
+	level = 2
+}
+X00 = {
+	value = 0
+	level = 2
+}
+X09 = {
+	value = 0
+	level = 2
+}
+X11 = {
+	value = 0
+	level = 2
+}
+X12 = {
+	value = 0
+	level = 2
+}
+YEM = {
+	value = 0
+	level = 2
+}
+
+#Leaders
+leader = {
+	name="Mele Kelii"
+	date="1708.3.5"
+	type=sea
+	personality="disciplined"
+	background="war_college"
+}
+
+leader = {
+	name="Kaipo Pekelo"
+	date="1737.1.2"
+	type=sea
+	personality="persistant"
+	background="generals_aide"
+}
+
+
+#Armies
+navy = {
+	name="1st Fleet"
+	location=3150
+	ship = {
+		name="Chillicothe"
+		type=frigate
+	}
+	ship = {
+		name="Cheketecaca"
+		type=frigate
+	}
+}
+
+navy = {
+	name="2nd Fleet"
+	location=2526
+	ship = {
+		name="1st Palmyra and Line Islands Clipper Transport"
+		type=clipper_transport
+	}
+}
+
+navy = {
+	name="2nd Fleet"
+	location=658
+	ship = {
+		name="1st Hawaii Clipper Transport"
+		type=clipper_transport
+	}
+}
+
+navy = {
+	name="3rd Fleet"
+	location=3150
+	ship = {
+		name="Hathawekela"
+		type=frigate
+	}
+	ship = {
+		name="Mequachake"
+		type=frigate
+	}
+}
+
+navy = {
+	name="2nd Fleet"
+	location=2526
+	ship = {
+		name="2nd Palmyra and Line Islands Clipper Transport"
+		type=clipper_transport
+	}
+}
+
+navy = {
+	name="2nd Fleet"
+	location=658
+	ship = {
+		name="3rd Palmyra and Line Islands Clipper Transport"
+		type=clipper_transport
+	}
+}
+
+navy = {
+	name="3rd Fleet"
+	location=3247
+	ship = {
+		name="Kispokotha"
+		type=frigate
+	}
+}
+

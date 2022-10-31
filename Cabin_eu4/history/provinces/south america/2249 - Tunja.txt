@@ -1,0 +1,8 @@
+owner=VNZ
+controller=ARW
+add_core=ECU
+add_core=MCA
+add_core=VNZ
+add_core=ARW
+trade_goods = grain
+life_rating = 35

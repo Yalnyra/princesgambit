@@ -1,0 +1,13 @@
+owner=POM
+controller=POM
+add_core=BRN
+add_core=GER
+add_core=POM
+trade_goods = cattle
+life_rating = 40
+state_building=
+{
+	level=1
+	building = artillery_factory
+	upgrade = yes
+}

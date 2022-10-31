@@ -1,0 +1,9 @@
+owner=NOR
+controller=NOR
+add_core=ICL
+add_core=DEN
+add_core=SCA
+trade_goods = coal
+life_rating = 30
+terrain = small_island
+naval_base = 2

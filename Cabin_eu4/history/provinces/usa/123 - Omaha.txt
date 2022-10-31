@@ -1,0 +1,7 @@
+owner=OEO
+controller=OEO
+add_core=CRK
+add_core=OEO
+add_core=LOU
+trade_goods = fruit
+life_rating = 35

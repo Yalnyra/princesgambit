@@ -1,0 +1,14 @@
+owner=VNZ
+controller=ARW
+add_core=ECU
+add_core=MCA
+add_core=VNZ
+add_core=ARW
+trade_goods = cattle
+life_rating = 39
+state_building=
+{
+	level=1
+	building = artillery_factory
+	upgrade = yes
+}

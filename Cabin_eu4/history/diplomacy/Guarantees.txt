@@ -1,0 +1,16 @@
+guarantee=
+{
+	first="SWE"
+	second="AKH"
+	start_date="1734.8.19"
+	end_date="1936.1.1"
+}
+
+guarantee=
+{
+	first="USA"
+	second="GRA"
+	start_date="1647.7.12"
+	end_date="1936.1.1"
+}
+

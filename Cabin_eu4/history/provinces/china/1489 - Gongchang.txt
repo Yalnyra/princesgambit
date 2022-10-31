@@ -1,0 +1,7 @@
+owner=NNG
+controller=NNG
+add_core=CHI
+add_core=NNG
+add_core=QNG
+trade_goods = timber
+life_rating = 32

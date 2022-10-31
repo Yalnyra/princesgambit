@@ -1,0 +1,190 @@
+#Sphere of Influence
+
+BLA = {
+	value = 26
+	level = 2
+}
+BOL = {
+	value = -4
+	level = 2
+}
+BRZ = {
+	value = -3
+	level = 2
+}
+CAL = {
+	value = 0
+	level = 2
+}
+CHA = {
+	value = 0
+	level = 2
+}
+COF = {
+	value = -1
+	level = 2
+}
+CRK = {
+	value = -65
+	level = 2
+}
+CUB = {
+	value = 0
+	level = 2
+}
+DLM = {
+	value = 0
+	level = 2
+}
+ECU = {
+	value = -8
+	level = 2
+}
+EGY = {
+	value = 0
+	level = 2
+}
+ENG = {
+	value = 0
+	level = 2
+}
+GRA = {
+	value = 0
+	level = 2
+}
+IST = {
+	value = 0
+	level = 2
+}
+JAP = {
+	value = 12
+	level = 2
+}
+KSK = {
+	value = -1
+	level = 2
+}
+LOU = {
+	value = -94
+	level = 2
+}
+LSK = {
+	value = 0
+	level = 2
+}
+MAG = {
+	value = 25
+	level = 2
+}
+MEX = {
+	value = 0
+	level = 2
+}
+MHC = {
+	value = 0
+	level = 2
+}
+MLY = {
+	value = 0
+	level = 2
+}
+MOL = {
+	value = 0
+	level = 2
+}
+MSG = {
+	value = -176
+	level = 2
+}
+NAH = {
+	value = -50
+	level = 2
+}
+NAK = {
+	value = -32
+	level = 2
+}
+NOR = {
+	value = 0
+	level = 2
+}
+OEO = {
+	value = 0
+	level = 2
+}
+OJI = {
+	value = -148
+	level = 2
+}
+OSA = {
+	value = 0
+	level = 2
+}
+POM = {
+	value = 0
+	level = 2
+}
+POR = {
+	value = -28
+	level = 2
+}
+POT = {
+	value = -182
+	level = 2
+}
+SBA = {
+	value = -11
+	level = 2
+}
+SHS = {
+	value = 0
+	level = 2
+}
+SNC = {
+	value = -182
+	level = 2
+}
+SWE = {
+	value = 0
+	level = 2
+}
+TLA = {
+	value = 0
+	level = 2
+}
+TSC = {
+	value = -36
+	level = 2
+}
+USA = {
+	value = -29
+	level = 2
+}
+VER = {
+	value = 25
+	level = 2
+}
+VNZ = {
+	value = 0
+	level = 2
+}
+WCY = {
+	value = -168
+	level = 2
+}
+X09 = {
+	value = 0
+	level = 2
+}
+X11 = {
+	value = -7
+	level = 2
+}
+X12 = {
+	value = 0
+	level = 2
+}
+
+#Leaders
+
+#Armies

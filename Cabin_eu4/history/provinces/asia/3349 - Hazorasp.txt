@@ -1,0 +1,7 @@
+#owner = NOG
+#controller = NOG
+add_core = NOG
+add_core = UZB
+add_core = TIM
+trade_goods = wool
+life_rating = 35

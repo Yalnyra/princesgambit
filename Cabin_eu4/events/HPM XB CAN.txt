@@ -1,0 +1,189 @@
+country_event = {
+	id = 800001066
+	title = "EVTNAME800001066"
+	desc = "EVTDESC800001066"
+	picture = "Unite"
+	
+	#fire_only_once = yes
+	is_triggered_only = yes
+
+    
+	
+
+	
+	option = {
+		name = "EVTOPTA800001066"
+		prestige = 5
+		relation = {
+			who = USA
+			value = 25
+		}
+		relation = {
+			who = CSA
+			value = 25
+		}
+	}
+	
+	option = {
+		name = "EVTOPTB800001066"
+		prestige = 20
+		create_alliance = USA
+		relation = {
+			who = USA
+			value = 200
+		}
+		relation = {
+			who = CSA
+			value = -200
+		}
+		ai_chance = {
+            factor = 0
+        }
+	}
+	option = {
+		name = "EVTOPTC800001066"
+		prestige = 10
+		create_alliance = CSA
+		relation = {
+			who = USA
+			value = -200
+		}
+		relation = {
+			who = CSA
+			value = 200
+		}
+		ai_chance = {
+            factor = 0
+        }
+	}
+	option = {
+		name = "EVTOPTD800001066"
+		prestige = 20
+		badboy = 20
+		war = {
+			target = USA
+			attacker_goal = { casus_belli = unification_annex_casus_belli }
+			defender_goal = { casus_belli = humiliate }
+			call_ally = [yes/no]
+		}
+		war = {
+			target = CSA
+			attacker_goal = { casus_belli = unification_annex_casus_belli }
+			defender_goal = { casus_belli = humiliate }
+			call_ally = [yes/no]
+		}
+		set_country_flag = CAN_North_America
+		relation = {
+			who = USA
+			value = -200
+		}
+		relation = {
+			who = CSA
+			value = -200
+		}
+		ai_chance = {
+            factor = 0
+        }
+	}
+}
+
+country_event = {
+	id = 800001067
+	title = "EVTNAME800001067"
+	desc = "EVTDESC800001067"
+	picture = "Unite"
+	
+	trigger = {
+        tag = X11
+        has_country_flag = CAN_North_America
+		any_owned_province = {
+			is_core = USA
+			
+		}
+		NOT = {exists = USA}
+		NOT = {exists = CSA}
+    }
+
+    mean_time_to_happen = {
+        months = 3
+        
+		
+    }
+	
+
+	
+	option = {
+		name = "EVTOPTA800001067"
+		any_pop = {
+			limit = { has_pop_culture = yankee }
+			militancy = 6
+			consciousness = 7
+		}
+		any_pop = {
+			limit = { has_pop_culture = dixie }
+			militancy = 6
+			consciousness = 7
+		}
+		any_pop = {
+			limit = { has_pop_culture = texan }
+			militancy = 6
+			consciousness = 7
+		}
+		any_owned = {
+			limit = {is_core = USA}
+			add_province_modifier = {
+				name = nationalist_agitation
+				duration = 1825
+			}
+			
+		}
+		
+		set_country_flag = CAN_North_America_2
+	}
+	
+	
+}
+
+country_event = {
+	id = 800001068
+	title = "EVTNAME800001068"
+	desc = "EVTDESC800001068"
+	picture = "Unite"
+	
+	#fire_only_once = yes
+	is_triggered_only = yes
+
+    
+	
+
+	
+	option = {
+		name = "EVTOPTA800001068"
+		199 = {
+			add_core = CSA
+		}
+	}
+	
+}
+country_event = {
+	id = 800001069
+	title = "EVTNAME800001069"
+	desc = "EVTDESC800001069"
+	picture = "Unite"
+	
+	#fire_only_once = yes
+	is_triggered_only = yes
+
+    
+	
+
+	
+	option = {
+		name = "EVTOPTA800001069"
+		release_vassal = CSA
+	}
+	
+}
+
+
+

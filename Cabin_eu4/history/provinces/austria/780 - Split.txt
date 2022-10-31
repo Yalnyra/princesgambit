@@ -1,0 +1,6 @@
+owner=DLM
+controller=DLM
+add_core=DLM
+add_core=MRL
+trade_goods = sulphur
+life_rating = 35

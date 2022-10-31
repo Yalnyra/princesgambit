@@ -1,0 +1,8 @@
+owner=ITA
+controller=ITA
+add_core=TUN
+trade_goods = tea
+life_rating = 35
+terrain = plains
+colonial=2
+fort = 1

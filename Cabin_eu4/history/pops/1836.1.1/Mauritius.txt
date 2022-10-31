@@ -1,0 +1,151 @@
+2125 = {
+	soldiers=
+	{
+		culture = morado
+		religion = catholic
+		size= 854
+	}
+
+	artisans=
+	{
+		culture = morado
+		religion = catholic
+		size= 5986
+	}
+
+	farmers=
+	{
+		culture = morado
+		religion = catholic
+		size= 35971
+	}
+
+	aristocrats=
+	{
+		culture = morado
+		religion = catholic
+		size= 718
+	}
+
+	clergymen=
+	{
+		culture = morado
+		religion = catholic
+		size= 278
+	}
+
+	bureaucrats=
+	{
+		culture = morado
+		religion = catholic
+		size= 85
+	}
+
+	officers=
+	{
+		culture = morado
+		religion = catholic
+		size= 55
+	}
+
+}
+2128 = {
+	soldiers=
+	{
+		culture = kannada
+		religion = hindu
+		size= 399
+	}
+
+	farmers=
+	{
+		culture = kannada
+		religion = hindu
+		size= 18343
+	}
+
+	artisans=
+	{
+		culture = kannada
+		religion = hindu
+		size= 1411
+	}
+
+	clergymen=
+	{
+		culture = kannada
+		religion = hindu
+		size= 151
+	}
+
+	aristocrats=
+	{
+		culture = kannada
+		religion = hindu
+		size= 168
+	}
+
+	officers=
+	{
+		culture = kannada
+		religion = hindu
+		size= 12
+	}
+
+	bureaucrats=
+	{
+		culture = kannada
+		religion = hindu
+		size= 5
+	}
+
+	soldiers=
+	{
+		culture = kannada
+		religion = sunni
+		size= 107
+	}
+
+	artisans=
+	{
+		culture = kannada
+		religion = sunni
+		size= 2160
+	}
+
+	clergymen=
+	{
+		culture = kannada
+		religion = sunni
+		size= 231
+	}
+
+	bureaucrats=
+	{
+		culture = kannada
+		religion = sunni
+		size= 8
+	}
+
+	officers=
+	{
+		culture = kannada
+		religion = sunni
+		size= 20
+	}
+
+	aristocrats=
+	{
+		culture = kannada
+		religion = sunni
+		size= 259
+	}
+
+	farmers=
+	{
+		culture = kannada
+		religion = sunni
+		size= 2556
+	}
+
+}

@@ -1,0 +1,598 @@
+849 = {
+	soldiers=
+	{
+		culture = albanian
+		religion = orthodox
+		size= 2833
+	}
+
+	artisans=
+	{
+		culture = albanian
+		religion = orthodox
+		size= 1386
+	}
+
+	clergymen=
+	{
+		culture = albanian
+		religion = orthodox
+		size= 100
+	}
+
+	bureaucrats=
+	{
+		culture = albanian
+		religion = orthodox
+		size= 31
+	}
+
+	officers=
+	{
+		culture = albanian
+		religion = orthodox
+		size= 45
+	}
+
+	aristocrats=
+	{
+		culture = albanian
+		religion = orthodox
+		size= 129
+	}
+
+	farmers=
+	{
+		culture = albanian
+		religion = orthodox
+		size= 26213
+	}
+
+	soldiers=
+	{
+		culture = albanian
+		religion = catholic
+		size= 2311
+	}
+
+	artisans=
+	{
+		culture = albanian
+		religion = catholic
+		size= 3646
+	}
+
+	clergymen=
+	{
+		culture = albanian
+		religion = catholic
+		size= 263
+	}
+
+	bureaucrats=
+	{
+		culture = albanian
+		religion = catholic
+		size= 81
+	}
+
+	officers=
+	{
+		culture = albanian
+		religion = catholic
+		size= 117
+	}
+
+	aristocrats=
+	{
+		culture = albanian
+		religion = catholic
+		size= 340
+	}
+
+	farmers=
+	{
+		culture = albanian
+		religion = catholic
+		size= 18320
+	}
+
+}
+850 = {
+	soldiers=
+	{
+		culture = albanian
+		religion = orthodox
+		size= 2321
+	}
+
+	artisans=
+	{
+		culture = albanian
+		religion = orthodox
+		size= 1135
+	}
+
+	clergymen=
+	{
+		culture = albanian
+		religion = orthodox
+		size= 82
+	}
+
+	bureaucrats=
+	{
+		culture = albanian
+		religion = orthodox
+		size= 25
+	}
+
+	officers=
+	{
+		culture = albanian
+		religion = orthodox
+		size= 37
+	}
+
+	aristocrats=
+	{
+		culture = albanian
+		religion = orthodox
+		size= 106
+	}
+
+	farmers=
+	{
+		culture = albanian
+		religion = orthodox
+		size= 21522
+	}
+
+	soldiers=
+	{
+		culture = albanian
+		religion = catholic
+		size= 2300
+	}
+
+	artisans=
+	{
+		culture = albanian
+		religion = catholic
+		size= 3385
+	}
+
+	clergymen=
+	{
+		culture = albanian
+		religion = catholic
+		size= 244
+	}
+
+	bureaucrats=
+	{
+		culture = albanian
+		religion = catholic
+		size= 75
+	}
+
+	officers=
+	{
+		culture = albanian
+		religion = catholic
+		size= 109
+	}
+
+	aristocrats=
+	{
+		culture = albanian
+		religion = catholic
+		size= 316
+	}
+
+	farmers=
+	{
+		culture = albanian
+		religion = catholic
+		size= 18571
+	}
+
+}
+851 = {
+	soldiers=
+	{
+		culture = albanian
+		religion = orthodox
+		size= 2290
+	}
+
+	artisans=
+	{
+		culture = albanian
+		religion = orthodox
+		size= 1120
+	}
+
+	clergymen=
+	{
+		culture = albanian
+		religion = orthodox
+		size= 81
+	}
+
+	bureaucrats=
+	{
+		culture = albanian
+		religion = orthodox
+		size= 25
+	}
+
+	officers=
+	{
+		culture = albanian
+		religion = orthodox
+		size= 36
+	}
+
+	aristocrats=
+	{
+		culture = albanian
+		religion = orthodox
+		size= 157
+	}
+
+	farmers=
+	{
+		culture = albanian
+		religion = orthodox
+		size= 21177
+	}
+
+	soldiers=
+	{
+		culture = albanian
+		religion = catholic
+		size= 1885
+	}
+
+	artisans=
+	{
+		culture = albanian
+		religion = catholic
+		size= 2964
+	}
+
+	clergymen=
+	{
+		culture = albanian
+		religion = catholic
+		size= 214
+	}
+
+	bureaucrats=
+	{
+		culture = albanian
+		religion = catholic
+		size= 66
+	}
+
+	officers=
+	{
+		culture = albanian
+		religion = catholic
+		size= 96
+	}
+
+	aristocrats=
+	{
+		culture = albanian
+		religion = catholic
+		size= 415
+	}
+
+	farmers=
+	{
+		culture = albanian
+		religion = catholic
+		size= 14852
+	}
+
+}
+852 = {
+	soldiers=
+	{
+		culture = albanian
+		religion = orthodox
+		size= 1345
+	}
+
+	artisans=
+	{
+		culture = albanian
+		religion = orthodox
+		size= 329
+	}
+
+	clergymen=
+	{
+		culture = albanian
+		religion = orthodox
+		size= 24
+	}
+
+	bureaucrats=
+	{
+		culture = albanian
+		religion = orthodox
+		size= 7
+	}
+
+	officers=
+	{
+		culture = albanian
+		religion = orthodox
+		size= 11
+	}
+
+	aristocrats=
+	{
+		culture = albanian
+		religion = orthodox
+		size= 31
+	}
+
+	farmers=
+	{
+		culture = albanian
+		religion = orthodox
+		size= 12872
+	}
+
+	soldiers=
+	{
+		culture = albanian
+		religion = catholic
+		size= 483
+	}
+
+	artisans=
+	{
+		culture = albanian
+		religion = catholic
+		size= 565
+	}
+
+	clergymen=
+	{
+		culture = albanian
+		religion = catholic
+		size= 41
+	}
+
+	bureaucrats=
+	{
+		culture = albanian
+		religion = catholic
+		size= 13
+	}
+
+	officers=
+	{
+		culture = albanian
+		religion = catholic
+		size= 18
+	}
+
+	aristocrats=
+	{
+		culture = albanian
+		religion = catholic
+		size= 53
+	}
+
+	farmers=
+	{
+		culture = albanian
+		religion = catholic
+		size= 4078
+	}
+
+	soldiers=
+	{
+		culture = illyrian
+		religion = catholic
+		size= 820
+	}
+
+	artisans=
+	{
+		culture = illyrian
+		religion = catholic
+		size= 1696
+	}
+
+	clergymen=
+	{
+		culture = illyrian
+		religion = catholic
+		size= 123
+	}
+
+	bureaucrats=
+	{
+		culture = illyrian
+		religion = catholic
+		size= 38
+	}
+
+	officers=
+	{
+		culture = illyrian
+		religion = catholic
+		size= 55
+	}
+
+	aristocrats=
+	{
+		culture = illyrian
+		religion = catholic
+		size= 158
+	}
+
+	farmers=
+	{
+		culture = illyrian
+		religion = catholic
+		size= 6023
+	}
+
+}
+853 = {
+	soldiers=
+	{
+		culture = albanian
+		religion = orthodox
+		size= 1355
+	}
+
+	artisans=
+	{
+		culture = albanian
+		religion = orthodox
+		size= 331
+	}
+
+	clergymen=
+	{
+		culture = albanian
+		religion = orthodox
+		size= 24
+	}
+
+	bureaucrats=
+	{
+		culture = albanian
+		religion = orthodox
+		size= 7
+	}
+
+	officers=
+	{
+		culture = albanian
+		religion = orthodox
+		size= 11
+	}
+
+	aristocrats=
+	{
+		culture = albanian
+		religion = orthodox
+		size= 31
+	}
+
+	farmers=
+	{
+		culture = albanian
+		religion = orthodox
+		size= 12973
+	}
+
+	soldiers=
+	{
+		culture = albanian
+		religion = catholic
+		size= 487
+	}
+
+	artisans=
+	{
+		culture = albanian
+		religion = catholic
+		size= 570
+	}
+
+	clergymen=
+	{
+		culture = albanian
+		religion = catholic
+		size= 41
+	}
+
+	bureaucrats=
+	{
+		culture = albanian
+		religion = catholic
+		size= 13
+	}
+
+	officers=
+	{
+		culture = albanian
+		religion = catholic
+		size= 18
+	}
+
+	aristocrats=
+	{
+		culture = albanian
+		religion = catholic
+		size= 53
+	}
+
+	farmers=
+	{
+		culture = albanian
+		religion = catholic
+		size= 4110
+	}
+
+	soldiers=
+	{
+		culture = illyrian
+		religion = catholic
+		size= 826
+	}
+
+	artisans=
+	{
+		culture = illyrian
+		religion = catholic
+		size= 1709
+	}
+
+	clergymen=
+	{
+		culture = illyrian
+		religion = catholic
+		size= 123
+	}
+
+	bureaucrats=
+	{
+		culture = illyrian
+		religion = catholic
+		size= 38
+	}
+
+	officers=
+	{
+		culture = illyrian
+		religion = catholic
+		size= 55
+	}
+
+	aristocrats=
+	{
+		culture = illyrian
+		religion = catholic
+		size= 160
+	}
+
+	farmers=
+	{
+		culture = illyrian
+		religion = catholic
+		size= 6071
+	}
+
+}

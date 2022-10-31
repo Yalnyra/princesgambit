@@ -1,0 +1,881 @@
+country_event = {
+	id = 60081
+	title = "EVTNAME60081"
+	desc = "EVTDESC60081"
+	picture = "Unite"
+	
+	is_triggered_only = yes
+	
+
+	
+	option = {
+		name = "EVTOPTA60081"
+		government = top_down_revolution
+	}
+}
+
+
+
+#
+#
+#Forming the league
+#
+#
+
+##
+##THIS IS A FUCKING MESS
+##
+
+#1st vote
+
+country_event = {
+	id = 69600
+	title = "EVTNAME69600"
+	desc = "EVTDESC69600"
+	picture = "Unite"
+	
+	is_triggered_only = yes
+	
+#	trigger = {
+#		is_greater_power = yes
+#		
+#		has_global_flag = league_proposed
+#		NOT = {has_global_flag = league_finished}
+#		NOT = {
+#			OR = {
+#				has_country_flag = league_peace
+#				has_country_flag = league_war
+#			}
+#		
+#		
+#		}
+#		
+#		NOT = {
+#			check_variable = {
+#				which = league_1
+#				value = 8
+#			}
+#		}
+#		
+    #    
+	#	
+    #}
+	
+	#mean_time_to_happen = {
+    #    months = 1
+    #    
+    #}
+	
+
+	#peace_in_our_time
+	option = {
+		name = "EVTOPTA69600"
+		set_country_flag = league_peace
+		set_global_flag = league_war_2
+		
+		any_greater_power = {
+			limit = { 
+				
+				has_country_flag = league_peace_leader
+				
+            }
+			clr_country_flag = league_peace_leader
+			
+		}
+		set_country_flag = league_peace_leader
+		ENG = {change_variable = {
+			which = league_1
+			value = 1
+		}
+		}
+		
+		ai_chance = {
+            factor = 8
+            
+            modifier = {
+                factor = 2
+                war_policy = pacifism
+            }
+			
+			modifier = {
+                factor = 4
+                government = democracy
+            }
+			
+			modifier = {
+                factor = 2
+                government = hms_government
+            }
+			
+			modifier = {
+                factor = 3
+                has_country_modifier  = no_more_war
+            }
+			
+        }
+	}
+	
+	#war
+	option = {
+		name = "EVTOPTB69600"
+		set_country_flag = league_war
+		set_global_flag = league_war_1
+		any_greater_power = {
+			limit = { 
+				has_country_flag = league_war_leader
+				
+            }
+			clr_country_flag = league_war_leader
+			
+		}
+		set_country_flag = league_war_leader
+		ENG = {change_variable = {
+			which = league_1
+			value = 1
+		}
+		}
+		ai_chance = {
+            factor = 8
+             
+            
+            modifier = {
+                factor = 2
+                war_policy = jingoism
+            }
+			
+			modifier = {
+                factor = 3
+                government = absolute_monarchy
+            }
+			
+			modifier = {
+                factor = 10
+                government = fascist_dictatorship
+            }
+			
+        }
+	}
+}
+
+#conflict coming
+country_event = {
+	id = 69601
+	title = "EVTNAME69601"
+	desc = "EVTDESC69601"
+	picture = "Unite"
+	
+	trigger = {
+		is_greater_power = yes
+		
+		has_country_flag = league_peace_leader
+		NOT = {has_global_flag = league_war}
+		NOT = {has_global_flag = leaue_war_end}
+		NOT = {has_global_flag = league_finished}
+		AND = {
+			has_global_flag = league_war_2
+			has_global_flag = league_war_1
+		}
+		
+		ENG = {check_variable = {
+			which = league_1
+			value = 8
+		}
+		}
+        
+		
+    }
+	
+	mean_time_to_happen = {
+        months = 1
+		
+        
+    }
+
+	#To war
+	option = {
+		name = "EVTOPTA69601"
+		set_global_flag = league_war
+		
+		any_greater_power = {
+			limit = { 
+				has_country_flag = league_war_leader
+            }
+			
+			war = {
+				target = THIS
+				attacker_goal = {
+					casus_belli = league_war_war
+					country = THIS
+				}
+				defender_goal = {
+					casus_belli = league_war_peace
+				}
+			}
+			country_event = 69652
+		}
+		country_event = 69651
+		
+			
+			
+		
+		
+		
+	}
+	
+
+}
+
+
+#league_formed
+country_event = {
+    id = 69610
+    title = "EVTNAME69610"
+    desc = "EVTDESC69610"
+    
+    picture = "communist_crowd"
+
+	#is_triggered_only = yes
+    trigger = {
+		NOT = {has_global_flag = league_finished}
+        NOT = {has_global_flag = league_quo}
+		has_global_flag = league_peace_vote
+    }
+
+    
+    option = {
+        name = "EVTOPTA69610"
+        set_global_flag = league_finished
+		set_global_flag = league_formed
+		any_country = {
+			limit ={
+				exists = yes
+				ai = no
+			}
+			country_event = {
+				id = 69611
+				days = 5
+			}
+		}
+    }
+}
+
+#notify world of league
+
+country_event = {
+    id = 69611
+    title = "EVTNAME69610"
+    desc = "EVTDESC69610"
+    
+    picture = "communist_crowd"
+
+	is_triggered_only = yes
+    
+
+    
+    option = {
+        name = "EVTOPTA69610"
+
+    }
+}
+
+#Quo Maintained
+country_event = {
+    id = 69620
+    title = "EVTNAME69620"
+    desc = "EVTDESC69620"
+    
+    picture = "communist_crowd"
+
+	#is_triggered_only = yes
+	
+    trigger = {
+		NOT = {has_global_flag = league_finished}
+        has_global_flag = league_quo
+    }
+
+    
+    option = {
+        name = "EVTOPTA69620"
+		set_global_flag = league_finished
+        any_country = {
+			limit ={
+				exists = yes
+				ai = no
+			}
+			country_event = {
+				id = 69621
+				days = 5
+			}
+		}
+    }
+}
+
+#notify world of quo
+
+country_event = {
+    id = 69621
+    title = "EVTNAME69620"
+    desc = "EVTDESC69620"
+    
+    picture = "communist_crowd"
+
+	is_triggered_only = yes
+    
+
+    
+    option = {
+        name = "EVTOPTA69620"
+
+    }
+}
+
+
+#
+#rules of war changed from war
+#
+
+country_event = {
+    id = 69630
+    title = "EVTNAME69630"
+    desc = "EVTDESC69630"
+    
+    picture = "communist_crowd"
+
+	is_triggered_only = yes
+	
+#    trigger = {
+#		NOT = {has_global_flag = league_finished}
+#        any_greater_power = {
+#			limit = { 
+#				has_global_flag = league_proposed
+#				NOT = { has_country_flag = league_peace }
+#				NOT = { has_country_flag = league_quo }
+#            }
+#        }
+#    }
+
+    
+    option = {
+        name = "EVTOPTA69630"
+        set_global_flag = league_finished
+		set_global_flag = rules_changed
+		badboy = -15
+		prestige = 30
+		any_country = {
+			limit ={
+				exists = yes
+				ai = no
+			}
+			country_event = {
+				id = 69632
+				days = 5
+			}
+		}
+    }
+}
+
+#Rules changed by diplomacy
+country_event = {
+	id = 69631
+	title = "EVTNAME69630"
+	desc = "EVTDESC69631"
+	picture = "Unite"
+	
+	trigger = {
+		is_greater_power = yes
+		
+		has_country_flag = league_war 
+		
+		NOT = {has_global_flag = league_finished}
+		has_global_flag = league_proposed
+		has_global_flag = league_war_1
+        NOT = {has_global_flag = league_war_2}
+		
+		check_variable = {
+			which = league_1
+			value = 8
+		}
+    }
+	
+	mean_time_to_happen = {
+        months = 3
+        
+    }
+
+	#hurrah
+	option = {
+		name = "EVTOPTA69630"
+		set_global_flag = league_finished
+		set_global_flag = rules_changed
+		any_country = {
+			limit ={
+				exists = yes
+				ai = no
+			}
+			country_event = {
+				id = 69632
+				days = 5
+			}
+		}
+		
+	}
+	
+
+}
+
+##notify change
+
+country_event = {
+    id = 69632
+    title = "EVTNAME69630"
+    desc = "EVTDESC69632"
+    
+    picture = "communist_crowd"
+
+	is_triggered_only = yes
+    
+
+    
+    option = {
+        name = "EVTOPTA69630"
+
+    }
+}
+
+
+#
+#Changing the rules vs quo
+#sending polls
+
+country_event = {
+	id = 69640
+	title = "EVTNAME69640"
+	desc = "EVTDESC69640"
+	picture = "Unite"
+	
+	trigger = {
+		is_greater_power = yes
+		has_global_flag = league_war_2
+		has_country_flag = proposed_league
+		
+		
+		NOT = {has_global_flag = league_finished}
+		has_global_flag = league_proposed
+        
+		NOT = {has_global_flag = league_war_1}
+			
+    }
+	
+	mean_time_to_happen = {
+        months = 3
+        
+    }
+	
+	option = {
+		name = "EVTOPTA69640"
+		set_global_flag = league_continue
+		country_event = 69641
+		any_country = {
+			limit = { 
+				is_greater_power = yes
+				NOT = {has_country_flag = league_war }
+            }
+			country_event = 69641
+        }
+		
+	}
+	
+}
+
+#2nd vote quo vs peace
+country_event = {
+	id = 69641
+	title = "EVTNAME69641"
+	desc = "EVTDESC69641"
+	picture = "Unite"
+	
+	is_triggered_only = yes
+	
+	#peace_in_our_time
+	option = {
+		name = "EVTOPTA69641"
+		set_country_flag = league_form
+		set_global_flag = league_peace_vote
+		ai_chance = {
+            factor = 8
+            
+            modifier = {
+                factor = 2
+                war_policy = pacifism
+            }
+			
+			modifier = {
+                factor = 4
+                government = democracy
+            }
+			
+			modifier = {
+                factor = 2
+                government = hms_government
+            }
+			
+        }
+	}
+	
+	#quo
+	option = {
+		name = "EVTOPTCB9641"
+		set_country_flag = league_quo
+		set_global_flag = league_quo
+
+		
+		
+		ai_chance = {
+            factor = 0
+            
+            
+            
+			
+        }
+	}
+}
+
+#call in peacedudes
+
+country_event = {
+	id = 69651
+	title = "EVTNAME69651"
+	desc = "EVTDESC69651"
+	picture = "Unite"
+	
+	#is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		has_global_flag = league_war_start
+		NOT = {has_global_flag = leaue_war_end}
+		#NOT = {has_country_flag = in_league_war}
+		has_country_flag = league_peace_leader
+    }
+	
+	mean_time_to_happen = {
+        months = 3
+        
+    }
+	
+	option = {
+		name = "EVTOPTA69651"
+		
+		
+        any_country = {
+            limit = { 
+				has_country_flag = league_peace 
+				NOT = {has_country_flag = in_league_war}
+				NOT = {has_country_flag = league_peace_leader}
+			}
+            country_event = 69650
+        }
+	}
+	
+}
+
+country_event = {
+	id = 69650
+	title = "EVTNAME69650"
+	desc = "EVTDESC69650"
+	picture = "Unite"
+	
+	is_triggered_only = yes
+	
+	#trigger = {
+	#	has_global_flag = league_war_start
+#		NOT = {has_global_flag = leaue_war_end}
+#		NOT = {has_country_flag = in_league_war}
+#		has_country_flag = league_peace
+ #   }
+	
+	mean_time_to_happen = {
+        months = 3
+        
+    }
+	
+	option = {
+		name = "EVTOPTA69650"
+		set_country_flag = in_league_war
+		create_alliance = FROM
+		relation = {
+            who = FROM
+            value = 200
+        }
+        any_country = {
+            limit = { war_with = FROM }
+			leave_alliance = THIS
+            relation = {
+                who = THIS
+                value = -200
+            }
+        }
+	}
+	
+}
+
+#call in war dudes
+
+country_event = {
+	id = 69652
+	title = "EVTNAME69651"
+	desc = "EVTDESC69651"
+	picture = "Unite"
+	
+	#is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		has_global_flag = league_war_start
+		NOT = {has_global_flag = leaue_war_end}
+		#NOT = {has_country_flag = in_league_war}
+		has_country_flag = league_war_leader
+    }
+	
+	mean_time_to_happen = {
+        months = 3
+        
+    }
+	
+	option = {
+		name = "EVTOPTA69651"
+		
+		
+        any_country = {
+            limit = { 
+				has_country_flag = league_war 
+				NOT = {has_country_flag = in_league_war}
+				NOT = {has_country_flag = league_war_leader}
+			}
+            country_event = 69653
+        }
+	}
+	
+}
+
+country_event = {
+	id = 69653
+	title = "EVTNAME69650"
+	desc = "EVTDESC69650"
+	picture = "Unite"
+	
+	is_triggered_only = yes
+	
+	#trigger = {
+	#	has_global_flag = league_war_start
+#		NOT = {has_global_flag = leaue_war_end}
+#		NOT = {has_country_flag = in_league_war}
+#		has_country_flag = league_peace
+ #   }
+	
+	mean_time_to_happen = {
+        months = 3
+        
+    }
+	
+	option = {
+		name = "EVTOPTA69650"
+		set_country_flag = in_league_war
+		create_alliance = FROM
+		relation = {
+            who = FROM
+            value = 400
+        }
+        any_country = {
+            limit = { war_with = FROM }
+			leave_alliance = THIS
+            relation = {
+                who = THIS
+                value = -400
+            }
+        }
+	}
+	
+}
+
+
+
+
+###Infamy from inventions
+
+country_event = {
+	id = 69700
+	title = "EVTNAME69700"
+	desc = "EVTDESC69700"
+	picture = "treaty_of_petropolis"
+	
+	
+	
+	trigger = {
+		NOT = {has_country_flag = infamy_diplomacy1}
+		invention = classicist_diplomacy
+		invention = classicist_mannerisms
+		invention = classicist_formalities
+		badboy = 0.4
+    }
+	
+	mean_time_to_happen = {
+        months = 3
+        
+    }
+	
+	option = {
+		name = "EVTOPTA69700"
+		badboy = -3
+		prestige = 5
+		set_country_flag = infamy_diplomacy1
+	}
+	
+}
+
+country_event = {
+	id = 69701
+	title = "EVTNAME69700"
+	desc = "EVTDESC69700"
+	picture = "treaty_of_petropolis"
+	
+	
+	
+	trigger = {
+		NOT = {has_country_flag = infamy_diplomacy2}
+		invention = romanticist_diplomacy
+		invention = romanticist_mannerisms
+		invention = romanticist_formalities
+		badboy = 0.4
+    }
+	
+	mean_time_to_happen = {
+        months = 3
+        
+    }
+	
+	option = {
+		name = "EVTOPTA69700"
+		badboy = -3
+		prestige = 5
+		set_country_flag = infamy_diplomacy2
+	}
+	
+}
+country_event = {
+	id = 69702
+	title = "EVTNAME69700"
+	desc = "EVTDESC69700"
+	picture = "treaty_of_petropolis"
+	
+	
+	
+	trigger = {
+		NOT = {has_country_flag = infamy_diplomacy3}
+		invention = realist_diplomacy
+		invention = realist_mannerisms
+		invention = realist_formalities
+		badboy = 0.4
+    }
+	
+	mean_time_to_happen = {
+        months = 3
+        
+    }
+	
+	option = {
+		name = "EVTOPTA69700"
+		badboy = -3
+		prestige = 5
+		set_country_flag = infamy_diplomacy3
+	}
+	
+}
+country_event = {
+	id = 69703
+	title = "EVTNAME69700"
+	desc = "EVTDESC69700"
+	picture = "treaty_of_petropolis"
+	
+	
+	
+	trigger = {
+		NOT = {has_country_flag = infamy_diplomacy4}
+		invention = impressionist_diplomacy
+		invention = impressionist_mannerisms
+		invention = impressionist_formalities
+		badboy = 0.4
+    }
+	
+	mean_time_to_happen = {
+        months = 3
+        
+    }
+	
+	option = {
+		name = "EVTOPTA69700"
+		badboy = -3
+		prestige = 5
+		set_country_flag = infamy_diplomacy4
+	}
+	
+}
+country_event = {
+	id = 69704
+	title = "EVTNAME69700"
+	desc = "EVTDESC69700"
+	picture = "treaty_of_petropolis"
+	
+	
+	
+	trigger = {
+		NOT = {has_country_flag = infamy_diplomacy5}
+		invention = expressionist_diplomacy
+		invention = expressionist_mannerisms
+		invention = expressionist_formalities
+		badboy = 0.4
+    }
+	
+	mean_time_to_happen = {
+        months = 3
+        
+    }
+	
+	option = {
+		name = "EVTOPTA69700"
+		badboy = -3
+		prestige = 5
+		set_country_flag = infamy_diplomacy5
+		set_country_flag = master_of_diplomacy
+	}
+	
+}
+country_event = {
+	id = 69705
+	title = "EVTNAME69700"
+	desc = "EVTDESC69700"
+	picture = "treaty_of_petropolis"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		NOT = {has_country_flag = infamy_diplomacy6}
+		invention = mass_diplomacy
+		invention = mass_mannerisms
+		invention = mass_formalities
+		badboy = 0.4
+    }
+	
+	mean_time_to_happen = {
+        months = 3
+        
+    }
+	
+	option = {
+		name = "EVTOPTA69700"
+		badboy = -3
+		
+		prestige = 5
+		set_country_flag = infamy_diplomacy6
+		
+	}
+}
+	

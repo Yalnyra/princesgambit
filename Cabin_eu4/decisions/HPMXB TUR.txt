@@ -1,0 +1,53 @@
+political_decisions = {
+
+	Solidify_Egyptian_grasp_ottoman = {
+		picture = Alexandrie_et_phare
+		potential = {
+            tag = TUR
+			NOT = {has_country_flag = Ottoman_Egypt_integrate}
+			has_country_flag = egypt_rule_restored
+			
+			1745 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+					}
+					owner = {
+						vassal_of = THIS
+					}
+				}
+			}
+			
+        }
+		
+		allow = {
+			is_greater_power = yes
+			revolution_n_counterrevolution = 1
+			steel_railroad = 1
+			central_bank_money_bill_printing = 1
+			war = no
+		}
+	
+		effect = {
+			badboy = 7
+			EGY = {
+			
+				all_core = {
+					add_core = TUR
+				}
+			}
+			
+			
+			set_country_flag = Ottoman_Egypt_integrate
+		}
+		ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 0
+                badboy = 0.5
+            }
+        }
+	
+	}
+}

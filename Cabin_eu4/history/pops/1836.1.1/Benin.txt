@@ -1,0 +1,554 @@
+1919 = {
+	slaves=
+	{
+		culture = fon
+		religion = shamanism
+		size= 7959
+	}
+
+	soldiers=
+	{
+		culture = ewe
+		religion = shamanism
+		size= 637
+	}
+
+	farmers=
+	{
+		culture = ewe
+		religion = shamanism
+		size= 23265
+	}
+
+	slaves=
+	{
+		culture = afro_caribeno
+		religion = catholic
+		size= 11424
+	}
+
+	farmers=
+	{
+		culture = morado
+		religion = catholic
+		size= 29657
+	}
+
+	soldiers=
+	{
+		culture = morado
+		religion = catholic
+		size= 915
+	}
+
+	artisans=
+	{
+		culture = morado
+		religion = catholic
+		size= 3104
+	}
+
+	aristocrats=
+	{
+		culture = morado
+		religion = catholic
+		size= 652
+	}
+
+	clergymen=
+	{
+		culture = morado
+		religion = catholic
+		size= 504
+	}
+
+	bureaucrats=
+	{
+		culture = morado
+		religion = catholic
+		size= 155
+	}
+
+	officers=
+	{
+		culture = morado
+		religion = catholic
+		size= 101
+	}
+
+}
+1920 = {
+	slaves=
+	{
+		culture = fon
+		religion = shamanism
+		size= 6282
+	}
+
+	soldiers=
+	{
+		culture = fon
+		religion = shamanism
+		size= 629
+	}
+
+	artisans=
+	{
+		culture = fon
+		religion = shamanism
+		size= 1257
+	}
+
+	clergymen=
+	{
+		culture = fon
+		religion = shamanism
+		size= 204
+	}
+
+	bureaucrats=
+	{
+		culture = fon
+		religion = shamanism
+		size= 44
+	}
+
+	officers=
+	{
+		culture = fon
+		religion = shamanism
+		size= 41
+	}
+
+	aristocrats=
+	{
+		culture = fon
+		religion = shamanism
+		size= 264
+	}
+
+	farmers=
+	{
+		culture = fon
+		religion = shamanism
+		size= 54154
+	}
+
+	slaves=
+	{
+		culture = fon
+		religion = sunni
+		size= 957
+	}
+
+	soldiers=
+	{
+		culture = fon
+		religion = sunni
+		size= 96
+	}
+
+	artisans=
+	{
+		culture = fon
+		religion = sunni
+		size= 1641
+	}
+
+	clergymen=
+	{
+		culture = fon
+		religion = sunni
+		size= 267
+	}
+
+	bureaucrats=
+	{
+		culture = fon
+		religion = sunni
+		size= 57
+	}
+
+	officers=
+	{
+		culture = fon
+		religion = sunni
+		size= 53
+	}
+
+	aristocrats=
+	{
+		culture = fon
+		religion = sunni
+		size= 345
+	}
+
+	farmers=
+	{
+		culture = fon
+		religion = sunni
+		size= 6163
+	}
+
+}
+1921 = {
+	slaves=
+	{
+		culture = mossi
+		religion = shamanism
+		size= 387
+	}
+
+	soldiers=
+	{
+		culture = mossi
+		religion = shamanism
+		size= 43
+	}
+
+	artisans=
+	{
+		culture = mossi
+		religion = shamanism
+		size= 24
+	}
+
+	clergymen=
+	{
+		culture = mossi
+		religion = shamanism
+		size= 2
+	}
+
+	aristocrats=
+	{
+		culture = mossi
+		religion = shamanism
+		size= 4
+	}
+
+	farmers=
+	{
+		culture = mossi
+		religion = shamanism
+		size= 3823
+	}
+
+	slaves=
+	{
+		culture = mossi
+		religion = sunni
+		size= 628
+	}
+
+	soldiers=
+	{
+		culture = mossi
+		religion = sunni
+		size= 70
+	}
+
+	artisans=
+	{
+		culture = mossi
+		religion = sunni
+		size= 388
+	}
+
+	clergymen=
+	{
+		culture = mossi
+		religion = sunni
+		size= 28
+	}
+
+	bureaucrats=
+	{
+		culture = mossi
+		religion = sunni
+		size= 6
+	}
+
+	officers=
+	{
+		culture = mossi
+		religion = sunni
+		size= 6
+	}
+
+	aristocrats=
+	{
+		culture = mossi
+		religion = sunni
+		size= 72
+	}
+
+	farmers=
+	{
+		culture = mossi
+		religion = sunni
+		size= 5755
+	}
+
+	slaves=
+	{
+		culture = mossi
+		religion = ibadi
+		size= 7
+	}
+
+	soldiers=
+	{
+		culture = mossi
+		religion = ibadi
+		size= 1
+	}
+
+	artisans=
+	{
+		culture = mossi
+		religion = ibadi
+		size= 97
+	}
+
+	clergymen=
+	{
+		culture = mossi
+		religion = ibadi
+		size= 7
+	}
+
+	bureaucrats=
+	{
+		culture = mossi
+		religion = ibadi
+		size= 2
+	}
+
+	officers=
+	{
+		culture = mossi
+		religion = ibadi
+		size= 1
+	}
+
+	aristocrats=
+	{
+		culture = mossi
+		religion = ibadi
+		size= 18
+	}
+
+	slaves=
+	{
+		culture = songhai
+		religion = sunni
+		size= 394
+	}
+
+	soldiers=
+	{
+		culture = songhai
+		religion = sunni
+		size= 44
+	}
+
+	artisans=
+	{
+		culture = songhai
+		religion = sunni
+		size= 901
+	}
+
+	clergymen=
+	{
+		culture = songhai
+		religion = sunni
+		size= 65
+	}
+
+	bureaucrats=
+	{
+		culture = songhai
+		religion = sunni
+		size= 14
+	}
+
+	officers=
+	{
+		culture = songhai
+		religion = sunni
+		size= 13
+	}
+
+	aristocrats=
+	{
+		culture = songhai
+		religion = sunni
+		size= 168
+	}
+
+	farmers=
+	{
+		culture = songhai
+		religion = sunni
+		size= 2758
+	}
+
+	slaves=
+	{
+		culture = yoruba
+		religion = shamanism
+		size= 1089
+	}
+
+	soldiers=
+	{
+		culture = yoruba
+		religion = shamanism
+		size= 121
+	}
+
+	artisans=
+	{
+		culture = yoruba
+		religion = shamanism
+		size= 1085
+	}
+
+	clergymen=
+	{
+		culture = yoruba
+		religion = shamanism
+		size= 78
+	}
+
+	bureaucrats=
+	{
+		culture = yoruba
+		religion = shamanism
+		size= 17
+	}
+
+	officers=
+	{
+		culture = yoruba
+		religion = shamanism
+		size= 16
+	}
+
+	aristocrats=
+	{
+		culture = yoruba
+		religion = shamanism
+		size= 202
+	}
+
+	farmers=
+	{
+		culture = yoruba
+		religion = shamanism
+		size= 9445
+	}
+
+}
+1922 = {
+	soldiers=
+	{
+		culture = mossi
+		religion = shamanism
+		size= 52
+	}
+
+	artisans=
+	{
+		culture = mossi
+		religion = shamanism
+		size= 232
+	}
+
+	clergymen=
+	{
+		culture = mossi
+		religion = shamanism
+		size= 17
+	}
+
+	bureaucrats=
+	{
+		culture = mossi
+		religion = shamanism
+		size= 4
+	}
+
+	officers=
+	{
+		culture = mossi
+		religion = shamanism
+		size= 3
+	}
+
+	aristocrats=
+	{
+		culture = mossi
+		religion = shamanism
+		size= 43
+	}
+
+	farmers=
+	{
+		culture = mossi
+		religion = shamanism
+		size= 4806
+	}
+
+	soldiers=
+	{
+		culture = mossi
+		religion = sunni
+		size= 98
+	}
+
+	artisans=
+	{
+		culture = mossi
+		religion = sunni
+		size= 1118
+	}
+
+	clergymen=
+	{
+		culture = mossi
+		religion = sunni
+		size= 81
+	}
+
+	bureaucrats=
+	{
+		culture = mossi
+		religion = sunni
+		size= 17
+	}
+
+	officers=
+	{
+		culture = mossi
+		religion = sunni
+		size= 16
+	}
+
+	aristocrats=
+	{
+		culture = mossi
+		religion = sunni
+		size= 209
+	}
+
+	farmers=
+	{
+		culture = mossi
+		religion = sunni
+		size= 8302
+	}
+
+}

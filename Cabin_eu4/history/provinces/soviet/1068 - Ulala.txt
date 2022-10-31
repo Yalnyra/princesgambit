@@ -1,0 +1,9 @@
+owner=TIM
+controller=TIM
+add_core=BRY
+add_core=TIM
+add_core=YAK
+add_core=KHA
+add_core=MGL
+trade_goods = coal
+life_rating = 35

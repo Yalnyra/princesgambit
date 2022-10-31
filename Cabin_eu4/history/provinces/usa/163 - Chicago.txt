@@ -1,0 +1,8 @@
+owner=USA
+controller=USA
+add_core=CRK
+add_core=PEO
+add_core=USA
+trade_goods = fruit
+life_rating = 35
+terrain = mining_district

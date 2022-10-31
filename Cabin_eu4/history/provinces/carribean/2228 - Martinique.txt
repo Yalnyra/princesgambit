@@ -1,0 +1,7 @@
+owner=WSI
+controller=WSI
+add_core=WSI
+trade_goods = coal
+life_rating = 35
+terrain = new_world_jungle
+naval_base = 1

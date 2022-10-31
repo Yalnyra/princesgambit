@@ -1,0 +1,21 @@
+name = "2nd Portuguese-Creek Imperialist War"
+
+1734.12.9 = {
+	add_attacker = POR
+	add_attacker = BRZ
+	add_attacker = SBA
+	add_attacker = BOL
+	add_attacker = X11
+	add_attacker = ECU
+	add_defender = CRK
+	add_defender = COF
+	add_defender = KSK
+
+	war_goal = {
+		casus_belli = acquire_state
+		actor = POR
+		receiver = CRK
+		country = CRK
+		state_province_id = 32
+	}
+}

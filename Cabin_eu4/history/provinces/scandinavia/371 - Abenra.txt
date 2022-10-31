@@ -1,0 +1,8 @@
+owner=NOR
+controller=NOR
+add_core=DEN
+add_core=NOR
+add_core=SCA
+add_core=HOL
+trade_goods = cattle
+life_rating = 35

@@ -1,0 +1,9 @@
+owner=SWE
+controller=SWE
+add_core=LIT
+add_core=NVG
+add_core=RUS
+add_core=SWE
+add_core=UGR
+trade_goods = fish
+life_rating = 10

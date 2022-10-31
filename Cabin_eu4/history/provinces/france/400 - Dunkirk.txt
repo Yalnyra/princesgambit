@@ -1,0 +1,8 @@
+owner=ENG
+controller=ENG
+add_core=BEL
+add_core=ENG
+add_core=WLL
+add_core=BRG
+trade_goods = fish
+life_rating = 31

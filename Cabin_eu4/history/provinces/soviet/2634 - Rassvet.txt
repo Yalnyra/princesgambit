@@ -1,0 +1,6 @@
+owner=CHV
+controller=CHV
+add_core=CHV
+trade_goods = cattle
+life_rating = 10
+terrain = montane_tundra

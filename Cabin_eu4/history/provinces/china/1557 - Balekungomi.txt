@@ -1,0 +1,8 @@
+owner=BNG
+controller=BNG
+add_core=BNG
+add_core=KHA
+add_core=MGL
+add_core=NNG
+trade_goods = coal
+life_rating = 32

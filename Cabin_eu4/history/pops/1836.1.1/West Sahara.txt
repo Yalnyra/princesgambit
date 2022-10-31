@@ -1,0 +1,186 @@
+1773 = {
+	aristocrats=
+	{
+		culture = bedouin
+		religion = sunni
+		size= 10
+	}
+
+	clergymen=
+	{
+		culture = bedouin
+		religion = sunni
+		size= 15
+	}
+
+	artisans=
+	{
+		culture = bedouin
+		religion = sunni
+		size= 50
+	}
+
+	soldiers=
+	{
+		culture = bedouin
+		religion = sunni
+		size= 25
+	}
+
+	farmers=
+	{
+		culture = bedouin
+		religion = sunni
+		size= 100
+	}
+
+	aristocrats=
+	{
+		culture = berber
+		religion = sunni
+		size= 25
+	}
+
+	clergymen=
+	{
+		culture = berber
+		religion = sunni
+		size= 50
+	}
+
+	artisans=
+	{
+		culture = berber
+		religion = sunni
+		size= 100
+	}
+
+	soldiers=
+	{
+		culture = berber
+		religion = sunni
+		size= 25
+	}
+
+	farmers=
+	{
+		culture = berber
+		religion = sunni
+		size= 800
+	}
+
+}
+1774 = {
+	soldiers=
+	{
+		culture = ifriqi
+		religion = sunni
+		size= 180
+	}
+
+	farmers=
+	{
+		culture = ifriqi
+		religion = sunni
+		size= 6264
+	}
+
+	soldiers=
+	{
+		culture = anglo_african
+		religion = catholic
+		size= 151
+	}
+
+	farmers=
+	{
+		culture = anglo_african
+		religion = catholic
+		size= 4966
+	}
+
+	artisans=
+	{
+		culture = anglo_african
+		religion = catholic
+		size= 237
+	}
+
+	aristocrats=
+	{
+		culture = anglo_african
+		religion = catholic
+		size= 100
+	}
+
+	clergymen=
+	{
+		culture = anglo_african
+		religion = catholic
+		size= 38
+	}
+
+	bureaucrats=
+	{
+		culture = anglo_african
+		religion = catholic
+		size= 12
+	}
+
+	officers=
+	{
+		culture = anglo_african
+		religion = catholic
+		size= 12
+	}
+
+	soldiers=
+	{
+		culture = anglo_african
+		religion = protestant
+		size= 191
+	}
+
+	artisans=
+	{
+		culture = anglo_african
+		religion = protestant
+		size= 511
+	}
+
+	clergymen=
+	{
+		culture = anglo_african
+		religion = protestant
+		size= 83
+	}
+
+	bureaucrats=
+	{
+		culture = anglo_african
+		religion = protestant
+		size= 26
+	}
+
+	officers=
+	{
+		culture = anglo_african
+		religion = protestant
+		size= 27
+	}
+
+	aristocrats=
+	{
+		culture = anglo_african
+		religion = protestant
+		size= 215
+	}
+
+	farmers=
+	{
+		culture = anglo_african
+		religion = protestant
+		size= 5783
+	}
+
+}

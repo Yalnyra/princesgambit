@@ -1,0 +1,204 @@
+political_decisions = {
+    enable_additional_features = {
+        picture = rule_book
+        alert = yes
+	    potential = {
+            ai = no
+            NOT = { has_global_flag = looking_through_additional_features }
+            NOT = { year = 1837 }
+        }
+        allow = {
+            NOT = { year = 1837 }
+        }
+
+        effect = {
+            set_global_flag = looking_through_additional_features
+            set_country_flag = country_looking_through_additional_features
+        }
+
+        ai_will_do = { factor = 0 }
+    }
+
+    disable_additional_features = {
+        picture = rule_book
+        alert = no
+        potential = {
+            ai = no
+            has_country_flag = country_looking_through_additional_features
+            NOT = { year = 1837 }
+        }
+
+        allow = {
+        }
+
+        effect = {
+            clr_global_flag = looking_through_additional_features
+            clr_country_flag = country_looking_through_additional_features
+        }
+
+        ai_will_do = { factor = 0 }
+    }
+ 
+	enable_multiplayer_features = {
+        picture = Lan_party
+        alert = no
+        potential = {
+            ai = no
+            has_country_flag = country_looking_through_additional_features
+            NOT = { year = 1837 }
+            NOT = { has_global_flag = multiplayer_game }
+        }
+
+        allow = {
+        }
+
+        effect = {
+            set_global_flag = multiplayer_game
+        }
+
+        ai_will_do = { factor = 0 }
+    }
+
+    disable_multiplayer_features = {
+        picture = Lan_party
+        alert = no
+        potential = {
+            ai = no
+            has_country_flag = country_looking_through_additional_features
+            NOT = { year = 1837 }
+            has_global_flag = multiplayer_game 
+        }
+
+        allow = {
+        }
+
+        effect = {
+            clr_global_flag = multiplayer_game
+        }
+
+        ai_will_do = { factor = 0 }
+    }
+
+    enable_crimeamod_subsidies = {
+        picture = crimeamod
+        alert = yes
+	    potential = {
+            ai = no
+            has_country_flag = country_looking_through_additional_features
+            NOT = { has_global_flag = crimeamod_subsidies_enabled }
+            NOT = { year = 1837 }
+        }
+        allow = {
+            NOT = { year = 1837 }
+        }
+
+        effect = {
+            set_global_flag = crimeamod_subsidies_enabled
+        }
+
+        ai_will_do = { factor = 0 }
+    }
+    disable_crimeamod_subsidies = {
+        picture = crimeamod
+        alert = yes
+	    potential = {
+            ai = no
+            has_country_flag = country_looking_through_additional_features
+            has_global_flag = crimeamod_subsidies_enabled 
+            NOT = { year = 1837 }
+        }
+        allow = {
+            NOT = { year = 1837 }
+        }
+
+        effect = {
+            clr_global_flag = crimeamod_subsidies_enabled
+        }
+
+        ai_will_do = { factor = 0 }
+    }
+	enable_lower_infamy_mode = {
+        picture = good_boi
+        alert = no
+        potential = {
+            ai = no
+            has_country_flag = country_looking_through_additional_features
+            NOT = { year = 1837 }
+            NOT = { has_global_flag = lower_infamy_mode }
+        }
+
+        allow = {
+        }
+
+        effect = {
+		set_global_flag = lower_infamy_mode
+		any_country = {
+			add_country_modifier = { name = lower_infamy duration = -1 }
+		}
+		add_country_modifier = { name = lower_infamy duration = -1 }
+        }
+
+        ai_will_do = { factor = 0 }
+    }
+	disable_lower_infamy_mode = {
+        picture = good_boi
+        alert = no
+        potential = {
+            ai = no
+            has_country_flag = country_looking_through_additional_features
+            NOT = { year = 1837 }
+            has_global_flag = lower_infamy_mode 
+        }
+
+        allow = {
+        }
+
+        effect = {
+		clr_global_flag = lower_infamy_mode
+		any_country = {
+			remove_country_modifier = lower_infamy
+		}
+		remove_country_modifier = lower_infamy
+        }
+
+        ai_will_do = { factor = 0 }
+    }
+	enable_splendid_isolation = {
+        picture = pax_britannica
+        alert = no
+        potential = {
+            ai = no
+            has_country_flag = country_looking_through_additional_features
+            NOT = { year = 1837 }
+            NOT = { has_global_flag = splendid_isolation }
+        }
+
+        allow = {
+        }
+
+        effect = {
+		set_global_flag = splendid_isolation
+        }
+
+        ai_will_do = { factor = 0 }
+    }
+	disable_splendid_isolation = {
+        picture = pax_britannica
+        alert = no
+        potential = {
+            ai = no
+            has_country_flag = country_looking_through_additional_features
+            NOT = { year = 1837 }
+            has_global_flag = splendid_isolation 
+        }
+
+        allow = {
+        }
+
+        effect = {
+		remove_global_flag = splendid_isolation
+        }
+
+        ai_will_do = { factor = 0 }
+    }	
+}

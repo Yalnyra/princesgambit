@@ -1,0 +1,5 @@
+owner=ALO
+controller=ALO
+add_core=ALO
+trade_goods = grain
+life_rating = 34

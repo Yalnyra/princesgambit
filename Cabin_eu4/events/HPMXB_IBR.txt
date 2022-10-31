@@ -1,0 +1,1130 @@
+country_event = { # Buy Gibralter request
+	id = 69900
+	title = "EVTNAME69900"
+	desc = "EVTDESC69900"
+	picture = "ccastro"
+	
+	is_triggered_only = yes
+	
+
+	
+	option = { #Agree
+		name = "EVTOPTA69900"
+		FROM = { country_event = 69902 }
+		prestige = 5
+		money = 300000
+		
+		ai_chance = {
+            factor = 8
+            
+            modifier = {
+                factor = 2
+                is_greater_power = no
+            }
+			
+			modifier = {
+                factor = 4
+                is_secondary_power = no
+            }
+			
+			modifier = {
+                factor = 2
+                war_policy = pacifism
+            }
+			
+			modifier = {
+                factor = 3
+                has_country_modifier  = no_more_war
+            }
+			modifier = {
+                factor = 4
+                government = democracy
+            }
+			
+			modifier = {
+                factor = 2
+                government = hms_government
+            }
+			modifier = {
+                factor = 0
+                
+				FROM = { ai = yes }
+				is_greater_power = yes
+				
+            }
+			
+        }
+	}
+	
+	option = { #Refuse
+		name = "EVTOPTB69900"
+		prestige = 20
+		FROM = { country_event = 69901 }
+		
+		ai_chance = {
+            factor = 8
+            
+            modifier = {
+                factor = 2
+                war_policy = jingoism
+            }
+			
+			modifier = {
+                factor = 0
+                relation = { who = FROM value = 100 }
+				FROM = { ai = no }
+				
+            }
+			modifier = {
+                factor = 0
+                is_greater_power = no
+				
+            }
+			
+			
+        }
+	}
+}
+
+country_event = { #Refusal event
+	id = 69901
+	title = "EVTNAME69901"
+	desc = "EVTDESC69901"
+	picture = "ccastro"
+	
+	is_triggered_only = yes
+	
+
+	
+	option = { #shame
+		name = "EVTOPTA69901"
+		prestige = -10
+		517 = { add_core = THIS }
+	}
+	
+	
+}
+
+country_event = { #Agree event
+	id = 69902
+	title = "EVTNAME69902"
+	desc = "EVTDESC69902"
+	picture = "ccastro"
+	
+	is_triggered_only = yes
+	
+
+	
+	option = { #nice
+		name = "EVTOPTA69902"
+		prestige = 10
+		517 = { add_core = THIS }
+		517 = { remove_core = ENG }
+		517 = { secede_province = THIS }
+		THIS = { change_variable = { which = owed_cash_money value = 300 } }
+		
+	}
+	
+	
+}
+
+#
+#
+#SPANISH FEDERATION
+#
+#
+
+country_event = { # mexico
+	id = 69910
+	title = "EVTNAME69910"
+	desc = "EVTDESC69910"
+	picture = "ccastro"
+	
+	is_triggered_only = yes
+	
+
+	
+	option = { #Agree
+		name = "EVTOPTA69910"
+		FROM = { country_event = 69912 }
+		set_country_flag = spanish_federation_agree
+		
+		ai_chance = {
+            factor = 8
+            
+            modifier = {
+                factor = 2
+                is_greater_power = no
+            }
+			
+			modifier = {
+                factor = 4
+                is_secondary_power = no
+            }
+			
+			modifier = {
+                factor = 2
+                war_policy = pacifism
+            }
+			
+			modifier = {
+                factor = 3
+                has_country_modifier  = no_more_war
+            }
+			modifier = {
+                factor = 4
+                government = democracy
+            }
+			
+			modifier = {
+                factor = 2
+                government = hms_government
+            }
+			modifier = {
+                factor = 0
+                
+				#FROM = { ai = yes }
+				is_greater_power = yes
+				
+            }
+			
+        }
+	}
+	
+	option = { #Refuse
+		name = "EVTOPTB69910"
+		prestige = 20
+		FROM = { country_event = 69911 }
+		set_country_flag = spanish_federation_refuse
+		ai_chance = {
+            factor = 8
+            
+            modifier = {
+                factor = 2
+                war_policy = jingoism
+            }
+			
+			modifier = {
+                factor = 0
+                relation = { who = FROM value = 150 }
+				FROM = { ai = no }
+				
+            }
+			
+			
+			
+        }
+	}
+}
+
+country_event = { #Refusal event
+	id = 69911
+	title = "EVTNAME69911"
+	desc = "EVTDESC69911"
+	picture = "ccastro"
+	
+	is_triggered_only = yes
+	
+
+	
+	option = { #shame
+		name = "EVTOPTA69911"
+		
+		set_global_flag = no_mexican_approval
+	}
+	
+	
+}
+
+country_event = { #Agree event
+	id = 69912
+	title = "EVTNAME69912"
+	desc = "EVTDESC69912"
+	picture = "ccastro"
+	
+	is_triggered_only = yes
+	
+
+	
+	option = { #nice
+		name = "EVTOPTA69912"
+		set_global_flag = full_mexican_approval
+		
+	}
+	
+	
+}
+#
+#Columbia
+#
+country_event = { # 
+	id = 69920
+	title = "EVTNAME69910"
+	desc = "EVTDESC69910"
+	picture = "ccastro"
+	
+	is_triggered_only = yes
+	
+
+	
+	option = { #Agree
+		name = "EVTOPTA69910"
+		FROM = { country_event = 69922 }
+		set_country_flag = spanish_federation_agree
+		
+		
+		ai_chance = {
+            factor = 8
+            
+            modifier = {
+                factor = 2
+                is_greater_power = no
+            }
+			
+			modifier = {
+                factor = 4
+                is_secondary_power = no
+            }
+			
+			modifier = {
+                factor = 2
+                war_policy = pacifism
+            }
+			
+			modifier = {
+                factor = 3
+                has_country_modifier  = no_more_war
+            }
+			modifier = {
+                factor = 4
+                government = democracy
+            }
+			
+			modifier = {
+                factor = 2
+                government = hms_government
+            }
+			modifier = {
+                factor = 0
+                
+				#FROM = { ai = yes }
+				is_greater_power = yes
+				
+            }
+			
+        }
+	}
+	
+	option = { #Refuse
+		name = "EVTOPTB69910"
+		prestige = 20
+		FROM = { country_event = 69921 }
+		set_country_flag = spanish_federation_refuse
+		ai_chance = {
+            factor = 8
+            
+            modifier = {
+                factor = 2
+                war_policy = jingoism
+            }
+			
+			modifier = {
+                factor = 0
+                relation = { who = FROM value = 150 }
+				FROM = { ai = no }
+				
+            }
+			
+			
+			
+        }
+	}
+}
+
+country_event = { #Refusal event
+	id = 69921
+	title = "EVTNAME69911"
+	desc = "EVTDESC69911"
+	picture = "ccastro"
+	
+	is_triggered_only = yes
+	
+
+	
+	option = { #shame
+		name = "EVTOPTA69911"
+		
+		set_global_flag = no_colombian_approval
+	}
+	
+	
+}
+
+country_event = { #Agree event
+	id = 69922
+	title = "EVTNAME69912"
+	desc = "EVTDESC69912"
+	picture = "ccastro"
+	
+	is_triggered_only = yes
+	
+
+	
+	option = { #nice
+		name = "EVTOPTA69912"
+		set_global_flag = full_colombian_approval
+		
+	}
+	
+	
+}
+#
+#Chilie
+#
+country_event = { # 
+	id = 69930
+	title = "EVTNAME69910"
+	desc = "EVTDESC69910"
+	picture = "ccastro"
+	
+	is_triggered_only = yes
+	
+
+	
+	option = { #Agree
+		name = "EVTOPTA69910"
+		FROM = { country_event = 69932 }
+		set_country_flag = spanish_federation_agree
+		
+		ai_chance = {
+            factor = 8
+            
+            modifier = {
+                factor = 2
+                is_greater_power = no
+            }
+			
+			modifier = {
+                factor = 4
+                is_secondary_power = no
+            }
+			
+			modifier = {
+                factor = 2
+                war_policy = pacifism
+            }
+			
+			modifier = {
+                factor = 3
+                has_country_modifier  = no_more_war
+            }
+			modifier = {
+                factor = 4
+                government = democracy
+            }
+			
+			modifier = {
+                factor = 2
+                government = hms_government
+            }
+			modifier = {
+                factor = 0
+                
+				#FROM = { ai = yes }
+				is_greater_power = yes
+				
+            }
+			
+        }
+	}
+	
+	option = { #Refuse
+		name = "EVTOPTB69910"
+		prestige = 20
+		FROM = { country_event = 69931 }
+		set_country_flag = spanish_federation_refuse
+		ai_chance = {
+            factor = 8
+            
+            modifier = {
+                factor = 2
+                war_policy = jingoism
+            }
+			
+			modifier = {
+                factor = 0
+                relation = { who = FROM value = 150 }
+				FROM = { ai = no }
+				
+            }
+			
+			
+			
+        }
+	}
+}
+
+country_event = { #Refusal event
+	id = 69931
+	title = "EVTNAME69911"
+	desc = "EVTDESC69911"
+	picture = "ccastro"
+	
+	is_triggered_only = yes
+	
+
+	
+	option = { #shame
+		name = "EVTOPTA69911"
+		
+		set_global_flag = no_chilien_approval
+	}
+	
+	
+}
+
+country_event = { #Agree event
+	id = 69932
+	title = "EVTNAME69912"
+	desc = "EVTDESC69912"
+	picture = "ccastro"
+	
+	is_triggered_only = yes
+	
+
+	
+	option = { #nice
+		name = "EVTOPTA69912"
+		set_global_flag = full_chilien_approval
+		
+	}
+	
+	
+}
+#
+#Argentina
+#
+country_event = { # 
+	id = 69940
+	title = "EVTNAME69910"
+	desc = "EVTDESC69910"
+	picture = "ccastro"
+	
+	is_triggered_only = yes
+	
+
+	
+	option = { #Agree
+		name = "EVTOPTA69910"
+		FROM = { country_event = 69942 }
+		set_country_flag = spanish_federation_agree
+		
+		ai_chance = {
+            factor = 8
+            
+            modifier = {
+                factor = 2
+                is_greater_power = no
+            }
+			
+			modifier = {
+                factor = 4
+                is_secondary_power = no
+            }
+			
+			modifier = {
+                factor = 2
+                war_policy = pacifism
+            }
+			
+			modifier = {
+                factor = 3
+                has_country_modifier  = no_more_war
+            }
+			modifier = {
+                factor = 4
+                government = democracy
+            }
+			
+			modifier = {
+                factor = 2
+                government = hms_government
+            }
+			modifier = {
+                factor = 0
+                
+				#FROM = { ai = yes }
+				is_greater_power = yes
+				
+            }
+			
+        }
+	}
+	
+	option = { #Refuse
+		name = "EVTOPTB69910"
+		prestige = 20
+		FROM = { country_event = 69941 }
+		set_country_flag = spanish_federation_refuse
+		ai_chance = {
+            factor = 8
+            
+            modifier = {
+                factor = 2
+                war_policy = jingoism
+            }
+			
+			modifier = {
+                factor = 0
+                relation = { who = FROM value = 150 }
+				FROM = { ai = no }
+				
+            }
+			
+			
+			
+        }
+	}
+}
+
+country_event = { #Refusal event
+	id = 69941
+	title = "EVTNAME69911"
+	desc = "EVTDESC69911"
+	picture = "ccastro"
+	
+	is_triggered_only = yes
+	
+
+	
+	option = { #shame
+		name = "EVTOPTA69911"
+		
+		set_global_flag = no_argentinian_approval
+	}
+	
+	
+}
+
+country_event = { #Agree event
+	id = 69942
+	title = "EVTNAME69912"
+	desc = "EVTDESC69912"
+	picture = "ccastro"
+	
+	is_triggered_only = yes
+	
+
+	
+	option = { #nice
+		name = "EVTOPTA69912"
+		set_global_flag = full_argentinian_approval
+		
+	}
+	
+	
+}
+#
+#peruvian
+#
+country_event = { # 
+	id = 69950
+	title = "EVTNAME69910"
+	desc = "EVTDESC69910"
+	picture = "ccastro"
+	
+	is_triggered_only = yes
+	
+
+	
+	option = { #Agree
+		name = "EVTOPTA69910"
+		FROM = { country_event = 69952 }
+		set_country_flag = spanish_federation_agree
+		
+		ai_chance = {
+            factor = 8
+            
+            modifier = {
+                factor = 2
+                is_greater_power = no
+            }
+			
+			modifier = {
+                factor = 4
+                is_secondary_power = no
+            }
+			
+			modifier = {
+                factor = 2
+                war_policy = pacifism
+            }
+			
+			modifier = {
+                factor = 3
+                has_country_modifier  = no_more_war
+            }
+			modifier = {
+                factor = 4
+                government = democracy
+            }
+			
+			modifier = {
+                factor = 2
+                government = hms_government
+            }
+			modifier = {
+                factor = 0
+                
+				#FROM = { ai = yes }
+				is_greater_power = yes
+				
+            }
+			
+        }
+	}
+	
+	option = { #Refuse
+		name = "EVTOPTB69910"
+		prestige = 20
+		FROM = { country_event = 69951 }
+		set_country_flag = spanish_federation_refuse
+		ai_chance = {
+            factor = 8
+            
+            modifier = {
+                factor = 2
+                war_policy = jingoism
+            }
+			
+			modifier = {
+                factor = 0
+                relation = { who = FROM value = 150 }
+				FROM = { ai = no }
+				
+            }
+			
+			
+			
+        }
+	}
+}
+
+country_event = { #Refusal event
+	id = 69951
+	title = "EVTNAME69911"
+	desc = "EVTDESC69911"
+	picture = "ccastro"
+	
+	is_triggered_only = yes
+	
+
+	
+	option = { #shame
+		name = "EVTOPTA69911"
+		
+		set_global_flag = no_peruvian_approval
+	}
+	
+	
+}
+
+country_event = { #Agree event
+	id = 69952
+	title = "EVTNAME69912"
+	desc = "EVTDESC69912"
+	picture = "ccastro"
+	
+	is_triggered_only = yes
+	
+
+	
+	option = { #nice
+		name = "EVTOPTA69912"
+		set_global_flag = full_peruvian_approval
+		
+	}
+	
+	
+}
+
+#
+#Brazil
+#
+country_event = { # 
+	id = 69960
+	title = "EVTNAME69910"
+	desc = "EVTDESC69910"
+	picture = "ccastro"
+	
+	is_triggered_only = yes
+	
+
+	
+	option = { #Agree
+		name = "EVTOPTA69910"
+		FROM = { country_event = 69962 }
+		set_country_flag = spanish_federation_agree
+		
+		ai_chance = {
+            factor = 8
+            
+            modifier = {
+                factor = 2
+                is_greater_power = no
+            }
+			
+			modifier = {
+                factor = 4
+                is_secondary_power = no
+            }
+			
+			modifier = {
+                factor = 2
+                war_policy = pacifism
+            }
+			
+			modifier = {
+                factor = 3
+                has_country_modifier  = no_more_war
+            }
+			modifier = {
+                factor = 4
+                government = democracy
+            }
+			
+			modifier = {
+                factor = 2
+                government = hms_government
+            }
+			modifier = {
+                factor = 0
+                
+				#FROM = { ai = yes }
+				is_greater_power = yes
+				
+            }
+			
+        }
+	}
+	
+	option = { #Refuse
+		name = "EVTOPTB69910"
+		prestige = 20
+		FROM = { country_event = 69961 }
+		set_country_flag = spanish_federation_refuse
+		ai_chance = {
+            factor = 8
+            
+            modifier = {
+                factor = 2
+                war_policy = jingoism
+            }
+			
+			modifier = {
+                factor = 0
+                relation = { who = FROM value = 150 }
+				FROM = { ai = no }
+				
+            }
+			
+			
+			
+        }
+	}
+}
+
+country_event = { #Refusal event
+	id = 69961
+	title = "EVTNAME69911"
+	desc = "EVTDESC69911"
+	picture = "ccastro"
+	
+	is_triggered_only = yes
+	
+
+	
+	option = { #shame
+		name = "EVTOPTA69911"
+		
+		set_global_flag = no_brazillian_approval
+	}
+	
+	
+}
+
+country_event = { #Agree event
+	id = 69962
+	title = "EVTNAME69912"
+	desc = "EVTDESC69912"
+	picture = "ccastro"
+	
+	is_triggered_only = yes
+	
+
+	
+	option = { #nice
+		name = "EVTOPTA69912"
+		set_global_flag = full_brazillian_approval
+		
+	}
+	
+	
+}
+
+##annex events
+
+country_event = { #Agree event
+	id = 69970
+	title = "EVTNAME69970"
+	desc = "EVTDESC69970"
+	picture = "ccastro"
+	
+	is_triggered_only = yes
+	
+
+	
+	option = { #nice
+		name = "EVTOPTA69970"
+		
+		FROM = { inherit = THIS }
+		
+	}
+	
+	
+}
+
+country_event = { # full resist event
+	id = 69971
+	title = "EVTNAME69971"
+	desc = "EVTDESC69971"
+	picture = "ccastro"
+	
+	is_triggered_only = yes
+	
+
+	
+	option = { #cool
+		name = "EVTOPTA69971"
+		
+		
+	}
+	
+	
+}
+country_event = { #resist event
+	id = 69972
+	title = "EVTNAME69972"
+	desc = "EVTDESC69972"
+	picture = "ccastro"
+	
+	is_triggered_only = yes
+	
+
+	
+	option = { #damn
+		name = "EVTOPTA69972"
+		
+		FROM = { inherit = THIS }
+		
+	}
+	
+	
+}
+
+#
+#
+#Rebellion events
+#
+#
+country_event = {
+	id = 69980
+	title = "EVTNAME69980" #The Mexican Rebellion
+	desc = "EVTDESC69980"
+	picture = "nationalists"
+	
+	trigger = {
+		has_country_flag = spanish_federation_formed
+		any_owned_province = { is_core = VNS }
+		has_global_flag = no_mexican_approval
+	}
+	
+	mean_time_to_happen = {
+		months = 3
+	}
+	
+	option = {
+		name = "EVT69980OPTA"
+		clr_global_flag = no_mexican_approval
+		VNS = {
+			all_core = {
+				#remove_core = DNB
+				add_province_modifier = {
+					name = nationalist_agitation
+					duration = 1095
+				}
+			}
+		}
+		
+	}
+}
+
+country_event = {
+	id = 69981
+	title = "EVTNAME69980" #The Brazilian Rebellion
+	desc = "EVTDESC69981"
+	picture = "nationalists"
+	
+	trigger = {
+		has_country_flag = spanish_federation_brazil_2
+		any_owned_province = { is_core = BRZ }
+		has_global_flag = no_brazillian_approval
+	}
+	
+	mean_time_to_happen = {
+		months = 3
+	}
+	
+	option = {
+		name = "EVT69980OPTA"
+		clr_global_flag = no_brazillian_approval
+		BRZ = {
+			all_core = {
+				#remove_core = DNB
+				add_province_modifier = {
+					name = nationalist_agitation
+					duration = 1095
+				}
+			}
+		}
+		
+	}
+}
+
+country_event = {
+	id = 69982
+	title = "EVTNAME69980" #The columbian Rebellion
+	desc = "EVTDESC69982"
+	picture = "nationalists"
+	
+	trigger = {
+		has_country_flag = spanish_federation_formed
+		any_owned_province = { is_core = VNG }
+		has_global_flag = no_colombian_approval
+	}
+	
+	mean_time_to_happen = {
+		months = 3
+	}
+	
+	option = {
+		name = "EVT69980OPTA"
+		clr_global_flag = no_colombian_approval
+		VNG = {
+			all_core = {
+				#remove_core = DNB
+				add_province_modifier = {
+					name = nationalist_agitation
+					duration = 1095
+				}
+			}
+		}
+		
+	}
+}
+
+country_event = {
+	id = 69983
+	title = "EVTNAME69980" #The Argentinain Rebellion
+	desc = "EVTDESC69983"
+	picture = "nationalists"
+	
+	trigger = {
+		has_country_flag = spanish_federation_formed
+		any_owned_province = { is_core = VLP }
+		has_global_flag = no_argentinian_approval
+	}
+	
+	mean_time_to_happen = {
+		months = 3
+	}
+	
+	option = {
+		name = "EVT69980OPTA"
+		clr_global_flag = no_argentinian_approval
+		VLP = {
+			all_core = {
+				#remove_core = DNB
+				add_province_modifier = {
+					name = nationalist_agitation
+					duration = 1095
+				}
+			}
+		}
+		
+	}
+}
+
+country_event = {
+	id = 69984
+	title = "EVTNAME69980" #The Chilien Rebellion
+	desc = "EVTDESC69984"
+	picture = "nationalists"
+	
+	trigger = {
+		has_country_flag = spanish_federation_formed
+		any_owned_province = { is_core = CGC }
+		has_global_flag = no_chilien_approval
+	}
+	
+	mean_time_to_happen = {
+		months = 3
+	}
+	
+	option = {
+		name = "EVT69980OPTA"
+		clr_global_flag = no_chilien_approval
+		CGC = {
+			all_core = {
+				#remove_core = DNB
+				add_province_modifier = {
+					name = nationalist_agitation
+					duration = 1095
+				}
+			}
+		}
+		
+	}
+}
+
+country_event = {
+	id = 69985
+	title = "EVTNAME69980" #The Peruvian Rebellion
+	desc = "EVTDESC69985"
+	picture = "nationalists"
+	
+	trigger = {
+		has_country_flag = spanish_federation_formed
+		any_owned_province = { is_core = VOP }
+		has_global_flag = no_peruvian_approval
+	}
+	
+	mean_time_to_happen = {
+		months = 3
+	}
+	
+	option = {
+		name = "EVT69980OPTA"
+		clr_global_flag = no_peruvian_approval
+		VOP = {
+			all_core = {
+				#remove_core = DNB
+				add_province_modifier = {
+					name = nationalist_agitation
+					duration = 1095
+				}
+			}
+		}
+		
+	}
+}

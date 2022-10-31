@@ -1,0 +1,542 @@
+935 = {
+	soldiers=
+	{
+		culture = mashriqi
+		religion = shiite
+		size= 250
+	}
+
+	artisans=
+	{
+		culture = mashriqi
+		religion = shiite
+		size= 125
+	}
+
+	clergymen=
+	{
+		culture = mashriqi
+		religion = shiite
+		size= 20
+	}
+
+	bureaucrats=
+	{
+		culture = mashriqi
+		religion = shiite
+		size= 3
+	}
+
+	officers=
+	{
+		culture = mashriqi
+		religion = shiite
+		size= 4
+	}
+
+	aristocrats=
+	{
+		culture = mashriqi
+		religion = shiite
+		size= 39
+	}
+
+	farmers=
+	{
+		culture = mashriqi
+		religion = shiite
+		size= 12076
+	}
+
+	soldiers=
+	{
+		culture = mashriqi
+		religion = zoroastrian
+		size= 56
+	}
+
+	artisans=
+	{
+		culture = mashriqi
+		religion = zoroastrian
+		size= 181
+	}
+
+	clergymen=
+	{
+		culture = mashriqi
+		religion = zoroastrian
+		size= 29
+	}
+
+	bureaucrats=
+	{
+		culture = mashriqi
+		religion = zoroastrian
+		size= 4
+	}
+
+	officers=
+	{
+		culture = mashriqi
+		religion = zoroastrian
+		size= 6
+	}
+
+	aristocrats=
+	{
+		culture = mashriqi
+		religion = zoroastrian
+		size= 57
+	}
+
+	farmers=
+	{
+		culture = mashriqi
+		religion = zoroastrian
+		size= 2456
+	}
+
+	soldiers=
+	{
+		culture = al_iraqiya_arabic_PER
+		religion = zoroastrian
+		size= 203
+	}
+
+	artisans=
+	{
+		culture = al_iraqiya_arabic_PER
+		religion = zoroastrian
+		size= 712
+	}
+
+	clergymen=
+	{
+		culture = al_iraqiya_arabic_PER
+		religion = zoroastrian
+		size= 116
+	}
+
+	bureaucrats=
+	{
+		culture = al_iraqiya_arabic_PER
+		religion = zoroastrian
+		size= 16
+	}
+
+	officers=
+	{
+		culture = al_iraqiya_arabic_PER
+		religion = zoroastrian
+		size= 23
+	}
+
+	aristocrats=
+	{
+		culture = al_iraqiya_arabic_PER
+		religion = zoroastrian
+		size= 224
+	}
+
+	farmers=
+	{
+		culture = al_iraqiya_arabic_PER
+		religion = zoroastrian
+		size= 8861
+	}
+
+}
+1162 = {
+	slaves=
+	{
+		culture = african_minor
+		religion = shiite
+		size= 847
+	}
+
+	soldiers=
+	{
+		culture = bedouin
+		religion = shiite
+		size= 146
+	}
+
+	artisans=
+	{
+		culture = bedouin
+		religion = shiite
+		size= 656
+	}
+
+	clergymen=
+	{
+		culture = bedouin
+		religion = shiite
+		size= 47
+	}
+
+	bureaucrats=
+	{
+		culture = bedouin
+		religion = shiite
+		size= 14
+	}
+
+	officers=
+	{
+		culture = bedouin
+		religion = shiite
+		size= 6
+	}
+
+	aristocrats=
+	{
+		culture = bedouin
+		religion = shiite
+		size= 61
+	}
+
+	farmers=
+	{
+		culture = bedouin
+		religion = shiite
+		size= 12771
+	}
+
+	slaves=
+	{
+		culture = african_minor
+		religion = sunni
+		size= 435
+	}
+
+	soldiers=
+	{
+		culture = bedouin
+		religion = sunni
+		size= 75
+	}
+
+	artisans=
+	{
+		culture = bedouin
+		religion = sunni
+		size= 1330
+	}
+
+	clergymen=
+	{
+		culture = bedouin
+		religion = sunni
+		size= 96
+	}
+
+	bureaucrats=
+	{
+		culture = bedouin
+		religion = sunni
+		size= 28
+	}
+
+	officers=
+	{
+		culture = bedouin
+		religion = sunni
+		size= 12
+	}
+
+	aristocrats=
+	{
+		culture = bedouin
+		religion = sunni
+		size= 124
+	}
+
+	farmers=
+	{
+		culture = bedouin
+		religion = sunni
+		size= 5372
+	}
+
+}
+1165 = {
+	slaves=
+	{
+		culture = african_minor
+		religion = shiite
+		size= 2067
+	}
+
+	soldiers=
+	{
+		culture = bedouin
+		religion = shiite
+		size= 309
+	}
+
+	artisans=
+	{
+		culture = bedouin
+		religion = shiite
+		size= 4326
+	}
+
+	clergymen=
+	{
+		culture = bedouin
+		religion = shiite
+		size= 201
+	}
+
+	bureaucrats=
+	{
+		culture = bedouin
+		religion = shiite
+		size= 59
+	}
+
+	officers=
+	{
+		culture = bedouin
+		religion = shiite
+		size= 25
+	}
+
+	aristocrats=
+	{
+		culture = bedouin
+		religion = shiite
+		size= 260
+	}
+
+	farmers=
+	{
+		culture = bedouin
+		religion = shiite
+		size= 23650
+	}
+
+}
+1167 = {
+	slaves=
+	{
+		culture = african_minor
+		religion = shiite
+		size= 2784
+	}
+
+	soldiers=
+	{
+		culture = bedouin
+		religion = shiite
+		size= 418
+	}
+
+	artisans=
+	{
+		culture = bedouin
+		religion = shiite
+		size= 940
+	}
+
+	clergymen=
+	{
+		culture = bedouin
+		religion = shiite
+		size= 68
+	}
+
+	bureaucrats=
+	{
+		culture = bedouin
+		religion = shiite
+		size= 20
+	}
+
+	officers=
+	{
+		culture = bedouin
+		religion = shiite
+		size= 8
+	}
+
+	aristocrats=
+	{
+		culture = bedouin
+		religion = shiite
+		size= 175
+	}
+
+	farmers=
+	{
+		culture = bedouin
+		religion = shiite
+		size= 16468
+	}
+
+	slaves=
+	{
+		culture = african_minor
+		religion = ibadi
+		size= 5239
+	}
+
+	soldiers=
+	{
+		culture = bedouin
+		religion = ibadi
+		size= 1033
+	}
+
+	artisans=
+	{
+		culture = bedouin
+		religion = ibadi
+		size= 5125
+	}
+
+	clergymen=
+	{
+		culture = bedouin
+		religion = ibadi
+		size= 370
+	}
+
+	bureaucrats=
+	{
+		culture = bedouin
+		religion = ibadi
+		size= 108
+	}
+
+	officers=
+	{
+		culture = bedouin
+		religion = ibadi
+		size= 46
+	}
+
+	aristocrats=
+	{
+		culture = bedouin
+		religion = ibadi
+		size= 957
+	}
+
+	farmers=
+	{
+		culture = bedouin
+		religion = ibadi
+		size= 26416
+	}
+
+	slaves=
+	{
+		culture = african_minor
+		religion = sunni
+		size= 1924
+	}
+
+	soldiers=
+	{
+		culture = bedouin
+		religion = sunni
+		size= 289
+	}
+
+	artisans=
+	{
+		culture = bedouin
+		religion = sunni
+		size= 649
+	}
+
+	clergymen=
+	{
+		culture = bedouin
+		religion = sunni
+		size= 47
+	}
+
+	bureaucrats=
+	{
+		culture = bedouin
+		religion = sunni
+		size= 14
+	}
+
+	officers=
+	{
+		culture = bedouin
+		religion = sunni
+		size= 6
+	}
+
+	aristocrats=
+	{
+		culture = bedouin
+		religion = sunni
+		size= 121
+	}
+
+	farmers=
+	{
+		culture = bedouin
+		religion = sunni
+		size= 11378
+	}
+
+}
+1168 = {
+	soldiers=
+	{
+		culture = bedouin
+		religion = ibadi
+		size= 632
+	}
+
+	artisans=
+	{
+		culture = bedouin
+		religion = ibadi
+		size= 2843
+	}
+
+	clergymen=
+	{
+		culture = bedouin
+		religion = ibadi
+		size= 205
+	}
+
+	bureaucrats=
+	{
+		culture = bedouin
+		religion = ibadi
+		size= 60
+	}
+
+	officers=
+	{
+		culture = bedouin
+		religion = ibadi
+		size= 25
+	}
+
+	aristocrats=
+	{
+		culture = bedouin
+		religion = ibadi
+		size= 265
+	}
+
+	farmers=
+	{
+		culture = bedouin
+		religion = ibadi
+		size= 27560
+	}
+
+}

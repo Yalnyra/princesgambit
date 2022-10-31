@@ -1,0 +1,698 @@
+political_decisions = {
+
+    treaty_of_guadalupe_hidalgo = {
+        picture = treaty_of_guadalupe_hidalgo
+        potential = {
+            tag = USA
+            has_country_flag = hasmanifestdestiny
+            NOT = { has_country_flag = treaty_of_guadalupe_hidalgo }
+            MEX = { is_greater_power = no NOT = { has_country_flag = manifest_destiny_refuted } }
+        }
+
+        allow = {
+            OR = {
+                money = 100000
+                ai = yes
+            }
+            OR = {
+                2172 = { controlled_by = USA }
+                MEX = {
+                    all_core = {
+                        OR = {
+                            owned_by = USA
+                            controlled_by = USA
+                            NOT = { is_core = USA }
+                        }
+                    }
+                }
+                AND = {
+                    MEX = { ai = yes }
+                    ai = yes
+                    is_sphere_leader_of = MEX
+                    war = no
+                    truce_with = MEX
+                }
+            }
+        }
+
+        effect = {
+            set_country_flag = treaty_of_guadalupe_hidalgo
+            MEX = { country_event = 44825 }
+			X12 = { country_event = 44825 }
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    refute_manifest_destiny = {
+        picture = manifest_destiny
+        potential = {
+            exists = yes
+            OR = {
+                tag = MEX
+                tag = TEX
+                tag = DES
+                tag = X12
+				tag = VNS
+            }
+            USA = { has_country_flag = hasmanifestdestiny }
+            NOT = {
+                has_country_flag = treaty_of_guadalupe_hidalgo
+                has_country_flag = manifest_destiny_refuted
+            }
+        }
+
+        allow = {
+            war = no
+            NOT = { has_recently_lost_war = yes }
+            OR = {
+                AND = {
+                    is_greater_power = yes
+                    invention = manifest_destiny
+                }
+                AND = {
+                    truce_with = USA
+                    USA = { has_recently_lost_war = yes }
+                }
+				year = 1855
+            }
+			OR = {
+				THIS = {
+					owns = 138
+					owns = 104
+				}
+				has_unclaimed_cores = no
+			}
+        }
+
+        effect = {
+            set_country_flag = manifest_destiny_refuted
+            prestige = 10
+            USA = {
+                prestige = -10
+                relation = { who = THIS value = -200 }
+            }
+
+            any_owned = {
+                limit = {
+                    is_core = USA
+                    is_core = THIS
+                }
+                remove_core = USA
+            }
+
+            random_owned = {
+                limit = { owner = { OR = { tag = DES tag = CAL } } }
+                    owner = {
+                    any_owned = {
+                        limit = {
+                            is_core = MEX
+                            is_core = THIS
+                        }
+                remove_core = MEX
+                    }
+                }
+            }
+
+            random_owned = {
+                limit = { owner = { primary_culture = texan } }
+                    owner = {
+                    any_owned = {
+                        limit = {
+                            is_core = MEX
+                            is_core = THIS
+                        }
+                remove_core = MEX
+                    }
+                }
+            }
+
+            random_owned = {
+                limit = { owner = { primary_culture = mexican } }
+                owner = {
+                    129 = { add_core = MEX }
+                    128 = { add_core = MEX }
+                    103 = { add_core = MEX }
+                    107 = { add_core = MEX }
+                    108 = { add_core = MEX }
+                    109 = { add_core = MEX }
+                    110 = { add_core = MEX }
+                }
+            }
+			random_owned = {
+                limit = { owner = { tag = VNS } }
+                owner = {
+                    129 = { add_core = VNS }
+                    128 = { add_core = VNS }
+                    103 = { add_core = VNS }
+                    107 = { add_core = VNS }
+                    108 = { add_core = VNS }
+                    109 = { add_core = VNS }
+                    110 = { add_core = VNS }
+                }
+            }
+        }
+    }
+	mexico_reconquest = {
+		picture = CAL_greater_california
+		potential = {
+			tag = MEX
+			OR = {
+				has_global_flag = USA_CAN_denied
+				has_global_flag = treaty_of_new_york
+				USA = { has_country_flag = western_collapse }
+			}
+			MEX = {
+				has_country_flag = treaty_of_guadalupe_hidalgo
+				NOT = { has_country_flag = mexico_reconquest }
+				
+			}
+		}
+		allow = {
+			war = no
+			OR = {
+				war_policy = pro_military
+				war_policy = jingoism
+			}
+			OR = {
+				USA = { is_greater_power = no }
+				MEX = { is_greater_power = yes }
+				MEX = { is_secondary_power = yes }
+				USA = { exists = no }
+			}
+		}
+		effect = { 
+			badboy = 10
+			set_country_flag = mexico_reconquest
+			any_country = {
+				limit = {
+					OR = { 
+						tag = USA
+						tag = CSA
+						tag = CAL
+						tag = TEX
+						tag = DES
+					}
+				}
+				country_event = { id = 72739 }
+			}
+			MEX_85 = { add_core = MEX } #California
+			TEX_132 = { add_core = MEX } #Texas
+			MEX_94 = { add_core = MEX } #Nevada
+			MEX_97 = { add_core = MEX } #Utah
+			USA_129 = { add_core = MEX } #Oklahoma
+			USA_106 = { add_core = MEX } #Colorado
+			MEX_100 = { add_core = MEX } #Arizona
+			MEX_103 = { add_core = MEX } #New Mexico
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	mexico_caribbean = {
+		picture = claim_the_caribbean
+		potential = {
+			tag = MEX
+			NOT = { has_country_flag = mexico_caribbean }
+			OR = {
+				has_country_flag = treaty_of_guadalupe_hidalgo
+				has_country_flag = manifest_destiny_refuted
+				has_country_flag = we_have_tried_this_once
+			}
+		}
+		allow = {
+			OR = {
+				is_greater_power = yes
+				AND = {
+					is_secondary_power = yes
+					OR = {
+						owns = 132
+						owns = 2204
+						military_score = 75
+					}
+				} 
+			}
+			war = no
+			is_disarmed = no
+			OR = {
+				war_policy = pro_military
+				war_policy = jingoism
+			}
+			
+		}
+		effect = {
+			badboy = 7
+			set_country_flag = mexico_caribbean
+			add_accepted_culture = caribeno 
+			2222 = { add_core = MEX }
+			SPA_2209 = { add_core = MEX }
+			HAI_2213 = { add_core = MEX }
+		}
+		ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 0
+                badboy = 0.5
+            }
+        }
+	}
+	mexico_central_america = {
+		picture = map_central_america
+		potential = {
+			tag = MEX
+			
+			NOT = { has_country_flag = mexico_central_america }
+			OR = {
+				has_country_flag = treaty_of_guadalupe_hidalgo
+				has_country_flag = manifest_destiny_refuted
+				has_country_flag = we_have_tried_this_once
+			}
+		}
+		allow = {
+			OR = {
+				is_greater_power = yes
+				AND = {
+					is_secondary_power = yes
+					OR = {
+						owns = 132
+						military_score = 25
+					}
+				} 
+			}
+			war = no
+			is_disarmed = no 
+			OR = {
+				war_policy = pro_military
+				war_policy = jingoism
+			}
+			
+		}
+		effect = {
+			badboy = 11
+			set_country_flag = mexico_central_america 
+			add_accepted_culture = central_american
+			UCA_2186 = { add_core = MEX }
+			UCA_2191 = { add_core = MEX }
+			UCA_2193 = { add_core = MEX }
+			UCA_2197 = { add_core = MEX }
+			UCA_2201 = { add_core = MEX }
+			CLM_1723 = { add_core = MEX }
+		}
+		ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 0
+                badboy = 0.5
+            }
+        }
+	}
+	mexico_Northern_caribbean = {
+		picture = tianjin_china
+		potential = {
+			tag = MEX
+			
+			NOT = { has_country_flag = mexico_Northern_caribbean }
+			OR = {
+				has_country_flag = treaty_of_guadalupe_hidalgo
+				has_country_flag = manifest_destiny_refuted
+				has_country_flag = we_have_tried_this_once
+			}
+		}
+		allow = {
+			OR = {
+				is_greater_power = yes
+				AND = {
+					is_secondary_power = yes
+					owns = 132
+				}
+			}
+			war = no
+			is_disarmed = no
+			OR = {
+				war_policy = pro_military
+				war_policy = jingoism
+			}
+		}
+		effect = {
+			badboy = 15
+			set_country_flag = mexico_Northern_caribbean
+			MEX = {
+				add_core = 139
+				add_core = 141
+				add_core = 140
+				add_core = 142
+				add_core = 192
+				add_core = 194
+				add_core = 193
+				add_core = 197
+				add_core = 195
+				add_core = 196
+				add_core = 201
+				add_core = 202
+				add_core = 2555
+				add_core = 204
+				add_core = 198
+				add_core = 199
+				add_core = 200
+			}
+		}
+		ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 0
+                badboy = 0.5
+            }
+        }
+	}
+	mexico_integrate_afroamericans = {
+		picture = india_penal_code
+		potential = {
+			tag = MEX
+			
+			has_country_flag = mexico_Northern_caribbean 
+			NOT = { accepted_culture = afro_american}
+
+		}
+		allow = {
+			political_reform = no_slavery
+			phenominalism = 1
+			owns = 139
+		}
+		effect = {
+			MEX = {
+				add_accepted_culture = afro_american
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	mexico_refute_american_claims = {
+		picture = pax_britannica
+		potential = {
+			tag = MEX
+			is_greater_power = yes	
+			OR = {
+				has_country_flag = treaty_of_guadalupe_hidalgo
+				has_country_flag = manifest_destiny_refuted
+				has_country_flag = we_have_tried_this_once
+			}
+			any_owned_province = {
+				is_core = USA
+			}
+		}
+		allow = {
+			prestige = 100
+			war = no
+			is_disarmed = no
+			OR = {
+				USA = {is_greater_power = no}
+				AND = {
+                    truce_with = USA
+                    USA = { has_recently_lost_war = yes }
+                }
+			}
+			AND = {
+				revolution_n_counterrevolution = 1
+				experimental_psychology = 1
+			}
+				
+		}
+		effect = {
+			any_owned = {
+                limit = {
+                    is_core = USA
+                    is_core = THIS
+                }
+				
+                remove_core = USA
+            }
+			prestige_factor = -0.1
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	mexico_Golden_circle = {
+		picture = map_caribbean
+		potential = {
+			tag = MEX
+			
+			NOT = { has_country_flag = mexico_circle }
+			OR = {
+				has_country_flag = treaty_of_guadalupe_hidalgo
+				has_country_flag = manifest_destiny_refuted
+				has_country_flag = we_have_tried_this_once
+			}
+			has_global_flag = american_civil_war_has_happened
+			
+		}
+		allow = {
+			political_reform = no_slavery
+			is_greater_power = yes	
+			war = no
+			OR = {
+				war_policy = pro_military
+				war_policy = jingoism
+			}
+			owns = 200
+			owns = 2185
+			owns = 2204
+			owns = 2272
+			owns = 2213
+			owns = 2209
+			owns = 132
+			revolution_n_counterrevolution = 1
+		}
+		effect = {
+			add_country_modifier = {
+				name = total_reform
+				duration = 1825
+			}
+			government = top_down_revolution
+			set_country_flag = mexico_circle
+			MEX = {
+				add_country_modifier = {
+					name = mexican_circle
+					duration = -1
+				}
+			}
+			add_accepted_culture = kreol
+			add_accepted_culture = afro_antillean
+			add_accepted_culture = afro_caribbean
+			add_accepted_culture = afro_caribeno
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	mexico_Southern_caribbean = {
+		picture = minas_gerais
+		potential = {
+			tag = MEX
+			
+			NOT = { has_country_flag = mexico_Southern_caribbean }
+			OR = {
+				has_country_flag = treaty_of_guadalupe_hidalgo
+				has_country_flag = manifest_destiny_refuted
+				has_country_flag = we_have_tried_this_once
+			}
+			has_country_flag = mexico_central_america
+			owns = 2204
+		}
+		allow = {
+			OR = {
+				is_greater_power = yes	
+				is_secondary_power = yes
+			
+			}
+			war = no
+			is_disarmed = no
+			OR = {
+				war_policy = pro_military
+				war_policy = jingoism
+			}
+		}
+		effect = {
+			badboy = 10
+			set_country_flag = mexico_Southern_caribbean
+			MEX = {
+				add_core = 2253
+				add_core = 2252
+				add_core = 2251
+				add_core = 2254
+				add_core = 2255
+				add_core = 2270
+				add_core = 2271
+				add_core = 2273
+				add_core = 2272
+				add_core = 2268
+				add_core = 2274
+				add_core = 2264
+				add_core = 2266
+				add_core = 2267
+				add_core = 2276
+				add_core = 2269
+				add_core = 2265
+				add_core = 2255
+			}
+		}
+		ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 0
+                badboy = 0.5
+            }
+        }
+	}
+	mexico_integrate_northandean = {
+		picture = embrace_the_boer
+		potential = {
+			tag = MEX
+			
+			NOT = { accepted_culture = north_andean }
+			has_country_flag = mexico_Southern_caribbean
+		}
+		allow = {
+			experimental_psychology = 1
+		}
+		effect = {
+				add_accepted_culture = north_andean
+			}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	mexico_secure_islands = {
+		picture = channel_islands
+		potential = {
+			tag = MEX
+			
+			NOT = { has_country_flag = mexico_Secure_Islands }
+			has_country_flag = mexico_circle
+		}
+		allow = {
+			OR = {
+				is_greater_power = yes	
+				is_secondary_power = yes
+			
+			}
+			war = no
+			is_disarmed = no
+			OR = {
+				war_policy = pro_military
+				war_policy = jingoism
+			}
+		}
+		effect = {
+			badboy = 10
+			set_country_flag = mexico_Secure_Islands
+			MEX = {
+				add_core = 2217
+				add_core = 2218
+				add_core = 2219
+				add_core = 2220
+				add_core = 2223
+				add_core = 2226
+				add_core = 45
+				add_core = 2236
+				add_core = 2227
+				add_core = 2225
+				add_core = 2224
+				add_core = 2230
+				add_core = 2232
+				add_core = 2228
+				add_core = 2231
+				add_core = 2409
+				add_core = 2233
+				add_core = 2229
+				add_core = 2238
+				add_core = 2237
+				add_core = 2235
+				add_core = 3246
+			}
+		}
+		ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 0
+                badboy = 0.5
+            }
+        }
+	}
+	mexico_Free_afroAmericanss = {
+		picture = ever_victorious
+		potential = {
+			tag = MEX
+			
+			NOT = { has_country_flag = mexico_Free_afroAmericanss }
+			has_country_flag = mexico_circle
+			USA = {
+				NOT = {accepted_culture = afro_american}
+			}
+		}
+		allow = {
+			OR = {
+				is_greater_power = yes	
+			
+			}
+			war = no
+			is_disarmed = no
+			OR = {
+				war_policy = pro_military
+				war_policy = jingoism
+			}
+			revolution_n_counterrevolution = 1
+			accepted_culture = afro_american
+		}
+		effect = {
+			badboy = 18
+			set_country_flag = mexico_Free_afroAmericanss
+			MEX = {
+				add_core = 131
+				add_core = 130
+				add_core = 145
+				add_core = 143
+				add_core = 144
+				add_core = 189
+				add_core = 188
+				add_core = 191
+				add_core = 190
+				add_core = 206
+				add_core = 205
+				add_core = 2556
+				add_core = 209
+				add_core = 208
+				add_core = 207
+				add_core = 210
+				add_core = 214
+				add_core = 211
+				add_core = 216
+				add_core = 215
+				add_core = 213
+				add_core = 60
+				add_core = 212
+				add_core = 217
+				add_core = 221
+				add_core = 220
+				add_core = 2146
+				add_core = 219
+				add_core = 222
+				add_core = 185
+				add_core = 186
+				add_core = 184
+				add_core = 187
+			}
+			
+		}
+		ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 0
+                badboy = 0.5
+            }
+        }
+	}
+}

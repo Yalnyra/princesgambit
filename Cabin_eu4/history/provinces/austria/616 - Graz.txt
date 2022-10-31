@@ -1,0 +1,14 @@
+owner=X00
+controller=X00
+add_core=AUS
+add_core=GER
+add_core=X00
+trade_goods = iron
+life_rating = 35
+fort = 1
+state_building=
+{
+	level=1
+	building = steel_factory
+	upgrade = yes
+}

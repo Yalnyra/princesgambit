@@ -1,0 +1,1042 @@
+#Sphere of Influence
+
+AAC = {
+	value = 0
+	level = 2
+}
+ADE = {
+	value = 2
+	level = 2
+}
+AFG = {
+	value = 0
+	level = 2
+}
+AJU = {
+	value = 0
+	level = 2
+}
+AKH = {
+	value = 0
+	level = 2
+}
+ALO = {
+	value = 0
+	level = 2
+}
+ALS = {
+	value = 0
+	level = 2
+}
+ANH = {
+	value = 0
+	level = 2
+}
+ARN = {
+	value = 0
+	level = 2
+}
+ARW = {
+	value = 0
+	level = 2
+}
+AUS = {
+	value = 0
+	level = 2
+}
+AVR = {
+	value = 0
+	level = 2
+}
+BAD = {
+	value = 0
+	level = 2
+}
+BEG = {
+	value = 0
+	level = 2
+}
+BLA = {
+	value = 0
+	level = 2
+}
+BMN = {
+	value = 188
+	influence_value = 34
+	level = 4
+}
+BNG = {
+	value = 0
+	level = 2
+}
+BNY = {
+	value = 0
+	level = 2
+}
+BOL = {
+	value = 0
+	level = 2
+}
+BRA = {
+	value = 0
+	level = 2
+}
+BRB = {
+	value = 0
+	level = 2
+}
+BRD = {
+	value = 0
+	level = 2
+}
+BRE = {
+	value = 0
+	level = 2
+}
+BRG = {
+	value = 0
+	level = 2
+}
+BRN = {
+	value = 0
+	level = 2
+}
+BRU = {
+	value = 8
+	level = 2
+}
+BRZ = {
+	value = 0
+	level = 2
+}
+BUL = {
+	value = 0
+	level = 2
+}
+CAL = {
+	value = 0
+	level = 2
+}
+CEB = {
+	value = 0
+	level = 2
+}
+CHV = {
+	value = 82
+	influence_value = 8
+	level = 2
+}
+CKW = {
+	value = 0
+	level = 2
+}
+CLB = {
+	value = 0
+	level = 2
+}
+COF = {
+	value = 0
+	level = 2
+}
+CRK = {
+	value = 0
+	level = 2
+}
+CST = {
+	value = 0
+	level = 2
+}
+CUB = {
+	value = 0
+	level = 2
+}
+DAH = {
+	value = 0
+	level = 2
+}
+DAI = {
+	value = -8
+	level = 2
+}
+DAW = {
+	value = 0
+	level = 2
+}
+DGB = {
+	value = 0
+	level = 2
+}
+DLH = {
+	value = 186
+	influence_value = 34
+	level = 4
+}
+DLM = {
+	value = 0
+	level = 2
+}
+ECU = {
+	value = 0
+	level = 2
+}
+EFR = {
+	value = 0
+	level = 2
+}
+EGY = {
+	value = 0
+	level = 2
+}
+ENG = {
+	value = 0
+	level = 2
+}
+ETH = {
+	value = 0
+	level = 2
+}
+FLA = {
+	value = 0
+	level = 2
+}
+FRI = {
+	value = 0
+	level = 2
+}
+FRM = {
+	value = 0
+	level = 2
+}
+GLR = {
+	value = 0
+	level = 2
+}
+GNV = {
+	value = 0
+	level = 2
+}
+GOS = {
+	value = 0
+	level = 2
+}
+GRA = {
+	value = 0
+	level = 2
+}
+GRK = {
+	value = 0
+	level = 2
+}
+GUJ = {
+	value = 0
+	level = 2
+}
+GZK = {
+	value = 0
+	level = 2
+}
+HAM = {
+	value = 0
+	level = 2
+}
+HAT = {
+	value = 0
+	level = 2
+}
+HAU = {
+	value = 0
+	level = 2
+}
+HAW = {
+	value = 0
+	level = 2
+}
+HDJ = {
+	value = 0
+	level = 2
+}
+HES = {
+	value = 0
+	level = 2
+}
+HLL = {
+	value = 0
+	level = 2
+}
+ISR = {
+	value = -12
+	level = 2
+}
+IST = {
+	value = 0
+	level = 2
+}
+ITA = {
+	value = 0
+	level = 2
+}
+JAP = {
+	value = 0
+	level = 2
+}
+JNP = {
+	value = 0
+	level = 2
+}
+KAZ = {
+	value = 0
+	level = 2
+}
+KBO = {
+	value = 0
+	level = 2
+}
+KHO = {
+	value = 0
+	level = 2
+}
+KIK = {
+	value = 0
+	level = 2
+}
+KLE = {
+	value = 0
+	level = 2
+}
+KLK = {
+	value = 0
+	level = 2
+}
+KOL = {
+	value = 0
+	level = 2
+}
+KON = {
+	value = 0
+	level = 2
+}
+KRW = {
+	value = 0
+	level = 2
+}
+KSJ = {
+	value = 0
+	level = 2
+}
+KSK = {
+	value = 0
+	level = 2
+}
+KUB = {
+	value = 0
+	level = 2
+}
+LAU = {
+	value = 0
+	level = 2
+}
+LBA = {
+	value = 0
+	level = 2
+}
+LIG = {
+	value = 0
+	level = 2
+}
+LIT = {
+	value = 0
+	level = 2
+}
+LNB = {
+	value = 0
+	level = 2
+}
+LNG = {
+	value = 0
+	level = 2
+}
+LOR = {
+	value = 0
+	level = 2
+}
+LOU = {
+	value = 0
+	level = 2
+}
+LSK = {
+	value = 0
+	level = 2
+}
+LUB = {
+	value = 0
+	level = 2
+}
+LUN = {
+	value = 0
+	level = 2
+}
+LUX = {
+	value = 0
+	level = 2
+}
+MAG = {
+	value = 25
+	level = 2
+}
+MAI = {
+	value = 0
+	level = 2
+}
+MAW = {
+	value = 242
+	influence_value = 48
+	level = 4
+}
+MDO = {
+	value = 0
+	level = 2
+}
+MEX = {
+	value = 0
+	level = 2
+}
+MFL = {
+	value = 0
+	level = 2
+}
+MHR = {
+	value = 0
+	level = 2
+}
+ML1 = {
+	value = 0
+	level = 2
+}
+MLH = {
+	value = 0
+	level = 2
+}
+MLI = {
+	value = -5
+	level = 2
+}
+MLY = {
+	value = 0
+	level = 2
+}
+MNI = {
+	value = 0
+	level = 2
+}
+MOL = {
+	value = 0
+	level = 2
+}
+MOR = {
+	value = 0
+	level = 2
+}
+MUN = {
+	value = 0
+	level = 2
+}
+MUS = {
+	value = 0
+	level = 2
+}
+NAK = {
+	value = 0
+	level = 2
+}
+NAV = {
+	value = 0
+	level = 2
+}
+NEV = {
+	value = 0
+	level = 2
+}
+NKO = {
+	value = 0
+	level = 2
+}
+NNG = {
+	value = -10
+	level = 2
+}
+NOG = {
+	value = 0
+	level = 2
+}
+NOR = {
+	value = -16
+	level = 2
+}
+NSS = {
+	value = 0
+	level = 2
+}
+NZL = {
+	value = 0
+	level = 2
+}
+OEO = {
+	value = 0
+	level = 2
+}
+OJI = {
+	value = 0
+	level = 2
+}
+OLD = {
+	value = 0
+	level = 2
+}
+OMA = {
+	value = -3
+	level = 2
+}
+OSA = {
+	value = 0
+	level = 2
+}
+OTM = {
+	value = 0
+	level = 2
+}
+PAD = {
+	value = 0
+	level = 2
+}
+PAL = {
+	value = 0
+	level = 2
+}
+PAP = {
+	value = 0
+	level = 2
+}
+PEG = {
+	value = -80
+	level = 2
+}
+PER = {
+	value = -52
+	level = 2
+}
+POM = {
+	value = 0
+	level = 2
+}
+POR = {
+	value = 0
+	level = 2
+}
+PRM = {
+	value = 0
+	level = 2
+}
+PRO = {
+	value = 0
+	level = 2
+}
+QNG = {
+	value = 0
+	level = 2
+}
+RDL = {
+	value = 0
+	level = 2
+}
+RVA = {
+	value = 0
+	level = 2
+}
+RWA = {
+	value = 0
+	level = 2
+}
+RYA = {
+	value = 0
+	level = 2
+}
+SAX = {
+	value = 0
+	level = 2
+}
+SBA = {
+	value = 0
+	level = 2
+}
+SGH = {
+	value = 0
+	level = 2
+}
+SUL = {
+	value = 0
+	level = 2
+}
+SVY = {
+	value = 0
+	level = 2
+}
+SWA = {
+	value = 0
+	level = 2
+}
+SWE = {
+	value = 0
+	level = 2
+}
+SWI = {
+	value = 0
+	level = 2
+}
+SYC = {
+	value = 0
+	level = 2
+}
+SYR = {
+	value = 0
+	level = 2
+}
+TID = {
+	value = 0
+	level = 2
+}
+TIM = {
+	value = 0
+	level = 2
+}
+TLC = {
+	value = 0
+	level = 2
+}
+TTL = {
+	value = 0
+	level = 2
+}
+TUN = {
+	value = 0
+	level = 2
+}
+TUR = {
+	value = 0
+	level = 2
+}
+UBH = {
+	value = 0
+	level = 2
+}
+USA = {
+	value = 0
+	level = 2
+}
+VER = {
+	value = 25
+	level = 2
+}
+VIJ = {
+	value = 0
+	level = 2
+}
+VNZ = {
+	value = -1
+	level = 2
+}
+WAD = {
+	value = 0
+	level = 2
+}
+WAL = {
+	value = 0
+	level = 2
+}
+WCY = {
+	value = 0
+	level = 2
+}
+X00 = {
+	value = 0
+	level = 2
+}
+X03 = {
+	value = 0
+	level = 2
+}
+X07 = {
+	value = 0
+	level = 2
+}
+X08 = {
+	value = 0
+	level = 2
+}
+X09 = {
+	value = 0
+	level = 2
+}
+X11 = {
+	value = 0
+	level = 2
+}
+X12 = {
+	value = 0
+	level = 2
+}
+YEM = {
+	value = 0
+	level = 2
+}
+
+#Leaders
+leader = {
+	name="Mir Muhammad Ja'far Debshikdar"
+	date="1709.2.24"
+	type=sea
+	personality="balanced_p"
+	background="generals_aide"
+}
+
+leader = {
+	name="Ghiyat ad-Din Jalal Sarkar"
+	date="1714.7.29"
+	type=land
+	personality="stalwart"
+	background="uncommonly_young"
+}
+
+leader = {
+	name="Nasir Ganguly"
+	date="1714.8.1"
+	type=land
+	personality="stalwart"
+	background="uncommonly_young"
+}
+
+leader = {
+	name="Nasrat Chodhury"
+	date="1730.5.19"
+	type=land
+	personality="balanced_p"
+	background="generals_aide"
+}
+
+leader = {
+	name="Da'ud Sen"
+	date="1730.5.20"
+	type=land
+	personality="persistant"
+	background="generals_aide"
+}
+
+leader = {
+	name="Nasir ad-Din Nasrat Roy"
+	date="1730.5.23"
+	type=land
+	personality="coolminded"
+	background="school_of_defense"
+}
+
+leader = {
+	name="Husain Roy"
+	date="1730.9.20"
+	type=land
+	personality="hellbent"
+	background="cartographer"
+}
+
+
+#Armies
+army = {
+	name="12th Army"
+	location=1256
+	regiment = {
+		name="1st Bardwan Irregulars"
+		type=irregular
+		home=1253
+	}
+	regiment = {
+		name="1st Chittagong Irregulars"
+		type=irregular
+		home=1257
+	}
+	regiment = {
+		name="1st Chittagong Artillery"
+		type=artillery
+		home=1257
+	}
+	regiment = {
+		name="2nd Chittagong Artillery"
+		type=artillery
+		home=1257
+	}
+	regiment = {
+		name="1st Dacca Artillery"
+		type=artillery
+		home=1254
+	}
+}
+
+army = {
+	name="10th Army"
+	location=1340
+	regiment = {
+		name="2nd Bardwan Irregulars"
+		type=irregular
+		home=1253
+	}
+	regiment = {
+		name="1st Dacca Irregulars"
+		type=irregular
+		home=1254
+	}
+	regiment = {
+		name="2nd Chittagong Irregulars"
+		type=irregular
+		home=1257
+	}
+	regiment = {
+		name="1st Agartala Artillery"
+		type=artillery
+		home=2566
+	}
+	regiment = {
+		name="1st Darjeeling Artillery"
+		type=artillery
+		home=1252
+	}
+}
+
+army = {
+	name="19th Army"
+	location=1252
+	regiment = {
+		name="3rd Bardwan Irregulars"
+		type=irregular
+		home=1253
+	}
+	regiment = {
+		name="1st Bardwan Artillery"
+		type=artillery
+		home=1253
+	}
+	regiment = {
+		name="2nd Bardwan Artillery"
+		type=artillery
+		home=1253
+	}
+	regiment = {
+		name="3rd Bardwan Artillery"
+		type=artillery
+		home=1253
+	}
+	regiment = {
+		name="7th Bardwan Irregulars"
+		type=irregular
+		home=1253
+	}
+	regiment = {
+		name="2nd Jessore Artillery"
+		type=artillery
+		home=1256
+	}
+}
+
+army = {
+	name="35th Army"
+	location=1261
+	regiment = {
+		name="4th Bardwan Irregulars"
+		type=irregular
+		home=1253
+	}
+	regiment = {
+		name="1st Jessore Irregulars"
+		type=irregular
+		home=1256
+	}
+	regiment = {
+		name="2nd Dacca Artillery"
+		type=artillery
+		home=1254
+	}
+	regiment = {
+		name="2nd Darjeeling Artillery"
+		type=artillery
+		home=1252
+	}
+	regiment = {
+		name="3rd Darjeeling Artillery"
+		type=artillery
+		home=1252
+	}
+	regiment = {
+		name="1st Gauhati Artillery"
+		type=artillery
+		home=1258
+	}
+}
+
+army = {
+	name="39th Army"
+	location=1590
+	regiment = {
+		name="1st Agartala Irregulars"
+		type=irregular
+		home=2566
+	}
+	regiment = {
+		name="4th Bardwan Artillery"
+		type=artillery
+		home=1253
+	}
+	regiment = {
+		name="1st Jessore Artillery"
+		type=artillery
+		home=1256
+	}
+	regiment = {
+		name="3rd Chittagong Artillery"
+		type=artillery
+		home=1257
+	}
+	regiment = {
+		name="5th Bardwan Artillery"
+		type=artillery
+		home=1253
+	}
+	regiment = {
+		name="3rd Jessore Irregulars"
+		type=irregular
+		home=1256
+	}
+	regiment = {
+		name="7th Bardwan Artillery"
+		type=artillery
+		home=1253
+	}
+}
+
+army = {
+	name="28th Army"
+	location=1329
+	regiment = {
+		name="2nd Jessore Irregulars"
+		type=irregular
+		home=1256
+	}
+	regiment = {
+		name="4th Chittagong Artillery"
+		type=artillery
+		home=1257
+	}
+	regiment = {
+		name="1st Bhagalpur Artillery"
+		type=artillery
+		home=1250
+	}
+	regiment = {
+		name="2nd Bhagalpur Artillery"
+		type=artillery
+		home=1250
+	}
+	regiment = {
+		name="3rd Chittagong Irregulars"
+		type=irregular
+		home=1257
+	}
+	regiment = {
+		name="3rd Dacca Artillery"
+		type=artillery
+		home=1254
+	}
+}
+
+army = {
+	name="7th Army"
+	location=1342
+	regiment = {
+		name="5th Bardwan Irregulars"
+		type=irregular
+		home=1253
+	}
+	regiment = {
+		name="6th Bardwan Artillery"
+		type=artillery
+		home=1253
+	}
+	regiment = {
+		name="6th Bardwan Irregulars"
+		type=irregular
+		home=1253
+	}
+}
+
+navy = {
+	name="1st Fleet"
+	location=2795
+	ship = {
+		name="Baitarani"
+		type=frigate
+	}
+	ship = {
+		name="Chandipur"
+		type=frigate
+	}
+	ship = {
+		name="Chilka"
+		type=frigate
+	}
+	ship = {
+		name="Cuttack"
+		type=frigate
+	}
+}
+
+navy = {
+	name="2nd Fleet"
+	location=1257
+	ship = {
+		name="Balasore"
+		type=manowar
+	}
+	ship = {
+		name="Balugaon"
+		type=manowar
+	}
+	ship = {
+		name="Behrampur"
+		type=manowar
+	}
+	ship = {
+		name="Bhubeneswar"
+		type=manowar
+	}
+	ship = {
+		name="Brahmani"
+		type=manowar
+	}
+}
+
+navy = {
+	name="6th Fleet"
+	location=1374
+	ship = {
+		name="1st Chittagong Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="2nd Chittagong Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st Jessore Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st Bengali Clipper Transport"
+		type=clipper_transport
+	}
+}
+

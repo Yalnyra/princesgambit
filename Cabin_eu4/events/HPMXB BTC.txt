@@ -1,0 +1,244 @@
+
+
+country_event = {
+	id = 2220921 #BTC - SCA union
+	title = "EVTNAME2220921"
+    desc = "EVTDESC2220921"
+    picture = "treaty"
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+        name = "EVT2220921OPTA" # accept
+        BTC = { country_event = 2220922}
+		
+		ai_chance = {
+            factor = 2
+        }
+    }
+	
+	option = {
+        name = "EVT2220921OPTB" # deny
+        prestige = 15
+		any_pop = {
+            dominant_issue = {
+                factor = 0.10
+                value = jingoism
+            }
+		}
+		BTC = {country_event = 2220923}
+		
+		ai_chance = {
+            factor = 2
+            modifier = {
+                factor = 2
+                is_secondary_power = yes
+            }
+            modifier = {
+                factor = 2
+                NOT = { in_sphere = BTC }
+                part_of_sphere = yes
+            }
+            modifier = {
+                factor = 0.5
+                BTC = { brigades_compare = 2 }
+            }
+            modifier = {
+                factor = 2
+                NOT = {
+                    BTC = { brigades_compare = 1 }
+                }
+            }
+            modifier = {
+                factor = 2
+                war_policy = jingoism
+            }
+			modifier = {
+                factor = 0.5
+                relation = { who = BTC value = 0 }
+            }
+			modifier = {
+                factor = 0
+                relation = { who = BTC value = 100 }
+            }
+			modifier = {
+                factor = 0
+                in_sphere = BTC
+            }
+			modifier = {
+                factor = 0
+                has_country_flag = BTC_puppet
+            }
+        }
+    }
+	
+}
+
+country_event = {
+	id = 2220923 #bad response
+	title = "EVTNAME2220923"
+    desc = "EVTDESC2220923"
+    picture = "treaty"
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+        name = "EVT2220923OPTA" # war
+		badboy = 10
+		SCA = {
+			
+			all_core = {
+				add_core = BTC
+			}
+        }
+		war = {
+			target = SCA
+			attacker_goal = { casus_belli = unification_annex_casus_belli }
+		}
+		
+		ai_chance = {
+            factor = 8
+            modifier = {
+                factor = 0.5
+                SCA = { brigades_compare = 2 }
+            }
+            modifier = {
+                factor = 2
+                NOT = {
+                    SCA = { brigades_compare = 1 }
+                }
+            }
+            modifier = {
+                factor = 2
+                war_policy = jingoism
+            }
+			modifier = {
+                factor = 0.5
+				SCA = {
+					NOT = { in_sphere = BTC }
+					part_of_sphere = yes
+				}
+            }
+        }
+    }
+	
+	option = {
+        name = "EVT2220923OPTB" # oh well
+        prestige = -20
+		
+    }
+	
+}
+
+country_event = {
+	id = 2220922 #good response
+	title = "EVTNAME2220922"
+    desc = "EVTDESC2220922"
+    picture = "treaty"
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+        name = "EVT2220922OPTA" # yay
+		SCA = {
+			
+			all_core = {
+				#remove_core = TUR
+				add_core = BTC
+			}
+			annex_to = BTC
+        }
+		add_accepted_culture = swedish
+		add_accepted_culture = danish
+		add_accepted_culture = norwegian
+		any_country = {
+			limit = {
+				any_owned = {
+					limit = {
+						
+						is_core = SCA
+						NOT = {
+							OR = {
+								is_primary_culture = scandinavian
+								is_primary_culture = finnish
+							}
+						}
+					}
+				}
+				
+			}
+			any_owned = {
+				limit = {
+					
+					is_core = SCA
+					NOT = {
+						OR = {
+							is_primary_culture = scandinavian
+							is_primary_culture = finnish
+						}
+					}
+				}
+				remove_core = SCA
+				
+			}
+		}
+    }
+}
+	
+	#
+	#lowland rebellion
+	#
+	
+country_event = {
+	id = 2220924
+	title = "EVTNAME2220924" #The Lowlands Rebellion
+	desc = "EVTDESC2220924"
+	picture = "nationalists"
+	
+	trigger = {
+		#has_country_flag = spanish_federation_formed
+		tag = BTC
+		any_owned_province = { 
+			is_core = BTC
+			OR = {
+				is_core = NET 
+				is_core = WLL
+				is_core = FLA
+			}
+		}
+		#has_global_flag = no_mexican_approval
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = {
+		name = "EVT2220924OPTA"
+		#clr_global_flag = no_mexican_approval
+		any_owned = { 
+			limit = {
+				is_core = BTC
+				OR = {
+					is_core = NET 
+					is_core = WLL
+					is_core = FLA
+				}
+			}
+			add_province_modifier = {
+				name = nationalist_agitation
+				duration = 1095
+			}
+			remove_core = BTC
+		}
+			
+		
+		
+	}
+}
+	
+	
+
+	
+
+

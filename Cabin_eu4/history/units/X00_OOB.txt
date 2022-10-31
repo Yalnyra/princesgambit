@@ -1,0 +1,1143 @@
+#Sphere of Influence
+
+AAC = {
+	value = 0
+	level = 2
+}
+ADE = {
+	value = 9
+	level = 2
+}
+AJU = {
+	value = 24
+	level = 2
+}
+AKH = {
+	value = 47
+	level = 2
+}
+ALO = {
+	value = 0
+	level = 2
+}
+ALS = {
+	value = 100
+	influence_value = 12
+	level = 5
+}
+ANH = {
+	value = 94
+	influence_value = 11
+	level = 2
+}
+ARN = {
+	value = 0
+	level = 2
+}
+ARW = {
+	value = 0
+	level = 2
+}
+AUS = {
+	value = 114
+	influence_value = 16
+	level = 5
+}
+AVR = {
+	value = 0
+	level = 2
+}
+BAD = {
+	value = 97
+	influence_value = 11
+	level = 2
+}
+BEG = {
+	value = 73
+	influence_value = 5
+	level = 2
+}
+BLA = {
+	value = 0
+	level = 2
+}
+BMN = {
+	value = 0
+	level = 2
+}
+BNG = {
+	value = 0
+	level = 2
+}
+BNY = {
+	value = 22
+	level = 2
+}
+BOL = {
+	value = -26
+	level = 2
+}
+BRA = {
+	value = 82
+	influence_value = 8
+	level = 2
+}
+BRB = {
+	value = 43
+	level = 2
+}
+BRD = {
+	value = 31
+	level = 2
+}
+BRE = {
+	value = 58
+	military_access = yes
+	influence_value = 2
+	level = 5
+}
+BRG = {
+	value = 76
+	influence_value = 6
+	level = 2
+}
+BRN = {
+	value = 79
+	influence_value = 7
+	level = 2
+}
+BRU = {
+	value = 0
+	level = 2
+}
+BRZ = {
+	value = 0
+	level = 2
+}
+BUL = {
+	value = 0
+	level = 2
+}
+CAL = {
+	value = 0
+	level = 2
+}
+CEB = {
+	value = 0
+	level = 2
+}
+CHA = {
+	value = 0
+	level = 2
+}
+CHV = {
+	value = 30
+	level = 2
+}
+CKW = {
+	value = 0
+	level = 2
+}
+CLB = {
+	value = 43
+	level = 2
+}
+CLM = {
+	value = 0
+	level = 2
+}
+COF = {
+	value = 0
+	level = 2
+}
+CRK = {
+	value = 0
+	level = 2
+}
+CRO = {
+	value = 0
+	level = 2
+}
+CST = {
+	value = 0
+	level = 2
+}
+CUB = {
+	value = 20
+	level = 2
+}
+DAH = {
+	value = 0
+	level = 2
+}
+DAI = {
+	value = 0
+	level = 2
+}
+DAW = {
+	value = 15
+	level = 2
+}
+DGB = {
+	value = 0
+	level = 2
+}
+DLH = {
+	value = 41
+	level = 2
+}
+DLM = {
+	value = -397
+	level = 2
+}
+ECU = {
+	value = 0
+	level = 2
+}
+EFR = {
+	value = 33
+	level = 2
+}
+EGY = {
+	value = 73
+	influence_value = 5
+	level = 2
+}
+ENG = {
+	value = -27
+	level = 2
+}
+ETH = {
+	value = 9
+	level = 2
+}
+FLA = {
+	value = 40
+	level = 2
+}
+FRI = {
+	value = 26
+	level = 2
+}
+FRM = {
+	value = 91
+	military_access = yes
+	influence_value = 10
+	level = 5
+}
+GLR = {
+	value = 58
+	influence_value = 2
+	level = 2
+}
+GNV = {
+	value = 88
+	influence_value = 9
+	level = 5
+}
+GOS = {
+	value = 94
+	military_access = yes
+	influence_value = 11
+	level = 5
+}
+GRA = {
+	value = 0
+	level = 2
+}
+GRJ = {
+	value = 0
+	level = 2
+}
+GRK = {
+	value = 0
+	level = 2
+}
+GUJ = {
+	value = 44
+	level = 2
+}
+GZK = {
+	value = 0
+	level = 2
+}
+HAM = {
+	value = 14
+	military_access = yes
+	level = 5
+}
+HAT = {
+	value = 4
+	level = 2
+}
+HAU = {
+	value = 0
+	level = 2
+}
+HAW = {
+	value = 0
+	level = 2
+}
+HES = {
+	value = 52
+	military_access = yes
+	level = 5
+}
+HLL = {
+	value = 4
+	level = 2
+}
+ISR = {
+	value = 16
+	level = 2
+}
+IST = {
+	value = 0
+	level = 2
+}
+ITA = {
+	value = 51
+	level = 2
+}
+JAP = {
+	value = 0
+	level = 2
+}
+JNP = {
+	value = 0
+	level = 2
+}
+KAZ = {
+	value = 0
+	level = 2
+}
+KBO = {
+	value = 6
+	level = 2
+}
+KIK = {
+	value = 26
+	level = 2
+}
+KLE = {
+	value = 52
+	level = 2
+}
+KLK = {
+	value = 0
+	level = 2
+}
+KOL = {
+	value = 82
+	influence_value = 8
+	level = 2
+}
+KON = {
+	value = 29
+	level = 2
+}
+KRW = {
+	value = 13
+	level = 2
+}
+KSK = {
+	value = 0
+	level = 2
+}
+KUB = {
+	value = 14
+	level = 2
+}
+LAU = {
+	value = 73
+	influence_value = 5
+	level = 2
+}
+LBA = {
+	value = 27
+	level = 2
+}
+LIG = {
+	value = 1
+	level = 2
+}
+LIT = {
+	value = 11
+	level = 2
+}
+LNB = {
+	value = 67
+	influence_value = 4
+	level = 2
+}
+LNG = {
+	value = 0
+	level = 2
+}
+LOR = {
+	value = 88
+	influence_value = 9
+	level = 2
+}
+LOU = {
+	value = 0
+	level = 2
+}
+LSK = {
+	value = 0
+	level = 2
+}
+LUB = {
+	value = 50
+	military_access = yes
+	level = 5
+}
+LUN = {
+	value = 50
+	level = 2
+}
+LUX = {
+	value = 52
+	level = 2
+}
+MAG = {
+	value = 120
+	influence_value = 17
+	level = 2
+}
+MAI = {
+	value = 113
+	influence_value = 15
+	level = 2
+}
+MAW = {
+	value = 0
+	level = 2
+}
+MDO = {
+	value = 0
+	level = 2
+}
+MEX = {
+	value = 0
+	level = 2
+}
+MFL = {
+	value = 11
+	level = 2
+}
+MHC = {
+	value = 0
+	level = 2
+}
+MHR = {
+	value = 18
+	level = 2
+}
+ML1 = {
+	value = 26
+	level = 2
+}
+MLH = {
+	value = 67
+	influence_value = 4
+	level = 5
+}
+MLI = {
+	value = 0
+	level = 2
+}
+MLY = {
+	value = -54
+	level = 2
+}
+MNI = {
+	value = 0
+	level = 2
+}
+MOL = {
+	value = 0
+	level = 2
+}
+MOR = {
+	value = 0
+	level = 2
+}
+MUN = {
+	value = 153
+	influence_value = 25
+	level = 3
+}
+MUS = {
+	value = 0
+	level = 2
+}
+NAK = {
+	value = 0
+	level = 2
+}
+NAV = {
+	value = 0
+	level = 2
+}
+NEV = {
+	value = 0
+	level = 2
+}
+NKO = {
+	value = 24
+	level = 2
+}
+NNG = {
+	value = 0
+	level = 2
+}
+NOG = {
+	value = 0
+	level = 2
+}
+NOR = {
+	value = 0
+	level = 2
+}
+NSS = {
+	value = 0
+	level = 2
+}
+NZL = {
+	value = 0
+	level = 2
+}
+OEO = {
+	value = 0
+	level = 2
+}
+OJI = {
+	value = 0
+	level = 2
+}
+OLD = {
+	value = 55
+	influence_value = 1
+	level = 2
+}
+OMA = {
+	value = 14
+	level = 2
+}
+OSA = {
+	value = 0
+	level = 2
+}
+OTM = {
+	value = 0
+	level = 2
+}
+PAD = {
+	value = 79
+	influence_value = 7
+	level = 2
+}
+PAL = {
+	value = 161
+	military_access = yes
+	influence_value = 27
+	level = 5
+}
+PAP = {
+	value = 0
+	level = 2
+}
+PEG = {
+	value = 0
+	level = 2
+}
+PER = {
+	value = 39
+	level = 2
+}
+POM = {
+	value = 94
+	influence_value = 11
+	level = 2
+}
+POR = {
+	value = 37
+	level = 2
+}
+PRM = {
+	value = 0
+	level = 2
+}
+PRO = {
+	value = 74
+	influence_value = 6
+	level = 2
+}
+QNG = {
+	value = 0
+	level = 2
+}
+RVA = {
+	value = 58
+	influence_value = 2
+	level = 2
+}
+RWA = {
+	value = 10
+	level = 2
+}
+RYA = {
+	value = 47
+	level = 2
+}
+SAX = {
+	value = 247
+	military_access = yes
+	influence_value = 99
+	level = 5
+}
+SBA = {
+	value = 0
+	level = 2
+}
+SGH = {
+	value = 0
+	level = 2
+}
+SIN = {
+	value = 0
+	level = 2
+}
+SVY = {
+	value = 58
+	influence_value = 2
+	level = 2
+}
+SWA = {
+	value = 0
+	level = 2
+}
+SWE = {
+	value = 55
+	influence_value = 1
+	level = 2
+}
+SWI = {
+	value = 110
+	influence_value = 15
+	level = 5
+}
+SYC = {
+	value = 0
+	level = 2
+}
+TID = {
+	value = 0
+	level = 2
+}
+TIM = {
+	value = 16
+	level = 2
+}
+TLA = {
+	value = 0
+	level = 2
+}
+TLC = {
+	value = 0
+	level = 2
+}
+TTL = {
+	value = 124
+	influence_value = 18
+	level = 2
+}
+TUN = {
+	value = 56
+	influence_value = 1
+	level = 2
+}
+TUR = {
+	value = 0
+	level = 2
+}
+UBH = {
+	value = 27
+	level = 2
+}
+USA = {
+	value = 111
+	influence_value = 15
+	level = 3
+}
+VER = {
+	value = 74
+	influence_value = 6
+	level = 2
+}
+VIJ = {
+	value = 0
+	level = 2
+}
+VNZ = {
+	value = 0
+	level = 2
+}
+WAD = {
+	value = 35
+	level = 2
+}
+WAL = {
+	value = 0
+	level = 2
+}
+WCY = {
+	value = 0
+	level = 2
+}
+WSI = {
+	value = 0
+	level = 2
+}
+X00 = {
+	value = 0
+	level = 2
+}
+X07 = {
+	value = 55
+	influence_value = 1
+	level = 2
+}
+X08 = {
+	value = 70
+	influence_value = 5
+	level = 2
+}
+X09 = {
+	value = 0
+	level = 2
+}
+X11 = {
+	value = 0
+	level = 2
+}
+X12 = {
+	value = 0
+	level = 2
+}
+YEM = {
+	value = 16
+	level = 2
+}
+
+#Leaders
+leader = {
+	name="Karl Freystadt"
+	date="1703.5.19"
+	type=land
+	personality="audacious"
+	background="uncommonly_young"
+}
+
+leader = {
+	name="Ferdinand Wenzel von Riedesel"
+	date="1715.9.4"
+	type=land
+	personality="coolminded"
+	background="artillerist"
+}
+
+leader = {
+	name="Anton von Stauffenberg"
+	date="1717.3.1"
+	type=land
+	personality="audacious"
+	background="uncommonly_young"
+}
+
+leader = {
+	name="Georg Ketterer"
+	date="1723.10.1"
+	type=land
+	personality="audacious"
+	background="school_of_the_bayonet"
+}
+
+leader = {
+	name="Franz Stefan von Esterhazy"
+	date="1726.3.4"
+	type=land
+	personality="au_fait"
+	background="school_of_the_bayonet"
+}
+
+leader = {
+	name="Johann Erlmayr"
+	date="1726.5.15"
+	type=land
+	personality="defiant"
+	background="school_of_defense"
+}
+
+leader = {
+	name="Joseph von Stubenrauch"
+	date="1733.9.23"
+	type=land
+	personality="defiant"
+	background="school_of_defense"
+}
+
+leader = {
+	name="Franz von Stauffenberg"
+	date="1734.2.1"
+	type=land
+	personality="hellbent"
+	background="cartographer"
+}
+
+leader = {
+	name="Karl Joseph Heinrich"
+	date="1735.1.1"
+	type=land
+	personality="coolminded"
+	background="uncommonly_young"
+}
+
+
+#Armies
+army = {
+	name="Armee von Ansbach"
+	location=622
+	regiment = {
+		name="1st Ingolstadt Infantry"
+		type=infantry
+		home=601
+	}
+	regiment = {
+		name="1st Regensburg Infantry"
+		type=infantry
+		home=602
+	}
+	regiment = {
+		name="1st Linz Infantry"
+		type=infantry
+		home=622
+	}
+	regiment = {
+		name="1st Ulm Artillery"
+		type=artillery
+		home=593
+	}
+	regiment = {
+		name="2nd Ulm Artillery"
+		type=artillery
+		home=593
+	}
+	regiment = {
+		name="5th Linz Infantry"
+		type=infantry
+		home=622
+	}
+	regiment = {
+		name="3rd Landshut Artillery"
+		type=artillery
+		home=600
+	}
+}
+
+army = {
+	name="Armee von Ulm"
+	location=599
+	regiment = {
+		name="1st Landshut Infantry"
+		type=infantry
+		home=600
+	}
+	regiment = {
+		name="2nd Landshut Infantry"
+		type=infantry
+		home=600
+	}
+	regiment = {
+		name="3rd Landshut Infantry"
+		type=infantry
+		home=600
+	}
+	regiment = {
+		name="1st Ingolstadt Artillery"
+		type=artillery
+		home=601
+	}
+	regiment = {
+		name="1st Regensburg Artillery"
+		type=artillery
+		home=602
+	}
+	regiment = {
+		name="7th Landshut Infantry"
+		type=infantry
+		home=600
+	}
+	regiment = {
+		name="3rd Ingolstadt Artillery"
+		type=artillery
+		home=601
+	}
+}
+
+army = {
+	name="Armee von München"
+	location=599
+	regiment = {
+		name="2nd Regensburg Infantry"
+		type=infantry
+		home=602
+	}
+	regiment = {
+		name="1st Heilbronn Infantry"
+		type=infantry
+		home=590
+	}
+	regiment = {
+		name="1st Bayreuth Infantry"
+		type=infantry
+		home=598
+	}
+	regiment = {
+		name="1st Bayreuth Artillery"
+		type=artillery
+		home=598
+	}
+	regiment = {
+		name="2nd Ingolstadt Artillery"
+		type=artillery
+		home=601
+	}
+	regiment = {
+		name="8th Landshut Infantry"
+		type=infantry
+		home=600
+	}
+	regiment = {
+		name="4th Ingolstadt Artillery"
+		type=artillery
+		home=601
+	}
+}
+
+army = {
+	name="Armee von Landshut"
+	location=622
+	regiment = {
+		name="4th Landshut Infantry"
+		type=infantry
+		home=600
+	}
+	regiment = {
+		name="5th Landshut Infantry"
+		type=infantry
+		home=600
+	}
+	regiment = {
+		name="3rd Regensburg Infantry"
+		type=infantry
+		home=602
+	}
+	regiment = {
+		name="1st Heilbronn Artillery"
+		type=artillery
+		home=590
+	}
+	regiment = {
+		name="3rd Ulm Artillery"
+		type=artillery
+		home=593
+	}
+	regiment = {
+		name="1st Aschaffenburg Infantry"
+		type=infantry
+		home=596
+	}
+	regiment = {
+		name="1st Augsburg Artillery"
+		type=artillery
+		home=592
+	}
+}
+
+army = {
+	name="K.u.K Armee"
+	location=622
+	regiment = {
+		name="6th Landshut Infantry"
+		type=infantry
+		home=600
+	}
+	regiment = {
+		name="1st Wiesbaden Infantry"
+		type=infantry
+		home=565
+	}
+	regiment = {
+		name="1st Nuremberg Infantry"
+		type=infantry
+		home=595
+	}
+	regiment = {
+		name="4th Ulm Artillery"
+		type=artillery
+		home=593
+	}
+	regiment = {
+		name="1st Landshut Artillery"
+		type=artillery
+		home=600
+	}
+	regiment = {
+		name="2nd Aschaffenburg Artillery"
+		type=artillery
+		home=596
+	}
+}
+
+army = {
+	name="Armee von Ungarn"
+	location=622
+	regiment = {
+		name="1st Ulm Infantry"
+		type=infantry
+		home=593
+	}
+	regiment = {
+		name="2nd Heilbronn Infantry"
+		type=infantry
+		home=590
+	}
+	regiment = {
+		name="1st Augsburg Infantry"
+		type=infantry
+		home=592
+	}
+	regiment = {
+		name="1st Graz Artillery"
+		type=artillery
+		home=616
+	}
+	regiment = {
+		name="1st Vienna Artillery"
+		type=artillery
+		home=619
+	}
+}
+
+army = {
+	name="Armee von Regensburg"
+	location=622
+	regiment = {
+		name="2nd Augsburg Infantry"
+		type=infantry
+		home=592
+	}
+	regiment = {
+		name="2nd Linz Infantry"
+		type=infantry
+		home=622
+	}
+	regiment = {
+		name="3rd Linz Infantry"
+		type=infantry
+		home=622
+	}
+	regiment = {
+		name="1st Bozen Artillery"
+		type=artillery
+		home=735
+	}
+	regiment = {
+		name="1st Aschaffenburg Artillery"
+		type=artillery
+		home=596
+	}
+}
+
+army = {
+	name="Habsburgische Armee"
+	location=622
+	regiment = {
+		name="2nd Bayreuth Infantry"
+		type=infantry
+		home=598
+	}
+	regiment = {
+		name="1st Innsbruck Infantry"
+		type=infantry
+		home=612
+	}
+	regiment = {
+		name="3rd Heilbronn Infantry"
+		type=infantry
+		home=590
+	}
+	regiment = {
+		name="1st Munich Artillery"
+		type=artillery
+		home=599
+	}
+	regiment = {
+		name="1st Lienz Artillery"
+		type=artillery
+		home=615
+	}
+	regiment = {
+		name="1st Salzburg Artillery"
+		type=artillery
+		home=613
+	}
+	regiment = {
+		name="1st Stuttgart Infantry"
+		type=infantry
+		home=589
+	}
+}
+
+army = {
+	name="Armee von Böhmen"
+	location=622
+	regiment = {
+		name="2nd Ingolstadt Infantry"
+		type=infantry
+		home=601
+	}
+	regiment = {
+		name="1st Judenburg Infantry"
+		type=infantry
+		home=617
+	}
+	regiment = {
+		name="2nd Innsbruck Infantry"
+		type=infantry
+		home=612
+	}
+	regiment = {
+		name="1st Gotha Artillery"
+		type=artillery
+		home=562
+	}
+	regiment = {
+		name="2nd Graz Artillery"
+		type=artillery
+		home=616
+	}
+	regiment = {
+		name="2nd Landshut Artillery"
+		type=artillery
+		home=600
+	}
+	regiment = {
+		name="4th Linz Infantry"
+		type=infantry
+		home=622
+	}
+}
+

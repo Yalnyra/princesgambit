@@ -1,0 +1,374 @@
+1887 = {
+	slaves=
+	{
+		culture = dyula
+		religion = shamanism
+		size= 1043
+	}
+
+	soldiers=
+	{
+		culture = dyula
+		religion = shamanism
+		size= 430
+	}
+
+	farmers=
+	{
+		culture = dyula
+		religion = shamanism
+		size= 20012
+	}
+
+	farmers=
+	{
+		culture = morado
+		religion = catholic
+		size= 20184
+	}
+
+	slaves=
+	{
+		culture = afro_caribeno
+		religion = catholic
+		size= 1373
+	}
+
+	soldiers=
+	{
+		culture = morado
+		religion = catholic
+		size= 565
+	}
+
+	artisans=
+	{
+		culture = morado
+		religion = catholic
+		size= 6979
+	}
+
+	clergymen=
+	{
+		culture = morado
+		religion = catholic
+		size= 324
+	}
+
+	aristocrats=
+	{
+		culture = morado
+		religion = catholic
+		size= 418
+	}
+
+	bureaucrats=
+	{
+		culture = morado
+		religion = catholic
+		size= 99
+	}
+
+	officers=
+	{
+		culture = morado
+		religion = catholic
+		size= 65
+	}
+
+}
+1888 = {
+	slaves=
+	{
+		culture = dyula
+		religion = shamanism
+		size= 326
+	}
+
+	soldiers=
+	{
+		culture = dyula
+		religion = shamanism
+		size= 295
+	}
+
+	farmers=
+	{
+		culture = dyula
+		religion = shamanism
+		size= 14151
+	}
+
+	farmers=
+	{
+		culture = morado
+		religion = catholic
+		size= 16356
+	}
+
+	slaves=
+	{
+		culture = afro_caribeno
+		religion = catholic
+		size= 412
+	}
+
+	soldiers=
+	{
+		culture = morado
+		religion = catholic
+		size= 374
+	}
+
+	artisans=
+	{
+		culture = morado
+		religion = catholic
+		size= 1342
+	}
+
+	clergymen=
+	{
+		culture = morado
+		religion = catholic
+		size= 217
+	}
+
+	aristocrats=
+	{
+		culture = morado
+		religion = catholic
+		size= 282
+	}
+
+	bureaucrats=
+	{
+		culture = morado
+		religion = catholic
+		size= 67
+	}
+
+	officers=
+	{
+		culture = morado
+		religion = catholic
+		size= 43
+	}
+
+}
+1889 = {
+	aristocrats=
+	{
+		culture = mande
+		religion = sunni
+		size= 475
+	}
+
+	clergymen=
+	{
+		culture = mande
+		religion = sunni
+		size= 250
+	}
+
+	artisans=
+	{
+		culture = mande
+		religion = sunni
+		size= 1250
+	}
+
+	soldiers=
+	{
+		culture = mande
+		religion = sunni
+		size= 250
+	}
+
+	farmers=
+	{
+		culture = mande
+		religion = sunni
+		size= 32775
+	}
+
+	aristocrats=
+	{
+		culture = mande
+		religion = animist
+		size= 100
+	}
+
+	clergymen=
+	{
+		culture = mande
+		religion = animist
+		size= 100
+	}
+
+	artisans=
+	{
+		culture = mande
+		religion = animist
+		size= 300
+	}
+
+	soldiers=
+	{
+		culture = mande
+		religion = animist
+		size= 100
+	}
+
+	farmers=
+	{
+		culture = mande
+		religion = animist
+		size= 35475
+	}
+
+}
+1890 = {
+	aristocrats=
+	{
+		culture = mande
+		religion = sunni
+		size= 200
+	}
+
+	clergymen=
+	{
+		culture = mande
+		religion = sunni
+		size= 100
+	}
+
+	artisans=
+	{
+		culture = mande
+		religion = sunni
+		size= 550
+	}
+
+	soldiers=
+	{
+		culture = mande
+		religion = sunni
+		size= 125
+	}
+
+	farmers=
+	{
+		culture = mande
+		religion = sunni
+		size= 15025
+	}
+
+	aristocrats=
+	{
+		culture = mande
+		religion = animist
+		size= 425
+	}
+
+	clergymen=
+	{
+		culture = mande
+		religion = animist
+		size= 225
+	}
+
+	artisans=
+	{
+		culture = mande
+		religion = animist
+		size= 1100
+	}
+
+	soldiers=
+	{
+		culture = mande
+		religion = animist
+		size= 225
+	}
+
+	farmers=
+	{
+		culture = mande
+		religion = animist
+		size= 65025
+	}
+
+}
+1891 = {
+	aristocrats=
+	{
+		culture = kru
+		religion = animist
+		size= 425
+	}
+
+	clergymen=
+	{
+		culture = afro_american
+		religion = animist
+		size= 250
+	}
+
+	artisans=
+	{
+		culture = afro_american
+		religion = animist
+		size= 1150
+	}
+
+	soldiers=
+	{
+		culture = kru
+		religion = animist
+		size= 250
+	}
+
+	farmers=
+	{
+		culture = kru
+		religion = animist
+		size= 5975
+	}
+
+	aristocrats=
+	{
+		culture = afro_american
+		religion = animist
+		size= 350
+	}
+
+	clergymen=
+	{
+		culture = afro_american
+		religion = animist
+		size= 200
+	}
+
+	artisans=
+	{
+		culture = afro_american
+		religion = animist
+		size= 950
+	}
+
+	soldiers=
+	{
+		culture = afro_american
+		religion = animist
+		size= 200
+	}
+
+	farmers=
+	{
+		culture = western_nigritic
+		religion = animist
+		size= 32300
+	}
+
+}

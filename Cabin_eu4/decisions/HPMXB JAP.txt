@@ -1,0 +1,41 @@
+political_decisions = {
+
+	JAP_cosphere = {
+		picture = Gibralter
+		potential = {
+			
+			tag = JAP
+			year = 1870
+			has_country_flag = jap_sphere
+		}
+
+		allow = {
+			war = no
+			OR = {
+				AND = {
+					revolution_n_counterrevolution = 1
+					social_science = 1
+					experimental_psychology = 1
+				}
+				mass_politics = 1
+			}
+				
+			war_policy = jingoism
+		}
+
+		effect = {
+			prestige = 10
+			set_country_flag = jap_sphere
+			
+			
+			
+			
+		}
+
+		ai_will_do = { factor = 1     }
+	}
+	
+	
+	
+	
+}

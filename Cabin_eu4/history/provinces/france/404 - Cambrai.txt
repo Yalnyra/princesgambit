@@ -1,0 +1,8 @@
+owner=HAT
+controller=HAT
+add_core=BEL
+add_core=HAT
+add_core=WLL
+add_core=BRG
+trade_goods = coal
+life_rating = 31

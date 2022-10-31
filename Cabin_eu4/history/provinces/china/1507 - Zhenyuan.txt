@@ -1,0 +1,7 @@
+owner=BNG
+controller=BNG
+add_core=BNG
+add_core=CHI
+add_core=CMI
+trade_goods = silk
+life_rating = 32

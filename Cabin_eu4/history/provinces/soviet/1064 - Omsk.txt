@@ -1,0 +1,6 @@
+owner=NOG
+controller=NOG
+add_core=NOG
+add_core=SIB
+trade_goods = sulphur
+life_rating = 40

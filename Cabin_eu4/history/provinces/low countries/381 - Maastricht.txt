@@ -1,0 +1,9 @@
+owner=GLR
+controller=GLR
+add_core=LBG
+add_core=BEL
+add_core=FLA
+add_core=GLR
+trade_goods = iron
+life_rating = 35
+terrain = mining_district

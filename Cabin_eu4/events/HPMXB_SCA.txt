@@ -1,0 +1,129 @@
+country_event = { # Buy Finland request
+	id = 69800
+	title = "EVTNAME69800"
+	desc = "EVTDESC69800"
+	picture = "ccastro"
+	
+	is_triggered_only = yes
+	
+
+	
+	option = { #Agree
+		name = "EVTOPTA669800"
+		FROM = { country_event = 69802 }
+		prestige = 5
+		money = 500000
+		
+		ai_chance = {
+            factor = 8
+            
+            modifier = {
+                factor = 2
+                is_greater_power = no
+            }
+			
+			modifier = {
+                factor = 4
+                is_secondar_power = no
+            }
+			
+			modifier = {
+                factor = 2
+                war_policy = pacifism
+            }
+			
+			modifier = {
+                factor = 3
+                has_country_modifier  = no_more_war
+            }
+			modifier = {
+                factor = 4
+                government = democracy
+            }
+			
+			modifier = {
+                factor = 2
+                government = hms_government
+            }
+			
+        }
+	}
+	
+	option = { #Refuse
+		name = "EVTOPTB669800"
+		prestige = 20
+		FROM = { country_event = 69801 }
+		
+		ai_chance = {
+            factor = 8
+            
+            modifier = {
+                factor = 2
+                war_policy = jingoism
+            }
+			
+			modifier = {
+                factor = 3
+                NOT = { relation = { who = FROM value = -100 } }
+            }
+			
+			modifier = {
+                factor = 3
+                NOT = { relation = { who = FROM value = -150 }}
+            }
+			
+			modifier = {
+                factor = 0
+                relation = { who = FROM value = 100 }
+            }
+			
+			
+			
+        }
+	}
+}
+
+country_event = { #Refusal event
+	id = 69801
+	title = "EVTNAME69801"
+	desc = "EVTDESC69801"
+	picture = "ccastro"
+	
+	is_triggered_only = yes
+	
+
+	
+	option = { #shame
+		name = "EVTOPTA669801"
+		prestige = -10
+	}
+	
+	
+}
+
+country_event = { #Agree event
+	id = 69802
+	title = "EVTNAME69802"
+	desc = "EVTDESC69802"
+	picture = "ccastro"
+	
+	is_triggered_only = yes
+	
+
+	
+	option = { #nice
+		name = "EVTOPTA669802"
+		prestige = 10
+		FIN = {
+			all_core = {
+				remove_core = RUS
+			}
+			annex_to = THIS 
+			
+		}
+		THIS = { change_variable = { which = owed_cash_money value = 500 } }
+		
+	}
+	
+	
+}
